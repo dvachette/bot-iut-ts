@@ -13,7 +13,6 @@ type DeployCommandsProps = {
 };
 
 export async function deployCommands({ guildId }: DeployCommandsProps) {
-
   try {
     console.log("Started refreshing application (/) commands.");
 

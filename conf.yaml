@@ -1,0 +1,123 @@
+---
+server: "486897467011629066"
+
+groups:
+  g1s2a:
+    role: "1329915270424301679"
+    channel: "1330181732573515806"
+    edturl: https://adelb.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=12096&projectId=0&calType=ical&firstDate=START&lastDate=END
+  g1s2b:
+    role: "1329915270424301679"
+    channel: "1330181903877144647"
+    edturl: https://adelb.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=51543&projectId=0&calType=ical&firstDate=START&lastDate=END
+  g2s2a:
+    role: "1329915352569610401"
+    channel: "1330181754371313717"
+    edturl: https://adelb.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=12403&projectId=0&calType=ical&firstDate=START&lastDate=END
+  g2s2b:
+    role: "1329915352569610401"
+    channel: "1330181915248168971"
+    edturl: https://adelb.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=12406&projectId=0&calType=ical&firstDate=START&lastDate=END
+  g3s2a:
+    role: "1329915399084572725"
+    channel: "1330181766161633320"
+    edturl: https://adelb.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=12419&projectId=0&calType=ical&firstDate=START&lastDate=END
+  g3s2b:
+    role: "1329915399084572725"
+    channel: "1330181925775605760"
+    edturl: https://adelb.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=12425&projectId=0&calType=ical&firstDate=START&lastDate=END
+  g4s2a:
+    role: "1329915493930369094"
+    channel: "1330181783794221076"
+    edturl: https://adelb.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=12424&projectId=0&calType=ical&firstDate=START&lastDate=END
+  g4s2b:
+    role: "1329915493930369094"
+    channel: "1330181940665647228"
+    edturl: https://adelb.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=12444&projectId=0&calType=ical&firstDate=START&lastDate=END
+  g5s2a:
+    role: "1329915571135057981"
+    channel: "1330181795181891634"
+    edturl: https://adelb.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=12460&projectId=0&calType=ical&firstDate=START&lastDate=END
+  g5s2b:
+    role: "1329915571135057981"
+    channel: "1330181955337195631"
+    edturl: https://adelb.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=12461&projectId=0&calType=ical&firstDate=START&lastDate=END
+  g1s4a:
+    role: "1329915641964265694"
+    channel: "1330181810289905847"
+    edturl: https://adelb.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=35708&projectId=0&calType=ical&firstDate=START&lastDate=END
+  g1s4b:
+    role: "1329915641964265694"
+    channel: "1330181968075165769"
+    edturl: https://adelb.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=35709&projectId=0&calType=ical&firstDate=START&lastDate=END
+  g2s4a:
+    role: "1329915712982224957"
+    channel: "1330181829667328071"
+    edturl: https://adelb.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=35710&projectId=0&calType=ical&firstDate=START&lastDate=END
+  g2s4b:
+    role: "1329915712982224957"
+    channel: "1330181981320777738"
+    edturl: https://adelb.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=35713&projectId=0&calType=ical&firstDate=START&lastDate=END
+  g3a2:
+    role: "1266000491125538919"
+    channel: "1275175011627569163"
+    edturl: https://adelb.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=35714&projectId=0&calType=ical&firstDate=START&lastDate=END
+  g4s4a:
+    role: "1329915778388197416"
+    channel: "1330181841524756501"
+    edturl: https://adelb.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=35717&projectId=0&calType=ical&firstDate=START&lastDate=END
+  g4s4b:
+    role: "1329915778388197416"
+    channel: "1330181996743364679"
+    edturl: https://adelb.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=35718&projectId=0&calType=ical&firstDate=START&lastDate=END
+  aspea:
+    role: "1266001152869400576"
+    channel: "1275176810648178738"
+    edturl: https://adelb.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=9272&projectId=0&calType=ical&firstDate=START&lastDate=END
+  aspeb:
+    role: "1266001152869400576"
+    channel: "1275176831456378890"
+    edturl: https://adelb.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=18783&projectId=0&calType=ical&firstDate=START&lastDate=END
+  but3ra1a:
+    role: "1266001615144620084"
+    channel: "1275175774214819910"
+    edturl: https://adelb.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6161&projectId=0&calType=ical&firstDate=START&lastDate=END
+  but3ra1b:
+    role: "1266001615144620084"
+    channel: "1275175808696324127"
+    edturl: https://adelb.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6163&projectId=0&calType=ical&firstDate=START&lastDate=END
+  but3ra2a:
+    role: "1266001649499897918"
+    channel: "1275175988296417431"
+    edturl: https://adelb.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6165&projectId=0&calType=ical&firstDate=START&lastDate=END
+  but3ra2b:
+    role: "1266001649499897918"
+    channel: "1275176007711723642"
+    edturl: https://adelb.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6168&projectId=0&calType=ical&firstDate=START&lastDate=END
+  but3ra3a:
+    role: "1266001721050796154"
+    channel: "1275177304678465699"
+    edturl: https://adelb.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=14059&projectId=0&calType=ical&firstDate=START&lastDate=END
+  but3ra3b:
+    role: "1266001721050796154"
+    channel: "1275177335594680320"
+    edturl: https://adelb.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=14064&projectId=0&calType=ical&firstDate=START&lastDate=END
+  but3dacs:
+    role: "1266001808724328483"
+    channel: "1275176292576268298"
+    edturl: https://adelb.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6136&projectId=0&calType=ical&firstDate=START&lastDate=END
+  but3aged:
+    role: "1266001843436392479"
+    channel: "1275176592225603695"
+    edturl: https://adelb.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6048&projectId=0&calType=ical&firstDate=START&lastDate=END
+  lpdevops:
+    role: "1014536688808243210"
+    channel: "1275177052743401503"
+    edturl: https://adelb.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=9319&projectId=0&calType=ical&firstDate=START&lastDate=END
+  lpessir:
+    role: "1014536855447949392"
+    channel: "1275177155608969290"
+    edturl: https://adelb.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=5700&projectId=0&calType=ical&firstDate=START&lastDate=END
+
+autoEdtCronDay: "0 15 * * 0-4"
+autoEdtCronWeek: "30 9 * * 0"
