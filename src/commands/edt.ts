@@ -1,4 +1,4 @@
-import { CommandInteraction, SlashCommandBuilder } from "discord.js";
+import { CommandInteraction, SlashCommandBuilder, CommandInteractionOptionResolver} from "discord.js";
 import { dateStart, dateEnd } from "./dateSet";
 import { composeGroup, getGroups } from "./getGroups";
 import fs from 'fs';
@@ -39,8 +39,9 @@ export const data = new SlashCommandBuilder()
         { name : "g3", value : "g3" },
         { name : "g4", value : "g4" },
         { name : "g5", value : "g5" },
-        { name : "aged", value : "but3aged" },
-        { name : "dacs", value : "but3dacs" },
+        { name : "but3aged", value : "but3aged" },
+        { name : "g3a2", value : "g3a2" },
+        { name : "but3dacs", value : "but3dacs" },
         { name : "aspe", value : "aspe" },
         { name : "lpdevops", value : "lpdevops" },
         { name : "lpessir", value : "lpessir" },
@@ -71,43 +72,70 @@ export const data = new SlashCommandBuilder()
       )
   );
 export async function execute(interaction: CommandInteraction) {
-  const range = interaction.options.getString("range") || "today";
-  const group = interaction.options.getString("group") || null;
-  const semester = interaction.options.getString("semester") || null;
-  const sub_group = interaction.options.getString("sub_group") || null;
+
+  const options = interaction.options as CommandInteractionOptionResolver;
+
+
+  const range = options.getString("range") || "today";
+  const group = options.getString("group") || "";
+  const semester = options.getString("semester") || "";
+  const sub_group = options.getString("sub_group") || "";
 
   const group_composed = composeGroup(group, semester, sub_group);
 
   console.log(`Range: ${range}, Group: ${group}, Semester: ${semester}, Sub-group: ${sub_group}`);
-  
-  var date_start = dateStart(range);
-  var date_end = dateEnd(range);
+  console.log(`Group composed: ${group_composed}`);
 
   if (group_composed === "noGroup") {
     await interaction.reply("Either no group was specified or the group was not found.");
     return;
   }
 
-  // Download the timetable :
-  
-  // Get the link of the timetable and setup it with start and end dates
-  let link = getGroups(config.CONF_YAML_PATH.valueOf())[group_composed].edturl.toString()
-  .replace("START", date_start?.toISOString().slice(0, 10))
-  .replace("END", date_end?.toISOString().slice(0, 10));
+  var message = createMessageFromGroup(group_composed, range);
 
-  console.log(`[GET] timetable for group ${group_composed} at ${link}`);
-  
-  // Download the timetable as ICS file
-  downloadICS(link, "src/temp/temp.ics");
-
-  // parse the timetable to get the events
-  var calendarFile = fs.readFileSync("src/temp/temp.ics", 'utf8');
-  var data = ical.parseICS(calendarFile);
-  console.log(data);
-  // send the timetable to the destination
-
-
-  await interaction.reply("EDT!"+date_start?.toString()+"to"+date_end?.toString()+"for"+group_composed);
+  await interaction.reply(`${message}`);
 }
 
+function createMessageFromGroup(group : string,range : string) {
 
+  // parse the timetable to get the events
+  var calendarFile = fs.readFileSync(`src/calendars/${range}/${group}.ics`, 'utf8');
+  var data = ical.parseICS(calendarFile);
+  var message : String = "";
+  var events = [];
+  // sort the events by date
+  for (let e in data) {
+    if (data.hasOwnProperty(e)) {
+      let ev = data[e];
+      if (ev.type == 'VEVENT') {
+        events.push(ev);
+      }
+    }
+  }
+
+  events.sort((a, b) => a.start.getTime() - b.start.getTime());
+  console.log("Events sorted");
+  console.log(events);
+  // Create the message
+  for (let k in events) {
+
+    if (events.hasOwnProperty(k)) {
+      let ev = events[k];
+      console.log("Event");
+      console.log(k);
+      console.log(ev);
+      if (ev.type == 'VEVENT') {
+        message += eventToString(ev);
+      }
+    }
+  }
+  if (message == "") {
+    return "No events found.";
+  }
+  return message;
+
+}
+
+function eventToString(event : ical.VEvent) {
+  return `===========================\n**${event.summary}** ${event.description} \n ${event.start.toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' })} - ${event.end.toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' })} - ${event.location}\n \n`;
+}

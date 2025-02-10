@@ -13,16 +13,20 @@ export function getGroups(path : fs.PathOrFileDescriptor) {
 }
 
 export function composeGroup(group : string, semester : string, sub_group : string) { 
-    if (["lpessir", "lpdevops", "but3aged", "but3dacs"].includes(group)) {
+    if (group === "") {
+        return "noGroup";
+    }
+    if (["lpessir", "lpdevops", "but3aged", "but3dacs", "g3a2"].includes(group)) {
         return group;
     }
-    if (sub_group === null) {
+
+    if (sub_group === "") {
         return "noGroup";
     }
     if (["aspe", "but3ra1", "but3ra2", "but3ra3"].includes(group)) {
         return group + sub_group;
     }
-    if (semester === null) {
+    if (semester === "") {
         return "noGroup";
     }
     return group + semester + sub_group;
