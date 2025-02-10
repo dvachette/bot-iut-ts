@@ -78,6 +78,7 @@ export async function execute(interaction: CommandInteraction) {
   const group = options.getString("group") || "";
   const semester = options.getString("semester") || "";
   const sub_group = options.getString("sub_group") || "";
+  const destination = options.getString("destination") || "here";
 
   const group_composed = composeGroup(group, semester, sub_group);
 
@@ -91,7 +92,13 @@ export async function execute(interaction: CommandInteraction) {
 
   var message = createMessageFromGroup(group_composed, range);
 
-  await interaction.reply(`${message}`);
+  if (destination === "here") {
+    await interaction.reply(`${message}`);
+  } else if (destination === "toGroupChannel") {
+    const groupChannel = getGroups(config.CONF_YAML_PATH)[group_composed].channel;
+    send(groupChannel, message);
+    await interaction.reply(`Sent the timetable to the group channel.`);
+  }
 }
 
 function createMessageFromGroup(group : string,range : string) {
