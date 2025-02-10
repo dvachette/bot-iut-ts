@@ -10,7 +10,7 @@ const client = new Client({
   intents: ["Guilds", "GuildMessages", "DirectMessages"],
 });
 
-client.once("ready", () => {
+client.once("ready", async () => {
   console.log("Discord bot is ready! 🤖");
 });
 
