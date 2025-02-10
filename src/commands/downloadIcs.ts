@@ -26,7 +26,7 @@ export function downloadICS(url: string, destination: string) {
 
 export function downloadAllICS() {
     const groups = getGroups(config.CONF_YAML_PATH);
-    ["today", "tomorrow", "week", "nextweek"].forEach(range => {
+    ["today", "tomorrow"].forEach(range => {
         for (const group in groups) {
             const link = groups[group].edturl.toString()
                 .replace("START", dateStart(range).toISOString().slice(0, 10))

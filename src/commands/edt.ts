@@ -24,9 +24,7 @@ export const data = new SlashCommandBuilder()
       .setRequired(false)
       .addChoices(
         { name: "Today", value: "today" },
-        { name: "Tomorrow", value: "tomorrow" },
-        { name: "This week", value: "week" },
-        { name: "Next week", value: "nextweek" }
+        { name: "Tomorrow", value: "tomorrow" }
       )
     )
   .addStringOption(option =>
