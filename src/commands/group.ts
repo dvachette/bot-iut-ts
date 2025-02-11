@@ -106,6 +106,7 @@ export async function execute(interaction: CommandInteraction) {
         }
     });
 
+    console.log(`targeted role : ${targetRoleID}`)
     member.roles.add(targetRoleID);
     
 
