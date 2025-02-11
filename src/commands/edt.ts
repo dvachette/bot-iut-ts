@@ -135,7 +135,7 @@ function createMessageFromGroup(group : string,range : string) {
     }
   }
   if (message == "") {
-    return "No events found.";
+    return "No events found. Either there is no course on the specified day or ADE is down.";
   }
   return message;
 

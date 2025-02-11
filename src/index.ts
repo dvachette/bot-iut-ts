@@ -4,7 +4,11 @@ import { Client, GatewayIntentBits } from "discord.js";
 import { config } from "./config";
 import { commands } from "./commands";
 import { deployCommands } from "./deploy-commands";
-import exp from "constants";
+import { funcs } from "./commands";
+import { emitters } from "./commands"
+import cron from "node-cron"
+import { error } from "console";
+
 
 const client = new Client({
   intents: [
@@ -35,5 +39,25 @@ client.on("interactionCreate", async (interaction) => {
 });
 
 client.login(config.DISCORD_TOKEN);
+
+
+//============================================
+
+
+const downloadAllICS = funcs.downloadAllICS
+
+emitters.downloadICSErrorEmitter.on('error', (code, msg) => {
+  console.log("ADE est en PLS");
+});
+
+cron.schedule('0 */2 * * *', () => {
+    downloadAllICS();
+});
+
+
+downloadAllICS();
+
+console.log("Timetables will be downloaded every 2 hours")
+
 
 export { client };

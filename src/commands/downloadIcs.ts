@@ -3,6 +3,12 @@ import https from 'https';
 import { config } from '../config';
 import { getGroups } from './getGroups';
 import { dateStart, dateEnd } from './dateSet';
+import { EventEmitter } from "events";
+
+class ErrorEmitter extends EventEmitter {}
+
+export const downloadICSErrorEmitter = new ErrorEmitter();
+
 
 export function downloadICS(url: string, destination: string) {
     console.log(`working directory: ${process.cwd()}`);
@@ -11,6 +17,7 @@ export function downloadICS(url: string, destination: string) {
     https.get(url, (response) => {
         if (response.statusCode !== 200) {
             console.error(`Erreur: ${response.statusCode} - ${response.statusMessage}`);
+            downloadICSErrorEmitter.emit('error', response.statusCode, response.statusMessage);
             return;
         }
 
@@ -25,6 +32,7 @@ export function downloadICS(url: string, destination: string) {
 }
 
 export function downloadAllICS() {
+    console.log("downloadAllICS");
     const groups = getGroups(config.CONF_YAML_PATH);
     ["today", "tomorrow"].forEach(range => {
         for (const group in groups) {
