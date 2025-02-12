@@ -1,10 +1,12 @@
-import { CommandInteraction, SlashCommandBuilder, CommandInteractionOptionResolver} from "discord.js";
+import { CommandInteraction, SlashCommandBuilder, CommandInteractionOptionResolver, GuildMember} from "discord.js";
 import { dateStart, dateEnd } from "./dateSet";
 import { composeGroup, getGroups } from "./getGroups";
 import fs from 'fs';
 import { send } from "./send";
 import { config } from "../config";
 import { downloadICS } from "./downloadIcs";
+import { getRoles } from "./group";
+
 import * as ical from "node-ical"
 export const data = new SlashCommandBuilder()
   .setName("edt")
@@ -80,14 +82,29 @@ export async function execute(interaction: CommandInteraction) {
   const sub_group = options.getString("sub_group") || "";
   const destination = options.getString("destination") || "here";
 
-  const group_composed = composeGroup(group, semester, sub_group);
+  let group_composed = composeGroup(group, semester, sub_group);
+
+
 
   console.log(`Range: ${range}, Group: ${group}, Semester: ${semester}, Sub-group: ${sub_group}`);
   console.log(`Group composed: ${group_composed}`);
 
+  const groups = getGroups(config.CONF_YAML_PATH);
+
   if (group_composed === "noGroup") {
-    await interaction.reply("Either no group was specified or the group was not found.");
-    return;
+    // Try to see if the sender has a role that corresponds to a group
+    const roles = getRoles(interaction.member as GuildMember);
+    
+    roles.cache.forEach(role => {
+      if (groups[role.name]) {
+        group_composed = role.name;
+      }
+    });
+
+    if (group_composed === "noGroup") {
+      await interaction.reply("Either no group was specified or the group was not found.");
+      return;
+    }
   }
 
   var message = createMessageFromGroup(group_composed, range);
@@ -95,7 +112,7 @@ export async function execute(interaction: CommandInteraction) {
   if (destination === "here") {
     await interaction.reply(`${message}`);
   } else if (destination === "toGroupChannel") {
-    const groupChannel = getGroups(config.CONF_YAML_PATH)[group_composed].channel;
+    const groupChannel = groups[group_composed].channel;
     send(groupChannel, message);
     await interaction.reply(`Sent the timetable to the group channel.`);
   }

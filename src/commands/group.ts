@@ -116,3 +116,8 @@ export async function execute(interaction: CommandInteraction) {
 
 
 }
+
+
+export function getRoles(member: GuildMember) {
+    return member.roles;
+}
