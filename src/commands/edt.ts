@@ -94,15 +94,16 @@ export async function execute(interaction: CommandInteraction) {
   if (group_composed === "noGroup") {
     // Try to see if the sender has a role that corresponds to a group
     const roles = getRoles(interaction.member as GuildMember);
-    
+    console.log(groups);
     roles.cache.forEach(role => {
-      if (groups[role.name]) {
-        group_composed = role.name;
+      console.log(role.name+sub_group);
+      if (groups[role.name+sub_group]) {
+        group_composed = role.name+sub_group;
       }
     });
 
     if (group_composed === "noGroup") {
-      await interaction.reply("Either no group was specified or the group was not found.");
+      await interaction.reply("Either no group was specified or the group was not found.\n - You can specify your group with `group`, `semester`s and `sub_group`.\n - You can also just use the `sub_group` param and the bot will use your roles to find your group.");
       return;
     }
   }
