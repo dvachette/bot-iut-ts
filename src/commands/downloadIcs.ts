@@ -10,38 +10,74 @@ class ErrorEmitter extends EventEmitter {}
 export const downloadICSErrorEmitter = new ErrorEmitter();
 
 
-export function downloadICS(url: string, destination: string) {
-    console.log(`working directory: ${process.cwd()}`);
-    const file = fs.createWriteStream(destination);
+export function downloadICS(url: string, destination: string) : Promise<void>  {
+    return new Promise((resolve, reject) => {
+        const file = fs.createWriteStream(destination);
 
-    https.get(url, (response) => {
-        if (response.statusCode !== 200) {
-            console.error(`Erreur: ${response.statusCode} - ${response.statusMessage}`);
-            downloadICSErrorEmitter.emit('error', response.statusCode, response.statusMessage);
-            return;
-        }
+        https.get(url, (response) => {
+            if (response.statusCode !== 200) {
+                file.close();
+                fs.unlink(destination, () => {}); // Delete the file if it was created
+                return reject(new Error(`Failed to download file: ${response.statusCode}`));
+            }
 
         response.pipe(file);
 
         file.on('finish', () => {
             file.close();
+            resolve();
         });
-    }).on('error', (err) => {
-        console.error(`Erreur de téléchargement : ${err.message}`);
+
+        file.on('error', (err) => {
+            file.close();
+            fs.unlink(destination, () => {}); // Delete the file on error
+            reject(err);
+        });
+        }).on('error', (err) => {
+            fs.unlink(destination, () => {}); // Delete the file on error
+            reject(err);
+        });
     });
 }
 
-export function downloadAllICS() {
-    console.log("downloadAllICS");
+export async function downloadTomorrowICS(): Promise<void> {
     const groups = getGroups(config.CONF_YAML_PATH);
-    ["today", "tomorrow"].forEach(range => {
-        for (const group in groups) {
-            const link = groups[group].edturl.toString()
-                .replace("START", dateStart(range).toISOString().slice(0, 10))
-                .replace("END", dateEnd(range).toISOString().slice(0, 10));
-            console.log(`[GET] Timetable for group ${group} at ${link} for ${range}`);
-            console.log(`path: src/calendars/${range}/${group}.ics`);
-            downloadICS(link, `src/calendars/${range}/${group}.ics`);
+
+    for (const group in groups) {
+        const link = groups[group].edturl.toString()
+            .replace("START", dateStart("tomorrow").toISOString().slice(0, 10))
+            .replace("END", dateEnd("tomorrow").toISOString().slice(0, 10));
+
+        const dest = `src/calendars/tomorrow/${group}.ics`;
+
+        console.log(`[GET] Timetable for group ${group} at ${link} for tomorrow`);
+        console.log(`path: ${dest}`);
+
+        try {
+            await downloadICS(link, dest);  // Attente explicite
+        } catch (err) {
+            console.error(`Échec du téléchargement pour ${group} :`, err);
         }
-    });
+    }
+}
+
+export async function downloadWeekICS(): Promise<void> {
+    const groups = getGroups(config.CONF_YAML_PATH);
+
+    for (const group in groups) {
+        const link = groups[group].edturl.toString()
+            .replace("START", dateStart("nextweek").toISOString().slice(0, 10))
+            .replace("END", dateEnd("nextweek").toISOString().slice(0, 10));
+
+        const dest = `src/calendars/nextweek/${group}.ics`;
+
+        console.log(`[GET] Timetable for group ${group} at ${link} for next week`);
+        console.log(`path: ${dest}`);
+
+        try {
+            await downloadICS(link, dest);  // Attente explicite
+        } catch (err) {
+            console.error(`Échec du téléchargement pour ${group} :`, err);
+        }
+    }
 }

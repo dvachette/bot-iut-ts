@@ -2,17 +2,31 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-const { DISCORD_TOKEN, DISCORD_CLIENT_ID, CONF_YAML_PATH, DEVELOPPERS_CHANNEL_ID} = process.env;
+const { DISCORD_TOKEN, DISCORD_CLIENT_ID, CONF_YAML_PATH, GUILD_ID} = process.env;
 
-if (!DISCORD_TOKEN || !DISCORD_CLIENT_ID || !CONF_YAML_PATH || !DEVELOPPERS_CHANNEL_ID) {
+if (!DISCORD_TOKEN) {
+  throw new Error("DISCORD_TOKEN is not set in the environment variables");
+}
+if (!DISCORD_CLIENT_ID) {
+  throw new Error("DISCORD_CLIENT_ID is not set in the environment variables");
+}
+if (!CONF_YAML_PATH) {
+  throw new Error("CONF_YAML_PATH is not set in the environment variables");  
+}
+if (!GUILD_ID) {
+  throw new Error("GUILD_ID is not set in the environment variables");
+}
+if (!DISCORD_TOKEN || !DISCORD_CLIENT_ID || !CONF_YAML_PATH || !GUILD_ID) {
   throw new Error("Missing environment variables");
 }
+
+
 
 export const config = {
   DISCORD_TOKEN,
   DISCORD_CLIENT_ID,
   CONF_YAML_PATH,
-  DEVELOPPERS_CHANNEL_ID
+  GUILD_ID
 };
 
 

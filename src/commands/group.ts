@@ -39,27 +39,17 @@ export const data = new SlashCommandBuilder()
                 { name : "s4", value : "s4" },
             )
     )
-    .addStringOption(option =>
-        option.setName("sub_group")
-            .setDescription("The sub group to display the timetable of.")
-            .setRequired(false)
-            .addChoices(
-                { name : "a", value : "a" },
-                { name : "b", value : "b" }
-            )
-    );
 
 export async function execute(interaction: CommandInteraction) {
     const options = interaction.options as CommandInteractionOptionResolver;
 
     const group = options.getString("group") || "";
     const semester = options.getString("semester") || "";
-    const sub_group = options.getString("sub_group") || "";
 
-    const composedGroup = composeGroup(group, semester, sub_group);
+    var composedGroup = composeGroup(group, semester, "a");
 
     if (composedGroup === "noGroup") {
-        await interaction.reply("This group is not recognized.\nPlease contact the administrator if you think this is an error.");
+        await interaction.reply("Ce groupe n'est pas reconnu. Veuillez vérifier votre saisie. \n Si vous pensez que c'est une erreur, contactez un développeur.");
         return;
     }
 
@@ -110,6 +100,10 @@ export async function execute(interaction: CommandInteraction) {
     member.roles.add(targetRoleID);
     
 
+    if (composedGroup.endsWith("a") || composedGroup.endsWith("b")) {
+        // remove the "a" or "b" from the group name
+        composedGroup = composedGroup.slice(0, -1);
+    }
 
     await interaction.reply(`You have selected the group ${composedGroup}.`);
     return;
