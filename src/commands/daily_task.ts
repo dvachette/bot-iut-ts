@@ -18,6 +18,20 @@ export function send_timetables_daily() {
     }
 }
 
+export function send_timetables_week() {
+    const groups = getGroups(config.CONF_YAML_PATH);
+    for (const group in groups) {
+        const groupData = groups[group];
+        if (groupData.channel) {
+            const message = createMessageFromGroup(group, "week");
+            console.log(`Sending message to channel ${groupData.channel} for group ${group}`);
+            send(groupData.channel, message);
+        } else {
+            console.error(`No channel found for group: ${group}`);
+        }
+    }
+}
+
 function createMessageFromGroup(group : string, range : string) {
 
     // parse the timetable to get the events

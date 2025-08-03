@@ -8,7 +8,7 @@ import { emitters } from "./commands"
 import cron from "node-cron"
 import { error } from "console";
 import { send } from "./commands/send";
-import { send_timetables_daily } from "./commands/daily_task";
+import { send_timetables_daily, send_timetables_week } from "./commands/daily_task";
 import { downloadTomorrowICS, downloadWeekICS } from "./commands/downloadIcs";
 
 
@@ -54,7 +54,7 @@ cron.schedule('00 18 * * *', async () => {
 
 cron.schedule('50 17 * * 0', async () => {
     await downloadWeekICS();
-    send_timetables_daily();
+    send_timetables_week();
 });
 
 
