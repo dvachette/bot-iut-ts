@@ -37,7 +37,10 @@ client.on("interactionCreate", async (interaction) => {
     }
     const { commandName } = interaction;
     if (commands[commandName as keyof typeof commands]) {
-        commands[commandName as keyof typeof commands].execute(interaction);
+        await commands[commandName as keyof typeof commands].execute(interaction);
+    } else {
+        console.error(`Command ${commandName} not found.`);
+        await interaction.reply({ content: "Unknown command", ephemeral: true });
     }
 });
 

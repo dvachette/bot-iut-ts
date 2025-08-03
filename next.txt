@@ -1,0 +1,23 @@
+Next functionalities to be implemented in the bot include:
+
+Overview:
+
+- Adding a broadcast command to send messages to many channels at once.
+- Adding a command to manage commands permissions.
+
+Details:
+
+    permissions:
+        /permission add <command> <role_id> - Add a role to a command
+        /permission remove <command> <role_id> - Remove a role from a command
+        /permission list <command> - List roles for a command
+        /permission list - List all commands and their roles
+
+    broadcast:
+        /broadcast send <group> <message> - Send a message to all channels in a group
+        /broadcast create <group> - Create a new broadcast group
+        /broadcast delete <group> - Delete a broadcast group
+        /broadcast list - List all broadcast groups
+        /broadcast add <group> <channel_id> - Add a channel to a broadcast group
+        /broadcast remove <group> <channel_id> - Remove a channel from a broadcast group
+
