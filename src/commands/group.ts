@@ -9,7 +9,7 @@ export const data = new SlashCommandBuilder()
     .setDescription("Select a group to join")
     .addStringOption(option =>
         option.setName("group")
-            .setDescription("The group to display the timetable of.")
+            .setDescription("Votre groupe")
             .setRequired(true)
             .addChoices(
                 { name : "g1", value : "g1" },
@@ -30,7 +30,7 @@ export const data = new SlashCommandBuilder()
     )
     .addStringOption(option =>
         option.setName("semester")
-            .setDescription("The semester to display the timetable of.")
+            .setDescription("Votre semestre (Ignorer pour les groupes de BUT 3, LP, ASPE et DACS 2e année)")
             .setRequired(false)
             .addChoices(
                 { name : "s1", value : "s1" },

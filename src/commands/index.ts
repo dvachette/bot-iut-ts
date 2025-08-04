@@ -4,6 +4,7 @@ import * as send_today from "./send_today";
 import * as send_week from "./send_week";
 import * as group from "./group";
 import { downloadICSErrorEmitter } from "./downloadIcs";
+import * as broadcast from "./broadcast";
 import { send } from "./send"
 
 export const commands = {
@@ -12,6 +13,7 @@ export const commands = {
   group,
   send_today,
   send_week,
+  broadcast,
 };
 
 

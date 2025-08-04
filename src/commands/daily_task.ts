@@ -23,7 +23,7 @@ export function send_timetables_week() {
     for (const group in groups) {
         const groupData = groups[group];
         if (groupData.channel) {
-            const message = createMessageFromGroup(group, "week");
+            const message = createMessageFromGroup(group, "nextweek");
             console.log(`Sending message to channel ${groupData.channel} for group ${group}`);
             send(groupData.channel, message);
         } else {
@@ -35,6 +35,11 @@ export function send_timetables_week() {
 function createMessageFromGroup(group : string, range : string) {
 
     // parse the timetable to get the events
+    console.log(`Creating message for group ${group} for range ${range}`);
+    if (!fs.existsSync(`src/calendars/${range}/${group}.ics`)) {
+        return `Aucun calendrier trouvé pour le groupe ${group} pour ${range}.`;
+    }
+    // Read the calendar file
     var calendarFile = fs.readFileSync(`src/calendars/${range}/${group}.ics`, 'utf8');
     var data = ical.parseICS(calendarFile);
     var message : String = "";
@@ -64,7 +69,7 @@ function createMessageFromGroup(group : string, range : string) {
         }
     }
     if (message == "") {
-        return "Aucun événement trouvé pour le groupe " + group + " pour demain.\n(Si vous pensez que c'est une erreur, contactez les développeurs.)";
+        return "Aucun événement trouvé pour le groupe " + group + " pour " + range + ".\n(Si vous pensez que c'est une erreur, contactez les développeurs.)";
     }
     return message;
 }   
