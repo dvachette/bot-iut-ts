@@ -69,7 +69,8 @@ export async function execute(interaction: CommandInteraction) {
     const message = options.getString("message");
     const channel = options.getChannel("channel");
 
-    if (!action) {
+
+    if (!action) {  
         return interaction.reply({ content: "Veuillez spécifier une action.", ephemeral: true });
     }
 
@@ -78,20 +79,20 @@ export async function execute(interaction: CommandInteraction) {
     try {
         groups = readGroups();
     } catch (error) {
-        return interaction.reply({ content: "Erreur lors de la lecture des groupes. Veuillez réessayer plus tard.", ephemeral: true });
+        return interaction.reply("Erreur lors de la lecture des groupes. Veuillez réessayer plus tard.");
     }
 
     switch (action) {
         case "send":
             if (!group || !message) {
-                return interaction.reply({ content: "Veuillez spécifier un groupe et un message.", ephemeral: true });
+                return interaction.reply("Veuillez spécifier un groupe et un message.");
             }
             if (!groups[group]) {
-                return interaction.reply({ content: `Le groupe "${group}" n'existe pas.`, ephemeral: true });
+                return interaction.reply(`Le groupe "${group}" n'existe pas.`);
             }
             const channels = groups[group];
             if (channels.length === 0) {
-                return interaction.reply({ content: `Le groupe "${group}" ne contient aucun channel.`, ephemeral: true });
+                return interaction.reply(`Le groupe "${group}" ne contient aucun channel.`);
             }
             for (const channelId of channels) {
                 send(channelId, message)
@@ -100,80 +101,80 @@ export async function execute(interaction: CommandInteraction) {
             break
         case "create":
             if (!group) {
-                return interaction.reply({ content: "Veuillez spécifier un nom de groupe.", ephemeral: true });
+                return interaction.reply("Veuillez spécifier un nom de groupe.");
             }
             if (groups[group]) {
-                return interaction.reply({ content: `Le groupe "${group}" existe déjà.`, ephemeral: true });
+                return interaction.reply(`Le groupe "${group}" existe déjà.`);
             }
             groups[group] = [];
             try {
                 writeGroups(groups);
             } catch (error) {
-                return interaction.reply({ content: "Erreur lors de la création du groupe. Veuillez réessayer plus tard.", ephemeral: true });
+                return interaction.reply("Erreur lors de la création du groupe. Veuillez réessayer plus tard.");
             }
             return interaction.reply(`Groupe "${group}" créé avec succès.`);
         case "list":
             if (group) {
                 if (!groups[group]) {
-                    return interaction.reply({ content: `Le groupe "${group}" n'existe pas.`, ephemeral: true });
+                    return interaction.reply(`Le groupe "${group}" n'existe pas.`);
                 }
-                return interaction.reply(`Channels dans le groupe "${group}":\n -${groups[group].join("\n - ")}`);
+                return interaction.reply(`Channels dans le groupe "${group}":\n - ${groups[group].join("\n - ")}`);
             }
             const groupList = Object.keys(groups).length ? Object.keys(groups).join(", ") : "Aucun groupe disponible.";
             return interaction.reply(`Groupes disponibles : ${groupList}`);
         case "add":
             if (!group || !channel) {
-                return interaction.reply({ content: "Veuillez spécifier un groupe et un channel.", ephemeral: true });
+                return interaction.reply("Veuillez spécifier un groupe et un channel.");
             }
             if (!groups[group]) {
-                return interaction.reply({ content: `Le groupe "${group}" n'existe pas.`, ephemeral: true });
+                return interaction.reply(`Le groupe "${group}" n'existe pas.`);
             }
             if (groups[group].includes(channel.id)) {
-                return interaction.reply({ content: `Le channel ${channel.name} est déjà dans le groupe "${group}".`, ephemeral: true });
+                return interaction.reply(`Le channel ${channel.name} est déjà dans le groupe "${group}".`);
             }
             groups[group].push(channel.id);
             try {
                 writeGroups(groups);
             } catch (error) {
-                return interaction.reply({ content: "Erreur lors de l'ajout du channel. Veuillez réessayer plus tard.", ephemeral: true });
+                return interaction.reply("Erreur lors de l'ajout du channel. Veuillez réessayer plus tard.");
             }
             return interaction.reply(`Channel ${channel.name} ajouté au groupe "${group}".`);
         case "remove":
             if (!group || !channel) {
-                return interaction.reply({ content: "Veuillez spécifier un groupe et un channel.", ephemeral: true });
+                return interaction.reply("Veuillez spécifier un groupe et un channel.");
             }
             if (!groups[group]) {
-                return interaction.reply({ content: `Le groupe "${group}" n'existe pas.`, ephemeral: true });
+                return interaction.reply(`Le groupe "${group}" n'existe pas.`);
             }
             const index = groups[group].indexOf(channel.id);
             if (index === -1) {
-                return interaction.reply({ content: `Le channel ${channel.name} n'est pas dans le groupe "${group}".`, ephemeral: true });
+                return interaction.reply(`Le channel ${channel.name} n'est pas dans le groupe "${group}".`);
             }
             groups[group].splice(index, 1);
             try {
                 writeGroups(groups);
             } catch (error) {
-                return interaction.reply({ content: "Erreur lors de la suppression du channel. Veuillez réessayer plus tard.", ephemeral: true });
+                return interaction.reply("Erreur lors de la suppression du channel. Veuillez réessayer plus tard.");
             }
             return interaction.reply(`Channel ${channel.name} supprimé du groupe "${group}".`);
         case "delete":
             if (!group) {
-                return interaction.reply({ content: "Veuillez spécifier un groupe à supprimer.", ephemeral: true });
+                return interaction.reply("Veuillez spécifier un groupe à supprimer.");
             }
             if (!groups[group]) {
-                return interaction.reply({ content: `Le groupe "${group}" n'existe pas.`, ephemeral: true });
+                return interaction.reply(`Le groupe "${group}" n'existe pas.`);
             }
             delete groups[group];
             try {
                 writeGroups(groups);
             } catch (error) {
-                return interaction.reply({ content: "Erreur lors de la suppression du groupe. Veuillez réessayer plus tard.", ephemeral: true });
+                return interaction.reply("Erreur lors de la suppression du groupe. Veuillez réessayer plus tard.");
             }
             return interaction.reply(`Groupe "${group}" supprimé avec succès.`);
             break;
         case "help":
         default:
-            return interaction.reply({ content: "Aide pour la commande broadcast : ```\n\
+            return interaction.reply("Aide pour la commande broadcast : ```\n\
         /broadcast send <group> <message> - Send a message to all channels in a group\n\
         /broadcast create <group> - Create a new broadcast group\n\
         /broadcast delete <group> - Delete a broadcast group\n\
@@ -183,7 +184,7 @@ export async function execute(interaction: CommandInteraction) {
         /broadcast remove <group> <channel> - Remove a channel from a broadcast group\n\
         /broadcast help - Show this help message\n\
         /broadcast - Show this help message\n\
-        ```", ephemeral: true });
+        ```");
     }
 }
 

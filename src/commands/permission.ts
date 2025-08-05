@@ -1,18 +1,7 @@
 import { SlashCommandBuilder, CommandInteractionOptionResolver, CommandInteraction } from "discord.js";
 import * as fs from "fs";
 import { config } from "../config";
-
-interface PermissionGroup {
-    [command: string]: string[];
-}
-
-function getPermissions(): PermissionGroup {
-    return JSON.parse(fs.readFileSync(config.PERMISSIONS_FILE, "utf-8"));
-}
-
-function savePermissions(permissions: PermissionGroup): void {
-    fs.writeFileSync(config.PERMISSIONS_FILE, JSON.stringify(permissions, null, 4));
-}
+import { PermissionGroup, getPermissions, savePermissions } from "./perm"; // Assuming this is the correct path for the interface
 
 export const data = new SlashCommandBuilder()
     .setName("permission")
@@ -101,7 +90,11 @@ export async function execute(interaction: CommandInteraction) {
         case "help":
             return interaction.editReply("Utilisez `/permission grant <role> <command>` pour accorder une permission.\n" +
                 "`/permission revoke <role> <command>` pour révoquer une permission.\n" +
-                "`/permission list` pour lister les permissions.");
+                "`/permission list` pour lister les permissions.\n" +
+                "`/permission listall` pour lister toutes les permissions.\n" +
+                "`/permission help` pour afficher cette aide.\n" + 
+                "Attention, il faut mettre le nom de la commande sans le slash, par exemple `permission` pour `/permission`.\n" + 
+                "Les administrateurs peuvent toujours exécuter toutes les commandes, même sans permissions explicites.\n");
         default:
             return interaction.editReply("❗Action non reconnue.");
     }
