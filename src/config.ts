@@ -2,7 +2,7 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-const { DISCORD_TOKEN, DISCORD_CLIENT_ID, CONF_YAML_PATH, GUILD_ID, GROUPS_FILE} = process.env;
+const { DISCORD_TOKEN, DISCORD_CLIENT_ID, CONF_YAML_PATH, GUILD_ID, GROUPS_FILE, PERMISSIONS_FILE} = process.env;
 
 if (!DISCORD_TOKEN) {
   throw new Error("DISCORD_TOKEN is not set in the environment variables");
@@ -19,7 +19,10 @@ if (!GUILD_ID) {
 if (!GROUPS_FILE) {
   throw new Error("GROUPS_FILE is not set in the environment variables");
 }
-if (!DISCORD_TOKEN || !DISCORD_CLIENT_ID || !CONF_YAML_PATH || !GUILD_ID || !GROUPS_FILE) {
+if (!PERMISSIONS_FILE) {
+  throw new Error("PERMISSIONS_FILE is not set in the environment variables");
+}
+if (!DISCORD_TOKEN || !DISCORD_CLIENT_ID || !CONF_YAML_PATH || !GUILD_ID || !GROUPS_FILE || !PERMISSIONS_FILE) {
   throw new Error("Missing environment variables");
 }
 
@@ -30,7 +33,8 @@ export const config = {
   DISCORD_CLIENT_ID,
   CONF_YAML_PATH,
   GUILD_ID,
-  GROUPS_FILE
+  GROUPS_FILE,
+  PERMISSIONS_FILE
 };
 
 
