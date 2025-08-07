@@ -1,5 +1,5 @@
 import { CommandInteraction, SlashCommandBuilder, CommandInteractionOptionResolver, Guild, GuildMember } from "discord.js";
-import { getRolesId, composeGroup, getRoleId } from "./getGroups";
+import { getRolesId, composeGroup, getRoleId } from "../util/getGroups";
 import { config } from "../config";
 import { string } from "yaml/dist/schema/common/string";
 

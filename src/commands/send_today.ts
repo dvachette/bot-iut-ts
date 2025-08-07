@@ -1,6 +1,6 @@
 import { CommandInteraction, SlashCommandBuilder } from "discord.js";
-import { send_timetables_daily } from "./daily_task";   
-import { downloadTomorrowICS } from "./downloadIcs";
+import { send_timetables_daily } from "../util/daily_task";   
+import { downloadTomorrowICS } from "../util/downloadIcs";
 export const data = new SlashCommandBuilder()
     .setName("send_today")
     .setDescription("send_today");

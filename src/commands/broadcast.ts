@@ -2,7 +2,7 @@ import { CommandInteractionOptionResolver, CommandInteraction, SlashCommandBuild
 import * as fs from "fs";
 
 import { config } from "../config";
-import { send } from "./send";
+import { send } from "../util/send";
 
 interface BroadcastGroup {
     [groupName: string]: string[];

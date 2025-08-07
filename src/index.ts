@@ -7,8 +7,8 @@ import { deployCommands } from "./deploy-commands";
 import { emitters } from "./commands"
 import cron from "node-cron"
 import { canRunCommand } from "./commands/perm";
-import { send_timetables_daily, send_timetables_week } from "./commands/daily_task";
-import { downloadTomorrowICS, downloadWeekICS } from "./commands/downloadIcs";
+import { send_timetables_daily, send_timetables_week } from "./util/daily_task";
+import { downloadTomorrowICS, downloadWeekICS } from "./util/downloadIcs";
 
 
 const client = new Client({
