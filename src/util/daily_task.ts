@@ -10,10 +10,8 @@ export function send_timetables_daily() {
         const groupData = groups[group];
         if (groupData.channel) {
             const message = createMessageFromGroup(group, "tomorrow");
-            console.log(`Sending message to channel ${groupData.channel} for group ${group}`);
             send(groupData.channel, message);
         } else {
-            console.error(`No channel found for group: ${group}`);
         }
     }
 }
@@ -24,10 +22,8 @@ export function send_timetables_week() {
         const groupData = groups[group];
         if (groupData.channel) {
             const message = createMessageFromGroup(group, "nextweek");
-            console.log(`Sending message to channel ${groupData.channel} for group ${group}`);
             send(groupData.channel, message);
         } else {
-            console.error(`No channel found for group: ${group}`);
         }
     }
 }
@@ -35,7 +31,6 @@ export function send_timetables_week() {
 function createMessageFromGroup(group : string, range : string) {
 
     // parse the timetable to get the events
-    console.log(`Creating message for group ${group} for range ${range}`);
     if (!fs.existsSync(`src/calendars/${range}/${group}.ics`)) {
         return `Aucun calendrier trouvé pour le groupe ${group} pour ${range}.`;
     }
@@ -60,9 +55,6 @@ function createMessageFromGroup(group : string, range : string) {
 
         if (events.hasOwnProperty(k)) {
             let ev = events[k];
-            console.log("Event");
-            console.log(k);
-            console.log(ev);
             if (ev.type == 'VEVENT') {
                 message += eventToString(ev);
             }

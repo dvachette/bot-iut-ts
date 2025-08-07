@@ -77,10 +77,6 @@ export async function execute(interaction: CommandInteraction) {
         return;
     }
 
-    console.log(`User ${user.username}#${user.discriminator} have roles:`);
-    memberRoles.cache.forEach(role => {
-        console.log(role.name);
-    });
 
     // get the role id list from the config file group -> group.role 
     const roles = getRolesId(config.CONF_YAML_PATH);
@@ -91,12 +87,10 @@ export async function execute(interaction: CommandInteraction) {
     // if the user is already in a group described in the config file, remove him from it
     roles.forEach(role => {
         if (memberRoles.cache.has(role.valueOf())) {
-            console.log(`Removing role ${role} as ${memberRoles.cache.get(role.valueOf())?.name}`);
             member.roles.remove(role.valueOf());
         }
     });
 
-    console.log(`targeted role : ${targetRoleID}`)
     member.roles.add(targetRoleID);
     
 

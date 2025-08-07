@@ -50,8 +50,6 @@ export async function downloadTomorrowICS(): Promise<void> {
 
         const dest = `src/calendars/tomorrow/${group}.ics`;
 
-        console.log(`[GET] Timetable for group ${group} at ${link} for tomorrow`);
-        console.log(`path: ${dest}`);
 
         try {
             await downloadICS(link, dest);  // Attente explicite
@@ -71,8 +69,6 @@ export async function downloadWeekICS(): Promise<void> {
 
         const dest = `src/calendars/nextweek/${group}.ics`;
 
-        console.log(`[GET] Timetable for group ${group} at ${link} for next week`);
-        console.log(`path: ${dest}`);
 
         try {
             await downloadICS(link, dest);  // Attente explicite
