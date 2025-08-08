@@ -16,6 +16,7 @@
     "node-cron": "^3.0.3",
     "node-ical": "^0.20.1",
     "sync-request": "^6.1.0",
+    "winston": "^3.17.0",
     "yaml": "^2.7.0"
   },
   "devDependencies": {
