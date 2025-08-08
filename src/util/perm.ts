@@ -1,4 +1,4 @@
-import { CommandInteraction, GuildMember} from "discord.js";
+import { ChatInputCommandInteraction, GuildMember} from "discord.js";
 import { config } from "../config";
 import * as fs from "fs";
 export interface PermissionGroup {
@@ -13,7 +13,7 @@ export function savePermissions(permissions: PermissionGroup): void {
     fs.writeFileSync(config.PERMISSIONS_FILE, JSON.stringify(permissions, null, 4));
 }
 
-export function canRunCommand(interaction : CommandInteraction): boolean {
+export function canRunCommand(interaction : ChatInputCommandInteraction): boolean {
     const permissions = getPermissions();
     const command = interaction.commandName;
     const member = interaction.member;

@@ -7,6 +7,7 @@ export const data = new SlashCommandBuilder()
 
 export async function execute(interaction: CommandInteraction) {
 
+
     await interaction.deferReply();  // Informe Discord que la réponse viendra plus tard
 
     try {

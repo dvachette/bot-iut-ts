@@ -1,5 +1,5 @@
 
-
+import { logger } from "./logger";
 import { REST, Routes, Snowflake, RESTGetAPIApplicationCommandsResult } from "discord.js";
 import { config } from "./config";
 import { commands } from "./commands";
@@ -34,7 +34,7 @@ export async function deployCommands({ guildId }: DeployCommandsProps) {
     }
 
   } catch (error) {
-    console.error("Error while unregistering commands:", error);
+    logger.error("Error while unregistering commands:", error);
   }
 
 
@@ -48,7 +48,7 @@ export async function deployCommands({ guildId }: DeployCommandsProps) {
     );
 
   } catch (error) {
-    console.error(error);
+    logger.error("Error while registering commands:", error);
   }
 }
 

@@ -1,7 +1,7 @@
-import { CommandInteraction, SlashCommandBuilder, CommandInteractionOptionResolver, Guild, GuildMember } from "discord.js";
+import { ChatInputCommandInteraction, SlashCommandBuilder, CommandInteractionOptionResolver, GuildMember } from "discord.js";
 import { getRolesId, composeGroup, getRoleId } from "../util/getGroups";
 import { config } from "../config";
-import { string } from "yaml/dist/schema/common/string";
+import { logger } from "../logger";
 
 
 export const data = new SlashCommandBuilder()
@@ -40,7 +40,7 @@ export const data = new SlashCommandBuilder()
             )
     )
 
-export async function execute(interaction: CommandInteraction) {
+export async function execute(interaction: ChatInputCommandInteraction) {
     const options = interaction.options as CommandInteractionOptionResolver;
 
     const group = options.getString("group") || "";
@@ -48,6 +48,7 @@ export async function execute(interaction: CommandInteraction) {
 
     var composedGroup = composeGroup(group, semester, "a");
 
+    logger.info(`Received group command: group=${group}, semester=${semester}, composedGroup=${composedGroup}`);
     if (composedGroup === "noGroup") {
         await interaction.reply("Ce groupe n'est pas reconnu. Veuillez vérifier votre saisie. \n Si vous pensez que c'est une erreur, contactez un développeur.");
         return;

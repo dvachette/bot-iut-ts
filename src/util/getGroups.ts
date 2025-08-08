@@ -1,10 +1,7 @@
 import YAML from 'yaml';
 import fs from 'fs';  
 
-interface Group {
-    name : string;
-    value : string;
-}
+
 export function getGroups(path : fs.PathOrFileDescriptor) {
     const file = fs.readFileSync(path, 'utf8');
     const doc = YAML.parse(file);

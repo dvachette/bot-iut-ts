@@ -3,8 +3,11 @@ import { config } from "../config";
 import { getGroups } from "./getGroups";
 import fs from 'fs';
 import * as ical from "node-ical";
+import { logger } from "../logger";
+
 
 export function send_timetables_daily() {
+    logger.info("Sending daily timetables");
     const groups = getGroups(config.CONF_YAML_PATH);
     for (const group in groups) {
         const groupData = groups[group];
@@ -12,11 +15,14 @@ export function send_timetables_daily() {
             const message = createMessageFromGroup(group, "tomorrow");
             send(groupData.channel, message);
         } else {
+            logger.warn(`No channel found for group ${group}. Skipping.`);
         }
     }
+    logger.info("Daily timetables sent");
 }
 
 export function send_timetables_week() {
+    logger.info("Sending weekly timetables");
     const groups = getGroups(config.CONF_YAML_PATH);
     for (const group in groups) {
         const groupData = groups[group];
@@ -24,8 +30,10 @@ export function send_timetables_week() {
             const message = createMessageFromGroup(group, "nextweek");
             send(groupData.channel, message);
         } else {
+            logger.warn(`No channel found for group ${group}. Skipping.`);  
         }
     }
+    logger.info("Weekly timetables sent");
 }
 
 function createMessageFromGroup(group : string, range : string) {

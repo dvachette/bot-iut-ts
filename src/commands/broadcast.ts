@@ -1,6 +1,6 @@
-import { CommandInteractionOptionResolver, CommandInteraction, SlashCommandBuilder } from "discord.js";
+import { CommandInteractionOptionResolver, CommandInteraction, SlashCommandBuilder, ChatInputCommandInteraction } from "discord.js";
 import * as fs from "fs";
-
+import { logger } from "../logger";
 import { config } from "../config";
 import { send } from "../util/send";
 
@@ -61,14 +61,14 @@ export const data = new SlashCommandBuilder()
     );
 
 
-export async function execute(interaction: CommandInteraction) {
+export async function execute(interaction: ChatInputCommandInteraction) {
     const options = interaction.options as CommandInteractionOptionResolver;
-
     const action = options.getString("action");
     const group = options.getString("group");
     const message = options.getString("message");
     const channel = options.getChannel("channel");
 
+    logger.info(`Received broadcast command: action=${action}, group=${group}, message=${message}, channel=${channel ? channel.id : "none"}`);
 
     if (!action) {  
         return interaction.reply({ content: "Veuillez spécifier une action.", ephemeral: true });

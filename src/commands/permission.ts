@@ -1,7 +1,6 @@
-import { SlashCommandBuilder, CommandInteractionOptionResolver, CommandInteraction } from "discord.js";
-import * as fs from "fs";
-import { config } from "../config";
-import { PermissionGroup, getPermissions, savePermissions } from "./perm"; // Assuming this is the correct path for the interface
+import { SlashCommandBuilder, CommandInteractionOptionResolver, CommandInteraction, ChatInputCommandInteraction } from "discord.js";
+import { logger } from "../logger";
+import { PermissionGroup, getPermissions, savePermissions } from "../util/perm"; // Assuming this is the correct path for the interface
 
 export const data = new SlashCommandBuilder()
     .setName("permission")
@@ -28,12 +27,14 @@ export const data = new SlashCommandBuilder()
             .setRequired(false)
     );
 
-export async function execute(interaction: CommandInteraction) {
+export async function execute(interaction: ChatInputCommandInteraction) {
     const options = interaction.options as CommandInteractionOptionResolver;
 
     const action = options.getString("action");
     const role = options.getRole("role");
     const command = options.getString("command");
+
+    logger.info(`Received permission command: action=${action}, role=${role ? role.name : "none"}, command=${command}`);
 
     if (!action) {
         return interaction.reply({ content: "Veuillez spécifier une action.", ephemeral: true });
