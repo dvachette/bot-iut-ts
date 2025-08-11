@@ -1,4 +1,4 @@
-import { CommandInteractionOptionResolver, CommandInteraction, SlashCommandBuilder, ChatInputCommandInteraction } from "discord.js";
+import { CommandInteractionOptionResolver, SlashCommandBuilder, ChatInputCommandInteraction } from "discord.js";
 import * as fs from "fs";
 import { logger } from "../logger";
 import { config } from "../config";
@@ -15,6 +15,7 @@ function readGroups(): BroadcastGroup {
 function writeGroups(groups: BroadcastGroup): void {
     fs.writeFileSync(config.GROUPS_FILE, JSON.stringify(groups, null, 4));
 }
+
 /*
         /broadcast send <group> <message> - Send a message to all channels in a group
         /broadcast create <group> - Create a new broadcast group
@@ -35,13 +36,13 @@ export const data = new SlashCommandBuilder()
             .setDescription("L'action à réaliser")
             .setRequired(true)
             .addChoices(
-                { name : "send", value : "send" },
+                { name : "send"  , value : "send"   },
                 { name : "create", value : "create" },
-                { name : "list", value : "list" },
-                { name : "add", value : "add" },
+                { name : "list"  , value : "list"   },
+                { name : "add"   , value : "add"    },
                 { name : "remove", value : "remove" },
                 { name : "delete", value : "delete" },
-                { name : "help", value : "help" }
+                { name : "help"  , value : "help"   }
             )
     )
     .addStringOption(option =>
@@ -63,9 +64,9 @@ export const data = new SlashCommandBuilder()
 
 export async function execute(interaction: ChatInputCommandInteraction) {
     const options = interaction.options as CommandInteractionOptionResolver;
-    const action = options.getString("action");
-    const group = options.getString("group");
-    const message = options.getString("message");
+    const action  = options.getString ("action" );
+    const group   = options.getString ("group"  );
+    const message = options.getString ("message");
     const channel = options.getChannel("channel");
 
     logger.info(`Received broadcast command: action=${action}, group=${group}, message=${message}, channel=${channel ? channel.id : "none"}`);

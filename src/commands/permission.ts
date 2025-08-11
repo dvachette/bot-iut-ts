@@ -1,6 +1,6 @@
-import { SlashCommandBuilder, CommandInteractionOptionResolver, CommandInteraction, ChatInputCommandInteraction } from "discord.js";
+import { SlashCommandBuilder, CommandInteractionOptionResolver, ChatInputCommandInteraction } from "discord.js";
 import { logger } from "../logger";
-import { PermissionGroup, getPermissions, savePermissions } from "../util/perm"; // Assuming this is the correct path for the interface
+import { PermissionGroup, getPermissions, savePermissions } from "../util/perm";
 
 export const data = new SlashCommandBuilder()
     .setName("permission")
@@ -10,10 +10,10 @@ export const data = new SlashCommandBuilder()
             .setDescription("L'action à réaliser")
             .setRequired(true)
             .addChoices(
-                { name: "grant", value: "grant" },
-                { name: "revoke", value: "revoke" },
-                { name: "list", value: "list" },
-                { name: "help", value: "help" },
+                { name: "grant"  , value: "grant"   },
+                { name: "revoke" , value: "revoke"  },
+                { name: "list"   , value: "list"    },
+                { name: "help"   , value: "help"    },
                 { name: "listall", value: "listall" }
             )
     )
@@ -31,8 +31,8 @@ export const data = new SlashCommandBuilder()
 export async function execute(interaction: ChatInputCommandInteraction) {
     const options = interaction.options as CommandInteractionOptionResolver;
 
-    const action = options.getString("action");
-    const role = options.getRole("role");
+    const action  = options.getString("action" );
+    const role    = options.getRole  ("role"   );
     const command = options.getString("command");
 
     logger.info(`Received permission command: action=${action}, role=${role ? role.name : "none"}, command=${command}`);
