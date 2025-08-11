@@ -12,20 +12,20 @@ export const data = new SlashCommandBuilder()
             .setDescription("Votre groupe")
             .setRequired(true)
             .addChoices(
-                { name : "g1", value : "g1" },
-                { name : "g2", value : "g2" },
-                { name : "g3", value : "g3" },
-                { name : "g4", value : "g4" },
-                { name : "g5", value : "g5" },
+                { name : "g1"      , value : "g1"       },
+                { name : "g2"      , value : "g2"       },
+                { name : "g3"      , value : "g3"       },
+                { name : "g4"      , value : "g4"       },
+                { name : "g5"      , value : "g5"       },
                 { name : "but3aged", value : "but3aged" },
-                { name : "g3a2", value : "g3a2" },
+                { name : "g3a2"    , value : "g3a2"     },
                 { name : "but3dacs", value : "but3dacs" },
-                { name : "aspe", value : "aspe" },
+                { name : "aspe"    , value : "aspe"     },
                 { name : "lpdevops", value : "lpdevops" },
-                { name : "lpessir", value : "lpessir" },
-                { name : "ra1", value : "but3ra1" },
-                { name : "ra2", value : "but3ra2" },
-                { name : "ra3", value : "but3ra3" },
+                { name : "lpessir" , value : "lpessir"  },
+                { name : "ra1"     , value : "but3ra1"  },
+                { name : "ra2"     , value : "but3ra2"  },
+                { name : "ra3"     , value : "but3ra3"  },
             )
     )
     .addStringOption(option =>
@@ -43,7 +43,7 @@ export const data = new SlashCommandBuilder()
 export async function execute(interaction: ChatInputCommandInteraction) {
     const options = interaction.options as CommandInteractionOptionResolver;
 
-    const group = options.getString("group") || "";
+    const group    = options.getString("group"   ) || "";
     const semester = options.getString("semester") || "";
 
     var composedGroup = composeGroup(group, semester, "a");

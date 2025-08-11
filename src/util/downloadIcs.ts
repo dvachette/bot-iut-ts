@@ -3,7 +3,6 @@ import https from 'https';
 import { config } from '../config';
 import { getGroups } from './getGroups';
 import { dateStart, dateEnd } from './dateSet';
-import { EventEmitter } from "events";
 import { logger } from '../logger';
 
 export function downloadICS(url: string, destination: string) : Promise<void>  {
