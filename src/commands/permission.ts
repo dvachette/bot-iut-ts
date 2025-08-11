@@ -13,7 +13,8 @@ export const data = new SlashCommandBuilder()
                 { name: "grant", value: "grant" },
                 { name: "revoke", value: "revoke" },
                 { name: "list", value: "list" },
-                { name: "help", value: "help" }
+                { name: "help", value: "help" },
+                { name: "listall", value: "listall" }
             )
     )
     .addRoleOption(option =>
