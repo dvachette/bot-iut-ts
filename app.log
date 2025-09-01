@@ -1,19 +1,2 @@
-[2025-08-08T11:51:47.268Z] info: Discord bot is ready! 🤖
-[2025-08-08T11:52:11.769Z] info: Received command: ping from user: 1280802417100980258
-[2025-08-08T11:52:45.862Z] info: Discord bot is ready! 🤖
-[2025-08-08T12:39:30.640Z] info: Discord bot is ready! 🤖
-[2025-08-08T12:41:56.085Z] info: Discord bot is ready! 🤖
-[2025-08-08T12:41:56.553Z] info: Received command: permission from user: 1280802417100980258
-[2025-08-08T12:41:56.555Z] info: Received permission command: action=grant, role=@everyone, command=repo
-[2025-08-08T12:42:57.030Z] info: Received command: group from user: 1280802417100980258
-[2025-08-08T12:43:43.322Z] info: Discord bot is ready! 🤖
-[2025-08-08T12:44:03.682Z] info: Received command: group from user: 1280802417100980258
-[2025-08-08T12:44:03.684Z] info: Received group command: group=g3, semester=s2, composedGroup=g3s2a
-[2025-08-08T12:46:11.740Z] info: Received command: permission from user: 1280802417100980258
-[2025-08-08T12:46:11.742Z] info: Received permission command: action=list, role=none, command=group
-[2025-08-08T12:48:50.280Z] info: Received command: group from user: 629710957266075648
-[2025-08-08T12:48:50.281Z] info: Received group command: group=g4, semester=s2, composedGroup=g4s2a
-[2025-08-08T12:50:26.742Z] info: Received command: permission from user: 1280802417100980258
-[2025-08-08T12:50:26.743Z] info: Received permission command: action=list, role=none, command=ping
-[2025-08-08T12:50:39.640Z] info: Received command: permission from user: 1280802417100980258
-[2025-08-08T12:50:39.641Z] info: Received permission command: action=help, role=none, command=null
+[2025-08-26T16:31:15.383Z] info: Discord bot is ready! 🤖
+[2025-08-26T16:31:18.455Z] info: Received command: group from user: 1280802417100980258
