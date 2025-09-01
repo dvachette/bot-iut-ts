@@ -75,6 +75,6 @@ function createMessageFromGroup(group : string, range : string) {
 }   
 
 function eventToString(event : ical.VEvent) {
-    return `**${event.summary}** : ${event.description.replace(/\s+/g, " ")} -> ${event.start.toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' })} - ${event.end.toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' })} en __${event.location}__\n`;
+    return `**${event.summary}** : ${event.description.replace(/\s+/g, " ")} -> ${event.start.toLocaleDateString("fr-FR")} : ${event.start.toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' })} - ${event.end.toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' })} en __${event.location}__\n`;
 }
 
