@@ -5,6 +5,7 @@ import * as send_week from "./send_week";
 import * as group from "./group";
 import * as broadcast from "./broadcast";
 import * as permission from "./permission";
+import * as fix_roles from "./fix_roles";
 
 
 export const commands = {
@@ -15,5 +16,6 @@ export const commands = {
   send_week,
   broadcast,
   permission,
+  fix_roles
 };
 

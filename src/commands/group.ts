@@ -91,7 +91,11 @@ export async function execute(interaction: ChatInputCommandInteraction) {
             member.roles.remove(role.valueOf());
         }
     });
-
+    // Remove the 'Sans classe' role if the user has it
+    const noClassRoleID = config.NO_CLASS_ROLE_ID;
+    if (memberRoles.cache.has(noClassRoleID.valueOf())) {
+        member.roles.remove(noClassRoleID);
+    }
     member.roles.add(targetRoleID);
     
 
