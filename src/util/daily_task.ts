@@ -13,7 +13,9 @@ export function send_timetables_daily() {
         const groupData = groups[group];
         if (groupData.channel) {
             const message = createMessageFromGroup(group, "tomorrow");
-            send(groupData.channel, message);
+            if (message !== "") {
+                send(groupData.channel, message);
+            }
         } else {
             logger.warn(`No channel found for group ${group}. Skipping.`);
         }
@@ -28,7 +30,9 @@ export function send_timetables_week() {
         const groupData = groups[group];
         if (groupData.channel) {
             const message = createMessageFromGroup(group, "nextweek");
-            send(groupData.channel, message);
+            if (message !== "") {
+                send(groupData.channel, message);
+            }
         } else {
             logger.warn(`No channel found for group ${group}. Skipping.`);  
         }
@@ -63,18 +67,17 @@ function createMessageFromGroup(group : string, range : string) {
 
         if (events.hasOwnProperty(k)) {
             let ev = events[k];
+            ev.start.setHours(ev.start.getHours() + 1);
+            ev.end.setHours(ev.end.getHours() + 1);
             if (ev.type == 'VEVENT') {
                 message += eventToString(ev);
             }
         }
     }
-    if (message == "") {
-        return "Aucun événement trouvé pour le groupe " + group + " pour " + range + ".\n(Si vous pensez que c'est une erreur, contactez les développeurs.)";
-    }
     return message;
 }   
 
 function eventToString(event : ical.VEvent) {
-    return `**${event.summary}** : ${event.description.replace(/\s+/g, " ")} -> ${event.start.toLocaleDateString("fr-FR")} : ${event.start.toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' })} - ${event.end.toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' })} en __${event.location}__\n`;
+    return `**${event.summary}** : ${event.description.split("\n").map(s => s.trim()).filter(Boolean).reverse()[1]} -> ${event.start.toLocaleDateString("fr-FR")} : ${event.start.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })} - ${event.end.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })} en __${event.location}__\n`;
 }
 
