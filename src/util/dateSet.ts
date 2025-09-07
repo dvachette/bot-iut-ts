@@ -8,13 +8,9 @@ export function dateStart(when:String) {
             date = new Date();
             date.setDate(new Date().getDate() + 1);
             return date;
-        case "week":
-            date = new Date();
-            date.setDate(new Date().getDate() - new Date().getDay()+1)
-            return date;
         case "nextweek":
             date = new Date();
-            date.setDate(new Date().getDate() - new Date().getDay()+8)
+            date.setDate(new Date().getDate() - new Date().getDay()+1)
             return date;
         default:
             return new Date();
@@ -32,13 +28,9 @@ export function dateEnd(when:String) {
             date = new Date();
             date.setDate(new Date().getDate()+1);
             return date;
-        case "week":
-            date = new Date();
-            date.setDate(new Date().getDate() - new Date().getDay()+7)
-            return date;
         case "nextweek":
             date = new Date();
-            date.setDate(new Date().getDate() - new Date().getDay()+14)
+            date.setDate(new Date().getDate() - new Date().getDay()+7)
             return date;
         default:
             return new Date();

@@ -67,8 +67,6 @@ function createMessageFromGroup(group : string, range : string) {
 
         if (events.hasOwnProperty(k)) {
             let ev = events[k];
-            ev.start.setHours(ev.start.getHours() + 1);
-            ev.end.setHours(ev.end.getHours() + 1);
             if (ev.type == 'VEVENT') {
                 message += eventToString(ev);
             }
