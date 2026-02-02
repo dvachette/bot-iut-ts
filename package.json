@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsx watch src/index.ts",
-    "start": "node dist/index.js",
+    "start": "node dist/index.js | tee `date +%Y:%m:%d-%T`.log",
     "build": "tsup src/index.ts --minify"
   },
   "author": "",

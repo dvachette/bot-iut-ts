@@ -1,0 +1,1422 @@
+
+> ds-bot@1.0.0 start
+> node dist/index.js
+
+[2025-09-07T17:09:47.213Z] info: Discord bot is ready! 🤖
+[2025-09-07T17:10:17.327Z] info: Received command: send_week from user: 1280802417100980258
+[2025-09-07T17:10:17.823Z] info: Downloading ICS files for next week for groups: aspea, aspeb, g1s1a, g1s1b, g2s1a, g2s1b, g3s1a, g3s1b, g4s1a, g4s1b, g5s1a, g5s1b, g1s3a, g1s3b, g2s3a, g2s3b, g3a2, g4s3a, g4s3b, but3ra1a, but3ra1b, but3ra2a, but3ra2b, but3ra3a, but3ra3b, but3dacs, but3aged
+[2025-09-07T17:10:17.825Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=9272&projectId=1&calType=ical&firstDate=2025-09-08&lastDate=2025-09-14 to src/calendars/nextweek/aspea.ics
+[2025-09-07T17:10:17.919Z] info: ICS file downloaded successfully to src/calendars/nextweek/aspea.ics
+[2025-09-07T17:10:17.922Z] info: ICS file for aspea downloaded successfully.
+[2025-09-07T17:10:17.922Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=18783&projectId=1&calType=ical&firstDate=2025-09-08&lastDate=2025-09-14 to src/calendars/nextweek/aspeb.ics
+[2025-09-07T17:10:17.986Z] info: ICS file downloaded successfully to src/calendars/nextweek/aspeb.ics
+[2025-09-07T17:10:17.987Z] info: ICS file for aspeb downloaded successfully.
+[2025-09-07T17:10:17.988Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=12096&projectId=1&calType=ical&firstDate=2025-09-08&lastDate=2025-09-14 to src/calendars/nextweek/g1s1a.ics
+[2025-09-07T17:10:18.051Z] info: ICS file downloaded successfully to src/calendars/nextweek/g1s1a.ics
+[2025-09-07T17:10:18.052Z] info: ICS file for g1s1a downloaded successfully.
+[2025-09-07T17:10:18.053Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=12102&projectId=1&calType=ical&firstDate=2025-09-08&lastDate=2025-09-14 to src/calendars/nextweek/g1s1b.ics
+[2025-09-07T17:10:18.128Z] info: ICS file downloaded successfully to src/calendars/nextweek/g1s1b.ics
+[2025-09-07T17:10:18.129Z] info: ICS file for g1s1b downloaded successfully.
+[2025-09-07T17:10:18.130Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=12403&projectId=1&calType=ical&firstDate=2025-09-08&lastDate=2025-09-14 to src/calendars/nextweek/g2s1a.ics
+[2025-09-07T17:10:18.203Z] info: ICS file downloaded successfully to src/calendars/nextweek/g2s1a.ics
+[2025-09-07T17:10:18.204Z] info: ICS file for g2s1a downloaded successfully.
+[2025-09-07T17:10:18.205Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=12406&projectId=1&calType=ical&firstDate=2025-09-08&lastDate=2025-09-14 to src/calendars/nextweek/g2s1b.ics
+[2025-09-07T17:10:18.280Z] info: ICS file downloaded successfully to src/calendars/nextweek/g2s1b.ics
+[2025-09-07T17:10:18.280Z] info: ICS file for g2s1b downloaded successfully.
+[2025-09-07T17:10:18.281Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=12419&projectId=1&calType=ical&firstDate=2025-09-08&lastDate=2025-09-14 to src/calendars/nextweek/g3s1a.ics
+[2025-09-07T17:10:18.355Z] info: ICS file downloaded successfully to src/calendars/nextweek/g3s1a.ics
+[2025-09-07T17:10:18.356Z] info: ICS file for g3s1a downloaded successfully.
+[2025-09-07T17:10:18.356Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=12425&projectId=1&calType=ical&firstDate=2025-09-08&lastDate=2025-09-14 to src/calendars/nextweek/g3s1b.ics
+[2025-09-07T17:10:18.423Z] info: ICS file downloaded successfully to src/calendars/nextweek/g3s1b.ics
+[2025-09-07T17:10:18.424Z] info: ICS file for g3s1b downloaded successfully.
+[2025-09-07T17:10:18.424Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=12424&projectId=1&calType=ical&firstDate=2025-09-08&lastDate=2025-09-14 to src/calendars/nextweek/g4s1a.ics
+[2025-09-07T17:10:18.500Z] info: ICS file downloaded successfully to src/calendars/nextweek/g4s1a.ics
+[2025-09-07T17:10:18.501Z] info: ICS file for g4s1a downloaded successfully.
+[2025-09-07T17:10:18.502Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=12444&projectId=1&calType=ical&firstDate=2025-09-08&lastDate=2025-09-14 to src/calendars/nextweek/g4s1b.ics
+[2025-09-07T17:10:18.579Z] info: ICS file downloaded successfully to src/calendars/nextweek/g4s1b.ics
+[2025-09-07T17:10:18.580Z] info: ICS file for g4s1b downloaded successfully.
+[2025-09-07T17:10:18.581Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=12460&projectId=1&calType=ical&firstDate=2025-09-08&lastDate=2025-09-14 to src/calendars/nextweek/g5s1a.ics
+[2025-09-07T17:10:18.658Z] info: ICS file downloaded successfully to src/calendars/nextweek/g5s1a.ics
+[2025-09-07T17:10:18.659Z] info: ICS file for g5s1a downloaded successfully.
+[2025-09-07T17:10:18.659Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=12461&projectId=1&calType=ical&firstDate=2025-09-08&lastDate=2025-09-14 to src/calendars/nextweek/g5s1b.ics
+[2025-09-07T17:10:18.738Z] info: ICS file downloaded successfully to src/calendars/nextweek/g5s1b.ics
+[2025-09-07T17:10:18.739Z] info: ICS file for g5s1b downloaded successfully.
+[2025-09-07T17:10:18.740Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=35708&projectId=1&calType=ical&firstDate=2025-09-08&lastDate=2025-09-14 to src/calendars/nextweek/g1s3a.ics
+[2025-09-07T17:10:18.812Z] info: ICS file downloaded successfully to src/calendars/nextweek/g1s3a.ics
+[2025-09-07T17:10:18.814Z] info: ICS file for g1s3a downloaded successfully.
+[2025-09-07T17:10:18.814Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=35709&projectId=1&calType=ical&firstDate=2025-09-08&lastDate=2025-09-14 to src/calendars/nextweek/g1s3b.ics
+[2025-09-07T17:10:18.889Z] info: ICS file downloaded successfully to src/calendars/nextweek/g1s3b.ics
+[2025-09-07T17:10:18.889Z] info: ICS file for g1s3b downloaded successfully.
+[2025-09-07T17:10:18.890Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=35710&projectId=1&calType=ical&firstDate=2025-09-08&lastDate=2025-09-14 to src/calendars/nextweek/g2s3a.ics
+[2025-09-07T17:10:18.955Z] info: ICS file downloaded successfully to src/calendars/nextweek/g2s3a.ics
+[2025-09-07T17:10:18.955Z] info: ICS file for g2s3a downloaded successfully.
+[2025-09-07T17:10:18.956Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=35713&projectId=1&calType=ical&firstDate=2025-09-08&lastDate=2025-09-14 to src/calendars/nextweek/g2s3b.ics
+[2025-09-07T17:10:19.029Z] info: ICS file downloaded successfully to src/calendars/nextweek/g2s3b.ics
+[2025-09-07T17:10:19.029Z] info: ICS file for g2s3b downloaded successfully.
+[2025-09-07T17:10:19.030Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=35714&projectId=1&calType=ical&firstDate=2025-09-08&lastDate=2025-09-14 to src/calendars/nextweek/g3a2.ics
+[2025-09-07T17:10:19.093Z] info: ICS file downloaded successfully to src/calendars/nextweek/g3a2.ics
+[2025-09-07T17:10:19.093Z] info: ICS file for g3a2 downloaded successfully.
+[2025-09-07T17:10:19.093Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=35717&projectId=1&calType=ical&firstDate=2025-09-08&lastDate=2025-09-14 to src/calendars/nextweek/g4s3a.ics
+[2025-09-07T17:10:19.172Z] info: ICS file downloaded successfully to src/calendars/nextweek/g4s3a.ics
+[2025-09-07T17:10:19.172Z] info: ICS file for g4s3a downloaded successfully.
+[2025-09-07T17:10:19.172Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=35718&projectId=1&calType=ical&firstDate=2025-09-08&lastDate=2025-09-14 to src/calendars/nextweek/g4s3b.ics
+[2025-09-07T17:10:19.257Z] info: ICS file downloaded successfully to src/calendars/nextweek/g4s3b.ics
+[2025-09-07T17:10:19.258Z] info: ICS file for g4s3b downloaded successfully.
+[2025-09-07T17:10:19.258Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6161&projectId=1&calType=ical&firstDate=2025-09-08&lastDate=2025-09-14 to src/calendars/nextweek/but3ra1a.ics
+[2025-09-07T17:10:19.314Z] info: ICS file downloaded successfully to src/calendars/nextweek/but3ra1a.ics
+[2025-09-07T17:10:19.314Z] info: ICS file for but3ra1a downloaded successfully.
+[2025-09-07T17:10:19.315Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6163&projectId=1&calType=ical&firstDate=2025-09-08&lastDate=2025-09-14 to src/calendars/nextweek/but3ra1b.ics
+[2025-09-07T17:10:19.373Z] info: ICS file downloaded successfully to src/calendars/nextweek/but3ra1b.ics
+[2025-09-07T17:10:19.374Z] info: ICS file for but3ra1b downloaded successfully.
+[2025-09-07T17:10:19.374Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6165&projectId=1&calType=ical&firstDate=2025-09-08&lastDate=2025-09-14 to src/calendars/nextweek/but3ra2a.ics
+[2025-09-07T17:10:19.449Z] info: ICS file downloaded successfully to src/calendars/nextweek/but3ra2a.ics
+[2025-09-07T17:10:19.450Z] info: ICS file for but3ra2a downloaded successfully.
+[2025-09-07T17:10:19.450Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6168&projectId=1&calType=ical&firstDate=2025-09-08&lastDate=2025-09-14 to src/calendars/nextweek/but3ra2b.ics
+[2025-09-07T17:10:19.525Z] info: ICS file downloaded successfully to src/calendars/nextweek/but3ra2b.ics
+[2025-09-07T17:10:19.526Z] info: ICS file for but3ra2b downloaded successfully.
+[2025-09-07T17:10:19.526Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=14059&projectId=1&calType=ical&firstDate=2025-09-08&lastDate=2025-09-14 to src/calendars/nextweek/but3ra3a.ics
+[2025-09-07T17:10:19.573Z] info: ICS file downloaded successfully to src/calendars/nextweek/but3ra3a.ics
+[2025-09-07T17:10:19.573Z] info: ICS file for but3ra3a downloaded successfully.
+[2025-09-07T17:10:19.574Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=14064&projectId=1&calType=ical&firstDate=2025-09-08&lastDate=2025-09-14 to src/calendars/nextweek/but3ra3b.ics
+[2025-09-07T17:10:19.627Z] info: ICS file downloaded successfully to src/calendars/nextweek/but3ra3b.ics
+[2025-09-07T17:10:19.627Z] info: ICS file for but3ra3b downloaded successfully.
+[2025-09-07T17:10:19.627Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6136&projectId=1&calType=ical&firstDate=2025-09-08&lastDate=2025-09-14 to src/calendars/nextweek/but3dacs.ics
+[2025-09-07T17:10:19.677Z] info: ICS file downloaded successfully to src/calendars/nextweek/but3dacs.ics
+[2025-09-07T17:10:19.677Z] info: ICS file for but3dacs downloaded successfully.
+[2025-09-07T17:10:19.677Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6048&projectId=1&calType=ical&firstDate=2025-09-08&lastDate=2025-09-14 to src/calendars/nextweek/but3aged.ics
+[2025-09-07T17:10:19.741Z] info: ICS file downloaded successfully to src/calendars/nextweek/but3aged.ics
+[2025-09-07T17:10:19.742Z] info: ICS file for but3aged downloaded successfully.
+[2025-09-07T17:10:19.742Z] info: Sending weekly timetables
+[2025-09-07T17:10:19.769Z] info: Sending message to channel 1395371772550975558: <t:1757318400:D> **11Développement d'interfaces web-TD** : GONCALVES ISABELLE -> <t:1757318400:t> - <t:1757325600:t> en __S27__
+<t:1757332800:D> **11Linux** : CANIOU YVES -> <t:1757332800:t> - <t:1757340000:t> en __S27__
+<t:1757401200:D> **Soutien Mathématiques** : LEROUX STEPHANE -> <t:1757401200:t> - <t:1757404800:t> en __S15__
+<t:1757404800:D> **31IntroDev1 TD** : WATRIGANT REMI -> <t:1757404800:t> - <t:1757412000:t> en __S27__
+<t:1757419200:D> **11Mathématiques discrètes** : LEROUX STEPHANE -> <t:1757419200:t> - <t:1757426400:t> en __S15__
+<t:1757426400:D> **21IntroDev1 TD1** : WATRIGANT REMI -> <t:1757426400:t> - <t:1757433600:t> en __S27__
+<t:1757484000:D> **11IntroDev1 TD** : WATRIGANT REMI -> <t:1757484000:t> - <t:1757491200:t> en __S11__
+<t:1757491200:D> **11Architecture des ordinateurs** : MERRHEIM XAVIER -> <t:1757491200:t> - <t:1757498400:t> en __S21__
+<t:1757505600:D> **Anglais TPS3** : CANQUE FLORENCE -> <t:1757505600:t> - <t:1757512800:t> en __028__
+<t:1757570400:D> **11GPI** : DUFOUR KARLINE -> <t:1757570400:t> - <t:1757577600:t> en __040__
+<t:1757577600:D> **21S1.09 SQL-TD** : BENSLIMANE DJAMAL -> <t:1757577600:t> - <t:1757584800:t> en __S27__
+<t:1757656800:D> **11Conception de bases de données** : BENSLIMANE DJAMAL -> <t:1757656800:t> - <t:1757664000:t> en __S27__
+<t:1757664000:D> **21Mathématiques discrètes** : LEROUX STEPHANE -> <t:1757664000:t> - <t:1757671200:t> en __S15__
+<t:1757676600:D> **11SQL-TD** : BENSLIMANE DJAMAL -> <t:1757676600:t> - <t:1757683800:t> en __S27__
+
+[2025-09-07T17:10:19.772Z] info: Message sent to channel 1395371772550975558: <t:1757318400:D> **11Développement d'interfaces web-TD** : GONCALVES ISABELLE -> <t:1757318400:t> - <t:1757325600:t> en __S27__
+<t:1757332800:D> **11Linux** : CANIOU YVES -> <t:1757332800:t> - <t:1757340000:t> en __S27__
+<t:1757401200:D> **Soutien Mathématiques** : LEROUX STEPHANE -> <t:1757401200:t> - <t:1757404800:t> en __S15__
+<t:1757404800:D> **31IntroDev1 TD** : WATRIGANT REMI -> <t:1757404800:t> - <t:1757412000:t> en __S27__
+<t:1757419200:D> **11Mathématiques discrètes** : LEROUX STEPHANE -> <t:1757419200:t> - <t:1757426400:t> en __S15__
+<t:1757426400:D> **21IntroDev1 TD1** : WATRIGANT REMI -> <t:1757426400:t> - <t:1757433600:t> en __S27__
+<t:1757484000:D> **11IntroDev1 TD** : WATRIGANT REMI -> <t:1757484000:t> - <t:1757491200:t> en __S11__
+<t:1757491200:D> **11Architecture des ordinateurs** : MERRHEIM XAVIER -> <t:1757491200:t> - <t:1757498400:t> en __S21__
+<t:1757505600:D> **Anglais TPS3** : CANQUE FLORENCE -> <t:1757505600:t> - <t:1757512800:t> en __028__
+<t:1757570400:D> **11GPI** : DUFOUR KARLINE -> <t:1757570400:t> - <t:1757577600:t> en __040__
+<t:1757577600:D> **21S1.09 SQL-TD** : BENSLIMANE DJAMAL -> <t:1757577600:t> - <t:1757584800:t> en __S27__
+<t:1757656800:D> **11Conception de bases de données** : BENSLIMANE DJAMAL -> <t:1757656800:t> - <t:1757664000:t> en __S27__
+<t:1757664000:D> **21Mathématiques discrètes** : LEROUX STEPHANE -> <t:1757664000:t> - <t:1757671200:t> en __S15__
+<t:1757676600:D> **11SQL-TD** : BENSLIMANE DJAMAL -> <t:1757676600:t> - <t:1757683800:t> en __S27__
+
+[2025-09-07T17:10:19.777Z] info: Sending message to channel 1395052296521646282: <t:1757311200:D> **42R1.01 initation dev SI** : BUYLE-BODIN NICOLAS -> <t:1757311200:t> - <t:1757318400:t> en __S03__
+<t:1757318400:D> **11 R1.07 Outils Math. Fond** : JALOUX CHRISTOPHE -> <t:1757318400:t> - <t:1757325600:t> en __S10__
+<t:1757332800:D> **11 R1.09 Economie-TD** : LAGACHE ALEXANDRA -> <t:1757332800:t> - <t:1757340000:t> en __S15__
+<t:1757397600:D> **11 R1.04 Intro Systèmes-TD** : DAUTRAIX ISABELLE -> <t:1757397600:t> - <t:1757404800:t> en __S14__
+<t:1757404800:D> **21 R1.04 Intro Systèmes-TD** : DAUTRAIX ISABELLE -> <t:1757404800:t> - <t:1757412000:t> en __S16__
+<t:1757491200:D> **31 R1.01 initation dev TD** : BUYLE-BODIN NICOLAS -> <t:1757491200:t> - <t:1757498400:t> en __S11__
+<t:1757505600:D> **21R1.01 initation dev TD** : BUYLE-BODIN NICOLAS -> <t:1757505600:t> - <t:1757512800:t> en __040__
+<t:1757512800:D> **21 R1.09 Economie-TD** : LAGACHE ALEXANDRA -> <t:1757512800:t> - <t:1757520000:t> en __040__
+<t:1757570400:D> **11 R1.11 Com-TD** : BESSON MATHIEU -> <t:1757570400:t> - <t:1757577600:t> en __S21__
+<t:1757577600:D> **21 R1.11 Com-TD** : BESSON MATHIEU -> <t:1757577600:t> - <t:1757584800:t> en __S21__
+<t:1757585700:D> **Réussir son BUT L11** : JOUBERT AUDE -> <t:1757585700:t> - <t:1757589300:t> en __S11,S17,S10,S14,S16,S13__
+<t:1757656800:D> **32 R1.07 Outils Math. Fond TPA** : JALOUX CHRISTOPHE -> <t:1757656800:t> - <t:1757664000:t> en __S10__
+<t:1757664000:D> **11 R1.01 initation dev SI P11** : BUYLE-BODIN NICOLAS -> <t:1757664000:t> - <t:1757671200:t> en __S17__
+<t:1757683800:D> **11 R1.05-1 Conception BD-TD** : BENSLIMANE DJAMAL -> <t:1757683800:t> - <t:1757691000:t> en __S03__
+
+[2025-09-07T17:10:19.777Z] info: Message sent to channel 1395052296521646282: <t:1757311200:D> **42R1.01 initation dev SI** : BUYLE-BODIN NICOLAS -> <t:1757311200:t> - <t:1757318400:t> en __S03__
+<t:1757318400:D> **11 R1.07 Outils Math. Fond** : JALOUX CHRISTOPHE -> <t:1757318400:t> - <t:1757325600:t> en __S10__
+<t:1757332800:D> **11 R1.09 Economie-TD** : LAGACHE ALEXANDRA -> <t:1757332800:t> - <t:1757340000:t> en __S15__
+<t:1757397600:D> **11 R1.04 Intro Systèmes-TD** : DAUTRAIX ISABELLE -> <t:1757397600:t> - <t:1757404800:t> en __S14__
+<t:1757404800:D> **21 R1.04 Intro Systèmes-TD** : DAUTRAIX ISABELLE -> <t:1757404800:t> - <t:1757412000:t> en __S16__
+<t:1757491200:D> **31 R1.01 initation dev TD** : BUYLE-BODIN NICOLAS -> <t:1757491200:t> - <t:1757498400:t> en __S11__
+<t:1757505600:D> **21R1.01 initation dev TD** : BUYLE-BODIN NICOLAS -> <t:1757505600:t> - <t:1757512800:t> en __040__
+<t:1757512800:D> **21 R1.09 Economie-TD** : LAGACHE ALEXANDRA -> <t:1757512800:t> - <t:1757520000:t> en __040__
+<t:1757570400:D> **11 R1.11 Com-TD** : BESSON MATHIEU -> <t:1757570400:t> - <t:1757577600:t> en __S21__
+<t:1757577600:D> **21 R1.11 Com-TD** : BESSON MATHIEU -> <t:1757577600:t> - <t:1757584800:t> en __S21__
+<t:1757585700:D> **Réussir son BUT L11** : JOUBERT AUDE -> <t:1757585700:t> - <t:1757589300:t> en __S11,S17,S10,S14,S16,S13__
+<t:1757656800:D> **32 R1.07 Outils Math. Fond TPA** : JALOUX CHRISTOPHE -> <t:1757656800:t> - <t:1757664000:t> en __S10__
+<t:1757664000:D> **11 R1.01 initation dev SI P11** : BUYLE-BODIN NICOLAS -> <t:1757664000:t> - <t:1757671200:t> en __S17__
+<t:1757683800:D> **11 R1.05-1 Conception BD-TD** : BENSLIMANE DJAMAL -> <t:1757683800:t> - <t:1757691000:t> en __S03__
+
+[2025-09-07T17:10:19.780Z] info: Sending message to channel 1395052332969885726: <t:1757311200:D> **42R1.01 initation dev SI** : BUYLE-BODIN NICOLAS -> <t:1757311200:t> - <t:1757318400:t> en __S03__
+<t:1757318400:D> **11 R1.07 Outils Math. Fond** : JALOUX CHRISTOPHE -> <t:1757318400:t> - <t:1757325600:t> en __S10__
+<t:1757332800:D> **11 R1.09 Economie-TD** : LAGACHE ALEXANDRA -> <t:1757332800:t> - <t:1757340000:t> en __S15__
+<t:1757397600:D> **11 R1.04 Intro Systèmes-TD** : DAUTRAIX ISABELLE -> <t:1757397600:t> - <t:1757404800:t> en __S14__
+<t:1757404800:D> **21 R1.04 Intro Systèmes-TD** : DAUTRAIX ISABELLE -> <t:1757404800:t> - <t:1757412000:t> en __S16__
+<t:1757419200:D> **22 R1.07 Outils Math. Fond TPB** : JALOUX CHRISTOPHE -> <t:1757419200:t> - <t:1757426400:t> en __S10__
+<t:1757491200:D> **31 R1.01 initation dev TD** : BUYLE-BODIN NICOLAS -> <t:1757491200:t> - <t:1757498400:t> en __S11__
+<t:1757505600:D> **21R1.01 initation dev TD** : BUYLE-BODIN NICOLAS -> <t:1757505600:t> - <t:1757512800:t> en __040__
+<t:1757512800:D> **21 R1.09 Economie-TD** : LAGACHE ALEXANDRA -> <t:1757512800:t> - <t:1757520000:t> en __040__
+<t:1757570400:D> **11 R1.11 Com-TD** : BESSON MATHIEU -> <t:1757570400:t> - <t:1757577600:t> en __S21__
+<t:1757577600:D> **21 R1.11 Com-TD** : BESSON MATHIEU -> <t:1757577600:t> - <t:1757584800:t> en __S21__
+<t:1757585700:D> **Réussir son BUT L11** : JOUBERT AUDE -> <t:1757585700:t> - <t:1757589300:t> en __S11,S17,S10,S14,S16,S13__
+<t:1757664000:D> **11 R1.01 initation dev SI P11** : BUYLE-BODIN NICOLAS -> <t:1757664000:t> - <t:1757671200:t> en __S17__
+<t:1757676600:D> **21R1.11 Com JMB-TPB** : BAILLEUX JEAN-MARC -> <t:1757676600:t> - <t:1757683800:t> en __037-Conseil__
+<t:1757683800:D> **11 R1.05-1 Conception BD-TD** : BENSLIMANE DJAMAL -> <t:1757683800:t> - <t:1757691000:t> en __S03__
+
+[2025-09-07T17:10:19.780Z] info: Message sent to channel 1395052332969885726: <t:1757311200:D> **42R1.01 initation dev SI** : BUYLE-BODIN NICOLAS -> <t:1757311200:t> - <t:1757318400:t> en __S03__
+<t:1757318400:D> **11 R1.07 Outils Math. Fond** : JALOUX CHRISTOPHE -> <t:1757318400:t> - <t:1757325600:t> en __S10__
+<t:1757332800:D> **11 R1.09 Economie-TD** : LAGACHE ALEXANDRA -> <t:1757332800:t> - <t:1757340000:t> en __S15__
+<t:1757397600:D> **11 R1.04 Intro Systèmes-TD** : DAUTRAIX ISABELLE -> <t:1757397600:t> - <t:1757404800:t> en __S14__
+<t:1757404800:D> **21 R1.04 Intro Systèmes-TD** : DAUTRAIX ISABELLE -> <t:1757404800:t> - <t:1757412000:t> en __S16__
+<t:1757419200:D> **22 R1.07 Outils Math. Fond TPB** : JALOUX CHRISTOPHE -> <t:1757419200:t> - <t:1757426400:t> en __S10__
+<t:1757491200:D> **31 R1.01 initation dev TD** : BUYLE-BODIN NICOLAS -> <t:1757491200:t> - <t:1757498400:t> en __S11__
+<t:1757505600:D> **21R1.01 initation dev TD** : BUYLE-BODIN NICOLAS -> <t:1757505600:t> - <t:1757512800:t> en __040__
+<t:1757512800:D> **21 R1.09 Economie-TD** : LAGACHE ALEXANDRA -> <t:1757512800:t> - <t:1757520000:t> en __040__
+<t:1757570400:D> **11 R1.11 Com-TD** : BESSON MATHIEU -> <t:1757570400:t> - <t:1757577600:t> en __S21__
+<t:1757577600:D> **21 R1.11 Com-TD** : BESSON MATHIEU -> <t:1757577600:t> - <t:1757584800:t> en __S21__
+<t:1757585700:D> **Réussir son BUT L11** : JOUBERT AUDE -> <t:1757585700:t> - <t:1757589300:t> en __S11,S17,S10,S14,S16,S13__
+<t:1757664000:D> **11 R1.01 initation dev SI P11** : BUYLE-BODIN NICOLAS -> <t:1757664000:t> - <t:1757671200:t> en __S17__
+<t:1757676600:D> **21R1.11 Com JMB-TPB** : BAILLEUX JEAN-MARC -> <t:1757676600:t> - <t:1757683800:t> en __037-Conseil__
+<t:1757683800:D> **11 R1.05-1 Conception BD-TD** : BENSLIMANE DJAMAL -> <t:1757683800:t> - <t:1757691000:t> en __S03__
+
+[2025-09-07T17:10:19.782Z] info: Sending message to channel 1395052379866660874: <t:1757311200:D> **11 R1.11 Com-TD** : SAUJOT GUILLAUME -> <t:1757311200:t> - <t:1757318400:t> en __037-Conseil__
+<t:1757318400:D> **21 R1.11 Com-TD** : SAUJOT GUILLAUME -> <t:1757318400:t> - <t:1757325600:t> en __037-Conseil__
+<t:1757332800:D> **11 R1.07 Outils Math. Fond** : JALOUX CHRISTOPHE -> <t:1757332800:t> - <t:1757340000:t> en __S10__
+<t:1757404800:D> **11 R1.04 Intro Systèmes-TD** : BUYLE-BODIN NICOLAS -> <t:1757404800:t> - <t:1757412000:t> en __S13__
+<t:1757484000:D> **21 R1.04 Intro Systèmes-TD** : BUYLE-BODIN NICOLAS -> <t:1757484000:t> - <t:1757491200:t> en __S14__
+<t:1757491200:D> **11 R1.05-1 Conception BD-TD** : BEN HADID AMIRA -> <t:1757491200:t> - <t:1757498400:t> en __S16__
+<t:1757505600:D> **11 R1.09 Economie-TD** : DUTREY ELLIOT -> <t:1757505600:t> - <t:1757512800:t> en __S10__
+<t:1757512800:D> **21 R1.09 Economie-TD** : DUTREY ELLIOT -> <t:1757512800:t> - <t:1757520000:t> en __S12__
+<t:1757570400:D> **42R1.01 initation dev SI** : DAUTRAIX ISABELLE -> <t:1757570400:t> - <t:1757577600:t> en __S14__
+<t:1757577600:D> **31 R1.01 initation dev TD** : DAUTRAIX ISABELLE -> <t:1757577600:t> - <t:1757584800:t> en __S25__
+<t:1757585700:D> **Réussir son BUT L11** : JOUBERT AUDE -> <t:1757585700:t> - <t:1757589300:t> en __S11,S17,S10,S14,S16,S13__
+<t:1757590200:D> **R1.01 initation dev TD P12** : DAUTRAIX ISABELLE -> <t:1757590200:t> - <t:1757597400:t> en __S15__
+<t:1757656800:D> **11 R1.01 initation dev SI P11** : DAUTRAIX ISABELLE -> <t:1757656800:t> - <t:1757664000:t> en __S17__
+<t:1757664000:D> **32 R1.07 Outils Math. Fond TPA** : JALOUX CHRISTOPHE -> <t:1757664000:t> - <t:1757671200:t> en __S10__
+<t:1757676600:D> **21R1.01 initation dev TD** : DAUTRAIX ISABELLE -> <t:1757676600:t> - <t:1757683800:t> en __040__
+<t:1757683800:D> **11R1.11 Com JMB-TPA** : BAILLEUX JEAN-MARC -> <t:1757683800:t> - <t:1757691000:t> en __037-Conseil__
+
+[2025-09-07T17:10:19.783Z] info: Message sent to channel 1395052379866660874: <t:1757311200:D> **11 R1.11 Com-TD** : SAUJOT GUILLAUME -> <t:1757311200:t> - <t:1757318400:t> en __037-Conseil__
+<t:1757318400:D> **21 R1.11 Com-TD** : SAUJOT GUILLAUME -> <t:1757318400:t> - <t:1757325600:t> en __037-Conseil__
+<t:1757332800:D> **11 R1.07 Outils Math. Fond** : JALOUX CHRISTOPHE -> <t:1757332800:t> - <t:1757340000:t> en __S10__
+<t:1757404800:D> **11 R1.04 Intro Systèmes-TD** : BUYLE-BODIN NICOLAS -> <t:1757404800:t> - <t:1757412000:t> en __S13__
+<t:1757484000:D> **21 R1.04 Intro Systèmes-TD** : BUYLE-BODIN NICOLAS -> <t:1757484000:t> - <t:1757491200:t> en __S14__
+<t:1757491200:D> **11 R1.05-1 Conception BD-TD** : BEN HADID AMIRA -> <t:1757491200:t> - <t:1757498400:t> en __S16__
+<t:1757505600:D> **11 R1.09 Economie-TD** : DUTREY ELLIOT -> <t:1757505600:t> - <t:1757512800:t> en __S10__
+<t:1757512800:D> **21 R1.09 Economie-TD** : DUTREY ELLIOT -> <t:1757512800:t> - <t:1757520000:t> en __S12__
+<t:1757570400:D> **42R1.01 initation dev SI** : DAUTRAIX ISABELLE -> <t:1757570400:t> - <t:1757577600:t> en __S14__
+<t:1757577600:D> **31 R1.01 initation dev TD** : DAUTRAIX ISABELLE -> <t:1757577600:t> - <t:1757584800:t> en __S25__
+<t:1757585700:D> **Réussir son BUT L11** : JOUBERT AUDE -> <t:1757585700:t> - <t:1757589300:t> en __S11,S17,S10,S14,S16,S13__
+<t:1757590200:D> **R1.01 initation dev TD P12** : DAUTRAIX ISABELLE -> <t:1757590200:t> - <t:1757597400:t> en __S15__
+<t:1757656800:D> **11 R1.01 initation dev SI P11** : DAUTRAIX ISABELLE -> <t:1757656800:t> - <t:1757664000:t> en __S17__
+<t:1757664000:D> **32 R1.07 Outils Math. Fond TPA** : JALOUX CHRISTOPHE -> <t:1757664000:t> - <t:1757671200:t> en __S10__
+<t:1757676600:D> **21R1.01 initation dev TD** : DAUTRAIX ISABELLE -> <t:1757676600:t> - <t:1757683800:t> en __040__
+<t:1757683800:D> **11R1.11 Com JMB-TPA** : BAILLEUX JEAN-MARC -> <t:1757683800:t> - <t:1757691000:t> en __037-Conseil__
+
+[2025-09-07T17:10:19.786Z] info: Sending message to channel 1395052392092930048: <t:1757311200:D> **11 R1.11 Com-TD** : SAUJOT GUILLAUME -> <t:1757311200:t> - <t:1757318400:t> en __037-Conseil__
+<t:1757318400:D> **21 R1.11 Com-TD** : SAUJOT GUILLAUME -> <t:1757318400:t> - <t:1757325600:t> en __037-Conseil__
+<t:1757332800:D> **11 R1.07 Outils Math. Fond** : JALOUX CHRISTOPHE -> <t:1757332800:t> - <t:1757340000:t> en __S10__
+<t:1757397600:D> **22 R1.07 Outils Math. Fond TPB** : JALOUX CHRISTOPHE -> <t:1757397600:t> - <t:1757404800:t> en __S10__
+<t:1757404800:D> **11 R1.04 Intro Systèmes-TD** : BUYLE-BODIN NICOLAS -> <t:1757404800:t> - <t:1757412000:t> en __S13__
+<t:1757484000:D> **21 R1.04 Intro Systèmes-TD** : BUYLE-BODIN NICOLAS -> <t:1757484000:t> - <t:1757491200:t> en __S14__
+<t:1757491200:D> **11 R1.05-1 Conception BD-TD** : BEN HADID AMIRA -> <t:1757491200:t> - <t:1757498400:t> en __S16__
+<t:1757505600:D> **11 R1.09 Economie-TD** : DUTREY ELLIOT -> <t:1757505600:t> - <t:1757512800:t> en __S10__
+<t:1757512800:D> **21 R1.09 Economie-TD** : DUTREY ELLIOT -> <t:1757512800:t> - <t:1757520000:t> en __S12__
+<t:1757570400:D> **42R1.01 initation dev SI** : DAUTRAIX ISABELLE -> <t:1757570400:t> - <t:1757577600:t> en __S14__
+<t:1757577600:D> **31 R1.01 initation dev TD** : DAUTRAIX ISABELLE -> <t:1757577600:t> - <t:1757584800:t> en __S25__
+<t:1757585700:D> **Réussir son BUT L11** : JOUBERT AUDE -> <t:1757585700:t> - <t:1757589300:t> en __S11,S17,S10,S14,S16,S13__
+<t:1757590200:D> **R1.01 initation dev TD P12** : DAUTRAIX ISABELLE -> <t:1757590200:t> - <t:1757597400:t> en __S15__
+<t:1757599200:D> **21R1.11 Com JMB-TPB** : BAILLEUX JEAN-MARC -> <t:1757599200:t> - <t:1757606400:t> en __037-Conseil__
+<t:1757656800:D> **11 R1.01 initation dev SI P11** : DAUTRAIX ISABELLE -> <t:1757656800:t> - <t:1757664000:t> en __S17__
+<t:1757676600:D> **21R1.01 initation dev TD** : DAUTRAIX ISABELLE -> <t:1757676600:t> - <t:1757683800:t> en __040__
+
+[2025-09-07T17:10:19.786Z] info: Message sent to channel 1395052392092930048: <t:1757311200:D> **11 R1.11 Com-TD** : SAUJOT GUILLAUME -> <t:1757311200:t> - <t:1757318400:t> en __037-Conseil__
+<t:1757318400:D> **21 R1.11 Com-TD** : SAUJOT GUILLAUME -> <t:1757318400:t> - <t:1757325600:t> en __037-Conseil__
+<t:1757332800:D> **11 R1.07 Outils Math. Fond** : JALOUX CHRISTOPHE -> <t:1757332800:t> - <t:1757340000:t> en __S10__
+<t:1757397600:D> **22 R1.07 Outils Math. Fond TPB** : JALOUX CHRISTOPHE -> <t:1757397600:t> - <t:1757404800:t> en __S10__
+<t:1757404800:D> **11 R1.04 Intro Systèmes-TD** : BUYLE-BODIN NICOLAS -> <t:1757404800:t> - <t:1757412000:t> en __S13__
+<t:1757484000:D> **21 R1.04 Intro Systèmes-TD** : BUYLE-BODIN NICOLAS -> <t:1757484000:t> - <t:1757491200:t> en __S14__
+<t:1757491200:D> **11 R1.05-1 Conception BD-TD** : BEN HADID AMIRA -> <t:1757491200:t> - <t:1757498400:t> en __S16__
+<t:1757505600:D> **11 R1.09 Economie-TD** : DUTREY ELLIOT -> <t:1757505600:t> - <t:1757512800:t> en __S10__
+<t:1757512800:D> **21 R1.09 Economie-TD** : DUTREY ELLIOT -> <t:1757512800:t> - <t:1757520000:t> en __S12__
+<t:1757570400:D> **42R1.01 initation dev SI** : DAUTRAIX ISABELLE -> <t:1757570400:t> - <t:1757577600:t> en __S14__
+<t:1757577600:D> **31 R1.01 initation dev TD** : DAUTRAIX ISABELLE -> <t:1757577600:t> - <t:1757584800:t> en __S25__
+<t:1757585700:D> **Réussir son BUT L11** : JOUBERT AUDE -> <t:1757585700:t> - <t:1757589300:t> en __S11,S17,S10,S14,S16,S13__
+<t:1757590200:D> **R1.01 initation dev TD P12** : DAUTRAIX ISABELLE -> <t:1757590200:t> - <t:1757597400:t> en __S15__
+<t:1757599200:D> **21R1.11 Com JMB-TPB** : BAILLEUX JEAN-MARC -> <t:1757599200:t> - <t:1757606400:t> en __037-Conseil__
+<t:1757656800:D> **11 R1.01 initation dev SI P11** : DAUTRAIX ISABELLE -> <t:1757656800:t> - <t:1757664000:t> en __S17__
+<t:1757676600:D> **21R1.01 initation dev TD** : DAUTRAIX ISABELLE -> <t:1757676600:t> - <t:1757683800:t> en __040__
+
+[2025-09-07T17:10:19.789Z] info: Sending message to channel 1395056179914473612: <t:1757311200:D> **11 R1.05-1 Conception BD-TD** : TOURON GEOFFREY -> <t:1757311200:t> - <t:1757318400:t> en __S24__
+<t:1757332800:D> **11 R1.07 Outils Math. Fond** : JOUBERT AUDE -> <t:1757332800:t> - <t:1757340000:t> en __S11__
+<t:1757340000:D> **11 R1.09 Economie-TD** : LAGACHE ALEXANDRA -> <t:1757340000:t> - <t:1757347200:t> en __S15__
+<t:1757397600:D> **21 R1.07 Outils Math. Fond TPA** : JOUBERT AUDE -> <t:1757397600:t> - <t:1757404800:t> en __S11__
+<t:1757404800:D> **11 R1.01 initation dev SI P11** : VIDAL VINCENT -> <t:1757404800:t> - <t:1757412000:t> en __S24__
+<t:1757419200:D> **42R1.01 initation dev SI** : VIDAL VINCENT -> <t:1757419200:t> - <t:1757426400:t> en __S24__
+<t:1757484000:D> **21R1.01 initation dev TD** : VIDAL VINCENT -> <t:1757484000:t> - <t:1757491200:t> en __040__
+<t:1757491200:D> **31 R1.01 initation dev TD** : VIDAL VINCENT -> <t:1757491200:t> - <t:1757498400:t> en __S24__
+<t:1757505600:D> **21 R1.11 Com-TD** : KOCH SONJA -> <t:1757505600:t> - <t:1757512800:t> en __037-Conseil__
+<t:1757570400:D> **11R1.11 Com JMB-TPA** : BAILLEUX JEAN-MARC -> <t:1757570400:t> - <t:1757577600:t> en __037-Conseil__
+<t:1757577600:D> **21 R1.09 Economie-TD** : LAGACHE ALEXANDRA -> <t:1757577600:t> - <t:1757584800:t> en __S15__
+<t:1757585700:D> **Réussir son BUT L11** : JOUBERT AUDE -> <t:1757585700:t> - <t:1757589300:t> en __S11,S17,S10,S14,S16,S13__
+<t:1757664000:D> **11 R1.11 Com-TD** : KOCH SONJA -> <t:1757664000:t> - <t:1757671200:t> en __040__
+<t:1757676600:D> **11 R1.04 Intro Systèmes-TD** : G3S1B -> <t:1757676600:t> - <t:1757683800:t> en __S16__
+<t:1757683800:D> **21 R1.04 Intro Systèmes-TD** : G3S1B -> <t:1757683800:t> - <t:1757691000:t> en __S16__
+
+[2025-09-07T17:10:19.789Z] info: Message sent to channel 1395056179914473612: <t:1757311200:D> **11 R1.05-1 Conception BD-TD** : TOURON GEOFFREY -> <t:1757311200:t> - <t:1757318400:t> en __S24__
+<t:1757332800:D> **11 R1.07 Outils Math. Fond** : JOUBERT AUDE -> <t:1757332800:t> - <t:1757340000:t> en __S11__
+<t:1757340000:D> **11 R1.09 Economie-TD** : LAGACHE ALEXANDRA -> <t:1757340000:t> - <t:1757347200:t> en __S15__
+<t:1757397600:D> **21 R1.07 Outils Math. Fond TPA** : JOUBERT AUDE -> <t:1757397600:t> - <t:1757404800:t> en __S11__
+<t:1757404800:D> **11 R1.01 initation dev SI P11** : VIDAL VINCENT -> <t:1757404800:t> - <t:1757412000:t> en __S24__
+<t:1757419200:D> **42R1.01 initation dev SI** : VIDAL VINCENT -> <t:1757419200:t> - <t:1757426400:t> en __S24__
+<t:1757484000:D> **21R1.01 initation dev TD** : VIDAL VINCENT -> <t:1757484000:t> - <t:1757491200:t> en __040__
+<t:1757491200:D> **31 R1.01 initation dev TD** : VIDAL VINCENT -> <t:1757491200:t> - <t:1757498400:t> en __S24__
+<t:1757505600:D> **21 R1.11 Com-TD** : KOCH SONJA -> <t:1757505600:t> - <t:1757512800:t> en __037-Conseil__
+<t:1757570400:D> **11R1.11 Com JMB-TPA** : BAILLEUX JEAN-MARC -> <t:1757570400:t> - <t:1757577600:t> en __037-Conseil__
+<t:1757577600:D> **21 R1.09 Economie-TD** : LAGACHE ALEXANDRA -> <t:1757577600:t> - <t:1757584800:t> en __S15__
+<t:1757585700:D> **Réussir son BUT L11** : JOUBERT AUDE -> <t:1757585700:t> - <t:1757589300:t> en __S11,S17,S10,S14,S16,S13__
+<t:1757664000:D> **11 R1.11 Com-TD** : KOCH SONJA -> <t:1757664000:t> - <t:1757671200:t> en __040__
+<t:1757676600:D> **11 R1.04 Intro Systèmes-TD** : G3S1B -> <t:1757676600:t> - <t:1757683800:t> en __S16__
+<t:1757683800:D> **21 R1.04 Intro Systèmes-TD** : G3S1B -> <t:1757683800:t> - <t:1757691000:t> en __S16__
+
+[2025-09-07T17:10:19.792Z] info: Sending message to channel 1395052422401101905: <t:1757311200:D> **11 R1.05-1 Conception BD-TD** : TOURON GEOFFREY -> <t:1757311200:t> - <t:1757318400:t> en __S24__
+<t:1757332800:D> **11 R1.07 Outils Math. Fond** : JOUBERT AUDE -> <t:1757332800:t> - <t:1757340000:t> en __S11__
+<t:1757340000:D> **11 R1.09 Economie-TD** : LAGACHE ALEXANDRA -> <t:1757340000:t> - <t:1757347200:t> en __S15__
+<t:1757404800:D> **11 R1.01 initation dev SI P11** : VIDAL VINCENT -> <t:1757404800:t> - <t:1757412000:t> en __S24__
+<t:1757419200:D> **42R1.01 initation dev SI** : VIDAL VINCENT -> <t:1757419200:t> - <t:1757426400:t> en __S24__
+<t:1757484000:D> **21R1.01 initation dev TD** : VIDAL VINCENT -> <t:1757484000:t> - <t:1757491200:t> en __040__
+<t:1757491200:D> **31 R1.01 initation dev TD** : VIDAL VINCENT -> <t:1757491200:t> - <t:1757498400:t> en __S24__
+<t:1757505600:D> **21 R1.11 Com-TD** : KOCH SONJA -> <t:1757505600:t> - <t:1757512800:t> en __037-Conseil__
+<t:1757570400:D> **31 R1.07 Outils Math. Fond TPB** : JOUBERT AUDE -> <t:1757570400:t> - <t:1757577600:t> en __S11__
+<t:1757577600:D> **21 R1.09 Economie-TD** : LAGACHE ALEXANDRA -> <t:1757577600:t> - <t:1757584800:t> en __S15__
+<t:1757585700:D> **Réussir son BUT L11** : JOUBERT AUDE -> <t:1757585700:t> - <t:1757589300:t> en __S11,S17,S10,S14,S16,S13__
+<t:1757656800:D> **R1.11 Com JMB-TPB** : BAILLEUX JEAN-MARC -> <t:1757656800:t> - <t:1757664000:t> en __037-Conseil__
+<t:1757664000:D> **11 R1.11 Com-TD** : KOCH SONJA -> <t:1757664000:t> - <t:1757671200:t> en __040__
+<t:1757676600:D> **11 R1.04 Intro Systèmes-TD** : G3S1B -> <t:1757676600:t> - <t:1757683800:t> en __S16__
+<t:1757683800:D> **21 R1.04 Intro Systèmes-TD** : G3S1B -> <t:1757683800:t> - <t:1757691000:t> en __S16__
+
+[2025-09-07T17:10:19.792Z] info: Message sent to channel 1395052422401101905: <t:1757311200:D> **11 R1.05-1 Conception BD-TD** : TOURON GEOFFREY -> <t:1757311200:t> - <t:1757318400:t> en __S24__
+<t:1757332800:D> **11 R1.07 Outils Math. Fond** : JOUBERT AUDE -> <t:1757332800:t> - <t:1757340000:t> en __S11__
+<t:1757340000:D> **11 R1.09 Economie-TD** : LAGACHE ALEXANDRA -> <t:1757340000:t> - <t:1757347200:t> en __S15__
+<t:1757404800:D> **11 R1.01 initation dev SI P11** : VIDAL VINCENT -> <t:1757404800:t> - <t:1757412000:t> en __S24__
+<t:1757419200:D> **42R1.01 initation dev SI** : VIDAL VINCENT -> <t:1757419200:t> - <t:1757426400:t> en __S24__
+<t:1757484000:D> **21R1.01 initation dev TD** : VIDAL VINCENT -> <t:1757484000:t> - <t:1757491200:t> en __040__
+<t:1757491200:D> **31 R1.01 initation dev TD** : VIDAL VINCENT -> <t:1757491200:t> - <t:1757498400:t> en __S24__
+<t:1757505600:D> **21 R1.11 Com-TD** : KOCH SONJA -> <t:1757505600:t> - <t:1757512800:t> en __037-Conseil__
+<t:1757570400:D> **31 R1.07 Outils Math. Fond TPB** : JOUBERT AUDE -> <t:1757570400:t> - <t:1757577600:t> en __S11__
+<t:1757577600:D> **21 R1.09 Economie-TD** : LAGACHE ALEXANDRA -> <t:1757577600:t> - <t:1757584800:t> en __S15__
+<t:1757585700:D> **Réussir son BUT L11** : JOUBERT AUDE -> <t:1757585700:t> - <t:1757589300:t> en __S11,S17,S10,S14,S16,S13__
+<t:1757656800:D> **R1.11 Com JMB-TPB** : BAILLEUX JEAN-MARC -> <t:1757656800:t> - <t:1757664000:t> en __037-Conseil__
+<t:1757664000:D> **11 R1.11 Com-TD** : KOCH SONJA -> <t:1757664000:t> - <t:1757671200:t> en __040__
+<t:1757676600:D> **11 R1.04 Intro Systèmes-TD** : G3S1B -> <t:1757676600:t> - <t:1757683800:t> en __S16__
+<t:1757683800:D> **21 R1.04 Intro Systèmes-TD** : G3S1B -> <t:1757683800:t> - <t:1757691000:t> en __S16__
+
+[2025-09-07T17:10:19.795Z] info: Sending message to channel 1395052443192266916: <t:1757318400:D> **11 R1.07 Outils Math. Fond** : JOUBERT AUDE -> <t:1757318400:t> - <t:1757325600:t> en __S11__
+<t:1757332800:D> **11 R1.01 initation dev SI P11** : NDIAYE SAMBA NDOJH -> <t:1757332800:t> - <t:1757340000:t> en __S24__
+<t:1757340000:D> **21 R1.11 Com-TD** : DEBOUTE JOCELYNE -> <t:1757340000:t> - <t:1757347200:t> en __040__
+<t:1757397600:D> **21 R1.04 Intro Systèmes-TD** : BUYLE-BODIN NICOLAS -> <t:1757397600:t> - <t:1757404800:t> en __S13__
+<t:1757404800:D> **21 R1.07 Outils Math. Fond TPA** : JOUBERT AUDE -> <t:1757404800:t> - <t:1757412000:t> en __S11__
+<t:1757419200:D> **31 R1.01 initation dev TD** : NDIAYE SAMBA NDOJH -> <t:1757419200:t> - <t:1757426400:t> en __040__
+<t:1757426400:D> **21R1.01 initation dev TD** : NDIAYE SAMBA NDOJH -> <t:1757426400:t> - <t:1757433600:t> en __S11__
+<t:1757484000:D> **11 R1.05-1 Conception BD-TD** : BEN HADID AMIRA -> <t:1757484000:t> - <t:1757491200:t> en __S03__
+<t:1757491200:D> **11 R1.09 Economie-TD** : MAGNIN FLORENCE -> <t:1757491200:t> - <t:1757498400:t> en __S15__
+<t:1757505600:D> **21 R1.09 Economie-TD** : MAGNIN FLORENCE -> <t:1757505600:t> - <t:1757512800:t> en __S11__
+<t:1757512800:D> **R1.10 Anglais-TPA P1** : CANQUE FLORENCE -> <t:1757512800:t> - <t:1757520000:t> en __028__
+<t:1757577600:D> **11R1.11 Com JMB-TPA** : BAILLEUX JEAN-MARC -> <t:1757577600:t> - <t:1757584800:t> en __037-Conseil__
+<t:1757585700:D> **Réussir son BUT L11** : JOUBERT AUDE -> <t:1757585700:t> - <t:1757589300:t> en __S11,S17,S10,S14,S16,S13__
+<t:1757656800:D> **11 R1.04 Intro Systèmes-TD** : BUYLE-BODIN NICOLAS -> <t:1757656800:t> - <t:1757664000:t> en __S13__
+<t:1757676600:D> **11 R1.11 Com-TD** : DEBOUTE JOCELYNE -> <t:1757676600:t> - <t:1757683800:t> en __S21__
+<t:1757683800:D> **42R1.01 initation dev SI** : NDIAYE SAMBA NDOJH -> <t:1757683800:t> - <t:1757691000:t> en __S24__
+
+[2025-09-07T17:10:19.795Z] info: Message sent to channel 1395052443192266916: <t:1757318400:D> **11 R1.07 Outils Math. Fond** : JOUBERT AUDE -> <t:1757318400:t> - <t:1757325600:t> en __S11__
+<t:1757332800:D> **11 R1.01 initation dev SI P11** : NDIAYE SAMBA NDOJH -> <t:1757332800:t> - <t:1757340000:t> en __S24__
+<t:1757340000:D> **21 R1.11 Com-TD** : DEBOUTE JOCELYNE -> <t:1757340000:t> - <t:1757347200:t> en __040__
+<t:1757397600:D> **21 R1.04 Intro Systèmes-TD** : BUYLE-BODIN NICOLAS -> <t:1757397600:t> - <t:1757404800:t> en __S13__
+<t:1757404800:D> **21 R1.07 Outils Math. Fond TPA** : JOUBERT AUDE -> <t:1757404800:t> - <t:1757412000:t> en __S11__
+<t:1757419200:D> **31 R1.01 initation dev TD** : NDIAYE SAMBA NDOJH -> <t:1757419200:t> - <t:1757426400:t> en __040__
+<t:1757426400:D> **21R1.01 initation dev TD** : NDIAYE SAMBA NDOJH -> <t:1757426400:t> - <t:1757433600:t> en __S11__
+<t:1757484000:D> **11 R1.05-1 Conception BD-TD** : BEN HADID AMIRA -> <t:1757484000:t> - <t:1757491200:t> en __S03__
+<t:1757491200:D> **11 R1.09 Economie-TD** : MAGNIN FLORENCE -> <t:1757491200:t> - <t:1757498400:t> en __S15__
+<t:1757505600:D> **21 R1.09 Economie-TD** : MAGNIN FLORENCE -> <t:1757505600:t> - <t:1757512800:t> en __S11__
+<t:1757512800:D> **R1.10 Anglais-TPA P1** : CANQUE FLORENCE -> <t:1757512800:t> - <t:1757520000:t> en __028__
+<t:1757577600:D> **11R1.11 Com JMB-TPA** : BAILLEUX JEAN-MARC -> <t:1757577600:t> - <t:1757584800:t> en __037-Conseil__
+<t:1757585700:D> **Réussir son BUT L11** : JOUBERT AUDE -> <t:1757585700:t> - <t:1757589300:t> en __S11,S17,S10,S14,S16,S13__
+<t:1757656800:D> **11 R1.04 Intro Systèmes-TD** : BUYLE-BODIN NICOLAS -> <t:1757656800:t> - <t:1757664000:t> en __S13__
+<t:1757676600:D> **11 R1.11 Com-TD** : DEBOUTE JOCELYNE -> <t:1757676600:t> - <t:1757683800:t> en __S21__
+<t:1757683800:D> **42R1.01 initation dev SI** : NDIAYE SAMBA NDOJH -> <t:1757683800:t> - <t:1757691000:t> en __S24__
+
+[2025-09-07T17:10:19.797Z] info: Sending message to channel 1395052467070177290: <t:1757311200:D> **R1.10 Anglais-TPB P1** : ABAUZIT DUFAUD GISELE -> <t:1757311200:t> - <t:1757318400:t> en __026-Langues__
+<t:1757318400:D> **11 R1.07 Outils Math. Fond** : JOUBERT AUDE -> <t:1757318400:t> - <t:1757325600:t> en __S11__
+<t:1757332800:D> **11 R1.01 initation dev SI P11** : NDIAYE SAMBA NDOJH -> <t:1757332800:t> - <t:1757340000:t> en __S24__
+<t:1757340000:D> **21 R1.11 Com-TD** : DEBOUTE JOCELYNE -> <t:1757340000:t> - <t:1757347200:t> en __040__
+<t:1757397600:D> **21 R1.04 Intro Systèmes-TD** : BUYLE-BODIN NICOLAS -> <t:1757397600:t> - <t:1757404800:t> en __S13__
+<t:1757419200:D> **31 R1.01 initation dev TD** : NDIAYE SAMBA NDOJH -> <t:1757419200:t> - <t:1757426400:t> en __040__
+<t:1757426400:D> **21R1.01 initation dev TD** : NDIAYE SAMBA NDOJH -> <t:1757426400:t> - <t:1757433600:t> en __S11__
+<t:1757484000:D> **11 R1.05-1 Conception BD-TD** : BEN HADID AMIRA -> <t:1757484000:t> - <t:1757491200:t> en __S03__
+<t:1757491200:D> **11 R1.09 Economie-TD** : MAGNIN FLORENCE -> <t:1757491200:t> - <t:1757498400:t> en __S15__
+<t:1757505600:D> **21 R1.09 Economie-TD** : MAGNIN FLORENCE -> <t:1757505600:t> - <t:1757512800:t> en __S11__
+<t:1757577600:D> **31 R1.07 Outils Math. Fond TPB** : JOUBERT AUDE -> <t:1757577600:t> - <t:1757584800:t> en __S11__
+<t:1757585700:D> **Réussir son BUT L11** : JOUBERT AUDE -> <t:1757585700:t> - <t:1757589300:t> en __S11,S17,S10,S14,S16,S13__
+<t:1757656800:D> **11 R1.04 Intro Systèmes-TD** : BUYLE-BODIN NICOLAS -> <t:1757656800:t> - <t:1757664000:t> en __S13__
+<t:1757664000:D> **21R1.11 Com JMB-TPB** : BAILLEUX JEAN-MARC -> <t:1757664000:t> - <t:1757671200:t> en __037-Conseil__
+<t:1757676600:D> **11 R1.11 Com-TD** : DEBOUTE JOCELYNE -> <t:1757676600:t> - <t:1757683800:t> en __S21__
+<t:1757683800:D> **42R1.01 initation dev SI** : NDIAYE SAMBA NDOJH -> <t:1757683800:t> - <t:1757691000:t> en __S24__
+
+[2025-09-07T17:10:19.798Z] info: Message sent to channel 1395052467070177290: <t:1757311200:D> **R1.10 Anglais-TPB P1** : ABAUZIT DUFAUD GISELE -> <t:1757311200:t> - <t:1757318400:t> en __026-Langues__
+<t:1757318400:D> **11 R1.07 Outils Math. Fond** : JOUBERT AUDE -> <t:1757318400:t> - <t:1757325600:t> en __S11__
+<t:1757332800:D> **11 R1.01 initation dev SI P11** : NDIAYE SAMBA NDOJH -> <t:1757332800:t> - <t:1757340000:t> en __S24__
+<t:1757340000:D> **21 R1.11 Com-TD** : DEBOUTE JOCELYNE -> <t:1757340000:t> - <t:1757347200:t> en __040__
+<t:1757397600:D> **21 R1.04 Intro Systèmes-TD** : BUYLE-BODIN NICOLAS -> <t:1757397600:t> - <t:1757404800:t> en __S13__
+<t:1757419200:D> **31 R1.01 initation dev TD** : NDIAYE SAMBA NDOJH -> <t:1757419200:t> - <t:1757426400:t> en __040__
+<t:1757426400:D> **21R1.01 initation dev TD** : NDIAYE SAMBA NDOJH -> <t:1757426400:t> - <t:1757433600:t> en __S11__
+<t:1757484000:D> **11 R1.05-1 Conception BD-TD** : BEN HADID AMIRA -> <t:1757484000:t> - <t:1757491200:t> en __S03__
+<t:1757491200:D> **11 R1.09 Economie-TD** : MAGNIN FLORENCE -> <t:1757491200:t> - <t:1757498400:t> en __S15__
+<t:1757505600:D> **21 R1.09 Economie-TD** : MAGNIN FLORENCE -> <t:1757505600:t> - <t:1757512800:t> en __S11__
+<t:1757577600:D> **31 R1.07 Outils Math. Fond TPB** : JOUBERT AUDE -> <t:1757577600:t> - <t:1757584800:t> en __S11__
+<t:1757585700:D> **Réussir son BUT L11** : JOUBERT AUDE -> <t:1757585700:t> - <t:1757589300:t> en __S11,S17,S10,S14,S16,S13__
+<t:1757656800:D> **11 R1.04 Intro Systèmes-TD** : BUYLE-BODIN NICOLAS -> <t:1757656800:t> - <t:1757664000:t> en __S13__
+<t:1757664000:D> **21R1.11 Com JMB-TPB** : BAILLEUX JEAN-MARC -> <t:1757664000:t> - <t:1757671200:t> en __037-Conseil__
+<t:1757676600:D> **11 R1.11 Com-TD** : DEBOUTE JOCELYNE -> <t:1757676600:t> - <t:1757683800:t> en __S21__
+<t:1757683800:D> **42R1.01 initation dev SI** : NDIAYE SAMBA NDOJH -> <t:1757683800:t> - <t:1757691000:t> en __S24__
+
+[2025-09-07T17:10:19.800Z] info: Sending message to channel 1395052827985842288: <t:1757318400:D> **11 R1.07 Outils Math. Fond** : LEROUX STEPHANE -> <t:1757318400:t> - <t:1757325600:t> en __040__
+<t:1757332800:D> **11R1.11 Com JMB-TPA** : BAILLEUX JEAN-MARC -> <t:1757332800:t> - <t:1757340000:t> en __S25__
+<t:1757419200:D> **31 R1.01 initation dev TD** : BARON ARIANE -> <t:1757419200:t> - <t:1757426400:t> en __S12__
+<t:1757426400:D> **21R1.01 initation dev TD** : BARON ARIANE -> <t:1757426400:t> - <t:1757433600:t> en __S12__
+<t:1757484000:D> **11 R1.11 Com-TD** : BESSON MATHIEU -> <t:1757484000:t> - <t:1757491200:t> en __S24__
+<t:1757491200:D> **21 R1.11 Com-TD** : BESSON MATHIEU -> <t:1757491200:t> - <t:1757498400:t> en __037-Conseil__
+<t:1757505600:D> **21 R1.09 Economie-TD** : LAGACHE ALEXANDRA -> <t:1757505600:t> - <t:1757512800:t> en __S15__
+<t:1757512800:D> **11 R1.05-1 Conception BD-TD** : BUYLE-BODIN NICOLAS -> <t:1757512800:t> - <t:1757520000:t> en __S17__
+<t:1757570400:D> **11 R1.09 Economie-TD** : LAGACHE ALEXANDRA -> <t:1757570400:t> - <t:1757577600:t> en __S12__
+<t:1757577600:D> **21 R1.07 Outils Math. Fond TPA** : LEROUX STEPHANE -> <t:1757577600:t> - <t:1757584800:t> en __S12__
+<t:1757585700:D> **Réussir son BUT L11** : JOUBERT AUDE -> <t:1757585700:t> - <t:1757589300:t> en __S11,S17,S10,S14,S16,S13__
+<t:1757664000:D> **42R1.01 initation dev SI** : BARON ARIANE -> <t:1757664000:t> - <t:1757671200:t> en __S14__
+<t:1757676600:D> **11 R1.04 Intro Systèmes-TD P1** : CAPOSIENA JULIEN -> <t:1757676600:t> - <t:1757683800:t> en __S17__
+<t:1757683800:D> **21 R1.04 Intro Systèmes-TD** : CAPOSIENA JULIEN -> <t:1757683800:t> - <t:1757691000:t> en __S17__
+
+[2025-09-07T17:10:19.800Z] info: Message sent to channel 1395052827985842288: <t:1757318400:D> **11 R1.07 Outils Math. Fond** : LEROUX STEPHANE -> <t:1757318400:t> - <t:1757325600:t> en __040__
+<t:1757332800:D> **11R1.11 Com JMB-TPA** : BAILLEUX JEAN-MARC -> <t:1757332800:t> - <t:1757340000:t> en __S25__
+<t:1757419200:D> **31 R1.01 initation dev TD** : BARON ARIANE -> <t:1757419200:t> - <t:1757426400:t> en __S12__
+<t:1757426400:D> **21R1.01 initation dev TD** : BARON ARIANE -> <t:1757426400:t> - <t:1757433600:t> en __S12__
+<t:1757484000:D> **11 R1.11 Com-TD** : BESSON MATHIEU -> <t:1757484000:t> - <t:1757491200:t> en __S24__
+<t:1757491200:D> **21 R1.11 Com-TD** : BESSON MATHIEU -> <t:1757491200:t> - <t:1757498400:t> en __037-Conseil__
+<t:1757505600:D> **21 R1.09 Economie-TD** : LAGACHE ALEXANDRA -> <t:1757505600:t> - <t:1757512800:t> en __S15__
+<t:1757512800:D> **11 R1.05-1 Conception BD-TD** : BUYLE-BODIN NICOLAS -> <t:1757512800:t> - <t:1757520000:t> en __S17__
+<t:1757570400:D> **11 R1.09 Economie-TD** : LAGACHE ALEXANDRA -> <t:1757570400:t> - <t:1757577600:t> en __S12__
+<t:1757577600:D> **21 R1.07 Outils Math. Fond TPA** : LEROUX STEPHANE -> <t:1757577600:t> - <t:1757584800:t> en __S12__
+<t:1757585700:D> **Réussir son BUT L11** : JOUBERT AUDE -> <t:1757585700:t> - <t:1757589300:t> en __S11,S17,S10,S14,S16,S13__
+<t:1757664000:D> **42R1.01 initation dev SI** : BARON ARIANE -> <t:1757664000:t> - <t:1757671200:t> en __S14__
+<t:1757676600:D> **11 R1.04 Intro Systèmes-TD P1** : CAPOSIENA JULIEN -> <t:1757676600:t> - <t:1757683800:t> en __S17__
+<t:1757683800:D> **21 R1.04 Intro Systèmes-TD** : CAPOSIENA JULIEN -> <t:1757683800:t> - <t:1757691000:t> en __S17__
+
+[2025-09-07T17:10:19.802Z] info: Sending message to channel 1395052882486890707: <t:1757318400:D> **11 R1.07 Outils Math. Fond** : LEROUX STEPHANE -> <t:1757318400:t> - <t:1757325600:t> en __040__
+<t:1757419200:D> **31 R1.01 initation dev TD** : BARON ARIANE -> <t:1757419200:t> - <t:1757426400:t> en __S12__
+<t:1757426400:D> **21R1.01 initation dev TD** : BARON ARIANE -> <t:1757426400:t> - <t:1757433600:t> en __S12__
+<t:1757484000:D> **11 R1.11 Com-TD** : BESSON MATHIEU -> <t:1757484000:t> - <t:1757491200:t> en __S24__
+<t:1757491200:D> **21 R1.11 Com-TD** : BESSON MATHIEU -> <t:1757491200:t> - <t:1757498400:t> en __037-Conseil__
+<t:1757505600:D> **21 R1.09 Economie-TD** : LAGACHE ALEXANDRA -> <t:1757505600:t> - <t:1757512800:t> en __S15__
+<t:1757512800:D> **11 R1.05-1 Conception BD-TD** : BUYLE-BODIN NICOLAS -> <t:1757512800:t> - <t:1757520000:t> en __S17__
+<t:1757570400:D> **11 R1.09 Economie-TD** : LAGACHE ALEXANDRA -> <t:1757570400:t> - <t:1757577600:t> en __S12__
+<t:1757585700:D> **Réussir son BUT L11** : JOUBERT AUDE -> <t:1757585700:t> - <t:1757589300:t> en __S11,S17,S10,S14,S16,S13__
+<t:1757592000:D> **21R1.11 Com JMB-TPB** : BAILLEUX JEAN-MARC -> <t:1757592000:t> - <t:1757599200:t> en __037-Conseil__
+<t:1757656800:D> **31 R1.07 Outils Math. Fond TPB** : LEROUX STEPHANE -> <t:1757656800:t> - <t:1757664000:t> en __S15__
+<t:1757664000:D> **42R1.01 initation dev SI** : BARON ARIANE -> <t:1757664000:t> - <t:1757671200:t> en __S14__
+<t:1757676600:D> **11 R1.04 Intro Systèmes-TD P1** : CAPOSIENA JULIEN -> <t:1757676600:t> - <t:1757683800:t> en __S17__
+<t:1757683800:D> **21 R1.04 Intro Systèmes-TD** : CAPOSIENA JULIEN -> <t:1757683800:t> - <t:1757691000:t> en __S17__
+
+[2025-09-07T17:10:19.803Z] info: Message sent to channel 1395052882486890707: <t:1757318400:D> **11 R1.07 Outils Math. Fond** : LEROUX STEPHANE -> <t:1757318400:t> - <t:1757325600:t> en __040__
+<t:1757419200:D> **31 R1.01 initation dev TD** : BARON ARIANE -> <t:1757419200:t> - <t:1757426400:t> en __S12__
+<t:1757426400:D> **21R1.01 initation dev TD** : BARON ARIANE -> <t:1757426400:t> - <t:1757433600:t> en __S12__
+<t:1757484000:D> **11 R1.11 Com-TD** : BESSON MATHIEU -> <t:1757484000:t> - <t:1757491200:t> en __S24__
+<t:1757491200:D> **21 R1.11 Com-TD** : BESSON MATHIEU -> <t:1757491200:t> - <t:1757498400:t> en __037-Conseil__
+<t:1757505600:D> **21 R1.09 Economie-TD** : LAGACHE ALEXANDRA -> <t:1757505600:t> - <t:1757512800:t> en __S15__
+<t:1757512800:D> **11 R1.05-1 Conception BD-TD** : BUYLE-BODIN NICOLAS -> <t:1757512800:t> - <t:1757520000:t> en __S17__
+<t:1757570400:D> **11 R1.09 Economie-TD** : LAGACHE ALEXANDRA -> <t:1757570400:t> - <t:1757577600:t> en __S12__
+<t:1757585700:D> **Réussir son BUT L11** : JOUBERT AUDE -> <t:1757585700:t> - <t:1757589300:t> en __S11,S17,S10,S14,S16,S13__
+<t:1757592000:D> **21R1.11 Com JMB-TPB** : BAILLEUX JEAN-MARC -> <t:1757592000:t> - <t:1757599200:t> en __037-Conseil__
+<t:1757656800:D> **31 R1.07 Outils Math. Fond TPB** : LEROUX STEPHANE -> <t:1757656800:t> - <t:1757664000:t> en __S15__
+<t:1757664000:D> **42R1.01 initation dev SI** : BARON ARIANE -> <t:1757664000:t> - <t:1757671200:t> en __S14__
+<t:1757676600:D> **11 R1.04 Intro Systèmes-TD P1** : CAPOSIENA JULIEN -> <t:1757676600:t> - <t:1757683800:t> en __S17__
+<t:1757683800:D> **21 R1.04 Intro Systèmes-TD** : CAPOSIENA JULIEN -> <t:1757683800:t> - <t:1757691000:t> en __S17__
+
+[2025-09-07T17:10:19.805Z] info: Sending message to channel 1395371275643256924: <t:1757318400:D> **21 R3.10 Management des SI-TD** : DUFOUR KARLINE -> <t:1757318400:t> - <t:1757325600:t> en __S15__
+<t:1757332800:D> **11 R3.07 SQL et Programmation-TD** : BONNET CHRISTINE -> <t:1757332800:t> - <t:1757340000:t> en __S17__
+<t:1757340000:D> **11 R3.03 Analyse-TD** : FACI NOURA -> <t:1757340000:t> - <t:1757347200:t> en __S03__
+<t:1757397600:D> **11 R3.10 Management des SI-TD** : DUFOUR KARLINE -> <t:1757397600:t> - <t:1757404800:t> en __040__
+<t:1757419200:D> **11 R3.05 Programmation système-TD** : WATRIGANT REMI -> <t:1757419200:t> - <t:1757426400:t> en __S03__
+<t:1757484000:D> **SAE TPA0** : JOUBERT AUDE -> <t:1757484000:t> - <t:1757491200:t> en __S16__
+<t:1757491200:D> **11 R3.13 communication professionnelle-TD** : DEBOUTE JOCELYNE -> <t:1757491200:t> - <t:1757498400:t> en __S10__
+<t:1757505600:D> **11 R3.06 Archi. Réseaux-TD** : BARON ARIANE -> <t:1757505600:t> - <t:1757512800:t> en __S12__
+<t:1757570400:D> **11 R3.08 Probabilités-TD** : JALOUX CHRISTOPHE -> <t:1757570400:t> - <t:1757577600:t> en __S10__
+<t:1757577600:D> **21 R3.03 Analyse-TD** : FACI NOURA -> <t:1757577600:t> - <t:1757584800:t> en __S16__
+<t:1757586600:D> **Réunion information** : BESSAC MARIETTE -> <t:1757586600:t> - <t:1757592000:t> en __Amphi1__
+<t:1757676600:D> **21 R3.08 Probabilités-TD** : JALOUX CHRISTOPHE -> <t:1757676600:t> - <t:1757683800:t> en __S10__
+<t:1757683800:D> **11 R3.12 Anglais-TPA** : BESSAC MARIETTE -> <t:1757683800:t> - <t:1757691000:t> en __026-Langues__
+
+[2025-09-07T17:10:19.806Z] info: Message sent to channel 1395371275643256924: <t:1757318400:D> **21 R3.10 Management des SI-TD** : DUFOUR KARLINE -> <t:1757318400:t> - <t:1757325600:t> en __S15__
+<t:1757332800:D> **11 R3.07 SQL et Programmation-TD** : BONNET CHRISTINE -> <t:1757332800:t> - <t:1757340000:t> en __S17__
+<t:1757340000:D> **11 R3.03 Analyse-TD** : FACI NOURA -> <t:1757340000:t> - <t:1757347200:t> en __S03__
+<t:1757397600:D> **11 R3.10 Management des SI-TD** : DUFOUR KARLINE -> <t:1757397600:t> - <t:1757404800:t> en __040__
+<t:1757419200:D> **11 R3.05 Programmation système-TD** : WATRIGANT REMI -> <t:1757419200:t> - <t:1757426400:t> en __S03__
+<t:1757484000:D> **SAE TPA0** : JOUBERT AUDE -> <t:1757484000:t> - <t:1757491200:t> en __S16__
+<t:1757491200:D> **11 R3.13 communication professionnelle-TD** : DEBOUTE JOCELYNE -> <t:1757491200:t> - <t:1757498400:t> en __S10__
+<t:1757505600:D> **11 R3.06 Archi. Réseaux-TD** : BARON ARIANE -> <t:1757505600:t> - <t:1757512800:t> en __S12__
+<t:1757570400:D> **11 R3.08 Probabilités-TD** : JALOUX CHRISTOPHE -> <t:1757570400:t> - <t:1757577600:t> en __S10__
+<t:1757577600:D> **21 R3.03 Analyse-TD** : FACI NOURA -> <t:1757577600:t> - <t:1757584800:t> en __S16__
+<t:1757586600:D> **Réunion information** : BESSAC MARIETTE -> <t:1757586600:t> - <t:1757592000:t> en __Amphi1__
+<t:1757676600:D> **21 R3.08 Probabilités-TD** : JALOUX CHRISTOPHE -> <t:1757676600:t> - <t:1757683800:t> en __S10__
+<t:1757683800:D> **11 R3.12 Anglais-TPA** : BESSAC MARIETTE -> <t:1757683800:t> - <t:1757691000:t> en __026-Langues__
+
+[2025-09-07T17:10:19.808Z] info: Sending message to channel 1395371292533723147: <t:1757318400:D> **21 R3.10 Management des SI-TD** : DUFOUR KARLINE -> <t:1757318400:t> - <t:1757325600:t> en __S15__
+<t:1757332800:D> **11 R3.07 SQL et Programmation-TD** : BONNET CHRISTINE -> <t:1757332800:t> - <t:1757340000:t> en __S17__
+<t:1757340000:D> **11 R3.03 Analyse-TD** : FACI NOURA -> <t:1757340000:t> - <t:1757347200:t> en __S03__
+<t:1757397600:D> **11 R3.10 Management des SI-TD** : DUFOUR KARLINE -> <t:1757397600:t> - <t:1757404800:t> en __040__
+<t:1757404800:D> **21 R3.12 Anglais-TPB** : CANQUE FLORENCE -> <t:1757404800:t> - <t:1757412000:t> en __026-Langues__
+<t:1757419200:D> **11 R3.05 Programmation système-TD** : WATRIGANT REMI -> <t:1757419200:t> - <t:1757426400:t> en __S03__
+<t:1757491200:D> **11 R3.13 communication professionnelle-TD** : DEBOUTE JOCELYNE -> <t:1757491200:t> - <t:1757498400:t> en __S10__
+<t:1757505600:D> **11 R3.06 Archi. Réseaux-TD** : BARON ARIANE -> <t:1757505600:t> - <t:1757512800:t> en __S12__
+<t:1757570400:D> **11 R3.08 Probabilités-TD** : JALOUX CHRISTOPHE -> <t:1757570400:t> - <t:1757577600:t> en __S10__
+<t:1757577600:D> **21 R3.03 Analyse-TD** : FACI NOURA -> <t:1757577600:t> - <t:1757584800:t> en __S16__
+<t:1757586600:D> **Réunion information** : BESSAC MARIETTE -> <t:1757586600:t> - <t:1757592000:t> en __Amphi1__
+<t:1757664000:D> **SAE TPB0** : JOUBERT AUDE -> <t:1757664000:t> - <t:1757671200:t> en __S16__
+<t:1757676600:D> **21 R3.08 Probabilités-TD** : JALOUX CHRISTOPHE -> <t:1757676600:t> - <t:1757683800:t> en __S10__
+
+[2025-09-07T17:10:19.808Z] info: Message sent to channel 1395371292533723147: <t:1757318400:D> **21 R3.10 Management des SI-TD** : DUFOUR KARLINE -> <t:1757318400:t> - <t:1757325600:t> en __S15__
+<t:1757332800:D> **11 R3.07 SQL et Programmation-TD** : BONNET CHRISTINE -> <t:1757332800:t> - <t:1757340000:t> en __S17__
+<t:1757340000:D> **11 R3.03 Analyse-TD** : FACI NOURA -> <t:1757340000:t> - <t:1757347200:t> en __S03__
+<t:1757397600:D> **11 R3.10 Management des SI-TD** : DUFOUR KARLINE -> <t:1757397600:t> - <t:1757404800:t> en __040__
+<t:1757404800:D> **21 R3.12 Anglais-TPB** : CANQUE FLORENCE -> <t:1757404800:t> - <t:1757412000:t> en __026-Langues__
+<t:1757419200:D> **11 R3.05 Programmation système-TD** : WATRIGANT REMI -> <t:1757419200:t> - <t:1757426400:t> en __S03__
+<t:1757491200:D> **11 R3.13 communication professionnelle-TD** : DEBOUTE JOCELYNE -> <t:1757491200:t> - <t:1757498400:t> en __S10__
+<t:1757505600:D> **11 R3.06 Archi. Réseaux-TD** : BARON ARIANE -> <t:1757505600:t> - <t:1757512800:t> en __S12__
+<t:1757570400:D> **11 R3.08 Probabilités-TD** : JALOUX CHRISTOPHE -> <t:1757570400:t> - <t:1757577600:t> en __S10__
+<t:1757577600:D> **21 R3.03 Analyse-TD** : FACI NOURA -> <t:1757577600:t> - <t:1757584800:t> en __S16__
+<t:1757586600:D> **Réunion information** : BESSAC MARIETTE -> <t:1757586600:t> - <t:1757592000:t> en __Amphi1__
+<t:1757664000:D> **SAE TPB0** : JOUBERT AUDE -> <t:1757664000:t> - <t:1757671200:t> en __S16__
+<t:1757676600:D> **21 R3.08 Probabilités-TD** : JALOUX CHRISTOPHE -> <t:1757676600:t> - <t:1757683800:t> en __S10__
+
+[2025-09-07T17:10:19.810Z] info: Sending message to channel 1395371451573600287: <t:1757311200:D> **21 R3.10 Management des SI-TD** : DUFOUR KARLINE -> <t:1757311200:t> - <t:1757318400:t> en __S12__
+<t:1757318400:D> **13 R3.06 Archi. Réseaux-TD** : BARON ARIANE -> <t:1757318400:t> - <t:1757325600:t> en __S12__
+<t:1757332800:D> **11 R3.06 Archi. Réseaux-TD** : BARON ARIANE -> <t:1757332800:t> - <t:1757340000:t> en __S12__
+<t:1757340000:D> **SAE TPA0** : JALOUX CHRISTOPHE -> <t:1757340000:t> - <t:1757347200:t> en __S17__
+<t:1757404800:D> **11 R3.12 Anglais-TPA** : BESSAC MARIETTE -> <t:1757404800:t> - <t:1757412000:t> en __028__
+<t:1757419200:D> **11 R3.03 Analyse-TD** : FACI NOURA -> <t:1757419200:t> - <t:1757426400:t> en __S16__
+<t:1757426400:D> **21 R3.08 Probabilités-TD** : JALOUX CHRISTOPHE -> <t:1757426400:t> - <t:1757433600:t> en __S10__
+<t:1757491200:D> **11 R3.05 Programmation système-TD** : WATRIGANT REMI -> <t:1757491200:t> - <t:1757498400:t> en __S17__
+<t:1757505600:D> **11 R3.13 communication professionnelle-TD** : DEBOUTE JOCELYNE -> <t:1757505600:t> - <t:1757512800:t> en __S21__
+<t:1757512800:D> **11 R3.07 SQL et Programmation-TD** : BONNET CHRISTINE -> <t:1757512800:t> - <t:1757520000:t> en __S16__
+<t:1757570400:D> **21 R3.03 Analyse-TD** : FACI NOURA -> <t:1757570400:t> - <t:1757577600:t> en __S03__
+<t:1757577600:D> **11 R3.08 Probabilités-TD** : JALOUX CHRISTOPHE -> <t:1757577600:t> - <t:1757584800:t> en __S10__
+<t:1757586600:D> **Réunion information** : BESSAC MARIETTE -> <t:1757586600:t> - <t:1757592000:t> en __Amphi1__
+<t:1757664000:D> **11 R3.10 Management des SI-TD** : DUFOUR KARLINE -> <t:1757664000:t> - <t:1757671200:t> en __S12__
+
+[2025-09-07T17:10:19.811Z] info: Message sent to channel 1395371451573600287: <t:1757311200:D> **21 R3.10 Management des SI-TD** : DUFOUR KARLINE -> <t:1757311200:t> - <t:1757318400:t> en __S12__
+<t:1757318400:D> **13 R3.06 Archi. Réseaux-TD** : BARON ARIANE -> <t:1757318400:t> - <t:1757325600:t> en __S12__
+<t:1757332800:D> **11 R3.06 Archi. Réseaux-TD** : BARON ARIANE -> <t:1757332800:t> - <t:1757340000:t> en __S12__
+<t:1757340000:D> **SAE TPA0** : JALOUX CHRISTOPHE -> <t:1757340000:t> - <t:1757347200:t> en __S17__
+<t:1757404800:D> **11 R3.12 Anglais-TPA** : BESSAC MARIETTE -> <t:1757404800:t> - <t:1757412000:t> en __028__
+<t:1757419200:D> **11 R3.03 Analyse-TD** : FACI NOURA -> <t:1757419200:t> - <t:1757426400:t> en __S16__
+<t:1757426400:D> **21 R3.08 Probabilités-TD** : JALOUX CHRISTOPHE -> <t:1757426400:t> - <t:1757433600:t> en __S10__
+<t:1757491200:D> **11 R3.05 Programmation système-TD** : WATRIGANT REMI -> <t:1757491200:t> - <t:1757498400:t> en __S17__
+<t:1757505600:D> **11 R3.13 communication professionnelle-TD** : DEBOUTE JOCELYNE -> <t:1757505600:t> - <t:1757512800:t> en __S21__
+<t:1757512800:D> **11 R3.07 SQL et Programmation-TD** : BONNET CHRISTINE -> <t:1757512800:t> - <t:1757520000:t> en __S16__
+<t:1757570400:D> **21 R3.03 Analyse-TD** : FACI NOURA -> <t:1757570400:t> - <t:1757577600:t> en __S03__
+<t:1757577600:D> **11 R3.08 Probabilités-TD** : JALOUX CHRISTOPHE -> <t:1757577600:t> - <t:1757584800:t> en __S10__
+<t:1757586600:D> **Réunion information** : BESSAC MARIETTE -> <t:1757586600:t> - <t:1757592000:t> en __Amphi1__
+<t:1757664000:D> **11 R3.10 Management des SI-TD** : DUFOUR KARLINE -> <t:1757664000:t> - <t:1757671200:t> en __S12__
+
+[2025-09-07T17:10:19.814Z] info: Sending message to channel 1395371471345553540: <t:1757311200:D> **21 R3.10 Management des SI-TD** : DUFOUR KARLINE -> <t:1757311200:t> - <t:1757318400:t> en __S12__
+<t:1757318400:D> **13 R3.06 Archi. Réseaux-TD** : BARON ARIANE -> <t:1757318400:t> - <t:1757325600:t> en __S12__
+<t:1757332800:D> **11 R3.06 Archi. Réseaux-TD** : BARON ARIANE -> <t:1757332800:t> - <t:1757340000:t> en __S12__
+<t:1757397600:D> **21 R3.12 Anglais-TPB** : CANQUE FLORENCE -> <t:1757397600:t> - <t:1757404800:t> en __028__
+<t:1757404800:D> **SAE TPB0** : JALOUX CHRISTOPHE -> <t:1757404800:t> - <t:1757412000:t> en __S17__
+<t:1757419200:D> **11 R3.03 Analyse-TD** : FACI NOURA -> <t:1757419200:t> - <t:1757426400:t> en __S16__
+<t:1757426400:D> **21 R3.08 Probabilités-TD** : JALOUX CHRISTOPHE -> <t:1757426400:t> - <t:1757433600:t> en __S10__
+<t:1757491200:D> **11 R3.05 Programmation système-TD** : WATRIGANT REMI -> <t:1757491200:t> - <t:1757498400:t> en __S17__
+<t:1757505600:D> **11 R3.13 communication professionnelle-TD** : DEBOUTE JOCELYNE -> <t:1757505600:t> - <t:1757512800:t> en __S21__
+<t:1757512800:D> **11 R3.07 SQL et Programmation-TD** : BONNET CHRISTINE -> <t:1757512800:t> - <t:1757520000:t> en __S16__
+<t:1757570400:D> **21 R3.03 Analyse-TD** : FACI NOURA -> <t:1757570400:t> - <t:1757577600:t> en __S03__
+<t:1757577600:D> **11 R3.08 Probabilités-TD** : JALOUX CHRISTOPHE -> <t:1757577600:t> - <t:1757584800:t> en __S10__
+<t:1757586600:D> **Réunion information** : BESSAC MARIETTE -> <t:1757586600:t> - <t:1757592000:t> en __Amphi1__
+<t:1757664000:D> **11 R3.10 Management des SI-TD** : DUFOUR KARLINE -> <t:1757664000:t> - <t:1757671200:t> en __S12__
+
+[2025-09-07T17:10:19.815Z] info: Message sent to channel 1395371471345553540: <t:1757311200:D> **21 R3.10 Management des SI-TD** : DUFOUR KARLINE -> <t:1757311200:t> - <t:1757318400:t> en __S12__
+<t:1757318400:D> **13 R3.06 Archi. Réseaux-TD** : BARON ARIANE -> <t:1757318400:t> - <t:1757325600:t> en __S12__
+<t:1757332800:D> **11 R3.06 Archi. Réseaux-TD** : BARON ARIANE -> <t:1757332800:t> - <t:1757340000:t> en __S12__
+<t:1757397600:D> **21 R3.12 Anglais-TPB** : CANQUE FLORENCE -> <t:1757397600:t> - <t:1757404800:t> en __028__
+<t:1757404800:D> **SAE TPB0** : JALOUX CHRISTOPHE -> <t:1757404800:t> - <t:1757412000:t> en __S17__
+<t:1757419200:D> **11 R3.03 Analyse-TD** : FACI NOURA -> <t:1757419200:t> - <t:1757426400:t> en __S16__
+<t:1757426400:D> **21 R3.08 Probabilités-TD** : JALOUX CHRISTOPHE -> <t:1757426400:t> - <t:1757433600:t> en __S10__
+<t:1757491200:D> **11 R3.05 Programmation système-TD** : WATRIGANT REMI -> <t:1757491200:t> - <t:1757498400:t> en __S17__
+<t:1757505600:D> **11 R3.13 communication professionnelle-TD** : DEBOUTE JOCELYNE -> <t:1757505600:t> - <t:1757512800:t> en __S21__
+<t:1757512800:D> **11 R3.07 SQL et Programmation-TD** : BONNET CHRISTINE -> <t:1757512800:t> - <t:1757520000:t> en __S16__
+<t:1757570400:D> **21 R3.03 Analyse-TD** : FACI NOURA -> <t:1757570400:t> - <t:1757577600:t> en __S03__
+<t:1757577600:D> **11 R3.08 Probabilités-TD** : JALOUX CHRISTOPHE -> <t:1757577600:t> - <t:1757584800:t> en __S10__
+<t:1757586600:D> **Réunion information** : BESSAC MARIETTE -> <t:1757586600:t> - <t:1757592000:t> en __Amphi1__
+<t:1757664000:D> **11 R3.10 Management des SI-TD** : DUFOUR KARLINE -> <t:1757664000:t> - <t:1757671200:t> en __S12__
+
+[2025-09-07T17:10:19.821Z] info: Message sent to channel 1395371640291983370 in 18 parts.
+[2025-09-07T17:10:19.824Z] info: Sending message to channel 1395371506099425310: <t:1757311200:D> **21 R3.08 Probabilités-TD** : LEROUX STEPHANE -> <t:1757311200:t> - <t:1757318400:t> en __040__
+<t:1757318400:D> **21 R3.03 Analyse-TD** : FACI NOURA -> <t:1757318400:t> - <t:1757325600:t> en __S14__
+<t:1757332800:D> **11 R3.03 Analyse-TD** : FACI NOURA -> <t:1757332800:t> - <t:1757340000:t> en __S14__
+<t:1757404800:D> **11 R3.08 Probabilités-TD** : LEROUX STEPHANE -> <t:1757404800:t> - <t:1757412000:t> en __S15__
+<t:1757419200:D> **SAE TPA0** : PEYTAVIE ADRIEN -> <t:1757419200:t> - <t:1757426400:t> en __S17__
+<t:1757484000:D> **11 R3.06 Archi. Réseaux-TD** : MERRHEIM XAVIER -> <t:1757484000:t> - <t:1757491200:t> en __S21__
+<t:1757491200:D> **11 R3.10 Management des SI-TD** : DUFOUR KARLINE -> <t:1757491200:t> - <t:1757498400:t> en __S12__
+<t:1757505600:D> **11 R3.05 Programmation système-TD** : WATRIGANT REMI -> <t:1757505600:t> - <t:1757512800:t> en __S16__
+<t:1757512800:D> **12 R3.07 SQL et Programmation-TD** : BARON ARIANE -> <t:1757512800:t> - <t:1757520000:t> en __S14__
+<t:1757577600:D> **11 R3.07 SQL et Programmation-TD** : BARON ARIANE -> <t:1757577600:t> - <t:1757584800:t> en __S24__
+<t:1757586600:D> **Réunion information** : BESSAC MARIETTE -> <t:1757586600:t> - <t:1757592000:t> en __Amphi1__
+<t:1757656800:D> **21 R3.10 Management des SI-TD** : DUFOUR KARLINE -> <t:1757656800:t> - <t:1757664000:t> en __040__
+<t:1757664000:D> **11 R3.13 communication professionnelle-TD** : DEBOUTE JOCELYNE -> <t:1757664000:t> - <t:1757671200:t> en __S21__
+<t:1757676600:D> **11 R3.12 Anglais-TPA** : BESSAC MARIETTE -> <t:1757676600:t> - <t:1757683800:t> en __026-Langues__
+
+[2025-09-07T17:10:19.825Z] info: Message sent to channel 1395371506099425310: <t:1757311200:D> **21 R3.08 Probabilités-TD** : LEROUX STEPHANE -> <t:1757311200:t> - <t:1757318400:t> en __040__
+<t:1757318400:D> **21 R3.03 Analyse-TD** : FACI NOURA -> <t:1757318400:t> - <t:1757325600:t> en __S14__
+<t:1757332800:D> **11 R3.03 Analyse-TD** : FACI NOURA -> <t:1757332800:t> - <t:1757340000:t> en __S14__
+<t:1757404800:D> **11 R3.08 Probabilités-TD** : LEROUX STEPHANE -> <t:1757404800:t> - <t:1757412000:t> en __S15__
+<t:1757419200:D> **SAE TPA0** : PEYTAVIE ADRIEN -> <t:1757419200:t> - <t:1757426400:t> en __S17__
+<t:1757484000:D> **11 R3.06 Archi. Réseaux-TD** : MERRHEIM XAVIER -> <t:1757484000:t> - <t:1757491200:t> en __S21__
+<t:1757491200:D> **11 R3.10 Management des SI-TD** : DUFOUR KARLINE -> <t:1757491200:t> - <t:1757498400:t> en __S12__
+<t:1757505600:D> **11 R3.05 Programmation système-TD** : WATRIGANT REMI -> <t:1757505600:t> - <t:1757512800:t> en __S16__
+<t:1757512800:D> **12 R3.07 SQL et Programmation-TD** : BARON ARIANE -> <t:1757512800:t> - <t:1757520000:t> en __S14__
+<t:1757577600:D> **11 R3.07 SQL et Programmation-TD** : BARON ARIANE -> <t:1757577600:t> - <t:1757584800:t> en __S24__
+<t:1757586600:D> **Réunion information** : BESSAC MARIETTE -> <t:1757586600:t> - <t:1757592000:t> en __Amphi1__
+<t:1757656800:D> **21 R3.10 Management des SI-TD** : DUFOUR KARLINE -> <t:1757656800:t> - <t:1757664000:t> en __040__
+<t:1757664000:D> **11 R3.13 communication professionnelle-TD** : DEBOUTE JOCELYNE -> <t:1757664000:t> - <t:1757671200:t> en __S21__
+<t:1757676600:D> **11 R3.12 Anglais-TPA** : BESSAC MARIETTE -> <t:1757676600:t> - <t:1757683800:t> en __026-Langues__
+
+[2025-09-07T17:10:19.827Z] info: Sending message to channel 1395371591797575750: <t:1757311200:D> **21 R3.08 Probabilités-TD** : LEROUX STEPHANE -> <t:1757311200:t> - <t:1757318400:t> en __040__
+<t:1757318400:D> **21 R3.03 Analyse-TD** : FACI NOURA -> <t:1757318400:t> - <t:1757325600:t> en __S14__
+<t:1757332800:D> **11 R3.03 Analyse-TD** : FACI NOURA -> <t:1757332800:t> - <t:1757340000:t> en __S14__
+<t:1757404800:D> **11 R3.08 Probabilités-TD** : LEROUX STEPHANE -> <t:1757404800:t> - <t:1757412000:t> en __S15__
+<t:1757419200:D> **21 R3.12 Anglais-TPB** : BESSAC MARIETTE -> <t:1757419200:t> - <t:1757426400:t> en __028__
+<t:1757426400:D> **SAE TPB0** : PEYTAVIE ADRIEN -> <t:1757426400:t> - <t:1757433600:t> en __S17__
+<t:1757484000:D> **11 R3.06 Archi. Réseaux-TD** : MERRHEIM XAVIER -> <t:1757484000:t> - <t:1757491200:t> en __S21__
+<t:1757491200:D> **11 R3.10 Management des SI-TD** : DUFOUR KARLINE -> <t:1757491200:t> - <t:1757498400:t> en __S12__
+<t:1757505600:D> **11 R3.05 Programmation système-TD** : WATRIGANT REMI -> <t:1757505600:t> - <t:1757512800:t> en __S16__
+<t:1757512800:D> **12 R3.07 SQL et Programmation-TD** : BARON ARIANE -> <t:1757512800:t> - <t:1757520000:t> en __S14__
+<t:1757577600:D> **11 R3.07 SQL et Programmation-TD** : BARON ARIANE -> <t:1757577600:t> - <t:1757584800:t> en __S24__
+<t:1757586600:D> **Réunion information** : BESSAC MARIETTE -> <t:1757586600:t> - <t:1757592000:t> en __Amphi1__
+<t:1757656800:D> **21 R3.10 Management des SI-TD** : DUFOUR KARLINE -> <t:1757656800:t> - <t:1757664000:t> en __040__
+<t:1757664000:D> **11 R3.13 communication professionnelle-TD** : DEBOUTE JOCELYNE -> <t:1757664000:t> - <t:1757671200:t> en __S21__
+
+[2025-09-07T17:10:19.827Z] info: Message sent to channel 1395371591797575750: <t:1757311200:D> **21 R3.08 Probabilités-TD** : LEROUX STEPHANE -> <t:1757311200:t> - <t:1757318400:t> en __040__
+<t:1757318400:D> **21 R3.03 Analyse-TD** : FACI NOURA -> <t:1757318400:t> - <t:1757325600:t> en __S14__
+<t:1757332800:D> **11 R3.03 Analyse-TD** : FACI NOURA -> <t:1757332800:t> - <t:1757340000:t> en __S14__
+<t:1757404800:D> **11 R3.08 Probabilités-TD** : LEROUX STEPHANE -> <t:1757404800:t> - <t:1757412000:t> en __S15__
+<t:1757419200:D> **21 R3.12 Anglais-TPB** : BESSAC MARIETTE -> <t:1757419200:t> - <t:1757426400:t> en __028__
+<t:1757426400:D> **SAE TPB0** : PEYTAVIE ADRIEN -> <t:1757426400:t> - <t:1757433600:t> en __S17__
+<t:1757484000:D> **11 R3.06 Archi. Réseaux-TD** : MERRHEIM XAVIER -> <t:1757484000:t> - <t:1757491200:t> en __S21__
+<t:1757491200:D> **11 R3.10 Management des SI-TD** : DUFOUR KARLINE -> <t:1757491200:t> - <t:1757498400:t> en __S12__
+<t:1757505600:D> **11 R3.05 Programmation système-TD** : WATRIGANT REMI -> <t:1757505600:t> - <t:1757512800:t> en __S16__
+<t:1757512800:D> **12 R3.07 SQL et Programmation-TD** : BARON ARIANE -> <t:1757512800:t> - <t:1757520000:t> en __S14__
+<t:1757577600:D> **11 R3.07 SQL et Programmation-TD** : BARON ARIANE -> <t:1757577600:t> - <t:1757584800:t> en __S24__
+<t:1757586600:D> **Réunion information** : BESSAC MARIETTE -> <t:1757586600:t> - <t:1757592000:t> en __Amphi1__
+<t:1757656800:D> **21 R3.10 Management des SI-TD** : DUFOUR KARLINE -> <t:1757656800:t> - <t:1757664000:t> en __040__
+<t:1757664000:D> **11 R3.13 communication professionnelle-TD** : DEBOUTE JOCELYNE -> <t:1757664000:t> - <t:1757671200:t> en __S21__
+
+[2025-09-07T17:10:19.834Z] info: Message sent to channel 1409494803489488986 in 19 parts.
+[2025-09-07T17:10:19.838Z] info: Message sent to channel 1409494819574775808 in 19 parts.
+[2025-09-07T17:10:19.840Z] info: Weekly timetables sent
+[2025-09-07T19:32:04.559Z] info: Received command: group from user: 664970172444180481
+[2025-09-07T19:32:04.560Z] info: Received group command: group=g5, semester=s1, composedGroup=g5s1a
+[2025-09-07T20:45:13.336Z] info: Received command: group from user: 538382590126850068
+[2025-09-07T20:45:13.337Z] info: Received group command: group=g2, semester=s3, composedGroup=g2s3a
+[2025-09-08T04:33:26.867Z] info: Received command: group from user: 683955902336073729
+[2025-09-08T04:33:26.868Z] info: Received group command: group=g1, semester=s3, composedGroup=g1s3a
+[2025-09-08T05:30:36.802Z] info: Received command: group from user: 736263741594665081
+[2025-09-08T05:30:36.803Z] info: Received group command: group=g2, semester=, composedGroup=noGroup
+[2025-09-08T05:31:21.653Z] info: Received command: group from user: 736263741594665081
+[2025-09-08T05:31:21.654Z] info: Received group command: group=g2, semester=s1, composedGroup=g2s1a
+[2025-09-08T05:32:00.155Z] info: Received command: repo from user: 1280802417100980258
+[2025-09-08T06:51:13.361Z] info: Received command: group from user: 664516424114634762
+[2025-09-08T06:51:13.362Z] info: Received group command: group=g1, semester=s3, composedGroup=g1s3a
+[2025-09-08T07:59:28.171Z] info: Received command: group from user: 1078408403531079810
+[2025-09-08T07:59:28.172Z] info: Received group command: group=g2, semester=s3, composedGroup=g2s3a
+[2025-09-08T10:56:19.512Z] info: Received command: group from user: 707623659346591744
+[2025-09-08T10:56:19.513Z] info: Received group command: group=g4, semester=s3, composedGroup=g4s3a
+[2025-09-08T12:05:28.337Z] info: Received command: group from user: 694249062957842463
+[2025-09-08T12:05:28.338Z] info: Received group command: group=g2, semester=s3, composedGroup=g2s3a
+[2025-09-08T12:06:01.359Z] info: Received command: group from user: 347669401962676224
+[2025-09-08T12:06:01.360Z] info: Received group command: group=g2, semester=s3, composedGroup=g2s3a
+[2025-09-08T12:08:59.123Z] info: Received command: group from user: 404335632236937226
+[2025-09-08T12:08:59.124Z] info: Received group command: group=g2, semester=s3, composedGroup=g2s3a
+[2025-09-08T12:35:51.524Z] info: Received command: group from user: 543562666443014157
+[2025-09-08T12:35:51.525Z] info: Received group command: group=g1, semester=s3, composedGroup=g1s3a
+[2025-09-08T13:45:13.270Z] info: Received command: group from user: 703376700406366311
+[2025-09-08T13:45:13.271Z] info: Received group command: group=g4, semester=s3, composedGroup=g4s3a
+[2025-09-08T15:41:36.585Z] info: Received command: group from user: 1409914987576561728
+[2025-09-08T15:41:36.586Z] info: Received group command: group=g5, semester=s1, composedGroup=g5s1a
+[2025-09-08T17:00:00.999Z] info: Downloading ICS files for tomorrow for groups: aspea, aspeb, g1s1a, g1s1b, g2s1a, g2s1b, g3s1a, g3s1b, g4s1a, g4s1b, g5s1a, g5s1b, g1s3a, g1s3b, g2s3a, g2s3b, g3a2, g4s3a, g4s3b, but3ra1a, but3ra1b, but3ra2a, but3ra2b, but3ra3a, but3ra3b, but3dacs, but3aged
+[2025-09-08T17:00:01.000Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=9272&projectId=1&calType=ical&firstDate=2025-09-09&lastDate=2025-09-09 to src/calendars/tomorrow/aspea.ics
+[2025-09-08T17:00:01.170Z] info: ICS file downloaded successfully to src/calendars/tomorrow/aspea.ics
+[2025-09-08T17:00:01.170Z] info: ICS file for aspea downloaded successfully.
+[2025-09-08T17:00:01.171Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=18783&projectId=1&calType=ical&firstDate=2025-09-09&lastDate=2025-09-09 to src/calendars/tomorrow/aspeb.ics
+[2025-09-08T17:00:01.303Z] info: ICS file downloaded successfully to src/calendars/tomorrow/aspeb.ics
+[2025-09-08T17:00:01.304Z] info: ICS file for aspeb downloaded successfully.
+[2025-09-08T17:00:01.304Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=12096&projectId=1&calType=ical&firstDate=2025-09-09&lastDate=2025-09-09 to src/calendars/tomorrow/g1s1a.ics
+[2025-09-08T17:00:01.407Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g1s1a.ics
+[2025-09-08T17:00:01.408Z] info: ICS file for g1s1a downloaded successfully.
+[2025-09-08T17:00:01.408Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=12102&projectId=1&calType=ical&firstDate=2025-09-09&lastDate=2025-09-09 to src/calendars/tomorrow/g1s1b.ics
+[2025-09-08T17:00:01.524Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g1s1b.ics
+[2025-09-08T17:00:01.524Z] info: ICS file for g1s1b downloaded successfully.
+[2025-09-08T17:00:01.524Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=12403&projectId=1&calType=ical&firstDate=2025-09-09&lastDate=2025-09-09 to src/calendars/tomorrow/g2s1a.ics
+[2025-09-08T17:00:01.644Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g2s1a.ics
+[2025-09-08T17:00:01.645Z] info: ICS file for g2s1a downloaded successfully.
+[2025-09-08T17:00:01.645Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=12406&projectId=1&calType=ical&firstDate=2025-09-09&lastDate=2025-09-09 to src/calendars/tomorrow/g2s1b.ics
+[2025-09-08T17:00:01.774Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g2s1b.ics
+[2025-09-08T17:00:01.775Z] info: ICS file for g2s1b downloaded successfully.
+[2025-09-08T17:00:01.775Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=12419&projectId=1&calType=ical&firstDate=2025-09-09&lastDate=2025-09-09 to src/calendars/tomorrow/g3s1a.ics
+[2025-09-08T17:00:01.902Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g3s1a.ics
+[2025-09-08T17:00:01.902Z] info: ICS file for g3s1a downloaded successfully.
+[2025-09-08T17:00:01.903Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=12425&projectId=1&calType=ical&firstDate=2025-09-09&lastDate=2025-09-09 to src/calendars/tomorrow/g3s1b.ics
+[2025-09-08T17:00:01.980Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g3s1b.ics
+[2025-09-08T17:00:01.980Z] info: ICS file for g3s1b downloaded successfully.
+[2025-09-08T17:00:01.980Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=12424&projectId=1&calType=ical&firstDate=2025-09-09&lastDate=2025-09-09 to src/calendars/tomorrow/g4s1a.ics
+[2025-09-08T17:00:02.130Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g4s1a.ics
+[2025-09-08T17:00:02.131Z] info: ICS file for g4s1a downloaded successfully.
+[2025-09-08T17:00:02.131Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=12444&projectId=1&calType=ical&firstDate=2025-09-09&lastDate=2025-09-09 to src/calendars/tomorrow/g4s1b.ics
+[2025-09-08T17:00:02.208Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g4s1b.ics
+[2025-09-08T17:00:02.209Z] info: ICS file for g4s1b downloaded successfully.
+[2025-09-08T17:00:02.209Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=12460&projectId=1&calType=ical&firstDate=2025-09-09&lastDate=2025-09-09 to src/calendars/tomorrow/g5s1a.ics
+[2025-09-08T17:00:02.360Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g5s1a.ics
+[2025-09-08T17:00:02.361Z] info: ICS file for g5s1a downloaded successfully.
+[2025-09-08T17:00:02.361Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=12461&projectId=1&calType=ical&firstDate=2025-09-09&lastDate=2025-09-09 to src/calendars/tomorrow/g5s1b.ics
+[2025-09-08T17:00:02.521Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g5s1b.ics
+[2025-09-08T17:00:02.521Z] info: ICS file for g5s1b downloaded successfully.
+[2025-09-08T17:00:02.521Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=35708&projectId=1&calType=ical&firstDate=2025-09-09&lastDate=2025-09-09 to src/calendars/tomorrow/g1s3a.ics
+[2025-09-08T17:00:02.678Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g1s3a.ics
+[2025-09-08T17:00:02.678Z] info: ICS file for g1s3a downloaded successfully.
+[2025-09-08T17:00:02.679Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=35709&projectId=1&calType=ical&firstDate=2025-09-09&lastDate=2025-09-09 to src/calendars/tomorrow/g1s3b.ics
+[2025-09-08T17:00:02.762Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g1s3b.ics
+[2025-09-08T17:00:02.763Z] info: ICS file for g1s3b downloaded successfully.
+[2025-09-08T17:00:02.763Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=35710&projectId=1&calType=ical&firstDate=2025-09-09&lastDate=2025-09-09 to src/calendars/tomorrow/g2s3a.ics
+[2025-09-08T17:00:02.846Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g2s3a.ics
+[2025-09-08T17:00:02.846Z] info: ICS file for g2s3a downloaded successfully.
+[2025-09-08T17:00:02.847Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=35713&projectId=1&calType=ical&firstDate=2025-09-09&lastDate=2025-09-09 to src/calendars/tomorrow/g2s3b.ics
+[2025-09-08T17:00:02.945Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g2s3b.ics
+[2025-09-08T17:00:02.946Z] info: ICS file for g2s3b downloaded successfully.
+[2025-09-08T17:00:02.946Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=35714&projectId=1&calType=ical&firstDate=2025-09-09&lastDate=2025-09-09 to src/calendars/tomorrow/g3a2.ics
+[2025-09-08T17:00:03.080Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g3a2.ics
+[2025-09-08T17:00:03.081Z] info: ICS file for g3a2 downloaded successfully.
+[2025-09-08T17:00:03.081Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=35717&projectId=1&calType=ical&firstDate=2025-09-09&lastDate=2025-09-09 to src/calendars/tomorrow/g4s3a.ics
+[2025-09-08T17:00:03.238Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g4s3a.ics
+[2025-09-08T17:00:03.238Z] info: ICS file for g4s3a downloaded successfully.
+[2025-09-08T17:00:03.239Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=35718&projectId=1&calType=ical&firstDate=2025-09-09&lastDate=2025-09-09 to src/calendars/tomorrow/g4s3b.ics
+[2025-09-08T17:00:03.411Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g4s3b.ics
+[2025-09-08T17:00:03.411Z] info: ICS file for g4s3b downloaded successfully.
+[2025-09-08T17:00:03.411Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6161&projectId=1&calType=ical&firstDate=2025-09-09&lastDate=2025-09-09 to src/calendars/tomorrow/but3ra1a.ics
+[2025-09-08T17:00:03.524Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3ra1a.ics
+[2025-09-08T17:00:03.524Z] info: ICS file for but3ra1a downloaded successfully.
+[2025-09-08T17:00:03.524Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6163&projectId=1&calType=ical&firstDate=2025-09-09&lastDate=2025-09-09 to src/calendars/tomorrow/but3ra1b.ics
+[2025-09-08T17:00:03.603Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3ra1b.ics
+[2025-09-08T17:00:03.603Z] info: ICS file for but3ra1b downloaded successfully.
+[2025-09-08T17:00:03.604Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6165&projectId=1&calType=ical&firstDate=2025-09-09&lastDate=2025-09-09 to src/calendars/tomorrow/but3ra2a.ics
+[2025-09-08T17:00:03.725Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3ra2a.ics
+[2025-09-08T17:00:03.726Z] info: ICS file for but3ra2a downloaded successfully.
+[2025-09-08T17:00:03.726Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6168&projectId=1&calType=ical&firstDate=2025-09-09&lastDate=2025-09-09 to src/calendars/tomorrow/but3ra2b.ics
+[2025-09-08T17:00:03.822Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3ra2b.ics
+[2025-09-08T17:00:03.823Z] info: ICS file for but3ra2b downloaded successfully.
+[2025-09-08T17:00:03.823Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=14059&projectId=1&calType=ical&firstDate=2025-09-09&lastDate=2025-09-09 to src/calendars/tomorrow/but3ra3a.ics
+[2025-09-08T17:00:03.985Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3ra3a.ics
+[2025-09-08T17:00:03.985Z] info: ICS file for but3ra3a downloaded successfully.
+[2025-09-08T17:00:03.985Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=14064&projectId=1&calType=ical&firstDate=2025-09-09&lastDate=2025-09-09 to src/calendars/tomorrow/but3ra3b.ics
+[2025-09-08T17:00:04.122Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3ra3b.ics
+[2025-09-08T17:00:04.123Z] info: ICS file for but3ra3b downloaded successfully.
+[2025-09-08T17:00:04.123Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6136&projectId=1&calType=ical&firstDate=2025-09-09&lastDate=2025-09-09 to src/calendars/tomorrow/but3dacs.ics
+[2025-09-08T17:00:04.187Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3dacs.ics
+[2025-09-08T17:00:04.188Z] info: ICS file for but3dacs downloaded successfully.
+[2025-09-08T17:00:04.188Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6048&projectId=1&calType=ical&firstDate=2025-09-09&lastDate=2025-09-09 to src/calendars/tomorrow/but3aged.ics
+[2025-09-08T17:00:04.308Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3aged.ics
+[2025-09-08T17:00:04.309Z] info: ICS file for but3aged downloaded successfully.
+[2025-09-08T17:00:04.309Z] info: Sending daily timetables
+[2025-09-08T17:00:04.316Z] info: Sending message to channel 1395371772550975558: <t:1757401200:D> **Soutien Mathématiques** : LEROUX STEPHANE -> <t:1757401200:t> - <t:1757404800:t> en __S15__
+<t:1757404800:D> **31IntroDev1 TD** : WATRIGANT REMI -> <t:1757404800:t> - <t:1757412000:t> en __S27__
+<t:1757419200:D> **11Mathématiques discrètes** : LEROUX STEPHANE -> <t:1757419200:t> - <t:1757426400:t> en __S15__
+<t:1757426400:D> **21IntroDev1 TD1** : WATRIGANT REMI -> <t:1757426400:t> - <t:1757433600:t> en __S27__
+
+[2025-09-08T17:00:04.317Z] info: Message sent to channel 1395371772550975558: <t:1757401200:D> **Soutien Mathématiques** : LEROUX STEPHANE -> <t:1757401200:t> - <t:1757404800:t> en __S15__
+<t:1757404800:D> **31IntroDev1 TD** : WATRIGANT REMI -> <t:1757404800:t> - <t:1757412000:t> en __S27__
+<t:1757419200:D> **11Mathématiques discrètes** : LEROUX STEPHANE -> <t:1757419200:t> - <t:1757426400:t> en __S15__
+<t:1757426400:D> **21IntroDev1 TD1** : WATRIGANT REMI -> <t:1757426400:t> - <t:1757433600:t> en __S27__
+
+[2025-09-08T17:00:04.318Z] info: Sending message to channel 1395052296521646282: <t:1757397600:D> **11 R1.04 Intro Systèmes-TD** : DAUTRAIX ISABELLE -> <t:1757397600:t> - <t:1757404800:t> en __S14__
+<t:1757404800:D> **21 R1.04 Intro Systèmes-TD** : DAUTRAIX ISABELLE -> <t:1757404800:t> - <t:1757412000:t> en __S16__
+
+[2025-09-08T17:00:04.318Z] info: Message sent to channel 1395052296521646282: <t:1757397600:D> **11 R1.04 Intro Systèmes-TD** : DAUTRAIX ISABELLE -> <t:1757397600:t> - <t:1757404800:t> en __S14__
+<t:1757404800:D> **21 R1.04 Intro Systèmes-TD** : DAUTRAIX ISABELLE -> <t:1757404800:t> - <t:1757412000:t> en __S16__
+
+[2025-09-08T17:00:04.320Z] info: Sending message to channel 1395052332969885726: <t:1757397600:D> **11 R1.04 Intro Systèmes-TD** : DAUTRAIX ISABELLE -> <t:1757397600:t> - <t:1757404800:t> en __S14__
+<t:1757404800:D> **21 R1.04 Intro Systèmes-TD** : DAUTRAIX ISABELLE -> <t:1757404800:t> - <t:1757412000:t> en __S16__
+<t:1757419200:D> **22 R1.07 Outils Math. Fond TPB** : JALOUX CHRISTOPHE -> <t:1757419200:t> - <t:1757426400:t> en __S10__
+
+[2025-09-08T17:00:04.320Z] info: Message sent to channel 1395052332969885726: <t:1757397600:D> **11 R1.04 Intro Systèmes-TD** : DAUTRAIX ISABELLE -> <t:1757397600:t> - <t:1757404800:t> en __S14__
+<t:1757404800:D> **21 R1.04 Intro Systèmes-TD** : DAUTRAIX ISABELLE -> <t:1757404800:t> - <t:1757412000:t> en __S16__
+<t:1757419200:D> **22 R1.07 Outils Math. Fond TPB** : JALOUX CHRISTOPHE -> <t:1757419200:t> - <t:1757426400:t> en __S10__
+
+[2025-09-08T17:00:04.320Z] info: Sending message to channel 1395052379866660874: <t:1757404800:D> **11 R1.04 Intro Systèmes-TD** : BUYLE-BODIN NICOLAS -> <t:1757404800:t> - <t:1757412000:t> en __S13__
+
+[2025-09-08T17:00:04.321Z] info: Message sent to channel 1395052379866660874: <t:1757404800:D> **11 R1.04 Intro Systèmes-TD** : BUYLE-BODIN NICOLAS -> <t:1757404800:t> - <t:1757412000:t> en __S13__
+
+[2025-09-08T17:00:04.321Z] info: Sending message to channel 1395052392092930048: <t:1757397600:D> **22 R1.07 Outils Math. Fond TPB** : JALOUX CHRISTOPHE -> <t:1757397600:t> - <t:1757404800:t> en __S10__
+<t:1757404800:D> **11 R1.04 Intro Systèmes-TD** : BUYLE-BODIN NICOLAS -> <t:1757404800:t> - <t:1757412000:t> en __S13__
+
+[2025-09-08T17:00:04.321Z] info: Message sent to channel 1395052392092930048: <t:1757397600:D> **22 R1.07 Outils Math. Fond TPB** : JALOUX CHRISTOPHE -> <t:1757397600:t> - <t:1757404800:t> en __S10__
+<t:1757404800:D> **11 R1.04 Intro Systèmes-TD** : BUYLE-BODIN NICOLAS -> <t:1757404800:t> - <t:1757412000:t> en __S13__
+
+[2025-09-08T17:00:04.322Z] info: Sending message to channel 1395056179914473612: <t:1757397600:D> **21 R1.07 Outils Math. Fond TPA** : JOUBERT AUDE -> <t:1757397600:t> - <t:1757404800:t> en __S11__
+<t:1757404800:D> **11 R1.01 initation dev SI P11** : VIDAL VINCENT -> <t:1757404800:t> - <t:1757412000:t> en __S24__
+<t:1757419200:D> **42R1.01 initation dev SI** : VIDAL VINCENT -> <t:1757419200:t> - <t:1757426400:t> en __S24__
+
+[2025-09-08T17:00:04.322Z] info: Message sent to channel 1395056179914473612: <t:1757397600:D> **21 R1.07 Outils Math. Fond TPA** : JOUBERT AUDE -> <t:1757397600:t> - <t:1757404800:t> en __S11__
+<t:1757404800:D> **11 R1.01 initation dev SI P11** : VIDAL VINCENT -> <t:1757404800:t> - <t:1757412000:t> en __S24__
+<t:1757419200:D> **42R1.01 initation dev SI** : VIDAL VINCENT -> <t:1757419200:t> - <t:1757426400:t> en __S24__
+
+[2025-09-08T17:00:04.323Z] info: Sending message to channel 1395052422401101905: <t:1757404800:D> **11 R1.01 initation dev SI P11** : VIDAL VINCENT -> <t:1757404800:t> - <t:1757412000:t> en __S24__
+<t:1757419200:D> **42R1.01 initation dev SI** : VIDAL VINCENT -> <t:1757419200:t> - <t:1757426400:t> en __S24__
+
+[2025-09-08T17:00:04.323Z] info: Message sent to channel 1395052422401101905: <t:1757404800:D> **11 R1.01 initation dev SI P11** : VIDAL VINCENT -> <t:1757404800:t> - <t:1757412000:t> en __S24__
+<t:1757419200:D> **42R1.01 initation dev SI** : VIDAL VINCENT -> <t:1757419200:t> - <t:1757426400:t> en __S24__
+
+[2025-09-08T17:00:04.324Z] info: Sending message to channel 1395052443192266916: <t:1757397600:D> **21 R1.04 Intro Systèmes-TD** : BUYLE-BODIN NICOLAS -> <t:1757397600:t> - <t:1757404800:t> en __S13__
+<t:1757404800:D> **21 R1.07 Outils Math. Fond TPA** : JOUBERT AUDE -> <t:1757404800:t> - <t:1757412000:t> en __S11__
+<t:1757419200:D> **31 R1.01 initation dev TD** : NDIAYE SAMBA NDOJH -> <t:1757419200:t> - <t:1757426400:t> en __040__
+<t:1757426400:D> **21R1.01 initation dev TD** : NDIAYE SAMBA NDOJH -> <t:1757426400:t> - <t:1757433600:t> en __S11__
+
+[2025-09-08T17:00:04.324Z] info: Message sent to channel 1395052443192266916: <t:1757397600:D> **21 R1.04 Intro Systèmes-TD** : BUYLE-BODIN NICOLAS -> <t:1757397600:t> - <t:1757404800:t> en __S13__
+<t:1757404800:D> **21 R1.07 Outils Math. Fond TPA** : JOUBERT AUDE -> <t:1757404800:t> - <t:1757412000:t> en __S11__
+<t:1757419200:D> **31 R1.01 initation dev TD** : NDIAYE SAMBA NDOJH -> <t:1757419200:t> - <t:1757426400:t> en __040__
+<t:1757426400:D> **21R1.01 initation dev TD** : NDIAYE SAMBA NDOJH -> <t:1757426400:t> - <t:1757433600:t> en __S11__
+
+[2025-09-08T17:00:04.324Z] info: Sending message to channel 1395052467070177290: <t:1757397600:D> **21 R1.04 Intro Systèmes-TD** : BUYLE-BODIN NICOLAS -> <t:1757397600:t> - <t:1757404800:t> en __S13__
+<t:1757419200:D> **31 R1.01 initation dev TD** : NDIAYE SAMBA NDOJH -> <t:1757419200:t> - <t:1757426400:t> en __040__
+<t:1757426400:D> **21R1.01 initation dev TD** : NDIAYE SAMBA NDOJH -> <t:1757426400:t> - <t:1757433600:t> en __S11__
+
+[2025-09-08T17:00:04.325Z] info: Message sent to channel 1395052467070177290: <t:1757397600:D> **21 R1.04 Intro Systèmes-TD** : BUYLE-BODIN NICOLAS -> <t:1757397600:t> - <t:1757404800:t> en __S13__
+<t:1757419200:D> **31 R1.01 initation dev TD** : NDIAYE SAMBA NDOJH -> <t:1757419200:t> - <t:1757426400:t> en __040__
+<t:1757426400:D> **21R1.01 initation dev TD** : NDIAYE SAMBA NDOJH -> <t:1757426400:t> - <t:1757433600:t> en __S11__
+
+[2025-09-08T17:00:04.325Z] info: Sending message to channel 1395052827985842288: <t:1757419200:D> **31 R1.01 initation dev TD** : BARON ARIANE -> <t:1757419200:t> - <t:1757426400:t> en __S12__
+<t:1757426400:D> **21R1.01 initation dev TD** : BARON ARIANE -> <t:1757426400:t> - <t:1757433600:t> en __S12__
+
+[2025-09-08T17:00:04.325Z] info: Message sent to channel 1395052827985842288: <t:1757419200:D> **31 R1.01 initation dev TD** : BARON ARIANE -> <t:1757419200:t> - <t:1757426400:t> en __S12__
+<t:1757426400:D> **21R1.01 initation dev TD** : BARON ARIANE -> <t:1757426400:t> - <t:1757433600:t> en __S12__
+
+[2025-09-08T17:00:04.326Z] info: Sending message to channel 1395052882486890707: <t:1757419200:D> **31 R1.01 initation dev TD** : BARON ARIANE -> <t:1757419200:t> - <t:1757426400:t> en __S12__
+<t:1757426400:D> **21R1.01 initation dev TD** : BARON ARIANE -> <t:1757426400:t> - <t:1757433600:t> en __S12__
+
+[2025-09-08T17:00:04.326Z] info: Message sent to channel 1395052882486890707: <t:1757419200:D> **31 R1.01 initation dev TD** : BARON ARIANE -> <t:1757419200:t> - <t:1757426400:t> en __S12__
+<t:1757426400:D> **21R1.01 initation dev TD** : BARON ARIANE -> <t:1757426400:t> - <t:1757433600:t> en __S12__
+
+[2025-09-08T17:00:04.326Z] info: Sending message to channel 1395371275643256924: <t:1757397600:D> **11 R3.10 Management des SI-TD** : DUFOUR KARLINE -> <t:1757397600:t> - <t:1757404800:t> en __040__
+<t:1757419200:D> **11 R3.05 Programmation système-TD** : WATRIGANT REMI -> <t:1757419200:t> - <t:1757426400:t> en __S03__
+
+[2025-09-08T17:00:04.327Z] info: Message sent to channel 1395371275643256924: <t:1757397600:D> **11 R3.10 Management des SI-TD** : DUFOUR KARLINE -> <t:1757397600:t> - <t:1757404800:t> en __040__
+<t:1757419200:D> **11 R3.05 Programmation système-TD** : WATRIGANT REMI -> <t:1757419200:t> - <t:1757426400:t> en __S03__
+
+[2025-09-08T17:00:04.327Z] info: Sending message to channel 1395371292533723147: <t:1757397600:D> **11 R3.10 Management des SI-TD** : DUFOUR KARLINE -> <t:1757397600:t> - <t:1757404800:t> en __040__
+<t:1757404800:D> **21 R3.12 Anglais-TPB** : CANQUE FLORENCE -> <t:1757404800:t> - <t:1757412000:t> en __026-Langues__
+<t:1757419200:D> **11 R3.05 Programmation système-TD** : WATRIGANT REMI -> <t:1757419200:t> - <t:1757426400:t> en __S03__
+
+[2025-09-08T17:00:04.327Z] info: Message sent to channel 1395371292533723147: <t:1757397600:D> **11 R3.10 Management des SI-TD** : DUFOUR KARLINE -> <t:1757397600:t> - <t:1757404800:t> en __040__
+<t:1757404800:D> **21 R3.12 Anglais-TPB** : CANQUE FLORENCE -> <t:1757404800:t> - <t:1757412000:t> en __026-Langues__
+<t:1757419200:D> **11 R3.05 Programmation système-TD** : WATRIGANT REMI -> <t:1757419200:t> - <t:1757426400:t> en __S03__
+
+[2025-09-08T17:00:04.328Z] info: Sending message to channel 1395371451573600287: <t:1757404800:D> **11 R3.12 Anglais-TPA** : BESSAC MARIETTE -> <t:1757404800:t> - <t:1757412000:t> en __028__
+<t:1757419200:D> **11 R3.03 Analyse-TD** : FACI NOURA -> <t:1757419200:t> - <t:1757426400:t> en __S16__
+<t:1757426400:D> **21 R3.08 Probabilités-TD** : JALOUX CHRISTOPHE -> <t:1757426400:t> - <t:1757433600:t> en __S10__
+
+[2025-09-08T17:00:04.328Z] info: Message sent to channel 1395371451573600287: <t:1757404800:D> **11 R3.12 Anglais-TPA** : BESSAC MARIETTE -> <t:1757404800:t> - <t:1757412000:t> en __028__
+<t:1757419200:D> **11 R3.03 Analyse-TD** : FACI NOURA -> <t:1757419200:t> - <t:1757426400:t> en __S16__
+<t:1757426400:D> **21 R3.08 Probabilités-TD** : JALOUX CHRISTOPHE -> <t:1757426400:t> - <t:1757433600:t> en __S10__
+
+[2025-09-08T17:00:04.329Z] info: Sending message to channel 1395371471345553540: <t:1757397600:D> **21 R3.12 Anglais-TPB** : CANQUE FLORENCE -> <t:1757397600:t> - <t:1757404800:t> en __028__
+<t:1757404800:D> **SAE TPB0** : JALOUX CHRISTOPHE -> <t:1757404800:t> - <t:1757412000:t> en __S17__
+<t:1757419200:D> **11 R3.03 Analyse-TD** : FACI NOURA -> <t:1757419200:t> - <t:1757426400:t> en __S16__
+<t:1757426400:D> **21 R3.08 Probabilités-TD** : JALOUX CHRISTOPHE -> <t:1757426400:t> - <t:1757433600:t> en __S10__
+
+[2025-09-08T17:00:04.329Z] info: Message sent to channel 1395371471345553540: <t:1757397600:D> **21 R3.12 Anglais-TPB** : CANQUE FLORENCE -> <t:1757397600:t> - <t:1757404800:t> en __028__
+<t:1757404800:D> **SAE TPB0** : JALOUX CHRISTOPHE -> <t:1757404800:t> - <t:1757412000:t> en __S17__
+<t:1757419200:D> **11 R3.03 Analyse-TD** : FACI NOURA -> <t:1757419200:t> - <t:1757426400:t> en __S16__
+<t:1757426400:D> **21 R3.08 Probabilités-TD** : JALOUX CHRISTOPHE -> <t:1757426400:t> - <t:1757433600:t> en __S10__
+
+[2025-09-08T17:00:04.331Z] info: Sending message to channel 1395371640291983370: <t:1757404800:D> **R3.02 Dev efficaceTP** : KHEDDOUCI HAMAMACHE -> <t:1757404800:t> - <t:1757412000:t> en __040__
+<t:1757419200:D> **11 R3.05 Programmation système-TD** : BUSSON ANTHONY -> <t:1757419200:t> - <t:1757426400:t> en __S13__
+<t:1757426400:D> **21 R3.05 Programmation système-TD** : BUSSON ANTHONY -> <t:1757426400:t> - <t:1757433600:t> en __S13__
+
+[2025-09-08T17:00:04.332Z] info: Message sent to channel 1395371640291983370: <t:1757404800:D> **R3.02 Dev efficaceTP** : KHEDDOUCI HAMAMACHE -> <t:1757404800:t> - <t:1757412000:t> en __040__
+<t:1757419200:D> **11 R3.05 Programmation système-TD** : BUSSON ANTHONY -> <t:1757419200:t> - <t:1757426400:t> en __S13__
+<t:1757426400:D> **21 R3.05 Programmation système-TD** : BUSSON ANTHONY -> <t:1757426400:t> - <t:1757433600:t> en __S13__
+
+[2025-09-08T17:00:04.332Z] info: Sending message to channel 1395371506099425310: <t:1757404800:D> **11 R3.08 Probabilités-TD** : LEROUX STEPHANE -> <t:1757404800:t> - <t:1757412000:t> en __S15__
+<t:1757419200:D> **SAE TPA0** : PEYTAVIE ADRIEN -> <t:1757419200:t> - <t:1757426400:t> en __S17__
+
+[2025-09-08T17:00:04.333Z] info: Message sent to channel 1395371506099425310: <t:1757404800:D> **11 R3.08 Probabilités-TD** : LEROUX STEPHANE -> <t:1757404800:t> - <t:1757412000:t> en __S15__
+<t:1757419200:D> **SAE TPA0** : PEYTAVIE ADRIEN -> <t:1757419200:t> - <t:1757426400:t> en __S17__
+
+[2025-09-08T17:00:04.333Z] info: Sending message to channel 1395371591797575750: <t:1757404800:D> **11 R3.08 Probabilités-TD** : LEROUX STEPHANE -> <t:1757404800:t> - <t:1757412000:t> en __S15__
+<t:1757419200:D> **21 R3.12 Anglais-TPB** : BESSAC MARIETTE -> <t:1757419200:t> - <t:1757426400:t> en __028__
+<t:1757426400:D> **SAE TPB0** : PEYTAVIE ADRIEN -> <t:1757426400:t> - <t:1757433600:t> en __S17__
+
+[2025-09-08T17:00:04.334Z] info: Message sent to channel 1395371591797575750: <t:1757404800:D> **11 R3.08 Probabilités-TD** : LEROUX STEPHANE -> <t:1757404800:t> - <t:1757412000:t> en __S15__
+<t:1757419200:D> **21 R3.12 Anglais-TPB** : BESSAC MARIETTE -> <t:1757419200:t> - <t:1757426400:t> en __028__
+<t:1757426400:D> **SAE TPB0** : PEYTAVIE ADRIEN -> <t:1757426400:t> - <t:1757433600:t> en __S17__
+
+[2025-09-08T17:00:04.335Z] info: Sending message to channel 1409494803489488986: <t:1757397600:D> **11R5.A.08 Qualité de dev** : MBAREK OLIVIER -> <t:1757397600:t> - <t:1757404800:t> en __S26__
+<t:1757404800:D> **21R5.A.08 Qualité de dev** : MBAREK OLIVIER -> <t:1757404800:t> - <t:1757412000:t> en __S26__
+<t:1757419200:D> **21 R5.A.12 Modélisations Math. TD RA SC** : JOUBERT AUDE -> <t:1757419200:t> - <t:1757426400:t> en __S11__
+<t:1757426400:D> **11R5.A.14 Anglais TD** : BESSAC MARIETTE -> <t:1757426400:t> - <t:1757433600:t> en __028__
+
+[2025-09-08T17:00:04.335Z] info: Message sent to channel 1409494803489488986: <t:1757397600:D> **11R5.A.08 Qualité de dev** : MBAREK OLIVIER -> <t:1757397600:t> - <t:1757404800:t> en __S26__
+<t:1757404800:D> **21R5.A.08 Qualité de dev** : MBAREK OLIVIER -> <t:1757404800:t> - <t:1757412000:t> en __S26__
+<t:1757419200:D> **21 R5.A.12 Modélisations Math. TD RA SC** : JOUBERT AUDE -> <t:1757419200:t> - <t:1757426400:t> en __S11__
+<t:1757426400:D> **11R5.A.14 Anglais TD** : BESSAC MARIETTE -> <t:1757426400:t> - <t:1757433600:t> en __028__
+
+[2025-09-08T17:00:04.336Z] info: Sending message to channel 1409494819574775808: <t:1757397600:D> **11R5.A.08 Qualité de dev** : MBAREK OLIVIER -> <t:1757397600:t> - <t:1757404800:t> en __S26__
+<t:1757404800:D> **21R5.A.08 Qualité de dev** : MBAREK OLIVIER -> <t:1757404800:t> - <t:1757412000:t> en __S26__
+<t:1757419200:D> **21 R5.A.12 Modélisations Math. TD RA SC** : JOUBERT AUDE -> <t:1757419200:t> - <t:1757426400:t> en __S11__
+<t:1757426400:D> **11R5.A.14 Anglais TD** : BESSAC MARIETTE -> <t:1757426400:t> - <t:1757433600:t> en __028__
+
+[2025-09-08T17:00:04.336Z] info: Message sent to channel 1409494819574775808: <t:1757397600:D> **11R5.A.08 Qualité de dev** : MBAREK OLIVIER -> <t:1757397600:t> - <t:1757404800:t> en __S26__
+<t:1757404800:D> **21R5.A.08 Qualité de dev** : MBAREK OLIVIER -> <t:1757404800:t> - <t:1757412000:t> en __S26__
+<t:1757419200:D> **21 R5.A.12 Modélisations Math. TD RA SC** : JOUBERT AUDE -> <t:1757419200:t> - <t:1757426400:t> en __S11__
+<t:1757426400:D> **11R5.A.14 Anglais TD** : BESSAC MARIETTE -> <t:1757426400:t> - <t:1757433600:t> en __028__
+
+[2025-09-08T17:00:04.337Z] info: Daily timetables sent
+[2025-09-08T17:44:26.128Z] info: Received command: group from user: 710595981233750056
+[2025-09-08T17:44:26.129Z] info: Received group command: group=g5, semester=s1, composedGroup=g5s1a
+[2025-09-08T18:28:36.070Z] info: Received command: group from user: 1146108250408878253
+[2025-09-08T18:28:36.071Z] info: Received group command: group=g5, semester=s1, composedGroup=g5s1a
+[2025-09-08T20:13:13.804Z] info: Received command: group from user: 318124932967956491
+[2025-09-08T20:13:13.804Z] info: Received group command: group=but3ra1, semester=, composedGroup=but3ra1a
+[2025-09-09T14:48:33.636Z] info: Received command: group from user: 567757937485938689
+[2025-09-09T14:48:33.637Z] info: Received group command: group=g1, semester=, composedGroup=noGroup
+[2025-09-09T14:49:14.392Z] info: Received command: group from user: 567757937485938689
+[2025-09-09T14:49:14.392Z] info: Received group command: group=g1, semester=s1, composedGroup=g1s1a
+[2025-09-09T15:43:24.027Z] info: Received command: group from user: 897851894993678376
+[2025-09-09T15:43:24.028Z] info: Received group command: group=g1, semester=s3, composedGroup=g1s3a
+[2025-09-09T17:00:00.607Z] info: Downloading ICS files for tomorrow for groups: aspea, aspeb, g1s1a, g1s1b, g2s1a, g2s1b, g3s1a, g3s1b, g4s1a, g4s1b, g5s1a, g5s1b, g1s3a, g1s3b, g2s3a, g2s3b, g3a2, g4s3a, g4s3b, but3ra1a, but3ra1b, but3ra2a, but3ra2b, but3ra3a, but3ra3b, but3dacs, but3aged
+[2025-09-09T17:00:00.608Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=9272&projectId=1&calType=ical&firstDate=2025-09-10&lastDate=2025-09-10 to src/calendars/tomorrow/aspea.ics
+[2025-09-09T17:00:00.754Z] info: ICS file downloaded successfully to src/calendars/tomorrow/aspea.ics
+[2025-09-09T17:00:00.755Z] info: ICS file for aspea downloaded successfully.
+[2025-09-09T17:00:00.755Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=18783&projectId=1&calType=ical&firstDate=2025-09-10&lastDate=2025-09-10 to src/calendars/tomorrow/aspeb.ics
+[2025-09-09T17:00:00.826Z] info: ICS file downloaded successfully to src/calendars/tomorrow/aspeb.ics
+[2025-09-09T17:00:00.827Z] info: ICS file for aspeb downloaded successfully.
+[2025-09-09T17:00:00.827Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=12096&projectId=1&calType=ical&firstDate=2025-09-10&lastDate=2025-09-10 to src/calendars/tomorrow/g1s1a.ics
+[2025-09-09T17:00:00.899Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g1s1a.ics
+[2025-09-09T17:00:00.900Z] info: ICS file for g1s1a downloaded successfully.
+[2025-09-09T17:00:00.900Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=12102&projectId=1&calType=ical&firstDate=2025-09-10&lastDate=2025-09-10 to src/calendars/tomorrow/g1s1b.ics
+[2025-09-09T17:00:00.964Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g1s1b.ics
+[2025-09-09T17:00:00.965Z] info: ICS file for g1s1b downloaded successfully.
+[2025-09-09T17:00:00.965Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=12403&projectId=1&calType=ical&firstDate=2025-09-10&lastDate=2025-09-10 to src/calendars/tomorrow/g2s1a.ics
+[2025-09-09T17:00:01.042Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g2s1a.ics
+[2025-09-09T17:00:01.042Z] info: ICS file for g2s1a downloaded successfully.
+[2025-09-09T17:00:01.043Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=12406&projectId=1&calType=ical&firstDate=2025-09-10&lastDate=2025-09-10 to src/calendars/tomorrow/g2s1b.ics
+[2025-09-09T17:00:01.107Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g2s1b.ics
+[2025-09-09T17:00:01.108Z] info: ICS file for g2s1b downloaded successfully.
+[2025-09-09T17:00:01.108Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=12419&projectId=1&calType=ical&firstDate=2025-09-10&lastDate=2025-09-10 to src/calendars/tomorrow/g3s1a.ics
+[2025-09-09T17:00:01.179Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g3s1a.ics
+[2025-09-09T17:00:01.179Z] info: ICS file for g3s1a downloaded successfully.
+[2025-09-09T17:00:01.180Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=12425&projectId=1&calType=ical&firstDate=2025-09-10&lastDate=2025-09-10 to src/calendars/tomorrow/g3s1b.ics
+[2025-09-09T17:00:01.239Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g3s1b.ics
+[2025-09-09T17:00:01.240Z] info: ICS file for g3s1b downloaded successfully.
+[2025-09-09T17:00:01.240Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=12424&projectId=1&calType=ical&firstDate=2025-09-10&lastDate=2025-09-10 to src/calendars/tomorrow/g4s1a.ics
+[2025-09-09T17:00:01.309Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g4s1a.ics
+[2025-09-09T17:00:01.310Z] info: ICS file for g4s1a downloaded successfully.
+[2025-09-09T17:00:01.310Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=12444&projectId=1&calType=ical&firstDate=2025-09-10&lastDate=2025-09-10 to src/calendars/tomorrow/g4s1b.ics
+[2025-09-09T17:00:01.384Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g4s1b.ics
+[2025-09-09T17:00:01.384Z] info: ICS file for g4s1b downloaded successfully.
+[2025-09-09T17:00:01.385Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=12460&projectId=1&calType=ical&firstDate=2025-09-10&lastDate=2025-09-10 to src/calendars/tomorrow/g5s1a.ics
+[2025-09-09T17:00:01.458Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g5s1a.ics
+[2025-09-09T17:00:01.459Z] info: ICS file for g5s1a downloaded successfully.
+[2025-09-09T17:00:01.459Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=12461&projectId=1&calType=ical&firstDate=2025-09-10&lastDate=2025-09-10 to src/calendars/tomorrow/g5s1b.ics
+[2025-09-09T17:00:01.532Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g5s1b.ics
+[2025-09-09T17:00:01.532Z] info: ICS file for g5s1b downloaded successfully.
+[2025-09-09T17:00:01.532Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=35708&projectId=1&calType=ical&firstDate=2025-09-10&lastDate=2025-09-10 to src/calendars/tomorrow/g1s3a.ics
+[2025-09-09T17:00:01.596Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g1s3a.ics
+[2025-09-09T17:00:01.596Z] info: ICS file for g1s3a downloaded successfully.
+[2025-09-09T17:00:01.597Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=35709&projectId=1&calType=ical&firstDate=2025-09-10&lastDate=2025-09-10 to src/calendars/tomorrow/g1s3b.ics
+[2025-09-09T17:00:01.660Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g1s3b.ics
+[2025-09-09T17:00:01.660Z] info: ICS file for g1s3b downloaded successfully.
+[2025-09-09T17:00:01.660Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=35710&projectId=1&calType=ical&firstDate=2025-09-10&lastDate=2025-09-10 to src/calendars/tomorrow/g2s3a.ics
+[2025-09-09T17:00:01.724Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g2s3a.ics
+[2025-09-09T17:00:01.725Z] info: ICS file for g2s3a downloaded successfully.
+[2025-09-09T17:00:01.725Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=35713&projectId=1&calType=ical&firstDate=2025-09-10&lastDate=2025-09-10 to src/calendars/tomorrow/g2s3b.ics
+[2025-09-09T17:00:01.794Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g2s3b.ics
+[2025-09-09T17:00:01.794Z] info: ICS file for g2s3b downloaded successfully.
+[2025-09-09T17:00:01.794Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=35714&projectId=1&calType=ical&firstDate=2025-09-10&lastDate=2025-09-10 to src/calendars/tomorrow/g3a2.ics
+[2025-09-09T17:00:01.856Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g3a2.ics
+[2025-09-09T17:00:01.856Z] info: ICS file for g3a2 downloaded successfully.
+[2025-09-09T17:00:01.857Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=35717&projectId=1&calType=ical&firstDate=2025-09-10&lastDate=2025-09-10 to src/calendars/tomorrow/g4s3a.ics
+[2025-09-09T17:00:01.926Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g4s3a.ics
+[2025-09-09T17:00:01.926Z] info: ICS file for g4s3a downloaded successfully.
+[2025-09-09T17:00:01.926Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=35718&projectId=1&calType=ical&firstDate=2025-09-10&lastDate=2025-09-10 to src/calendars/tomorrow/g4s3b.ics
+[2025-09-09T17:00:02.006Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g4s3b.ics
+[2025-09-09T17:00:02.006Z] info: ICS file for g4s3b downloaded successfully.
+[2025-09-09T17:00:02.007Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6161&projectId=1&calType=ical&firstDate=2025-09-10&lastDate=2025-09-10 to src/calendars/tomorrow/but3ra1a.ics
+[2025-09-09T17:00:02.059Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3ra1a.ics
+[2025-09-09T17:00:02.059Z] info: ICS file for but3ra1a downloaded successfully.
+[2025-09-09T17:00:02.060Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6163&projectId=1&calType=ical&firstDate=2025-09-10&lastDate=2025-09-10 to src/calendars/tomorrow/but3ra1b.ics
+[2025-09-09T17:00:02.109Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3ra1b.ics
+[2025-09-09T17:00:02.110Z] info: ICS file for but3ra1b downloaded successfully.
+[2025-09-09T17:00:02.110Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6165&projectId=1&calType=ical&firstDate=2025-09-10&lastDate=2025-09-10 to src/calendars/tomorrow/but3ra2a.ics
+[2025-09-09T17:00:02.184Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3ra2a.ics
+[2025-09-09T17:00:02.184Z] info: ICS file for but3ra2a downloaded successfully.
+[2025-09-09T17:00:02.184Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6168&projectId=1&calType=ical&firstDate=2025-09-10&lastDate=2025-09-10 to src/calendars/tomorrow/but3ra2b.ics
+[2025-09-09T17:00:02.256Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3ra2b.ics
+[2025-09-09T17:00:02.256Z] info: ICS file for but3ra2b downloaded successfully.
+[2025-09-09T17:00:02.257Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=14059&projectId=1&calType=ical&firstDate=2025-09-10&lastDate=2025-09-10 to src/calendars/tomorrow/but3ra3a.ics
+[2025-09-09T17:00:02.306Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3ra3a.ics
+[2025-09-09T17:00:02.307Z] info: ICS file for but3ra3a downloaded successfully.
+[2025-09-09T17:00:02.307Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=14064&projectId=1&calType=ical&firstDate=2025-09-10&lastDate=2025-09-10 to src/calendars/tomorrow/but3ra3b.ics
+[2025-09-09T17:00:02.361Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3ra3b.ics
+[2025-09-09T17:00:02.362Z] info: ICS file for but3ra3b downloaded successfully.
+[2025-09-09T17:00:02.362Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6136&projectId=1&calType=ical&firstDate=2025-09-10&lastDate=2025-09-10 to src/calendars/tomorrow/but3dacs.ics
+[2025-09-09T17:00:02.410Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3dacs.ics
+[2025-09-09T17:00:02.411Z] info: ICS file for but3dacs downloaded successfully.
+[2025-09-09T17:00:02.411Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6048&projectId=1&calType=ical&firstDate=2025-09-10&lastDate=2025-09-10 to src/calendars/tomorrow/but3aged.ics
+[2025-09-09T17:00:02.468Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3aged.ics
+[2025-09-09T17:00:02.468Z] info: ICS file for but3aged downloaded successfully.
+[2025-09-09T17:00:02.469Z] info: Sending daily timetables
+[2025-09-09T17:00:02.476Z] info: Sending message to channel 1395371772550975558: <t:1757484000:D> **11IntroDev1 TD** : WATRIGANT REMI -> <t:1757484000:t> - <t:1757491200:t> en __S11__
+<t:1757505600:D> **Anglais TPS3** : CANQUE FLORENCE -> <t:1757505600:t> - <t:1757512800:t> en __028__
+
+[2025-09-09T17:00:02.476Z] info: Message sent to channel 1395371772550975558: <t:1757484000:D> **11IntroDev1 TD** : WATRIGANT REMI -> <t:1757484000:t> - <t:1757491200:t> en __S11__
+<t:1757505600:D> **Anglais TPS3** : CANQUE FLORENCE -> <t:1757505600:t> - <t:1757512800:t> en __028__
+
+[2025-09-09T17:00:02.477Z] info: Sending message to channel 1395052296521646282: <t:1757491200:D> **31 R1.01 initation dev TD** : BUYLE-BODIN NICOLAS -> <t:1757491200:t> - <t:1757498400:t> en __S11__
+<t:1757505600:D> **21R1.01 initation dev TD** : BUYLE-BODIN NICOLAS -> <t:1757505600:t> - <t:1757512800:t> en __040__
+<t:1757512800:D> **21 R1.09 Economie-TD** : LAGACHE ALEXANDRA -> <t:1757512800:t> - <t:1757520000:t> en __040__
+
+[2025-09-09T17:00:02.477Z] info: Message sent to channel 1395052296521646282: <t:1757491200:D> **31 R1.01 initation dev TD** : BUYLE-BODIN NICOLAS -> <t:1757491200:t> - <t:1757498400:t> en __S11__
+<t:1757505600:D> **21R1.01 initation dev TD** : BUYLE-BODIN NICOLAS -> <t:1757505600:t> - <t:1757512800:t> en __040__
+<t:1757512800:D> **21 R1.09 Economie-TD** : LAGACHE ALEXANDRA -> <t:1757512800:t> - <t:1757520000:t> en __040__
+
+[2025-09-09T17:00:02.478Z] info: Sending message to channel 1395052332969885726: <t:1757491200:D> **31 R1.01 initation dev TD** : BUYLE-BODIN NICOLAS -> <t:1757491200:t> - <t:1757498400:t> en __S11__
+<t:1757505600:D> **21R1.01 initation dev TD** : BUYLE-BODIN NICOLAS -> <t:1757505600:t> - <t:1757512800:t> en __040__
+<t:1757512800:D> **21 R1.09 Economie-TD** : LAGACHE ALEXANDRA -> <t:1757512800:t> - <t:1757520000:t> en __040__
+
+[2025-09-09T17:00:02.478Z] info: Message sent to channel 1395052332969885726: <t:1757491200:D> **31 R1.01 initation dev TD** : BUYLE-BODIN NICOLAS -> <t:1757491200:t> - <t:1757498400:t> en __S11__
+<t:1757505600:D> **21R1.01 initation dev TD** : BUYLE-BODIN NICOLAS -> <t:1757505600:t> - <t:1757512800:t> en __040__
+<t:1757512800:D> **21 R1.09 Economie-TD** : LAGACHE ALEXANDRA -> <t:1757512800:t> - <t:1757520000:t> en __040__
+
+[2025-09-09T17:00:02.479Z] info: Sending message to channel 1395052379866660874: <t:1757484000:D> **21 R1.04 Intro Systèmes-TD** : BUYLE-BODIN NICOLAS -> <t:1757484000:t> - <t:1757491200:t> en __S14__
+<t:1757491200:D> **11 R1.05-1 Conception BD-TD** : BEN HADID AMIRA -> <t:1757491200:t> - <t:1757498400:t> en __S16__
+<t:1757505600:D> **11 R1.09 Economie-TD** : DUTREY ELLIOT -> <t:1757505600:t> - <t:1757512800:t> en __S10__
+<t:1757512800:D> **21 R1.09 Economie-TD** : DUTREY ELLIOT -> <t:1757512800:t> - <t:1757520000:t> en __S12__
+
+[2025-09-09T17:00:02.479Z] info: Message sent to channel 1395052379866660874: <t:1757484000:D> **21 R1.04 Intro Systèmes-TD** : BUYLE-BODIN NICOLAS -> <t:1757484000:t> - <t:1757491200:t> en __S14__
+<t:1757491200:D> **11 R1.05-1 Conception BD-TD** : BEN HADID AMIRA -> <t:1757491200:t> - <t:1757498400:t> en __S16__
+<t:1757505600:D> **11 R1.09 Economie-TD** : DUTREY ELLIOT -> <t:1757505600:t> - <t:1757512800:t> en __S10__
+<t:1757512800:D> **21 R1.09 Economie-TD** : DUTREY ELLIOT -> <t:1757512800:t> - <t:1757520000:t> en __S12__
+
+[2025-09-09T17:00:02.480Z] info: Sending message to channel 1395052392092930048: <t:1757484000:D> **21 R1.04 Intro Systèmes-TD** : BUYLE-BODIN NICOLAS -> <t:1757484000:t> - <t:1757491200:t> en __S14__
+<t:1757491200:D> **11 R1.05-1 Conception BD-TD** : BEN HADID AMIRA -> <t:1757491200:t> - <t:1757498400:t> en __S16__
+<t:1757505600:D> **11 R1.09 Economie-TD** : DUTREY ELLIOT -> <t:1757505600:t> - <t:1757512800:t> en __S10__
+<t:1757512800:D> **21 R1.09 Economie-TD** : DUTREY ELLIOT -> <t:1757512800:t> - <t:1757520000:t> en __S12__
+
+[2025-09-09T17:00:02.480Z] info: Message sent to channel 1395052392092930048: <t:1757484000:D> **21 R1.04 Intro Systèmes-TD** : BUYLE-BODIN NICOLAS -> <t:1757484000:t> - <t:1757491200:t> en __S14__
+<t:1757491200:D> **11 R1.05-1 Conception BD-TD** : BEN HADID AMIRA -> <t:1757491200:t> - <t:1757498400:t> en __S16__
+<t:1757505600:D> **11 R1.09 Economie-TD** : DUTREY ELLIOT -> <t:1757505600:t> - <t:1757512800:t> en __S10__
+<t:1757512800:D> **21 R1.09 Economie-TD** : DUTREY ELLIOT -> <t:1757512800:t> - <t:1757520000:t> en __S12__
+
+[2025-09-09T17:00:02.480Z] info: Sending message to channel 1395056179914473612: <t:1757484000:D> **21R1.01 initation dev TD** : VIDAL VINCENT -> <t:1757484000:t> - <t:1757491200:t> en __040__
+<t:1757491200:D> **31 R1.01 initation dev TD** : VIDAL VINCENT -> <t:1757491200:t> - <t:1757498400:t> en __S24__
+<t:1757505600:D> **21 R1.11 Com-TD** : KOCH SONJA -> <t:1757505600:t> - <t:1757512800:t> en __037-Conseil__
+
+[2025-09-09T17:00:02.481Z] info: Message sent to channel 1395056179914473612: <t:1757484000:D> **21R1.01 initation dev TD** : VIDAL VINCENT -> <t:1757484000:t> - <t:1757491200:t> en __040__
+<t:1757491200:D> **31 R1.01 initation dev TD** : VIDAL VINCENT -> <t:1757491200:t> - <t:1757498400:t> en __S24__
+<t:1757505600:D> **21 R1.11 Com-TD** : KOCH SONJA -> <t:1757505600:t> - <t:1757512800:t> en __037-Conseil__
+
+[2025-09-09T17:00:02.481Z] info: Sending message to channel 1395052422401101905: <t:1757484000:D> **21R1.01 initation dev TD** : VIDAL VINCENT -> <t:1757484000:t> - <t:1757491200:t> en __040__
+<t:1757491200:D> **31 R1.01 initation dev TD** : VIDAL VINCENT -> <t:1757491200:t> - <t:1757498400:t> en __S24__
+<t:1757505600:D> **21 R1.11 Com-TD** : KOCH SONJA -> <t:1757505600:t> - <t:1757512800:t> en __037-Conseil__
+
+[2025-09-09T17:00:02.481Z] info: Message sent to channel 1395052422401101905: <t:1757484000:D> **21R1.01 initation dev TD** : VIDAL VINCENT -> <t:1757484000:t> - <t:1757491200:t> en __040__
+<t:1757491200:D> **31 R1.01 initation dev TD** : VIDAL VINCENT -> <t:1757491200:t> - <t:1757498400:t> en __S24__
+<t:1757505600:D> **21 R1.11 Com-TD** : KOCH SONJA -> <t:1757505600:t> - <t:1757512800:t> en __037-Conseil__
+
+[2025-09-09T17:00:02.482Z] info: Sending message to channel 1395052443192266916: <t:1757484000:D> **11 R1.05-1 Conception BD-TD** : BEN HADID AMIRA -> <t:1757484000:t> - <t:1757491200:t> en __S03__
+<t:1757491200:D> **11 R1.09 Economie-TD** : MAGNIN FLORENCE -> <t:1757491200:t> - <t:1757498400:t> en __S15__
+<t:1757505600:D> **21 R1.09 Economie-TD** : MAGNIN FLORENCE -> <t:1757505600:t> - <t:1757512800:t> en __S11__
+<t:1757512800:D> **R1.10 Anglais-TPA P1** : CANQUE FLORENCE -> <t:1757512800:t> - <t:1757520000:t> en __028__
+
+[2025-09-09T17:00:02.482Z] info: Message sent to channel 1395052443192266916: <t:1757484000:D> **11 R1.05-1 Conception BD-TD** : BEN HADID AMIRA -> <t:1757484000:t> - <t:1757491200:t> en __S03__
+<t:1757491200:D> **11 R1.09 Economie-TD** : MAGNIN FLORENCE -> <t:1757491200:t> - <t:1757498400:t> en __S15__
+<t:1757505600:D> **21 R1.09 Economie-TD** : MAGNIN FLORENCE -> <t:1757505600:t> - <t:1757512800:t> en __S11__
+<t:1757512800:D> **R1.10 Anglais-TPA P1** : CANQUE FLORENCE -> <t:1757512800:t> - <t:1757520000:t> en __028__
+
+[2025-09-09T17:00:02.483Z] info: Sending message to channel 1395052467070177290: <t:1757484000:D> **11 R1.05-1 Conception BD-TD** : BEN HADID AMIRA -> <t:1757484000:t> - <t:1757491200:t> en __S03__
+<t:1757491200:D> **11 R1.09 Economie-TD** : MAGNIN FLORENCE -> <t:1757491200:t> - <t:1757498400:t> en __S15__
+<t:1757505600:D> **21 R1.09 Economie-TD** : MAGNIN FLORENCE -> <t:1757505600:t> - <t:1757512800:t> en __S11__
+
+[2025-09-09T17:00:02.483Z] info: Message sent to channel 1395052467070177290: <t:1757484000:D> **11 R1.05-1 Conception BD-TD** : BEN HADID AMIRA -> <t:1757484000:t> - <t:1757491200:t> en __S03__
+<t:1757491200:D> **11 R1.09 Economie-TD** : MAGNIN FLORENCE -> <t:1757491200:t> - <t:1757498400:t> en __S15__
+<t:1757505600:D> **21 R1.09 Economie-TD** : MAGNIN FLORENCE -> <t:1757505600:t> - <t:1757512800:t> en __S11__
+
+[2025-09-09T17:00:02.485Z] info: Sending message to channel 1395052827985842288: <t:1757484000:D> **11 R1.11 Com-TD** : BESSON MATHIEU -> <t:1757484000:t> - <t:1757491200:t> en __S24__
+<t:1757491200:D> **21 R1.11 Com-TD** : BESSON MATHIEU -> <t:1757491200:t> - <t:1757498400:t> en __037-Conseil__
+<t:1757505600:D> **21 R1.09 Economie-TD** : LAGACHE ALEXANDRA -> <t:1757505600:t> - <t:1757512800:t> en __S15__
+<t:1757512800:D> **11 R1.05-1 Conception BD-TD** : BUYLE-BODIN NICOLAS -> <t:1757512800:t> - <t:1757520000:t> en __S17__
+
+[2025-09-09T17:00:02.485Z] info: Message sent to channel 1395052827985842288: <t:1757484000:D> **11 R1.11 Com-TD** : BESSON MATHIEU -> <t:1757484000:t> - <t:1757491200:t> en __S24__
+<t:1757491200:D> **21 R1.11 Com-TD** : BESSON MATHIEU -> <t:1757491200:t> - <t:1757498400:t> en __037-Conseil__
+<t:1757505600:D> **21 R1.09 Economie-TD** : LAGACHE ALEXANDRA -> <t:1757505600:t> - <t:1757512800:t> en __S15__
+<t:1757512800:D> **11 R1.05-1 Conception BD-TD** : BUYLE-BODIN NICOLAS -> <t:1757512800:t> - <t:1757520000:t> en __S17__
+
+[2025-09-09T17:00:02.486Z] info: Sending message to channel 1395052882486890707: <t:1757484000:D> **11 R1.11 Com-TD** : BESSON MATHIEU -> <t:1757484000:t> - <t:1757491200:t> en __S24__
+<t:1757491200:D> **21 R1.11 Com-TD** : BESSON MATHIEU -> <t:1757491200:t> - <t:1757498400:t> en __037-Conseil__
+<t:1757505600:D> **21 R1.09 Economie-TD** : LAGACHE ALEXANDRA -> <t:1757505600:t> - <t:1757512800:t> en __S15__
+<t:1757512800:D> **11 R1.05-1 Conception BD-TD** : BUYLE-BODIN NICOLAS -> <t:1757512800:t> - <t:1757520000:t> en __S17__
+
+[2025-09-09T17:00:02.486Z] info: Message sent to channel 1395052882486890707: <t:1757484000:D> **11 R1.11 Com-TD** : BESSON MATHIEU -> <t:1757484000:t> - <t:1757491200:t> en __S24__
+<t:1757491200:D> **21 R1.11 Com-TD** : BESSON MATHIEU -> <t:1757491200:t> - <t:1757498400:t> en __037-Conseil__
+<t:1757505600:D> **21 R1.09 Economie-TD** : LAGACHE ALEXANDRA -> <t:1757505600:t> - <t:1757512800:t> en __S15__
+<t:1757512800:D> **11 R1.05-1 Conception BD-TD** : BUYLE-BODIN NICOLAS -> <t:1757512800:t> - <t:1757520000:t> en __S17__
+
+[2025-09-09T17:00:02.487Z] info: Sending message to channel 1395371275643256924: <t:1757484000:D> **SAE TPA0** : JOUBERT AUDE -> <t:1757484000:t> - <t:1757491200:t> en __S16__
+<t:1757491200:D> **11 R3.13 communication professionnelle-TD** : DEBOUTE JOCELYNE -> <t:1757491200:t> - <t:1757498400:t> en __S10__
+<t:1757505600:D> **11 R3.06 Archi. Réseaux-TD** : BARON ARIANE -> <t:1757505600:t> - <t:1757512800:t> en __S12__
+
+[2025-09-09T17:00:02.487Z] info: Message sent to channel 1395371275643256924: <t:1757484000:D> **SAE TPA0** : JOUBERT AUDE -> <t:1757484000:t> - <t:1757491200:t> en __S16__
+<t:1757491200:D> **11 R3.13 communication professionnelle-TD** : DEBOUTE JOCELYNE -> <t:1757491200:t> - <t:1757498400:t> en __S10__
+<t:1757505600:D> **11 R3.06 Archi. Réseaux-TD** : BARON ARIANE -> <t:1757505600:t> - <t:1757512800:t> en __S12__
+
+[2025-09-09T17:00:02.488Z] info: Sending message to channel 1395371292533723147: <t:1757491200:D> **11 R3.13 communication professionnelle-TD** : DEBOUTE JOCELYNE -> <t:1757491200:t> - <t:1757498400:t> en __S10__
+<t:1757505600:D> **11 R3.06 Archi. Réseaux-TD** : BARON ARIANE -> <t:1757505600:t> - <t:1757512800:t> en __S12__
+
+[2025-09-09T17:00:02.488Z] info: Message sent to channel 1395371292533723147: <t:1757491200:D> **11 R3.13 communication professionnelle-TD** : DEBOUTE JOCELYNE -> <t:1757491200:t> - <t:1757498400:t> en __S10__
+<t:1757505600:D> **11 R3.06 Archi. Réseaux-TD** : BARON ARIANE -> <t:1757505600:t> - <t:1757512800:t> en __S12__
+
+[2025-09-09T17:00:02.489Z] info: Sending message to channel 1395371451573600287: <t:1757491200:D> **11 R3.05 Programmation système-TD** : WATRIGANT REMI -> <t:1757491200:t> - <t:1757498400:t> en __S17__
+<t:1757505600:D> **11 R3.13 communication professionnelle-TD** : DEBOUTE JOCELYNE -> <t:1757505600:t> - <t:1757512800:t> en __S21__
+<t:1757512800:D> **11 R3.07 SQL et Programmation-TD** : BONNET CHRISTINE -> <t:1757512800:t> - <t:1757520000:t> en __S16__
+
+[2025-09-09T17:00:02.489Z] info: Message sent to channel 1395371451573600287: <t:1757491200:D> **11 R3.05 Programmation système-TD** : WATRIGANT REMI -> <t:1757491200:t> - <t:1757498400:t> en __S17__
+<t:1757505600:D> **11 R3.13 communication professionnelle-TD** : DEBOUTE JOCELYNE -> <t:1757505600:t> - <t:1757512800:t> en __S21__
+<t:1757512800:D> **11 R3.07 SQL et Programmation-TD** : BONNET CHRISTINE -> <t:1757512800:t> - <t:1757520000:t> en __S16__
+
+[2025-09-09T17:00:02.489Z] info: Sending message to channel 1395371471345553540: <t:1757491200:D> **11 R3.05 Programmation système-TD** : WATRIGANT REMI -> <t:1757491200:t> - <t:1757498400:t> en __S17__
+<t:1757505600:D> **11 R3.13 communication professionnelle-TD** : DEBOUTE JOCELYNE -> <t:1757505600:t> - <t:1757512800:t> en __S21__
+<t:1757512800:D> **11 R3.07 SQL et Programmation-TD** : BONNET CHRISTINE -> <t:1757512800:t> - <t:1757520000:t> en __S16__
+
+[2025-09-09T17:00:02.490Z] info: Message sent to channel 1395371471345553540: <t:1757491200:D> **11 R3.05 Programmation système-TD** : WATRIGANT REMI -> <t:1757491200:t> - <t:1757498400:t> en __S17__
+<t:1757505600:D> **11 R3.13 communication professionnelle-TD** : DEBOUTE JOCELYNE -> <t:1757505600:t> - <t:1757512800:t> en __S21__
+<t:1757512800:D> **11 R3.07 SQL et Programmation-TD** : BONNET CHRISTINE -> <t:1757512800:t> - <t:1757520000:t> en __S16__
+
+[2025-09-09T17:00:02.490Z] info: Sending message to channel 1395371640291983370: <t:1757484000:D> **11 R3.10 Management des SI-TD** : DUFOUR KARLINE -> <t:1757484000:t> - <t:1757491200:t> en __S10__
+<t:1757491200:D> **21 R3.01-1 Développement Web  : PHP-TP** : CAPOSIENA JULIEN -> <t:1757491200:t> - <t:1757498400:t> en __S13__
+<t:1757505600:D> **11 R3.12 Anglais B-TP** : BESSAC MARIETTE -> <t:1757505600:t> - <t:1757512800:t> en __026-Langues__
+<t:1757512800:D> **11 R3.13 Communication professionnelle-TD** : DEBOUTE JOCELYNE -> <t:1757512800:t> - <t:1757520000:t> en __S21__
+
+[2025-09-09T17:00:02.491Z] info: Message sent to channel 1395371640291983370: <t:1757484000:D> **11 R3.10 Management des SI-TD** : DUFOUR KARLINE -> <t:1757484000:t> - <t:1757491200:t> en __S10__
+<t:1757491200:D> **21 R3.01-1 Développement Web  : PHP-TP** : CAPOSIENA JULIEN -> <t:1757491200:t> - <t:1757498400:t> en __S13__
+<t:1757505600:D> **11 R3.12 Anglais B-TP** : BESSAC MARIETTE -> <t:1757505600:t> - <t:1757512800:t> en __026-Langues__
+<t:1757512800:D> **11 R3.13 Communication professionnelle-TD** : DEBOUTE JOCELYNE -> <t:1757512800:t> - <t:1757520000:t> en __S21__
+
+[2025-09-09T17:00:02.491Z] info: Sending message to channel 1395371506099425310: <t:1757491200:D> **11 R3.10 Management des SI-TD** : DUFOUR KARLINE -> <t:1757491200:t> - <t:1757498400:t> en __S12__
+<t:1757505600:D> **11 R3.05 Programmation système-TD** : WATRIGANT REMI -> <t:1757505600:t> - <t:1757512800:t> en __S16__
+<t:1757512800:D> **12 R3.07 SQL et Programmation-TD** : BARON ARIANE -> <t:1757512800:t> - <t:1757520000:t> en __S14__
+
+[2025-09-09T17:00:02.491Z] info: Message sent to channel 1395371506099425310: <t:1757491200:D> **11 R3.10 Management des SI-TD** : DUFOUR KARLINE -> <t:1757491200:t> - <t:1757498400:t> en __S12__
+<t:1757505600:D> **11 R3.05 Programmation système-TD** : WATRIGANT REMI -> <t:1757505600:t> - <t:1757512800:t> en __S16__
+<t:1757512800:D> **12 R3.07 SQL et Programmation-TD** : BARON ARIANE -> <t:1757512800:t> - <t:1757520000:t> en __S14__
+
+[2025-09-09T17:00:02.492Z] info: Sending message to channel 1395371591797575750: <t:1757491200:D> **11 R3.10 Management des SI-TD** : DUFOUR KARLINE -> <t:1757491200:t> - <t:1757498400:t> en __S12__
+<t:1757505600:D> **11 R3.05 Programmation système-TD** : WATRIGANT REMI -> <t:1757505600:t> - <t:1757512800:t> en __S16__
+<t:1757512800:D> **12 R3.07 SQL et Programmation-TD** : BARON ARIANE -> <t:1757512800:t> - <t:1757520000:t> en __S14__
+
+[2025-09-09T17:00:02.492Z] info: Message sent to channel 1395371591797575750: <t:1757491200:D> **11 R3.10 Management des SI-TD** : DUFOUR KARLINE -> <t:1757491200:t> - <t:1757498400:t> en __S12__
+<t:1757505600:D> **11 R3.05 Programmation système-TD** : WATRIGANT REMI -> <t:1757505600:t> - <t:1757512800:t> en __S16__
+<t:1757512800:D> **12 R3.07 SQL et Programmation-TD** : BARON ARIANE -> <t:1757512800:t> - <t:1757520000:t> en __S14__
+
+[2025-09-09T17:00:02.493Z] info: Sending message to channel 1409494803489488986: <t:1757491200:D> **23 R5.A.12 Modélisations Math. TD RA SI** : JOUBERT AUDE -> <t:1757491200:t> - <t:1757498400:t> en __S26__
+<t:1757505600:D> **S.A.01 SAE Dev avancé lancement** : PEYTAVIE ADRIEN -> <t:1757505600:t> - <t:1757512800:t> en __S26__
+<t:1757512800:D> **21R5.A.14 Anglais TD** : BESSAC MARIETTE -> <t:1757512800:t> - <t:1757520000:t> en __026-Langues__
+
+[2025-09-09T17:00:02.493Z] info: Message sent to channel 1409494803489488986: <t:1757491200:D> **23 R5.A.12 Modélisations Math. TD RA SI** : JOUBERT AUDE -> <t:1757491200:t> - <t:1757498400:t> en __S26__
+<t:1757505600:D> **S.A.01 SAE Dev avancé lancement** : PEYTAVIE ADRIEN -> <t:1757505600:t> - <t:1757512800:t> en __S26__
+<t:1757512800:D> **21R5.A.14 Anglais TD** : BESSAC MARIETTE -> <t:1757512800:t> - <t:1757520000:t> en __026-Langues__
+
+[2025-09-09T17:00:02.494Z] info: Sending message to channel 1409494819574775808: <t:1757491200:D> **23 R5.A.12 Modélisations Math. TD RA SI** : JOUBERT AUDE -> <t:1757491200:t> - <t:1757498400:t> en __S26__
+<t:1757505600:D> **S.A.01 SAE Dev avancé lancement** : PEYTAVIE ADRIEN -> <t:1757505600:t> - <t:1757512800:t> en __S26__
+<t:1757512800:D> **21R5.A.14 Anglais TD** : BESSAC MARIETTE -> <t:1757512800:t> - <t:1757520000:t> en __026-Langues__
+
+[2025-09-09T17:00:02.494Z] info: Message sent to channel 1409494819574775808: <t:1757491200:D> **23 R5.A.12 Modélisations Math. TD RA SI** : JOUBERT AUDE -> <t:1757491200:t> - <t:1757498400:t> en __S26__
+<t:1757505600:D> **S.A.01 SAE Dev avancé lancement** : PEYTAVIE ADRIEN -> <t:1757505600:t> - <t:1757512800:t> en __S26__
+<t:1757512800:D> **21R5.A.14 Anglais TD** : BESSAC MARIETTE -> <t:1757512800:t> - <t:1757520000:t> en __026-Langues__
+
+[2025-09-09T17:00:02.496Z] info: Daily timetables sent
+[2025-09-09T19:13:36.143Z] info: Received command: group from user: 680087324708569194
+[2025-09-09T19:13:36.144Z] info: Received group command: group=g4, semester=s3, composedGroup=g4s3a
+[2025-09-10T06:03:29.529Z] info: Received command: group from user: 1399047079732711669
+[2025-09-10T06:03:29.530Z] info: Received group command: group=g4, semester=s1, composedGroup=g4s1a
+[2025-09-10T17:00:00.248Z] info: Downloading ICS files for tomorrow for groups: aspea, aspeb, g1s1a, g1s1b, g2s1a, g2s1b, g3s1a, g3s1b, g4s1a, g4s1b, g5s1a, g5s1b, g1s3a, g1s3b, g2s3a, g2s3b, g3a2, g4s3a, g4s3b, but3ra1a, but3ra1b, but3ra2a, but3ra2b, but3ra3a, but3ra3b, but3dacs, but3aged
+[2025-09-10T17:00:00.249Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=9272&projectId=1&calType=ical&firstDate=2025-09-11&lastDate=2025-09-11 to src/calendars/tomorrow/aspea.ics
+[2025-09-10T17:00:00.451Z] info: ICS file downloaded successfully to src/calendars/tomorrow/aspea.ics
+[2025-09-10T17:00:00.452Z] info: ICS file for aspea downloaded successfully.
+[2025-09-10T17:00:00.453Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=18783&projectId=1&calType=ical&firstDate=2025-09-11&lastDate=2025-09-11 to src/calendars/tomorrow/aspeb.ics
+[2025-09-10T17:00:00.596Z] info: ICS file downloaded successfully to src/calendars/tomorrow/aspeb.ics
+[2025-09-10T17:00:00.597Z] info: ICS file for aspeb downloaded successfully.
+[2025-09-10T17:00:00.597Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=12096&projectId=1&calType=ical&firstDate=2025-09-11&lastDate=2025-09-11 to src/calendars/tomorrow/g1s1a.ics
+[2025-09-10T17:00:00.703Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g1s1a.ics
+[2025-09-10T17:00:00.704Z] info: ICS file for g1s1a downloaded successfully.
+[2025-09-10T17:00:00.704Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=12102&projectId=1&calType=ical&firstDate=2025-09-11&lastDate=2025-09-11 to src/calendars/tomorrow/g1s1b.ics
+[2025-09-10T17:00:00.833Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g1s1b.ics
+[2025-09-10T17:00:00.834Z] info: ICS file for g1s1b downloaded successfully.
+[2025-09-10T17:00:00.834Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=12403&projectId=1&calType=ical&firstDate=2025-09-11&lastDate=2025-09-11 to src/calendars/tomorrow/g2s1a.ics
+[2025-09-10T17:00:00.977Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g2s1a.ics
+[2025-09-10T17:00:00.978Z] info: ICS file for g2s1a downloaded successfully.
+[2025-09-10T17:00:00.978Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=12406&projectId=1&calType=ical&firstDate=2025-09-11&lastDate=2025-09-11 to src/calendars/tomorrow/g2s1b.ics
+[2025-09-10T17:00:01.141Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g2s1b.ics
+[2025-09-10T17:00:01.142Z] info: ICS file for g2s1b downloaded successfully.
+[2025-09-10T17:00:01.142Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=12419&projectId=1&calType=ical&firstDate=2025-09-11&lastDate=2025-09-11 to src/calendars/tomorrow/g3s1a.ics
+[2025-09-10T17:00:01.293Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g3s1a.ics
+[2025-09-10T17:00:01.294Z] info: ICS file for g3s1a downloaded successfully.
+[2025-09-10T17:00:01.295Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=12425&projectId=1&calType=ical&firstDate=2025-09-11&lastDate=2025-09-11 to src/calendars/tomorrow/g3s1b.ics
+[2025-09-10T17:00:06.445Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g3s1b.ics
+[2025-09-10T17:00:06.445Z] info: ICS file for g3s1b downloaded successfully.
+[2025-09-10T17:00:06.446Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=12424&projectId=1&calType=ical&firstDate=2025-09-11&lastDate=2025-09-11 to src/calendars/tomorrow/g4s1a.ics
+[2025-09-10T17:00:06.577Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g4s1a.ics
+[2025-09-10T17:00:06.578Z] info: ICS file for g4s1a downloaded successfully.
+[2025-09-10T17:00:06.578Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=12444&projectId=1&calType=ical&firstDate=2025-09-11&lastDate=2025-09-11 to src/calendars/tomorrow/g4s1b.ics
+[2025-09-10T17:00:06.691Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g4s1b.ics
+[2025-09-10T17:00:06.692Z] info: ICS file for g4s1b downloaded successfully.
+[2025-09-10T17:00:06.692Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=12460&projectId=1&calType=ical&firstDate=2025-09-11&lastDate=2025-09-11 to src/calendars/tomorrow/g5s1a.ics
+[2025-09-10T17:00:06.792Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g5s1a.ics
+[2025-09-10T17:00:06.792Z] info: ICS file for g5s1a downloaded successfully.
+[2025-09-10T17:00:06.792Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=12461&projectId=1&calType=ical&firstDate=2025-09-11&lastDate=2025-09-11 to src/calendars/tomorrow/g5s1b.ics
+[2025-09-10T17:00:06.899Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g5s1b.ics
+[2025-09-10T17:00:06.900Z] info: ICS file for g5s1b downloaded successfully.
+[2025-09-10T17:00:06.900Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=35708&projectId=1&calType=ical&firstDate=2025-09-11&lastDate=2025-09-11 to src/calendars/tomorrow/g1s3a.ics
+[2025-09-10T17:00:06.986Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g1s3a.ics
+[2025-09-10T17:00:06.987Z] info: ICS file for g1s3a downloaded successfully.
+[2025-09-10T17:00:06.987Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=35709&projectId=1&calType=ical&firstDate=2025-09-11&lastDate=2025-09-11 to src/calendars/tomorrow/g1s3b.ics
+[2025-09-10T17:00:07.092Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g1s3b.ics
+[2025-09-10T17:00:07.092Z] info: ICS file for g1s3b downloaded successfully.
+[2025-09-10T17:00:07.093Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=35710&projectId=1&calType=ical&firstDate=2025-09-11&lastDate=2025-09-11 to src/calendars/tomorrow/g2s3a.ics
+[2025-09-10T17:00:07.237Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g2s3a.ics
+[2025-09-10T17:00:07.237Z] info: ICS file for g2s3a downloaded successfully.
+[2025-09-10T17:00:07.238Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=35713&projectId=1&calType=ical&firstDate=2025-09-11&lastDate=2025-09-11 to src/calendars/tomorrow/g2s3b.ics
+[2025-09-10T17:00:07.349Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g2s3b.ics
+[2025-09-10T17:00:07.349Z] info: ICS file for g2s3b downloaded successfully.
+[2025-09-10T17:00:07.349Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=35714&projectId=1&calType=ical&firstDate=2025-09-11&lastDate=2025-09-11 to src/calendars/tomorrow/g3a2.ics
+[2025-09-10T17:00:07.474Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g3a2.ics
+[2025-09-10T17:00:07.474Z] info: ICS file for g3a2 downloaded successfully.
+[2025-09-10T17:00:07.475Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=35717&projectId=1&calType=ical&firstDate=2025-09-11&lastDate=2025-09-11 to src/calendars/tomorrow/g4s3a.ics
+[2025-09-10T17:00:07.586Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g4s3a.ics
+[2025-09-10T17:00:07.587Z] info: ICS file for g4s3a downloaded successfully.
+[2025-09-10T17:00:07.587Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=35718&projectId=1&calType=ical&firstDate=2025-09-11&lastDate=2025-09-11 to src/calendars/tomorrow/g4s3b.ics
+[2025-09-10T17:00:07.706Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g4s3b.ics
+[2025-09-10T17:00:07.706Z] info: ICS file for g4s3b downloaded successfully.
+[2025-09-10T17:00:07.707Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6161&projectId=1&calType=ical&firstDate=2025-09-11&lastDate=2025-09-11 to src/calendars/tomorrow/but3ra1a.ics
+[2025-09-10T17:00:07.796Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3ra1a.ics
+[2025-09-10T17:00:07.797Z] info: ICS file for but3ra1a downloaded successfully.
+[2025-09-10T17:00:07.797Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6163&projectId=1&calType=ical&firstDate=2025-09-11&lastDate=2025-09-11 to src/calendars/tomorrow/but3ra1b.ics
+[2025-09-10T17:00:07.935Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3ra1b.ics
+[2025-09-10T17:00:07.935Z] info: ICS file for but3ra1b downloaded successfully.
+[2025-09-10T17:00:07.936Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6165&projectId=1&calType=ical&firstDate=2025-09-11&lastDate=2025-09-11 to src/calendars/tomorrow/but3ra2a.ics
+[2025-09-10T17:00:08.084Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3ra2a.ics
+[2025-09-10T17:00:08.084Z] info: ICS file for but3ra2a downloaded successfully.
+[2025-09-10T17:00:08.085Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6168&projectId=1&calType=ical&firstDate=2025-09-11&lastDate=2025-09-11 to src/calendars/tomorrow/but3ra2b.ics
+[2025-09-10T17:00:08.205Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3ra2b.ics
+[2025-09-10T17:00:08.205Z] info: ICS file for but3ra2b downloaded successfully.
+[2025-09-10T17:00:08.205Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=14059&projectId=1&calType=ical&firstDate=2025-09-11&lastDate=2025-09-11 to src/calendars/tomorrow/but3ra3a.ics
+[2025-09-10T17:00:08.332Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3ra3a.ics
+[2025-09-10T17:00:08.333Z] info: ICS file for but3ra3a downloaded successfully.
+[2025-09-10T17:00:08.333Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=14064&projectId=1&calType=ical&firstDate=2025-09-11&lastDate=2025-09-11 to src/calendars/tomorrow/but3ra3b.ics
+[2025-09-10T17:00:08.416Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3ra3b.ics
+[2025-09-10T17:00:08.416Z] info: ICS file for but3ra3b downloaded successfully.
+[2025-09-10T17:00:08.416Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6136&projectId=1&calType=ical&firstDate=2025-09-11&lastDate=2025-09-11 to src/calendars/tomorrow/but3dacs.ics
+[2025-09-10T17:00:08.534Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3dacs.ics
+[2025-09-10T17:00:08.534Z] info: ICS file for but3dacs downloaded successfully.
+[2025-09-10T17:00:08.535Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6048&projectId=1&calType=ical&firstDate=2025-09-11&lastDate=2025-09-11 to src/calendars/tomorrow/but3aged.ics
+[2025-09-10T17:00:08.640Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3aged.ics
+[2025-09-10T17:00:08.640Z] info: ICS file for but3aged downloaded successfully.
+[2025-09-10T17:00:08.640Z] info: Sending daily timetables
+[2025-09-10T17:00:08.648Z] info: Sending message to channel 1395371772550975558: <t:1757570400:D> **11GPI** : DUFOUR KARLINE -> <t:1757570400:t> - <t:1757577600:t> en __040__
+<t:1757577600:D> **21S1.09 SQL-TD** : BENSLIMANE DJAMAL -> <t:1757577600:t> - <t:1757584800:t> en __S27__
+
+[2025-09-10T17:00:08.649Z] info: Message sent to channel 1395371772550975558: <t:1757570400:D> **11GPI** : DUFOUR KARLINE -> <t:1757570400:t> - <t:1757577600:t> en __040__
+<t:1757577600:D> **21S1.09 SQL-TD** : BENSLIMANE DJAMAL -> <t:1757577600:t> - <t:1757584800:t> en __S27__
+
+[2025-09-10T17:00:08.650Z] info: Sending message to channel 1395052296521646282: <t:1757570400:D> **11 R1.11 Com-TD** : BESSON MATHIEU -> <t:1757570400:t> - <t:1757577600:t> en __S21__
+<t:1757577600:D> **21 R1.11 Com-TD** : BESSON MATHIEU -> <t:1757577600:t> - <t:1757584800:t> en __S21__
+<t:1757585700:D> **Réussir son BUT L11** : VIDAL VINCENT -> <t:1757585700:t> - <t:1757589300:t> en __S11,S17,S10,S14,S16,S13__
+
+[2025-09-10T17:00:08.650Z] info: Message sent to channel 1395052296521646282: <t:1757570400:D> **11 R1.11 Com-TD** : BESSON MATHIEU -> <t:1757570400:t> - <t:1757577600:t> en __S21__
+<t:1757577600:D> **21 R1.11 Com-TD** : BESSON MATHIEU -> <t:1757577600:t> - <t:1757584800:t> en __S21__
+<t:1757585700:D> **Réussir son BUT L11** : VIDAL VINCENT -> <t:1757585700:t> - <t:1757589300:t> en __S11,S17,S10,S14,S16,S13__
+
+[2025-09-10T17:00:08.651Z] info: Sending message to channel 1395052332969885726: <t:1757570400:D> **11 R1.11 Com-TD** : BESSON MATHIEU -> <t:1757570400:t> - <t:1757577600:t> en __S21__
+<t:1757577600:D> **21 R1.11 Com-TD** : BESSON MATHIEU -> <t:1757577600:t> - <t:1757584800:t> en __S21__
+<t:1757585700:D> **Réussir son BUT L11** : VIDAL VINCENT -> <t:1757585700:t> - <t:1757589300:t> en __S11,S17,S10,S14,S16,S13__
+
+[2025-09-10T17:00:08.651Z] info: Message sent to channel 1395052332969885726: <t:1757570400:D> **11 R1.11 Com-TD** : BESSON MATHIEU -> <t:1757570400:t> - <t:1757577600:t> en __S21__
+<t:1757577600:D> **21 R1.11 Com-TD** : BESSON MATHIEU -> <t:1757577600:t> - <t:1757584800:t> en __S21__
+<t:1757585700:D> **Réussir son BUT L11** : VIDAL VINCENT -> <t:1757585700:t> - <t:1757589300:t> en __S11,S17,S10,S14,S16,S13__
+
+[2025-09-10T17:00:08.652Z] info: Sending message to channel 1395052379866660874: <t:1757570400:D> **42R1.01 initation dev SI** : DAUTRAIX ISABELLE -> <t:1757570400:t> - <t:1757577600:t> en __S14__
+<t:1757577600:D> **31 R1.01 initation dev TD** : DAUTRAIX ISABELLE -> <t:1757577600:t> - <t:1757584800:t> en __S25__
+<t:1757585700:D> **Réussir son BUT L11** : VIDAL VINCENT -> <t:1757585700:t> - <t:1757589300:t> en __S11,S17,S10,S14,S16,S13__
+<t:1757590200:D> **R1.01 initation dev TD P12** : DAUTRAIX ISABELLE -> <t:1757590200:t> - <t:1757597400:t> en __S15__
+
+[2025-09-10T17:00:08.652Z] info: Message sent to channel 1395052379866660874: <t:1757570400:D> **42R1.01 initation dev SI** : DAUTRAIX ISABELLE -> <t:1757570400:t> - <t:1757577600:t> en __S14__
+<t:1757577600:D> **31 R1.01 initation dev TD** : DAUTRAIX ISABELLE -> <t:1757577600:t> - <t:1757584800:t> en __S25__
+<t:1757585700:D> **Réussir son BUT L11** : VIDAL VINCENT -> <t:1757585700:t> - <t:1757589300:t> en __S11,S17,S10,S14,S16,S13__
+<t:1757590200:D> **R1.01 initation dev TD P12** : DAUTRAIX ISABELLE -> <t:1757590200:t> - <t:1757597400:t> en __S15__
+
+[2025-09-10T17:00:08.653Z] info: Sending message to channel 1395052392092930048: <t:1757570400:D> **42R1.01 initation dev SI** : DAUTRAIX ISABELLE -> <t:1757570400:t> - <t:1757577600:t> en __S14__
+<t:1757577600:D> **31 R1.01 initation dev TD** : DAUTRAIX ISABELLE -> <t:1757577600:t> - <t:1757584800:t> en __S25__
+<t:1757585700:D> **Réussir son BUT L11** : VIDAL VINCENT -> <t:1757585700:t> - <t:1757589300:t> en __S11,S17,S10,S14,S16,S13__
+<t:1757590200:D> **R1.01 initation dev TD P12** : DAUTRAIX ISABELLE -> <t:1757590200:t> - <t:1757597400:t> en __S15__
+<t:1757599200:D> **21R1.11 Com JMB-TPB** : BAILLEUX JEAN-MARC -> <t:1757599200:t> - <t:1757606400:t> en __037-Conseil__
+
+[2025-09-10T17:00:08.653Z] info: Message sent to channel 1395052392092930048: <t:1757570400:D> **42R1.01 initation dev SI** : DAUTRAIX ISABELLE -> <t:1757570400:t> - <t:1757577600:t> en __S14__
+<t:1757577600:D> **31 R1.01 initation dev TD** : DAUTRAIX ISABELLE -> <t:1757577600:t> - <t:1757584800:t> en __S25__
+<t:1757585700:D> **Réussir son BUT L11** : VIDAL VINCENT -> <t:1757585700:t> - <t:1757589300:t> en __S11,S17,S10,S14,S16,S13__
+<t:1757590200:D> **R1.01 initation dev TD P12** : DAUTRAIX ISABELLE -> <t:1757590200:t> - <t:1757597400:t> en __S15__
+<t:1757599200:D> **21R1.11 Com JMB-TPB** : BAILLEUX JEAN-MARC -> <t:1757599200:t> - <t:1757606400:t> en __037-Conseil__
+
+[2025-09-10T17:00:08.653Z] info: Sending message to channel 1395056179914473612: <t:1757570400:D> **11R1.11 Com JMB-TPA** : BAILLEUX JEAN-MARC -> <t:1757570400:t> - <t:1757577600:t> en __037-Conseil__
+<t:1757577600:D> **21 R1.09 Economie-TD** : LAGACHE ALEXANDRA -> <t:1757577600:t> - <t:1757584800:t> en __S15__
+<t:1757585700:D> **Réussir son BUT L11** : VIDAL VINCENT -> <t:1757585700:t> - <t:1757589300:t> en __S11,S17,S10,S14,S16,S13__
+
+[2025-09-10T17:00:08.654Z] info: Message sent to channel 1395056179914473612: <t:1757570400:D> **11R1.11 Com JMB-TPA** : BAILLEUX JEAN-MARC -> <t:1757570400:t> - <t:1757577600:t> en __037-Conseil__
+<t:1757577600:D> **21 R1.09 Economie-TD** : LAGACHE ALEXANDRA -> <t:1757577600:t> - <t:1757584800:t> en __S15__
+<t:1757585700:D> **Réussir son BUT L11** : VIDAL VINCENT -> <t:1757585700:t> - <t:1757589300:t> en __S11,S17,S10,S14,S16,S13__
+
+[2025-09-10T17:00:08.654Z] info: Sending message to channel 1395052422401101905: <t:1757570400:D> **31 R1.07 Outils Math. Fond TPB** : JOUBERT AUDE -> <t:1757570400:t> - <t:1757577600:t> en __S11__
+<t:1757577600:D> **21 R1.09 Economie-TD** : LAGACHE ALEXANDRA -> <t:1757577600:t> - <t:1757584800:t> en __S15__
+<t:1757585700:D> **Réussir son BUT L11** : VIDAL VINCENT -> <t:1757585700:t> - <t:1757589300:t> en __S11,S17,S10,S14,S16,S13__
+
+[2025-09-10T17:00:08.654Z] info: Message sent to channel 1395052422401101905: <t:1757570400:D> **31 R1.07 Outils Math. Fond TPB** : JOUBERT AUDE -> <t:1757570400:t> - <t:1757577600:t> en __S11__
+<t:1757577600:D> **21 R1.09 Economie-TD** : LAGACHE ALEXANDRA -> <t:1757577600:t> - <t:1757584800:t> en __S15__
+<t:1757585700:D> **Réussir son BUT L11** : VIDAL VINCENT -> <t:1757585700:t> - <t:1757589300:t> en __S11,S17,S10,S14,S16,S13__
+
+[2025-09-10T17:00:08.655Z] info: Sending message to channel 1395052443192266916: <t:1757577600:D> **11R1.11 Com JMB-TPA** : BAILLEUX JEAN-MARC -> <t:1757577600:t> - <t:1757584800:t> en __037-Conseil__
+<t:1757585700:D> **Réussir son BUT L11** : VIDAL VINCENT -> <t:1757585700:t> - <t:1757589300:t> en __S11,S17,S10,S14,S16,S13__
+
+[2025-09-10T17:00:08.655Z] info: Message sent to channel 1395052443192266916: <t:1757577600:D> **11R1.11 Com JMB-TPA** : BAILLEUX JEAN-MARC -> <t:1757577600:t> - <t:1757584800:t> en __037-Conseil__
+<t:1757585700:D> **Réussir son BUT L11** : VIDAL VINCENT -> <t:1757585700:t> - <t:1757589300:t> en __S11,S17,S10,S14,S16,S13__
+
+[2025-09-10T17:00:08.657Z] info: Sending message to channel 1395052467070177290: <t:1757577600:D> **31 R1.07 Outils Math. Fond TPB** : JOUBERT AUDE -> <t:1757577600:t> - <t:1757584800:t> en __S11__
+<t:1757585700:D> **Réussir son BUT L11** : VIDAL VINCENT -> <t:1757585700:t> - <t:1757589300:t> en __S11,S17,S10,S14,S16,S13__
+
+[2025-09-10T17:00:08.657Z] info: Message sent to channel 1395052467070177290: <t:1757577600:D> **31 R1.07 Outils Math. Fond TPB** : JOUBERT AUDE -> <t:1757577600:t> - <t:1757584800:t> en __S11__
+<t:1757585700:D> **Réussir son BUT L11** : VIDAL VINCENT -> <t:1757585700:t> - <t:1757589300:t> en __S11,S17,S10,S14,S16,S13__
+
+[2025-09-10T17:00:08.658Z] info: Sending message to channel 1395052827985842288: <t:1757570400:D> **11 R1.09 Economie-TD** : LAGACHE ALEXANDRA -> <t:1757570400:t> - <t:1757577600:t> en __S12__
+<t:1757577600:D> **21 R1.07 Outils Math. Fond TPA** : LEROUX STEPHANE -> <t:1757577600:t> - <t:1757584800:t> en __S12__
+<t:1757585700:D> **Réussir son BUT L11** : VIDAL VINCENT -> <t:1757585700:t> - <t:1757589300:t> en __S11,S17,S10,S14,S16,S13__
+
+[2025-09-10T17:00:08.658Z] info: Message sent to channel 1395052827985842288: <t:1757570400:D> **11 R1.09 Economie-TD** : LAGACHE ALEXANDRA -> <t:1757570400:t> - <t:1757577600:t> en __S12__
+<t:1757577600:D> **21 R1.07 Outils Math. Fond TPA** : LEROUX STEPHANE -> <t:1757577600:t> - <t:1757584800:t> en __S12__
+<t:1757585700:D> **Réussir son BUT L11** : VIDAL VINCENT -> <t:1757585700:t> - <t:1757589300:t> en __S11,S17,S10,S14,S16,S13__
+
+[2025-09-10T17:00:08.659Z] info: Sending message to channel 1395052882486890707: <t:1757570400:D> **11 R1.09 Economie-TD** : LAGACHE ALEXANDRA -> <t:1757570400:t> - <t:1757577600:t> en __S12__
+<t:1757585700:D> **Réussir son BUT L11** : VIDAL VINCENT -> <t:1757585700:t> - <t:1757589300:t> en __S11,S17,S10,S14,S16,S13__
+<t:1757592000:D> **21R1.11 Com JMB-TPB** : BAILLEUX JEAN-MARC -> <t:1757592000:t> - <t:1757599200:t> en __037-Conseil__
+
+[2025-09-10T17:00:08.659Z] info: Message sent to channel 1395052882486890707: <t:1757570400:D> **11 R1.09 Economie-TD** : LAGACHE ALEXANDRA -> <t:1757570400:t> - <t:1757577600:t> en __S12__
+<t:1757585700:D> **Réussir son BUT L11** : VIDAL VINCENT -> <t:1757585700:t> - <t:1757589300:t> en __S11,S17,S10,S14,S16,S13__
+<t:1757592000:D> **21R1.11 Com JMB-TPB** : BAILLEUX JEAN-MARC -> <t:1757592000:t> - <t:1757599200:t> en __037-Conseil__
+
+[2025-09-10T17:00:08.659Z] info: Sending message to channel 1395371275643256924: <t:1757570400:D> **11 R3.08 Probabilités-TD** : JALOUX CHRISTOPHE -> <t:1757570400:t> - <t:1757577600:t> en __S10__
+<t:1757577600:D> **21 R3.03 Analyse-TD** : FACI NOURA -> <t:1757577600:t> - <t:1757584800:t> en __S16__
+<t:1757586600:D> **Réunion information** : BESSAC MARIETTE -> <t:1757586600:t> - <t:1757592000:t> en __Amphi1__
+
+[2025-09-10T17:00:08.660Z] info: Message sent to channel 1395371275643256924: <t:1757570400:D> **11 R3.08 Probabilités-TD** : JALOUX CHRISTOPHE -> <t:1757570400:t> - <t:1757577600:t> en __S10__
+<t:1757577600:D> **21 R3.03 Analyse-TD** : FACI NOURA -> <t:1757577600:t> - <t:1757584800:t> en __S16__
+<t:1757586600:D> **Réunion information** : BESSAC MARIETTE -> <t:1757586600:t> - <t:1757592000:t> en __Amphi1__
+
+[2025-09-10T17:00:08.660Z] info: Sending message to channel 1395371292533723147: <t:1757570400:D> **11 R3.08 Probabilités-TD** : JALOUX CHRISTOPHE -> <t:1757570400:t> - <t:1757577600:t> en __S10__
+<t:1757577600:D> **21 R3.03 Analyse-TD** : FACI NOURA -> <t:1757577600:t> - <t:1757584800:t> en __S16__
+<t:1757586600:D> **Réunion information** : BESSAC MARIETTE -> <t:1757586600:t> - <t:1757592000:t> en __Amphi1__
+
+[2025-09-10T17:00:08.660Z] info: Message sent to channel 1395371292533723147: <t:1757570400:D> **11 R3.08 Probabilités-TD** : JALOUX CHRISTOPHE -> <t:1757570400:t> - <t:1757577600:t> en __S10__
+<t:1757577600:D> **21 R3.03 Analyse-TD** : FACI NOURA -> <t:1757577600:t> - <t:1757584800:t> en __S16__
+<t:1757586600:D> **Réunion information** : BESSAC MARIETTE -> <t:1757586600:t> - <t:1757592000:t> en __Amphi1__
+
+[2025-09-10T17:00:08.661Z] info: Sending message to channel 1395371451573600287: <t:1757570400:D> **21 R3.03 Analyse-TD** : FACI NOURA -> <t:1757570400:t> - <t:1757577600:t> en __S03__
+<t:1757577600:D> **11 R3.08 Probabilités-TD** : JALOUX CHRISTOPHE -> <t:1757577600:t> - <t:1757584800:t> en __S10__
+<t:1757586600:D> **Réunion information** : BESSAC MARIETTE -> <t:1757586600:t> - <t:1757592000:t> en __Amphi1__
+
+[2025-09-10T17:00:08.661Z] info: Message sent to channel 1395371451573600287: <t:1757570400:D> **21 R3.03 Analyse-TD** : FACI NOURA -> <t:1757570400:t> - <t:1757577600:t> en __S03__
+<t:1757577600:D> **11 R3.08 Probabilités-TD** : JALOUX CHRISTOPHE -> <t:1757577600:t> - <t:1757584800:t> en __S10__
+<t:1757586600:D> **Réunion information** : BESSAC MARIETTE -> <t:1757586600:t> - <t:1757592000:t> en __Amphi1__
+
+[2025-09-10T17:00:08.662Z] info: Sending message to channel 1395371471345553540: <t:1757570400:D> **21 R3.03 Analyse-TD** : FACI NOURA -> <t:1757570400:t> - <t:1757577600:t> en __S03__
+<t:1757577600:D> **11 R3.08 Probabilités-TD** : JALOUX CHRISTOPHE -> <t:1757577600:t> - <t:1757584800:t> en __S10__
+<t:1757586600:D> **Réunion information** : BESSAC MARIETTE -> <t:1757586600:t> - <t:1757592000:t> en __Amphi1__
+
+[2025-09-10T17:00:08.662Z] info: Message sent to channel 1395371471345553540: <t:1757570400:D> **21 R3.03 Analyse-TD** : FACI NOURA -> <t:1757570400:t> - <t:1757577600:t> en __S03__
+<t:1757577600:D> **11 R3.08 Probabilités-TD** : JALOUX CHRISTOPHE -> <t:1757577600:t> - <t:1757584800:t> en __S10__
+<t:1757586600:D> **Réunion information** : BESSAC MARIETTE -> <t:1757586600:t> - <t:1757592000:t> en __Amphi1__
+
+[2025-09-10T17:00:08.662Z] info: Sending message to channel 1395371640291983370: <t:1757570400:D> **41 R3.08 Proba B-TD** : LEROUX STEPHANE -> <t:1757570400:t> - <t:1757577600:t> en __S15__
+<t:1757577600:D> **21 R3.10 Management des SI-TD** : DUFOUR KARLINE -> <t:1757577600:t> - <t:1757584800:t> en __040__
+<t:1757586600:D> **Réunion information** : BESSAC MARIETTE -> <t:1757586600:t> - <t:1757592000:t> en __Amphi1__
+
+[2025-09-10T17:00:08.663Z] info: Message sent to channel 1395371640291983370: <t:1757570400:D> **41 R3.08 Proba B-TD** : LEROUX STEPHANE -> <t:1757570400:t> - <t:1757577600:t> en __S15__
+<t:1757577600:D> **21 R3.10 Management des SI-TD** : DUFOUR KARLINE -> <t:1757577600:t> - <t:1757584800:t> en __040__
+<t:1757586600:D> **Réunion information** : BESSAC MARIETTE -> <t:1757586600:t> - <t:1757592000:t> en __Amphi1__
+
+[2025-09-10T17:00:08.663Z] info: Sending message to channel 1395371506099425310: <t:1757577600:D> **11 R3.07 SQL et Programmation-TD** : BARON ARIANE -> <t:1757577600:t> - <t:1757584800:t> en __S24__
+<t:1757586600:D> **Réunion information** : BESSAC MARIETTE -> <t:1757586600:t> - <t:1757592000:t> en __Amphi1__
+
+[2025-09-10T17:00:08.663Z] info: Message sent to channel 1395371506099425310: <t:1757577600:D> **11 R3.07 SQL et Programmation-TD** : BARON ARIANE -> <t:1757577600:t> - <t:1757584800:t> en __S24__
+<t:1757586600:D> **Réunion information** : BESSAC MARIETTE -> <t:1757586600:t> - <t:1757592000:t> en __Amphi1__
+
+[2025-09-10T17:00:08.664Z] info: Sending message to channel 1395371591797575750: <t:1757577600:D> **11 R3.07 SQL et Programmation-TD** : BARON ARIANE -> <t:1757577600:t> - <t:1757584800:t> en __S24__
+<t:1757586600:D> **Réunion information** : BESSAC MARIETTE -> <t:1757586600:t> - <t:1757592000:t> en __Amphi1__
+
+[2025-09-10T17:00:08.664Z] info: Message sent to channel 1395371591797575750: <t:1757577600:D> **11 R3.07 SQL et Programmation-TD** : BARON ARIANE -> <t:1757577600:t> - <t:1757584800:t> en __S24__
+<t:1757586600:D> **Réunion information** : BESSAC MARIETTE -> <t:1757586600:t> - <t:1757592000:t> en __Amphi1__
+
+[2025-09-10T17:00:08.665Z] info: Sending message to channel 1409494803489488986: <t:1757570400:D> **21R5.A.05-2 Angular TPA** : YACOUBI AYADI NADIA -> <t:1757570400:t> - <t:1757577600:t> en __S26__
+<t:1757577600:D> **S.A.01 SAE Dev avancé A** : BUT3 RA2A -> <t:1757577600:t> - <t:1757584800:t> en __S03__
+<t:1757590200:D> **11R5.A.09 Virtualisation avancée** : TABCHICHE NASSIM -> <t:1757590200:t> - <t:1757597400:t> en __S26__
+<t:1757597400:D> **21R5.A.09 Virtualisation avancée** : TABCHICHE NASSIM -> <t:1757597400:t> - <t:1757604600:t> en __S26__
+
+[2025-09-10T17:00:08.666Z] info: Message sent to channel 1409494803489488986: <t:1757570400:D> **21R5.A.05-2 Angular TPA** : YACOUBI AYADI NADIA -> <t:1757570400:t> - <t:1757577600:t> en __S26__
+<t:1757577600:D> **S.A.01 SAE Dev avancé A** : BUT3 RA2A -> <t:1757577600:t> - <t:1757584800:t> en __S03__
+<t:1757590200:D> **11R5.A.09 Virtualisation avancée** : TABCHICHE NASSIM -> <t:1757590200:t> - <t:1757597400:t> en __S26__
+<t:1757597400:D> **21R5.A.09 Virtualisation avancée** : TABCHICHE NASSIM -> <t:1757597400:t> - <t:1757604600:t> en __S26__
+
+[2025-09-10T17:00:08.667Z] info: Sending message to channel 1409494819574775808: <t:1757570400:D> **S.A.01 SAE Dev avancé B** : BUT3 RA2B -> <t:1757570400:t> - <t:1757577600:t> en __S01__
+<t:1757577600:D> **31R5.A.05-2 Angular TPB** : YACOUBI AYADI NADIA -> <t:1757577600:t> - <t:1757584800:t> en __S26__
+<t:1757590200:D> **11R5.A.09 Virtualisation avancée** : TABCHICHE NASSIM -> <t:1757590200:t> - <t:1757597400:t> en __S26__
+<t:1757597400:D> **21R5.A.09 Virtualisation avancée** : TABCHICHE NASSIM -> <t:1757597400:t> - <t:1757604600:t> en __S26__
+
+[2025-09-10T17:00:08.667Z] info: Message sent to channel 1409494819574775808: <t:1757570400:D> **S.A.01 SAE Dev avancé B** : BUT3 RA2B -> <t:1757570400:t> - <t:1757577600:t> en __S01__
+<t:1757577600:D> **31R5.A.05-2 Angular TPB** : YACOUBI AYADI NADIA -> <t:1757577600:t> - <t:1757584800:t> en __S26__
+<t:1757590200:D> **11R5.A.09 Virtualisation avancée** : TABCHICHE NASSIM -> <t:1757590200:t> - <t:1757597400:t> en __S26__
+<t:1757597400:D> **21R5.A.09 Virtualisation avancée** : TABCHICHE NASSIM -> <t:1757597400:t> - <t:1757604600:t> en __S26__
+
+[2025-09-10T17:00:08.668Z] info: Daily timetables sent
+[2025-09-10T17:07:15.030Z] info: Received command: group from user: 785943033669222420
+[2025-09-10T17:07:15.030Z] info: Received group command: group=g4, semester=s3, composedGroup=g4s3a
+[2025-09-10T17:31:11.377Z] info: Received command: group from user: 598835036942237697
+[2025-09-10T17:31:11.378Z] info: Received group command: group=g3, semester=s3, composedGroup=g3s3a
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+TypeError: Cannot read properties of undefined (reading 'role')
+    at ue (/home/donat/bot-iut-ts/dist/index.js:1:3967)
+    at Object.Ve (/home/donat/bot-iut-ts/dist/index.js:4:537)
+    at Client.<anonymous> (/home/donat/bot-iut-ts/dist/index.js:18:3244)
+    at Client.emit (node:events:517:28)
+    at InteractionCreateAction.handle (/home/donat/bot-iut-ts/node_modules/discord.js/src/client/actions/InteractionCreate.js:101:12)
+    at module.exports [as INTERACTION_CREATE] (/home/donat/bot-iut-ts/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)
+    at WebSocketManager.handlePacket (/home/donat/bot-iut-ts/node_modules/discord.js/src/client/websocket/WebSocketManager.js:351:31)
+    at WebSocketManager.<anonymous> (/home/donat/bot-iut-ts/node_modules/discord.js/src/client/websocket/WebSocketManager.js:235:12)
+    at WebSocketManager.emit (/home/donat/bot-iut-ts/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/donat/bot-iut-ts/node_modules/@discordjs/ws/dist/index.js:1190:51)
+Emitted 'error' event on Client instance at:
+    at emitUnhandledRejectionOrErr (node:events:398:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:84:21)
+
+Node.js v18.19.0

@@ -12,8 +12,9 @@ export function send_timetables_daily() {
     for (const group in groups) {
         const groupData = groups[group];
         if (groupData.channel) {
-            const message = createMessageFromGroup(group, "tomorrow");
+            let message = createMessageFromGroup(group, "tomorrow");
             if (message !== "") {
+                message = `📅 **Emploi du temps pour le groupe ${group} demain :**\n\n` + message;
                 send(groupData.channel, message);
             }
         } else {
@@ -29,8 +30,9 @@ export function send_timetables_week() {
     for (const group in groups) {
         const groupData = groups[group];
         if (groupData.channel) {
-            const message = createMessageFromGroup(group, "nextweek");
+            let message = createMessageFromGroup(group, "nextweek");
             if (message !== "") {
+                message = `📅 **Emploi du temps pour le groupe ${group} la semaine prochaine :**\n\n` + message;
                 send(groupData.channel, message);
             }
         } else {

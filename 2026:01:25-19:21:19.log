@@ -1,0 +1,1063 @@
+[2026-01-25T19:21:22.225Z] info: Discord bot is ready! 🤖
+[2026-01-26T15:38:25.893Z] info: Received command: group from user: 1163092011952390285
+[2026-01-26T15:38:25.897Z] info: Received group command: group=g2, semester=, composedGroup=noGroup
+[2026-01-26T15:38:49.687Z] info: Received command: group from user: 1163092011952390285
+[2026-01-26T15:38:49.689Z] info: Received group command: group=g2, semester=s4, composedGroup=g2s4a
+[2026-01-26T17:31:13.214Z] info: Received command: group from user: 703376700406366311
+[2026-01-26T17:31:13.215Z] info: Received group command: group=g2, semester=s4, composedGroup=g2s4a
+[2026-01-26T18:00:00.899Z] info: Downloading ICS files for tomorrow for groups: aspea, aspeb, g1s2a, g1s2b, g2s2a, g2s2b, g3s2a, g3s2b, g4s2a, g4s2b, g5s2a, g5s2b, g1s4a, g1s4b, g2s4a, g2s4b, g3a2, g4s4a, g4s4b, but3ra1a, but3ra1b, but3ra2a, but3ra2b, but3ra3a, but3ra3b, but3dacs, but3aged
+[2026-01-26T18:00:00.901Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=9272&projectId=1&calType=ical&firstDate=2026-01-27&lastDate=2026-01-27 to src/calendars/tomorrow/aspea.ics
+[2026-01-26T18:00:01.259Z] info: ICS file downloaded successfully to src/calendars/tomorrow/aspea.ics
+[2026-01-26T18:00:01.260Z] info: ICS file for aspea downloaded successfully.
+[2026-01-26T18:00:01.261Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=18783&projectId=1&calType=ical&firstDate=2026-01-27&lastDate=2026-01-27 to src/calendars/tomorrow/aspeb.ics
+[2026-01-26T18:00:01.398Z] info: ICS file downloaded successfully to src/calendars/tomorrow/aspeb.ics
+[2026-01-26T18:00:01.398Z] info: ICS file for aspeb downloaded successfully.
+[2026-01-26T18:00:01.399Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=51542&projectId=1&calType=ical&firstDate=2026-01-27&lastDate=2026-01-27 to src/calendars/tomorrow/g1s2a.ics
+[2026-01-26T18:00:01.552Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g1s2a.ics
+[2026-01-26T18:00:01.553Z] info: ICS file for g1s2a downloaded successfully.
+[2026-01-26T18:00:01.553Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=51543&projectId=1&calType=ical&firstDate=2026-01-27&lastDate=2026-01-27 to src/calendars/tomorrow/g1s2b.ics
+[2026-01-26T18:00:01.716Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g1s2b.ics
+[2026-01-26T18:00:01.717Z] info: ICS file for g1s2b downloaded successfully.
+[2026-01-26T18:00:01.717Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=51545&projectId=1&calType=ical&firstDate=2026-01-27&lastDate=2026-01-27 to src/calendars/tomorrow/g2s2a.ics
+[2026-01-26T18:00:01.857Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g2s2a.ics
+[2026-01-26T18:00:01.858Z] info: ICS file for g2s2a downloaded successfully.
+[2026-01-26T18:00:01.858Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=51546&projectId=1&calType=ical&firstDate=2026-01-27&lastDate=2026-01-27 to src/calendars/tomorrow/g2s2b.ics
+[2026-01-26T18:00:02.029Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g2s2b.ics
+[2026-01-26T18:00:02.030Z] info: ICS file for g2s2b downloaded successfully.
+[2026-01-26T18:00:02.030Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=51548&projectId=1&calType=ical&firstDate=2026-01-27&lastDate=2026-01-27 to src/calendars/tomorrow/g3s2a.ics
+[2026-01-26T18:00:02.144Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g3s2a.ics
+[2026-01-26T18:00:02.145Z] info: ICS file for g3s2a downloaded successfully.
+[2026-01-26T18:00:02.145Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=51549&projectId=1&calType=ical&firstDate=2026-01-27&lastDate=2026-01-27 to src/calendars/tomorrow/g3s2b.ics
+[2026-01-26T18:00:02.270Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g3s2b.ics
+[2026-01-26T18:00:02.271Z] info: ICS file for g3s2b downloaded successfully.
+[2026-01-26T18:00:02.271Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=51551&projectId=1&calType=ical&firstDate=2026-01-27&lastDate=2026-01-27 to src/calendars/tomorrow/g4s2a.ics
+[2026-01-26T18:00:02.449Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g4s2a.ics
+[2026-01-26T18:00:02.449Z] info: ICS file for g4s2a downloaded successfully.
+[2026-01-26T18:00:02.450Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=51552&projectId=1&calType=ical&firstDate=2026-01-27&lastDate=2026-01-27 to src/calendars/tomorrow/g4s2b.ics
+[2026-01-26T18:00:02.554Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g4s2b.ics
+[2026-01-26T18:00:02.555Z] info: ICS file for g4s2b downloaded successfully.
+[2026-01-26T18:00:02.555Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=51554&projectId=1&calType=ical&firstDate=2026-01-27&lastDate=2026-01-27 to src/calendars/tomorrow/g5s2a.ics
+[2026-01-26T18:00:02.660Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g5s2a.ics
+[2026-01-26T18:00:02.661Z] info: ICS file for g5s2a downloaded successfully.
+[2026-01-26T18:00:02.661Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=51555&projectId=1&calType=ical&firstDate=2026-01-27&lastDate=2026-01-27 to src/calendars/tomorrow/g5s2b.ics
+[2026-01-26T18:00:02.806Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g5s2b.ics
+[2026-01-26T18:00:02.807Z] info: ICS file for g5s2b downloaded successfully.
+[2026-01-26T18:00:02.807Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=85875&projectId=1&calType=ical&firstDate=2026-01-27&lastDate=2026-01-27 to src/calendars/tomorrow/g1s4a.ics
+[2026-01-26T18:00:02.933Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g1s4a.ics
+[2026-01-26T18:00:02.933Z] info: ICS file for g1s4a downloaded successfully.
+[2026-01-26T18:00:02.933Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=85876&projectId=1&calType=ical&firstDate=2026-01-27&lastDate=2026-01-27 to src/calendars/tomorrow/g1s4b.ics
+[2026-01-26T18:00:03.091Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g1s4b.ics
+[2026-01-26T18:00:03.091Z] info: ICS file for g1s4b downloaded successfully.
+[2026-01-26T18:00:03.091Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=85873&projectId=1&calType=ical&firstDate=2026-01-27&lastDate=2026-01-27 to src/calendars/tomorrow/g2s4a.ics
+[2026-01-26T18:00:03.266Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g2s4a.ics
+[2026-01-26T18:00:03.266Z] info: ICS file for g2s4a downloaded successfully.
+[2026-01-26T18:00:03.266Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=85874&projectId=1&calType=ical&firstDate=2026-01-27&lastDate=2026-01-27 to src/calendars/tomorrow/g2s4b.ics
+[2026-01-26T18:00:03.352Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g2s4b.ics
+[2026-01-26T18:00:03.353Z] info: ICS file for g2s4b downloaded successfully.
+[2026-01-26T18:00:03.353Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=35714&projectId=1&calType=ical&firstDate=2026-01-27&lastDate=2026-01-27 to src/calendars/tomorrow/g3a2.ics
+[2026-01-26T18:00:03.414Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g3a2.ics
+[2026-01-26T18:00:03.414Z] info: ICS file for g3a2 downloaded successfully.
+[2026-01-26T18:00:03.414Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=85877&projectId=1&calType=ical&firstDate=2026-01-27&lastDate=2026-01-27 to src/calendars/tomorrow/g4s4a.ics
+[2026-01-26T18:00:03.570Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g4s4a.ics
+[2026-01-26T18:00:03.571Z] info: ICS file for g4s4a downloaded successfully.
+[2026-01-26T18:00:03.571Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=85878&projectId=1&calType=ical&firstDate=2026-01-27&lastDate=2026-01-27 to src/calendars/tomorrow/g4s4b.ics
+[2026-01-26T18:00:03.741Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g4s4b.ics
+[2026-01-26T18:00:03.741Z] info: ICS file for g4s4b downloaded successfully.
+[2026-01-26T18:00:03.741Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6161&projectId=1&calType=ical&firstDate=2026-01-27&lastDate=2026-01-27 to src/calendars/tomorrow/but3ra1a.ics
+[2026-01-26T18:00:03.909Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3ra1a.ics
+[2026-01-26T18:00:03.910Z] info: ICS file for but3ra1a downloaded successfully.
+[2026-01-26T18:00:03.910Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6163&projectId=1&calType=ical&firstDate=2026-01-27&lastDate=2026-01-27 to src/calendars/tomorrow/but3ra1b.ics
+[2026-01-26T18:00:04.041Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3ra1b.ics
+[2026-01-26T18:00:04.041Z] info: ICS file for but3ra1b downloaded successfully.
+[2026-01-26T18:00:04.042Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6165&projectId=1&calType=ical&firstDate=2026-01-27&lastDate=2026-01-27 to src/calendars/tomorrow/but3ra2a.ics
+[2026-01-26T18:00:04.193Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3ra2a.ics
+[2026-01-26T18:00:04.193Z] info: ICS file for but3ra2a downloaded successfully.
+[2026-01-26T18:00:04.194Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6168&projectId=1&calType=ical&firstDate=2026-01-27&lastDate=2026-01-27 to src/calendars/tomorrow/but3ra2b.ics
+[2026-01-26T18:00:04.330Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3ra2b.ics
+[2026-01-26T18:00:04.331Z] info: ICS file for but3ra2b downloaded successfully.
+[2026-01-26T18:00:04.331Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=14059&projectId=1&calType=ical&firstDate=2026-01-27&lastDate=2026-01-27 to src/calendars/tomorrow/but3ra3a.ics
+[2026-01-26T18:00:04.478Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3ra3a.ics
+[2026-01-26T18:00:04.478Z] info: ICS file for but3ra3a downloaded successfully.
+[2026-01-26T18:00:04.478Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=14064&projectId=1&calType=ical&firstDate=2026-01-27&lastDate=2026-01-27 to src/calendars/tomorrow/but3ra3b.ics
+[2026-01-26T18:00:04.548Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3ra3b.ics
+[2026-01-26T18:00:04.548Z] info: ICS file for but3ra3b downloaded successfully.
+[2026-01-26T18:00:04.549Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6136&projectId=1&calType=ical&firstDate=2026-01-27&lastDate=2026-01-27 to src/calendars/tomorrow/but3dacs.ics
+[2026-01-26T18:00:04.708Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3dacs.ics
+[2026-01-26T18:00:04.708Z] info: ICS file for but3dacs downloaded successfully.
+[2026-01-26T18:00:04.708Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6048&projectId=1&calType=ical&firstDate=2026-01-27&lastDate=2026-01-27 to src/calendars/tomorrow/but3aged.ics
+[2026-01-26T18:00:04.910Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3aged.ics
+[2026-01-26T18:00:04.911Z] info: ICS file for but3aged downloaded successfully.
+[2026-01-26T18:00:04.911Z] info: Sending daily timetables
+[2026-01-26T18:00:04.936Z] info: Sending message to channel 1395371772550975558: 📅 **Emploi du temps pour le groupe aspea demain :**
+
+<t:1769504400:D> **S2.15 Probabilités ASPE** : JALOUX CHRISTOPHE -> <t:1769504400:t> - <t:1769511600:t> en __S10__
+<t:1769518800:D> **S2.13 SQL avancé** : BARON ARIANE -> <t:1769518800:t> - <t:1769526000:t> en __S14__
+<t:1769526000:D> **S2.02 IHM ASPE** : BELKHATIR MOHAMMED -> <t:1769526000:t> - <t:1769533200:t> en __S14__
+
+[2026-01-26T18:00:04.937Z] info: Message sent to channel 1395371772550975558: 📅 **Emploi du temps pour le groupe aspea demain :**
+
+<t:1769504400:D> **S2.15 Probabilités ASPE** : JALOUX CHRISTOPHE -> <t:1769504400:t> - <t:1769511600:t> en __S10__
+<t:1769518800:D> **S2.13 SQL avancé** : BARON ARIANE -> <t:1769518800:t> - <t:1769526000:t> en __S14__
+<t:1769526000:D> **S2.02 IHM ASPE** : BELKHATIR MOHAMMED -> <t:1769526000:t> - <t:1769533200:t> en __S14__
+
+[2026-01-26T18:00:04.940Z] info: Sending message to channel 1330181810289905847: 📅 **Emploi du temps pour le groupe g1s4a demain :**
+
+<t:1769497200:D> **11 R4.A.09 Management avancé des SI-TD** : DUFOUR KARLINE -> <t:1769497200:t> - <t:1769504400:t> en __S12__
+<t:1769504400:D> **11 R4.03 Qualité & non-relationnel-TD** : BARON ARIANE -> <t:1769504400:t> - <t:1769511600:t> en __S14__
+<t:1769518800:D> **11 R4.01 Archi. logicielle : PHP Symfony + API-TD** : MONNET ALEXIS -> <t:1769518800:t> - <t:1769526000:t> en __S13__
+<t:1769526000:D> **21 R4.01 Archi. logicielle : PHP Symfony + API-TD** : MONNET ALEXIS -> <t:1769526000:t> - <t:1769533200:t> en __S13__
+
+[2026-01-26T18:00:04.940Z] info: Message sent to channel 1330181810289905847: 📅 **Emploi du temps pour le groupe g1s4a demain :**
+
+<t:1769497200:D> **11 R4.A.09 Management avancé des SI-TD** : DUFOUR KARLINE -> <t:1769497200:t> - <t:1769504400:t> en __S12__
+<t:1769504400:D> **11 R4.03 Qualité & non-relationnel-TD** : BARON ARIANE -> <t:1769504400:t> - <t:1769511600:t> en __S14__
+<t:1769518800:D> **11 R4.01 Archi. logicielle : PHP Symfony + API-TD** : MONNET ALEXIS -> <t:1769518800:t> - <t:1769526000:t> en __S13__
+<t:1769526000:D> **21 R4.01 Archi. logicielle : PHP Symfony + API-TD** : MONNET ALEXIS -> <t:1769526000:t> - <t:1769533200:t> en __S13__
+
+[2026-01-26T18:00:04.942Z] info: Sending message to channel 1330181968075165769: 📅 **Emploi du temps pour le groupe g1s4b demain :**
+
+<t:1769497200:D> **11 R4.A.09 Management avancé des SI-TD** : DUFOUR KARLINE -> <t:1769497200:t> - <t:1769504400:t> en __S12__
+<t:1769504400:D> **11 R4.03 Qualité & non-relationnel-TD** : BARON ARIANE -> <t:1769504400:t> - <t:1769511600:t> en __S14__
+<t:1769518800:D> **11 R4.01 Archi. logicielle : PHP Symfony + API-TD** : MONNET ALEXIS -> <t:1769518800:t> - <t:1769526000:t> en __S13__
+<t:1769526000:D> **21 R4.01 Archi. logicielle : PHP Symfony + API-TD** : MONNET ALEXIS -> <t:1769526000:t> - <t:1769533200:t> en __S13__
+
+[2026-01-26T18:00:04.943Z] info: Message sent to channel 1330181968075165769: 📅 **Emploi du temps pour le groupe g1s4b demain :**
+
+<t:1769497200:D> **11 R4.A.09 Management avancé des SI-TD** : DUFOUR KARLINE -> <t:1769497200:t> - <t:1769504400:t> en __S12__
+<t:1769504400:D> **11 R4.03 Qualité & non-relationnel-TD** : BARON ARIANE -> <t:1769504400:t> - <t:1769511600:t> en __S14__
+<t:1769518800:D> **11 R4.01 Archi. logicielle : PHP Symfony + API-TD** : MONNET ALEXIS -> <t:1769518800:t> - <t:1769526000:t> en __S13__
+<t:1769526000:D> **21 R4.01 Archi. logicielle : PHP Symfony + API-TD** : MONNET ALEXIS -> <t:1769526000:t> - <t:1769533200:t> en __S13__
+
+[2026-01-26T18:00:04.945Z] info: Sending message to channel 1330181829667328071: 📅 **Emploi du temps pour le groupe g2s4a demain :**
+
+<t:1769497200:D> **11 R4.01 Archi. logicielle : PHP Symfony + API-TD** : MONNET ALEXIS -> <t:1769497200:t> - <t:1769504400:t> en __S16__
+<t:1769504400:D> **21 R4.01 Archi. logicielle : PHP Symfony + API-TD** : MONNET ALEXIS -> <t:1769504400:t> - <t:1769511600:t> en __S16__
+<t:1769518800:D> **11 R4.04 Méthodes d'optimisation-TD** : JOUBERT AUDE -> <t:1769518800:t> - <t:1769526000:t> en __S16__
+
+[2026-01-26T18:00:04.946Z] info: Message sent to channel 1330181829667328071: 📅 **Emploi du temps pour le groupe g2s4a demain :**
+
+<t:1769497200:D> **11 R4.01 Archi. logicielle : PHP Symfony + API-TD** : MONNET ALEXIS -> <t:1769497200:t> - <t:1769504400:t> en __S16__
+<t:1769504400:D> **21 R4.01 Archi. logicielle : PHP Symfony + API-TD** : MONNET ALEXIS -> <t:1769504400:t> - <t:1769511600:t> en __S16__
+<t:1769518800:D> **11 R4.04 Méthodes d'optimisation-TD** : JOUBERT AUDE -> <t:1769518800:t> - <t:1769526000:t> en __S16__
+
+[2026-01-26T18:00:04.950Z] info: Sending message to channel 1330181981320777738: 📅 **Emploi du temps pour le groupe g2s4b demain :**
+
+<t:1769497200:D> **11 R4.01 Archi. logicielle : PHP Symfony + API-TD** : MONNET ALEXIS -> <t:1769497200:t> - <t:1769504400:t> en __S16__
+<t:1769504400:D> **21 R4.01 Archi. logicielle : PHP Symfony + API-TD** : MONNET ALEXIS -> <t:1769504400:t> - <t:1769511600:t> en __S16__
+<t:1769518800:D> **11 R4.04 Méthodes d'optimisation-TD** : JOUBERT AUDE -> <t:1769518800:t> - <t:1769526000:t> en __S16__
+
+[2026-01-26T18:00:04.951Z] info: Message sent to channel 1330181981320777738: 📅 **Emploi du temps pour le groupe g2s4b demain :**
+
+<t:1769497200:D> **11 R4.01 Archi. logicielle : PHP Symfony + API-TD** : MONNET ALEXIS -> <t:1769497200:t> - <t:1769504400:t> en __S16__
+<t:1769504400:D> **21 R4.01 Archi. logicielle : PHP Symfony + API-TD** : MONNET ALEXIS -> <t:1769504400:t> - <t:1769511600:t> en __S16__
+<t:1769518800:D> **11 R4.04 Méthodes d'optimisation-TD** : JOUBERT AUDE -> <t:1769518800:t> - <t:1769526000:t> en __S16__
+
+[2026-01-26T18:00:04.956Z] info: Sending message to channel 1330181841524756501: 📅 **Emploi du temps pour le groupe g4s4a demain :**
+
+<t:1769497200:D> **11 R4.04 Méthodes d'optimisation-TD** : JALOUX CHRISTOPHE -> <t:1769497200:t> - <t:1769504400:t> en __S17__
+<t:1769504400:D> **R4.07 PPP-TD** : DEBOUTE JOCELYNE -> <t:1769504400:t> - <t:1769511600:t> en __S12__
+<t:1769518800:D> **11 R4.C.09 Réseau avancé-TD** : RONDELET CHRISTOPHE -> <t:1769518800:t> - <t:1769526000:t> en __S03__
+
+[2026-01-26T18:00:04.957Z] info: Message sent to channel 1330181841524756501: 📅 **Emploi du temps pour le groupe g4s4a demain :**
+
+<t:1769497200:D> **11 R4.04 Méthodes d'optimisation-TD** : JALOUX CHRISTOPHE -> <t:1769497200:t> - <t:1769504400:t> en __S17__
+<t:1769504400:D> **R4.07 PPP-TD** : DEBOUTE JOCELYNE -> <t:1769504400:t> - <t:1769511600:t> en __S12__
+<t:1769518800:D> **11 R4.C.09 Réseau avancé-TD** : RONDELET CHRISTOPHE -> <t:1769518800:t> - <t:1769526000:t> en __S03__
+
+[2026-01-26T18:00:04.958Z] info: Sending message to channel 1330181996743364679: 📅 **Emploi du temps pour le groupe g4s4b demain :**
+
+<t:1769497200:D> **11 R4.04 Méthodes d'optimisation-TD** : JALOUX CHRISTOPHE -> <t:1769497200:t> - <t:1769504400:t> en __S17__
+<t:1769504400:D> **R4.07 PPP-TD** : DEBOUTE JOCELYNE -> <t:1769504400:t> - <t:1769511600:t> en __S12__
+<t:1769518800:D> **11 R4.C.09 Réseau avancé-TD** : RONDELET CHRISTOPHE -> <t:1769518800:t> - <t:1769526000:t> en __S03__
+
+[2026-01-26T18:00:04.960Z] info: Message sent to channel 1330181996743364679: 📅 **Emploi du temps pour le groupe g4s4b demain :**
+
+<t:1769497200:D> **11 R4.04 Méthodes d'optimisation-TD** : JALOUX CHRISTOPHE -> <t:1769497200:t> - <t:1769504400:t> en __S17__
+<t:1769504400:D> **R4.07 PPP-TD** : DEBOUTE JOCELYNE -> <t:1769504400:t> - <t:1769511600:t> en __S12__
+<t:1769518800:D> **11 R4.C.09 Réseau avancé-TD** : RONDELET CHRISTOPHE -> <t:1769518800:t> - <t:1769526000:t> en __S03__
+
+[2026-01-26T18:00:04.962Z] info: Sending message to channel 1409494181839376455: 📅 **Emploi du temps pour le groupe but3ra1a demain :**
+
+<t:1769504400:D> **S5.A.01 SAE Dev avancé A** : BUT3 RA1A -> <t:1769504400:t> - <t:1769511600:t> en __S26__
+<t:1769518800:D> **11R5.A.02 PPP TD** : VIZET PONCET CECILE -> <t:1769518800:t> - <t:1769526000:t> en __S26__
+<t:1769526000:D> **21R5.A.04 Qualité algo** : WATRIGANT REMI -> <t:1769526000:t> - <t:1769533200:t> en __S26__
+
+[2026-01-26T18:00:04.962Z] info: Message sent to channel 1409494181839376455: 📅 **Emploi du temps pour le groupe but3ra1a demain :**
+
+<t:1769504400:D> **S5.A.01 SAE Dev avancé A** : BUT3 RA1A -> <t:1769504400:t> - <t:1769511600:t> en __S26__
+<t:1769518800:D> **11R5.A.02 PPP TD** : VIZET PONCET CECILE -> <t:1769518800:t> - <t:1769526000:t> en __S26__
+<t:1769526000:D> **21R5.A.04 Qualité algo** : WATRIGANT REMI -> <t:1769526000:t> - <t:1769533200:t> en __S26__
+
+[2026-01-26T18:00:04.963Z] info: Sending message to channel 1409494206942286006: 📅 **Emploi du temps pour le groupe but3ra1b demain :**
+
+<t:1769504400:D> **R5.A.14 Anglais TPB** : BESSAC MARIETTE -> <t:1769504400:t> - <t:1769511600:t> en __028__
+<t:1769518800:D> **11R5.A.02 PPP TD** : VIZET PONCET CECILE -> <t:1769518800:t> - <t:1769526000:t> en __S26__
+<t:1769526000:D> **21R5.A.04 Qualité algo** : WATRIGANT REMI -> <t:1769526000:t> - <t:1769533200:t> en __S26__
+
+[2026-01-26T18:00:04.964Z] info: Message sent to channel 1409494206942286006: 📅 **Emploi du temps pour le groupe but3ra1b demain :**
+
+<t:1769504400:D> **R5.A.14 Anglais TPB** : BESSAC MARIETTE -> <t:1769504400:t> - <t:1769511600:t> en __028__
+<t:1769518800:D> **11R5.A.02 PPP TD** : VIZET PONCET CECILE -> <t:1769518800:t> - <t:1769526000:t> en __S26__
+<t:1769526000:D> **21R5.A.04 Qualité algo** : WATRIGANT REMI -> <t:1769526000:t> - <t:1769533200:t> en __S26__
+
+[2026-01-26T18:00:04.969Z] info: Sending message to channel 1409495503292338257: 📅 **Emploi du temps pour le groupe but3ra3a demain :**
+
+<t:1769497200:D> **11R5.A.10 Neo4J** : KHEDDOUCI HAMAMACHE -> <t:1769497200:t> - <t:1769504400:t> en __S13__
+<t:1769504400:D> **R5.A.14 Anglais TPA** : CANQUE FLORENCE -> <t:1769504400:t> - <t:1769511600:t> en __026-Langues__
+<t:1769518800:D> **S5.A.01 SAE Dev avancé A** : BUT3 RA3A -> <t:1769518800:t> - <t:1769526000:t> en __S17__
+<t:1769526000:D> **S5.A.01 SAE Dev avancé AP** : PEYTAVIE ADRIEN -> <t:1769526000:t> - <t:1769533200:t> en __S17__
+
+[2026-01-26T18:00:04.970Z] info: Message sent to channel 1409495503292338257: 📅 **Emploi du temps pour le groupe but3ra3a demain :**
+
+<t:1769497200:D> **11R5.A.10 Neo4J** : KHEDDOUCI HAMAMACHE -> <t:1769497200:t> - <t:1769504400:t> en __S13__
+<t:1769504400:D> **R5.A.14 Anglais TPA** : CANQUE FLORENCE -> <t:1769504400:t> - <t:1769511600:t> en __026-Langues__
+<t:1769518800:D> **S5.A.01 SAE Dev avancé A** : BUT3 RA3A -> <t:1769518800:t> - <t:1769526000:t> en __S17__
+<t:1769526000:D> **S5.A.01 SAE Dev avancé AP** : PEYTAVIE ADRIEN -> <t:1769526000:t> - <t:1769533200:t> en __S17__
+
+[2026-01-26T18:00:04.974Z] info: Sending message to channel 1409495513891344426: 📅 **Emploi du temps pour le groupe but3ra3b demain :**
+
+<t:1769497200:D> **11R5.A.10 Neo4J** : KHEDDOUCI HAMAMACHE -> <t:1769497200:t> - <t:1769504400:t> en __S13__
+<t:1769504400:D> **S5.A.01 SAE Dev avancé B** : BUT3 RA3B -> <t:1769504400:t> - <t:1769511600:t> en __S13__
+<t:1769518800:D> **31R5.A.14 Anglais TPB** : CANQUE FLORENCE -> <t:1769518800:t> - <t:1769526000:t> en __026-Langues__
+<t:1769526000:D> **S5.A.01 SAE Dev avancé AP** : PEYTAVIE ADRIEN -> <t:1769526000:t> - <t:1769533200:t> en __S17__
+
+[2026-01-26T18:00:04.976Z] info: Message sent to channel 1409495513891344426: 📅 **Emploi du temps pour le groupe but3ra3b demain :**
+
+<t:1769497200:D> **11R5.A.10 Neo4J** : KHEDDOUCI HAMAMACHE -> <t:1769497200:t> - <t:1769504400:t> en __S13__
+<t:1769504400:D> **S5.A.01 SAE Dev avancé B** : BUT3 RA3B -> <t:1769504400:t> - <t:1769511600:t> en __S13__
+<t:1769518800:D> **31R5.A.14 Anglais TPB** : CANQUE FLORENCE -> <t:1769518800:t> - <t:1769526000:t> en __026-Langues__
+<t:1769526000:D> **S5.A.01 SAE Dev avancé AP** : PEYTAVIE ADRIEN -> <t:1769526000:t> - <t:1769533200:t> en __S17__
+
+[2026-01-26T18:00:04.978Z] info: Sending message to channel 1409495882436706366: 📅 **Emploi du temps pour le groupe but3dacs demain :**
+
+<t:1769497200:D> **TOEIC Blanc** : CANQUE FLORENCE -> <t:1769497200:t> - <t:1769504400:t> en __026-Langues__
+<t:1769504400:D> **R5.B.06 Radius TD** : BALDE THIERNO -> <t:1769504400:t> - <t:1769511600:t> en __S01__
+<t:1769518800:D> **21 S5.B.01 Saé cybersécurité** : BALDE THIERNO -> <t:1769518800:t> - <t:1769526000:t> en __S01__
+<t:1769526000:D> **Administration des BD** : BARON ARIANE -> <t:1769526000:t> - <t:1769533200:t> en __S27__
+
+[2026-01-26T18:00:04.981Z] info: Message sent to channel 1409495882436706366: 📅 **Emploi du temps pour le groupe but3dacs demain :**
+
+<t:1769497200:D> **TOEIC Blanc** : CANQUE FLORENCE -> <t:1769497200:t> - <t:1769504400:t> en __026-Langues__
+<t:1769504400:D> **R5.B.06 Radius TD** : BALDE THIERNO -> <t:1769504400:t> - <t:1769511600:t> en __S01__
+<t:1769518800:D> **21 S5.B.01 Saé cybersécurité** : BALDE THIERNO -> <t:1769518800:t> - <t:1769526000:t> en __S01__
+<t:1769526000:D> **Administration des BD** : BARON ARIANE -> <t:1769526000:t> - <t:1769533200:t> en __S27__
+
+[2026-01-26T18:00:04.985Z] info: Sending message to channel 1409496113396060181: 📅 **Emploi du temps pour le groupe but3aged demain :**
+
+<t:1769497200:D> **R5.C.08 IA** : FOULON LUCAS -> <t:1769497200:t> - <t:1769504400:t> en __S22__
+<t:1769504400:D> **R5.C.08 IA** : FOULON LUCAS -> <t:1769504400:t> - <t:1769511600:t> en __S22__
+<t:1769518800:D> **R5.C.05-1 Modélisation décisionnelle P2** : MARCHAND TIMOTHEE -> <t:1769518800:t> - <t:1769526000:t> en __S22__
+<t:1769526000:D> **R5.C.05-1 Modélisation décisionnelle P2** : MARCHAND TIMOTHEE -> <t:1769526000:t> - <t:1769533200:t> en __S22__
+
+[2026-01-26T18:00:04.985Z] info: Message sent to channel 1409496113396060181: 📅 **Emploi du temps pour le groupe but3aged demain :**
+
+<t:1769497200:D> **R5.C.08 IA** : FOULON LUCAS -> <t:1769497200:t> - <t:1769504400:t> en __S22__
+<t:1769504400:D> **R5.C.08 IA** : FOULON LUCAS -> <t:1769504400:t> - <t:1769511600:t> en __S22__
+<t:1769518800:D> **R5.C.05-1 Modélisation décisionnelle P2** : MARCHAND TIMOTHEE -> <t:1769518800:t> - <t:1769526000:t> en __S22__
+<t:1769526000:D> **R5.C.05-1 Modélisation décisionnelle P2** : MARCHAND TIMOTHEE -> <t:1769526000:t> - <t:1769533200:t> en __S22__
+
+[2026-01-26T18:00:04.986Z] info: Daily timetables sent
+[2026-01-27T06:14:19.889Z] info: Received command: group from user: 707623659346591744
+[2026-01-27T06:14:19.890Z] info: Received group command: group=g2, semester=s4, composedGroup=g2s4a
+[2026-01-27T14:59:40.499Z] info: Received command: group from user: 875050949939449936
+[2026-01-27T14:59:40.500Z] info: Received group command: group=g4, semester=s4, composedGroup=g4s4a
+[2026-01-27T17:27:35.118Z] info: Received command: group from user: 548897672845590547
+[2026-01-27T17:27:35.119Z] info: Received group command: group=g2, semester=s4, composedGroup=g2s4a
+[2026-01-27T18:00:00.641Z] info: Downloading ICS files for tomorrow for groups: aspea, aspeb, g1s2a, g1s2b, g2s2a, g2s2b, g3s2a, g3s2b, g4s2a, g4s2b, g5s2a, g5s2b, g1s4a, g1s4b, g2s4a, g2s4b, g3a2, g4s4a, g4s4b, but3ra1a, but3ra1b, but3ra2a, but3ra2b, but3ra3a, but3ra3b, but3dacs, but3aged
+[2026-01-27T18:00:00.641Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=9272&projectId=1&calType=ical&firstDate=2026-01-28&lastDate=2026-01-28 to src/calendars/tomorrow/aspea.ics
+[2026-01-27T18:00:00.948Z] info: ICS file downloaded successfully to src/calendars/tomorrow/aspea.ics
+[2026-01-27T18:00:00.948Z] info: ICS file for aspea downloaded successfully.
+[2026-01-27T18:00:00.949Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=18783&projectId=1&calType=ical&firstDate=2026-01-28&lastDate=2026-01-28 to src/calendars/tomorrow/aspeb.ics
+[2026-01-27T18:00:01.044Z] info: ICS file downloaded successfully to src/calendars/tomorrow/aspeb.ics
+[2026-01-27T18:00:01.044Z] info: ICS file for aspeb downloaded successfully.
+[2026-01-27T18:00:01.045Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=51542&projectId=1&calType=ical&firstDate=2026-01-28&lastDate=2026-01-28 to src/calendars/tomorrow/g1s2a.ics
+[2026-01-27T18:00:01.199Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g1s2a.ics
+[2026-01-27T18:00:01.200Z] info: ICS file for g1s2a downloaded successfully.
+[2026-01-27T18:00:01.200Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=51543&projectId=1&calType=ical&firstDate=2026-01-28&lastDate=2026-01-28 to src/calendars/tomorrow/g1s2b.ics
+[2026-01-27T18:00:01.346Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g1s2b.ics
+[2026-01-27T18:00:01.346Z] info: ICS file for g1s2b downloaded successfully.
+[2026-01-27T18:00:01.347Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=51545&projectId=1&calType=ical&firstDate=2026-01-28&lastDate=2026-01-28 to src/calendars/tomorrow/g2s2a.ics
+[2026-01-27T18:00:01.495Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g2s2a.ics
+[2026-01-27T18:00:01.496Z] info: ICS file for g2s2a downloaded successfully.
+[2026-01-27T18:00:01.496Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=51546&projectId=1&calType=ical&firstDate=2026-01-28&lastDate=2026-01-28 to src/calendars/tomorrow/g2s2b.ics
+[2026-01-27T18:00:01.611Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g2s2b.ics
+[2026-01-27T18:00:01.611Z] info: ICS file for g2s2b downloaded successfully.
+[2026-01-27T18:00:01.611Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=51548&projectId=1&calType=ical&firstDate=2026-01-28&lastDate=2026-01-28 to src/calendars/tomorrow/g3s2a.ics
+[2026-01-27T18:00:05.858Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g3s2a.ics
+[2026-01-27T18:00:05.858Z] info: ICS file for g3s2a downloaded successfully.
+[2026-01-27T18:00:05.858Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=51549&projectId=1&calType=ical&firstDate=2026-01-28&lastDate=2026-01-28 to src/calendars/tomorrow/g3s2b.ics
+[2026-01-27T18:00:05.953Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g3s2b.ics
+[2026-01-27T18:00:05.954Z] info: ICS file for g3s2b downloaded successfully.
+[2026-01-27T18:00:05.955Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=51551&projectId=1&calType=ical&firstDate=2026-01-28&lastDate=2026-01-28 to src/calendars/tomorrow/g4s2a.ics
+[2026-01-27T18:00:06.021Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g4s2a.ics
+[2026-01-27T18:00:06.021Z] info: ICS file for g4s2a downloaded successfully.
+[2026-01-27T18:00:06.021Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=51552&projectId=1&calType=ical&firstDate=2026-01-28&lastDate=2026-01-28 to src/calendars/tomorrow/g4s2b.ics
+[2026-01-27T18:00:06.152Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g4s2b.ics
+[2026-01-27T18:00:06.153Z] info: ICS file for g4s2b downloaded successfully.
+[2026-01-27T18:00:06.153Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=51554&projectId=1&calType=ical&firstDate=2026-01-28&lastDate=2026-01-28 to src/calendars/tomorrow/g5s2a.ics
+[2026-01-27T18:00:06.271Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g5s2a.ics
+[2026-01-27T18:00:06.272Z] info: ICS file for g5s2a downloaded successfully.
+[2026-01-27T18:00:06.272Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=51555&projectId=1&calType=ical&firstDate=2026-01-28&lastDate=2026-01-28 to src/calendars/tomorrow/g5s2b.ics
+[2026-01-27T18:00:06.405Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g5s2b.ics
+[2026-01-27T18:00:06.405Z] info: ICS file for g5s2b downloaded successfully.
+[2026-01-27T18:00:06.405Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=85875&projectId=1&calType=ical&firstDate=2026-01-28&lastDate=2026-01-28 to src/calendars/tomorrow/g1s4a.ics
+[2026-01-27T18:00:06.542Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g1s4a.ics
+[2026-01-27T18:00:06.542Z] info: ICS file for g1s4a downloaded successfully.
+[2026-01-27T18:00:06.542Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=85876&projectId=1&calType=ical&firstDate=2026-01-28&lastDate=2026-01-28 to src/calendars/tomorrow/g1s4b.ics
+[2026-01-27T18:00:06.646Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g1s4b.ics
+[2026-01-27T18:00:06.647Z] info: ICS file for g1s4b downloaded successfully.
+[2026-01-27T18:00:06.647Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=85873&projectId=1&calType=ical&firstDate=2026-01-28&lastDate=2026-01-28 to src/calendars/tomorrow/g2s4a.ics
+[2026-01-27T18:00:06.717Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g2s4a.ics
+[2026-01-27T18:00:06.717Z] info: ICS file for g2s4a downloaded successfully.
+[2026-01-27T18:00:06.717Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=85874&projectId=1&calType=ical&firstDate=2026-01-28&lastDate=2026-01-28 to src/calendars/tomorrow/g2s4b.ics
+[2026-01-27T18:00:06.840Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g2s4b.ics
+[2026-01-27T18:00:06.841Z] info: ICS file for g2s4b downloaded successfully.
+[2026-01-27T18:00:06.841Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=35714&projectId=1&calType=ical&firstDate=2026-01-28&lastDate=2026-01-28 to src/calendars/tomorrow/g3a2.ics
+[2026-01-27T18:00:06.898Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g3a2.ics
+[2026-01-27T18:00:06.899Z] info: ICS file for g3a2 downloaded successfully.
+[2026-01-27T18:00:06.899Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=85877&projectId=1&calType=ical&firstDate=2026-01-28&lastDate=2026-01-28 to src/calendars/tomorrow/g4s4a.ics
+[2026-01-27T18:00:06.984Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g4s4a.ics
+[2026-01-27T18:00:06.984Z] info: ICS file for g4s4a downloaded successfully.
+[2026-01-27T18:00:06.984Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=85878&projectId=1&calType=ical&firstDate=2026-01-28&lastDate=2026-01-28 to src/calendars/tomorrow/g4s4b.ics
+[2026-01-27T18:00:07.078Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g4s4b.ics
+[2026-01-27T18:00:07.078Z] info: ICS file for g4s4b downloaded successfully.
+[2026-01-27T18:00:07.079Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6161&projectId=1&calType=ical&firstDate=2026-01-28&lastDate=2026-01-28 to src/calendars/tomorrow/but3ra1a.ics
+[2026-01-27T18:00:07.223Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3ra1a.ics
+[2026-01-27T18:00:07.223Z] info: ICS file for but3ra1a downloaded successfully.
+[2026-01-27T18:00:07.223Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6163&projectId=1&calType=ical&firstDate=2026-01-28&lastDate=2026-01-28 to src/calendars/tomorrow/but3ra1b.ics
+[2026-01-27T18:00:07.298Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3ra1b.ics
+[2026-01-27T18:00:07.298Z] info: ICS file for but3ra1b downloaded successfully.
+[2026-01-27T18:00:07.298Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6165&projectId=1&calType=ical&firstDate=2026-01-28&lastDate=2026-01-28 to src/calendars/tomorrow/but3ra2a.ics
+[2026-01-27T18:00:07.394Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3ra2a.ics
+[2026-01-27T18:00:07.394Z] info: ICS file for but3ra2a downloaded successfully.
+[2026-01-27T18:00:07.394Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6168&projectId=1&calType=ical&firstDate=2026-01-28&lastDate=2026-01-28 to src/calendars/tomorrow/but3ra2b.ics
+[2026-01-27T18:00:07.504Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3ra2b.ics
+[2026-01-27T18:00:07.505Z] info: ICS file for but3ra2b downloaded successfully.
+[2026-01-27T18:00:07.505Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=14059&projectId=1&calType=ical&firstDate=2026-01-28&lastDate=2026-01-28 to src/calendars/tomorrow/but3ra3a.ics
+[2026-01-27T18:00:07.620Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3ra3a.ics
+[2026-01-27T18:00:07.620Z] info: ICS file for but3ra3a downloaded successfully.
+[2026-01-27T18:00:07.621Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=14064&projectId=1&calType=ical&firstDate=2026-01-28&lastDate=2026-01-28 to src/calendars/tomorrow/but3ra3b.ics
+[2026-01-27T18:00:07.744Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3ra3b.ics
+[2026-01-27T18:00:07.746Z] info: ICS file for but3ra3b downloaded successfully.
+[2026-01-27T18:00:07.746Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6136&projectId=1&calType=ical&firstDate=2026-01-28&lastDate=2026-01-28 to src/calendars/tomorrow/but3dacs.ics
+[2026-01-27T18:00:07.861Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3dacs.ics
+[2026-01-27T18:00:07.861Z] info: ICS file for but3dacs downloaded successfully.
+[2026-01-27T18:00:07.861Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6048&projectId=1&calType=ical&firstDate=2026-01-28&lastDate=2026-01-28 to src/calendars/tomorrow/but3aged.ics
+[2026-01-27T18:00:07.939Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3aged.ics
+[2026-01-27T18:00:07.940Z] info: ICS file for but3aged downloaded successfully.
+[2026-01-27T18:00:07.940Z] info: Sending daily timetables
+[2026-01-27T18:00:07.945Z] info: Sending message to channel 1395371772550975558: 📅 **Emploi du temps pour le groupe aspea demain :**
+
+<t:1769583600:D> **21 S2.19 Gestion TD** : DUFOUR KARLINE -> <t:1769583600:t> - <t:1769590800:t> en __S11__
+<t:1769590800:D> **11 S2.04 Architecture logicielle** : GONCALVES ISABELLE -> <t:1769590800:t> - <t:1769598000:t> en __S16__
+<t:1769605200:D> **21 S2.04 Architecture logicielle** : GONCALVES ISABELLE -> <t:1769605200:t> - <t:1769612400:t> en __S13__
+
+[2026-01-27T18:00:07.946Z] info: Message sent to channel 1395371772550975558: 📅 **Emploi du temps pour le groupe aspea demain :**
+
+<t:1769583600:D> **21 S2.19 Gestion TD** : DUFOUR KARLINE -> <t:1769583600:t> - <t:1769590800:t> en __S11__
+<t:1769590800:D> **11 S2.04 Architecture logicielle** : GONCALVES ISABELLE -> <t:1769590800:t> - <t:1769598000:t> en __S16__
+<t:1769605200:D> **21 S2.04 Architecture logicielle** : GONCALVES ISABELLE -> <t:1769605200:t> - <t:1769612400:t> en __S13__
+
+[2026-01-27T18:00:07.948Z] info: Sending message to channel 1330181810289905847: 📅 **Emploi du temps pour le groupe g1s4a demain :**
+
+<t:1769590800:D> **R4.07 PPP-TD** : DEBOUTE JOCELYNE -> <t:1769590800:t> - <t:1769598000:t> en __S10__
+
+[2026-01-27T18:00:07.949Z] info: Message sent to channel 1330181810289905847: 📅 **Emploi du temps pour le groupe g1s4a demain :**
+
+<t:1769590800:D> **R4.07 PPP-TD** : DEBOUTE JOCELYNE -> <t:1769590800:t> - <t:1769598000:t> en __S10__
+
+[2026-01-27T18:00:07.949Z] info: Sending message to channel 1330181968075165769: 📅 **Emploi du temps pour le groupe g1s4b demain :**
+
+<t:1769590800:D> **R4.07 PPP-TD** : DEBOUTE JOCELYNE -> <t:1769590800:t> - <t:1769598000:t> en __S10__
+<t:1769605200:D> **R4.05 Anglais-TPB** : BESSAC MARIETTE -> <t:1769605200:t> - <t:1769612400:t> en __026-Langues__
+
+[2026-01-27T18:00:07.950Z] info: Message sent to channel 1330181968075165769: 📅 **Emploi du temps pour le groupe g1s4b demain :**
+
+<t:1769590800:D> **R4.07 PPP-TD** : DEBOUTE JOCELYNE -> <t:1769590800:t> - <t:1769598000:t> en __S10__
+<t:1769605200:D> **R4.05 Anglais-TPB** : BESSAC MARIETTE -> <t:1769605200:t> - <t:1769612400:t> en __026-Langues__
+
+[2026-01-27T18:00:07.951Z] info: Sending message to channel 1330181829667328071: 📅 **Emploi du temps pour le groupe g2s4a demain :**
+
+<t:1769583600:D> **11 R4.A.08 Virtualisation-TD** : BUSSON ANTHONY -> <t:1769583600:t> - <t:1769590800:t> en __S13__
+<t:1769590800:D> **11 R4.A.09 Management avancé des SI-TD** : DUFOUR KARLINE -> <t:1769590800:t> - <t:1769598000:t> en __040__
+<t:1769612400:D> **11 R4.06 Communication interne-TD** : DEBOUTE JOCELYNE -> <t:1769612400:t> - <t:1769619600:t> en __040__
+
+[2026-01-27T18:00:07.952Z] info: Message sent to channel 1330181829667328071: 📅 **Emploi du temps pour le groupe g2s4a demain :**
+
+<t:1769583600:D> **11 R4.A.08 Virtualisation-TD** : BUSSON ANTHONY -> <t:1769583600:t> - <t:1769590800:t> en __S13__
+<t:1769590800:D> **11 R4.A.09 Management avancé des SI-TD** : DUFOUR KARLINE -> <t:1769590800:t> - <t:1769598000:t> en __040__
+<t:1769612400:D> **11 R4.06 Communication interne-TD** : DEBOUTE JOCELYNE -> <t:1769612400:t> - <t:1769619600:t> en __040__
+
+[2026-01-27T18:00:07.953Z] info: Sending message to channel 1330181981320777738: 📅 **Emploi du temps pour le groupe g2s4b demain :**
+
+<t:1769583600:D> **11 R4.A.08 Virtualisation-TD** : BUSSON ANTHONY -> <t:1769583600:t> - <t:1769590800:t> en __S13__
+<t:1769590800:D> **11 R4.A.09 Management avancé des SI-TD** : DUFOUR KARLINE -> <t:1769590800:t> - <t:1769598000:t> en __040__
+<t:1769612400:D> **11 R4.06 Communication interne-TD** : DEBOUTE JOCELYNE -> <t:1769612400:t> - <t:1769619600:t> en __040__
+
+[2026-01-27T18:00:07.954Z] info: Message sent to channel 1330181981320777738: 📅 **Emploi du temps pour le groupe g2s4b demain :**
+
+<t:1769583600:D> **11 R4.A.08 Virtualisation-TD** : BUSSON ANTHONY -> <t:1769583600:t> - <t:1769590800:t> en __S13__
+<t:1769590800:D> **11 R4.A.09 Management avancé des SI-TD** : DUFOUR KARLINE -> <t:1769590800:t> - <t:1769598000:t> en __040__
+<t:1769612400:D> **11 R4.06 Communication interne-TD** : DEBOUTE JOCELYNE -> <t:1769612400:t> - <t:1769619600:t> en __040__
+
+[2026-01-27T18:00:07.955Z] info: Sending message to channel 1330181841524756501: 📅 **Emploi du temps pour le groupe g4s4a demain :**
+
+<t:1769583600:D> **11 R4.06 Communication interne-TD** : G4S4B -> <t:1769583600:t> - <t:1769590800:t> en __S10__
+<t:1769590800:D> **11 R4.03 Qualité & non-relationnel-TD** : BARON ARIANE -> <t:1769590800:t> - <t:1769598000:t> en __S14__
+<t:1769605200:D> **R4.C.10-1 Intro Informatique décisionnelle** : SCHNEIDER CAMILLE -> <t:1769605200:t> - <t:1769612400:t> en __S16__
+<t:1769612400:D> **R4.C.10-1 Intro Informatique décisionnelle** : SCHNEIDER CAMILLE -> <t:1769612400:t> - <t:1769619600:t> en __S16__
+
+[2026-01-27T18:00:07.955Z] info: Message sent to channel 1330181841524756501: 📅 **Emploi du temps pour le groupe g4s4a demain :**
+
+<t:1769583600:D> **11 R4.06 Communication interne-TD** : G4S4B -> <t:1769583600:t> - <t:1769590800:t> en __S10__
+<t:1769590800:D> **11 R4.03 Qualité & non-relationnel-TD** : BARON ARIANE -> <t:1769590800:t> - <t:1769598000:t> en __S14__
+<t:1769605200:D> **R4.C.10-1 Intro Informatique décisionnelle** : SCHNEIDER CAMILLE -> <t:1769605200:t> - <t:1769612400:t> en __S16__
+<t:1769612400:D> **R4.C.10-1 Intro Informatique décisionnelle** : SCHNEIDER CAMILLE -> <t:1769612400:t> - <t:1769619600:t> en __S16__
+
+[2026-01-27T18:00:07.955Z] info: Sending message to channel 1330181996743364679: 📅 **Emploi du temps pour le groupe g4s4b demain :**
+
+<t:1769583600:D> **11 R4.06 Communication interne-TD** : G4S4B -> <t:1769583600:t> - <t:1769590800:t> en __S10__
+<t:1769590800:D> **11 R4.03 Qualité & non-relationnel-TD** : BARON ARIANE -> <t:1769590800:t> - <t:1769598000:t> en __S14__
+<t:1769605200:D> **R4.C.10-1 Intro Informatique décisionnelle** : SCHNEIDER CAMILLE -> <t:1769605200:t> - <t:1769612400:t> en __S16__
+<t:1769612400:D> **R4.C.10-1 Intro Informatique décisionnelle** : SCHNEIDER CAMILLE -> <t:1769612400:t> - <t:1769619600:t> en __S16__
+
+[2026-01-27T18:00:07.958Z] info: Message sent to channel 1330181996743364679: 📅 **Emploi du temps pour le groupe g4s4b demain :**
+
+<t:1769583600:D> **11 R4.06 Communication interne-TD** : G4S4B -> <t:1769583600:t> - <t:1769590800:t> en __S10__
+<t:1769590800:D> **11 R4.03 Qualité & non-relationnel-TD** : BARON ARIANE -> <t:1769590800:t> - <t:1769598000:t> en __S14__
+<t:1769605200:D> **R4.C.10-1 Intro Informatique décisionnelle** : SCHNEIDER CAMILLE -> <t:1769605200:t> - <t:1769612400:t> en __S16__
+<t:1769612400:D> **R4.C.10-1 Intro Informatique décisionnelle** : SCHNEIDER CAMILLE -> <t:1769612400:t> - <t:1769619600:t> en __S16__
+
+[2026-01-27T18:00:07.959Z] info: Sending message to channel 1409494181839376455: 📅 **Emploi du temps pour le groupe but3ra1a demain :**
+
+<t:1769583600:D> **S5.A.01 SAE Dev avancé** : BUT3 RA1B -> <t:1769583600:t> - <t:1769590800:t> en __S26__
+<t:1769590800:D> **11R5.A.04 Qualité algo** : WATRIGANT REMI -> <t:1769590800:t> - <t:1769598000:t> en __S26__
+<t:1769605200:D> **11R5.A.10 MongoDB avancé** : AIDEL OSMAN -> <t:1769605200:t> - <t:1769612400:t> en __S26__
+<t:1769612400:D> **R5.A.14 Anglais TPA** : BESSAC MARIETTE -> <t:1769612400:t> - <t:1769619600:t> en __028__
+
+[2026-01-27T18:00:07.960Z] info: Message sent to channel 1409494181839376455: 📅 **Emploi du temps pour le groupe but3ra1a demain :**
+
+<t:1769583600:D> **S5.A.01 SAE Dev avancé** : BUT3 RA1B -> <t:1769583600:t> - <t:1769590800:t> en __S26__
+<t:1769590800:D> **11R5.A.04 Qualité algo** : WATRIGANT REMI -> <t:1769590800:t> - <t:1769598000:t> en __S26__
+<t:1769605200:D> **11R5.A.10 MongoDB avancé** : AIDEL OSMAN -> <t:1769605200:t> - <t:1769612400:t> en __S26__
+<t:1769612400:D> **R5.A.14 Anglais TPA** : BESSAC MARIETTE -> <t:1769612400:t> - <t:1769619600:t> en __028__
+
+[2026-01-27T18:00:07.961Z] info: Sending message to channel 1409494206942286006: 📅 **Emploi du temps pour le groupe but3ra1b demain :**
+
+<t:1769583600:D> **S5.A.01 SAE Dev avancé** : BUT3 RA1B -> <t:1769583600:t> - <t:1769590800:t> en __S26__
+<t:1769590800:D> **11R5.A.04 Qualité algo** : WATRIGANT REMI -> <t:1769590800:t> - <t:1769598000:t> en __S26__
+<t:1769605200:D> **11R5.A.10 MongoDB avancé** : AIDEL OSMAN -> <t:1769605200:t> - <t:1769612400:t> en __S26__
+<t:1769612400:D> **S5.A.01 SAE Dev avancé B** : BUT3 RA1B -> <t:1769612400:t> - <t:1769619600:t> en __S26__
+
+[2026-01-27T18:00:07.962Z] info: Message sent to channel 1409494206942286006: 📅 **Emploi du temps pour le groupe but3ra1b demain :**
+
+<t:1769583600:D> **S5.A.01 SAE Dev avancé** : BUT3 RA1B -> <t:1769583600:t> - <t:1769590800:t> en __S26__
+<t:1769590800:D> **11R5.A.04 Qualité algo** : WATRIGANT REMI -> <t:1769590800:t> - <t:1769598000:t> en __S26__
+<t:1769605200:D> **11R5.A.10 MongoDB avancé** : AIDEL OSMAN -> <t:1769605200:t> - <t:1769612400:t> en __S26__
+<t:1769612400:D> **S5.A.01 SAE Dev avancé B** : BUT3 RA1B -> <t:1769612400:t> - <t:1769619600:t> en __S26__
+
+[2026-01-27T18:00:07.963Z] info: Sending message to channel 1409495503292338257: 📅 **Emploi du temps pour le groupe but3ra3a demain :**
+
+<t:1769583600:D> **11R5.A.14 Anglais TD** : CANQUE FLORENCE -> <t:1769583600:t> - <t:1769590800:t> en __026-Langues__
+<t:1769590800:D> **R5.A.14 Anglais TPA** : CANQUE FLORENCE -> <t:1769590800:t> - <t:1769598000:t> en __026-Langues__
+<t:1769605200:D> **R5.03 Communication TPA** : DEBOUTE JOCELYNE -> <t:1769605200:t> - <t:1769612400:t> en __S11__
+<t:1769612400:D> **11R5.A.10 MongoDB avancé** : AIDEL OSMAN -> <t:1769612400:t> - <t:1769619600:t> en __S13__
+
+[2026-01-27T18:00:07.963Z] info: Message sent to channel 1409495503292338257: 📅 **Emploi du temps pour le groupe but3ra3a demain :**
+
+<t:1769583600:D> **11R5.A.14 Anglais TD** : CANQUE FLORENCE -> <t:1769583600:t> - <t:1769590800:t> en __026-Langues__
+<t:1769590800:D> **R5.A.14 Anglais TPA** : CANQUE FLORENCE -> <t:1769590800:t> - <t:1769598000:t> en __026-Langues__
+<t:1769605200:D> **R5.03 Communication TPA** : DEBOUTE JOCELYNE -> <t:1769605200:t> - <t:1769612400:t> en __S11__
+<t:1769612400:D> **11R5.A.10 MongoDB avancé** : AIDEL OSMAN -> <t:1769612400:t> - <t:1769619600:t> en __S13__
+
+[2026-01-27T18:00:07.964Z] info: Sending message to channel 1409495513891344426: 📅 **Emploi du temps pour le groupe but3ra3b demain :**
+
+<t:1769583600:D> **11R5.A.14 Anglais TD** : CANQUE FLORENCE -> <t:1769583600:t> - <t:1769590800:t> en __026-Langues__
+<t:1769590800:D> **S5.A.01 SAE Dev avancé B** : BUT3 RA3B -> <t:1769590800:t> - <t:1769598000:t> en __S17__
+<t:1769605200:D> **R5.A.14 Anglais TPB** : CANQUE FLORENCE -> <t:1769605200:t> - <t:1769612400:t> en __028__
+<t:1769612400:D> **11R5.A.10 MongoDB avancé** : AIDEL OSMAN -> <t:1769612400:t> - <t:1769619600:t> en __S13__
+
+[2026-01-27T18:00:07.965Z] info: Message sent to channel 1409495513891344426: 📅 **Emploi du temps pour le groupe but3ra3b demain :**
+
+<t:1769583600:D> **11R5.A.14 Anglais TD** : CANQUE FLORENCE -> <t:1769583600:t> - <t:1769590800:t> en __026-Langues__
+<t:1769590800:D> **S5.A.01 SAE Dev avancé B** : BUT3 RA3B -> <t:1769590800:t> - <t:1769598000:t> en __S17__
+<t:1769605200:D> **R5.A.14 Anglais TPB** : CANQUE FLORENCE -> <t:1769605200:t> - <t:1769612400:t> en __028__
+<t:1769612400:D> **11R5.A.10 MongoDB avancé** : AIDEL OSMAN -> <t:1769612400:t> - <t:1769619600:t> en __S13__
+
+[2026-01-27T18:00:07.966Z] info: Sending message to channel 1409495882436706366: 📅 **Emploi du temps pour le groupe but3dacs demain :**
+
+<t:1769590800:D> **11 R6.01 Droit du numérique** : MAGNIN FLORENCE -> <t:1769590800:t> - <t:1769598000:t> en __S01__
+<t:1769605200:D> **21 R6.01 Droit du numérique** : MAGNIN FLORENCE -> <t:1769605200:t> - <t:1769612400:t> en __S01__
+<t:1769612400:D> **Administration des BD** : BARON ARIANE -> <t:1769612400:t> - <t:1769619600:t> en __S27__
+
+[2026-01-27T18:00:07.967Z] info: Message sent to channel 1409495882436706366: 📅 **Emploi du temps pour le groupe but3dacs demain :**
+
+<t:1769590800:D> **11 R6.01 Droit du numérique** : MAGNIN FLORENCE -> <t:1769590800:t> - <t:1769598000:t> en __S01__
+<t:1769605200:D> **21 R6.01 Droit du numérique** : MAGNIN FLORENCE -> <t:1769605200:t> - <t:1769612400:t> en __S01__
+<t:1769612400:D> **Administration des BD** : BARON ARIANE -> <t:1769612400:t> - <t:1769619600:t> en __S27__
+
+[2026-01-27T18:00:07.968Z] info: Sending message to channel 1409496113396060181: 📅 **Emploi du temps pour le groupe but3aged demain :**
+
+<t:1769583600:D> **SAE autonomie** : BUT3 AGED -> <t:1769583600:t> - <t:1769590800:t> en __S22__
+<t:1769590800:D> **SAE autonomie** : BUT3 AGED -> <t:1769590800:t> - <t:1769598000:t> en __S22__
+<t:1769605200:D> **11SAE Organisation et protection P1** : BONDAZ RAFAELE -> <t:1769605200:t> - <t:1769612400:t> en __S22__
+<t:1769612400:D> **21SAE Organisation et protection P1** : BONDAZ RAFAELE -> <t:1769612400:t> - <t:1769619600:t> en __S22__
+
+[2026-01-27T18:00:07.969Z] info: Message sent to channel 1409496113396060181: 📅 **Emploi du temps pour le groupe but3aged demain :**
+
+<t:1769583600:D> **SAE autonomie** : BUT3 AGED -> <t:1769583600:t> - <t:1769590800:t> en __S22__
+<t:1769590800:D> **SAE autonomie** : BUT3 AGED -> <t:1769590800:t> - <t:1769598000:t> en __S22__
+<t:1769605200:D> **11SAE Organisation et protection P1** : BONDAZ RAFAELE -> <t:1769605200:t> - <t:1769612400:t> en __S22__
+<t:1769612400:D> **21SAE Organisation et protection P1** : BONDAZ RAFAELE -> <t:1769612400:t> - <t:1769619600:t> en __S22__
+
+[2026-01-27T18:00:07.969Z] info: Daily timetables sent
+[2026-01-28T18:00:00.084Z] info: Downloading ICS files for tomorrow for groups: aspea, aspeb, g1s2a, g1s2b, g2s2a, g2s2b, g3s2a, g3s2b, g4s2a, g4s2b, g5s2a, g5s2b, g1s4a, g1s4b, g2s4a, g2s4b, g3a2, g4s4a, g4s4b, but3ra1a, but3ra1b, but3ra2a, but3ra2b, but3ra3a, but3ra3b, but3dacs, but3aged
+[2026-01-28T18:00:00.085Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=9272&projectId=1&calType=ical&firstDate=2026-01-29&lastDate=2026-01-29 to src/calendars/tomorrow/aspea.ics
+[2026-01-28T18:00:00.432Z] info: ICS file downloaded successfully to src/calendars/tomorrow/aspea.ics
+[2026-01-28T18:00:00.433Z] info: ICS file for aspea downloaded successfully.
+[2026-01-28T18:00:00.433Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=18783&projectId=1&calType=ical&firstDate=2026-01-29&lastDate=2026-01-29 to src/calendars/tomorrow/aspeb.ics
+[2026-01-28T18:00:00.496Z] info: ICS file downloaded successfully to src/calendars/tomorrow/aspeb.ics
+[2026-01-28T18:00:00.496Z] info: ICS file for aspeb downloaded successfully.
+[2026-01-28T18:00:00.496Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=51542&projectId=1&calType=ical&firstDate=2026-01-29&lastDate=2026-01-29 to src/calendars/tomorrow/g1s2a.ics
+[2026-01-28T18:00:00.568Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g1s2a.ics
+[2026-01-28T18:00:00.569Z] info: ICS file for g1s2a downloaded successfully.
+[2026-01-28T18:00:00.569Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=51543&projectId=1&calType=ical&firstDate=2026-01-29&lastDate=2026-01-29 to src/calendars/tomorrow/g1s2b.ics
+[2026-01-28T18:00:00.641Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g1s2b.ics
+[2026-01-28T18:00:00.641Z] info: ICS file for g1s2b downloaded successfully.
+[2026-01-28T18:00:00.641Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=51545&projectId=1&calType=ical&firstDate=2026-01-29&lastDate=2026-01-29 to src/calendars/tomorrow/g2s2a.ics
+[2026-01-28T18:00:00.720Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g2s2a.ics
+[2026-01-28T18:00:00.720Z] info: ICS file for g2s2a downloaded successfully.
+[2026-01-28T18:00:00.720Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=51546&projectId=1&calType=ical&firstDate=2026-01-29&lastDate=2026-01-29 to src/calendars/tomorrow/g2s2b.ics
+[2026-01-28T18:00:00.790Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g2s2b.ics
+[2026-01-28T18:00:00.790Z] info: ICS file for g2s2b downloaded successfully.
+[2026-01-28T18:00:00.790Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=51548&projectId=1&calType=ical&firstDate=2026-01-29&lastDate=2026-01-29 to src/calendars/tomorrow/g3s2a.ics
+[2026-01-28T18:00:00.881Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g3s2a.ics
+[2026-01-28T18:00:00.881Z] info: ICS file for g3s2a downloaded successfully.
+[2026-01-28T18:00:00.882Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=51549&projectId=1&calType=ical&firstDate=2026-01-29&lastDate=2026-01-29 to src/calendars/tomorrow/g3s2b.ics
+[2026-01-28T18:00:00.964Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g3s2b.ics
+[2026-01-28T18:00:00.965Z] info: ICS file for g3s2b downloaded successfully.
+[2026-01-28T18:00:00.965Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=51551&projectId=1&calType=ical&firstDate=2026-01-29&lastDate=2026-01-29 to src/calendars/tomorrow/g4s2a.ics
+[2026-01-28T18:00:01.043Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g4s2a.ics
+[2026-01-28T18:00:01.043Z] info: ICS file for g4s2a downloaded successfully.
+[2026-01-28T18:00:01.043Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=51552&projectId=1&calType=ical&firstDate=2026-01-29&lastDate=2026-01-29 to src/calendars/tomorrow/g4s2b.ics
+[2026-01-28T18:00:01.124Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g4s2b.ics
+[2026-01-28T18:00:01.125Z] info: ICS file for g4s2b downloaded successfully.
+[2026-01-28T18:00:01.125Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=51554&projectId=1&calType=ical&firstDate=2026-01-29&lastDate=2026-01-29 to src/calendars/tomorrow/g5s2a.ics
+[2026-01-28T18:00:01.239Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g5s2a.ics
+[2026-01-28T18:00:01.240Z] info: ICS file for g5s2a downloaded successfully.
+[2026-01-28T18:00:01.240Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=51555&projectId=1&calType=ical&firstDate=2026-01-29&lastDate=2026-01-29 to src/calendars/tomorrow/g5s2b.ics
+[2026-01-28T18:00:01.307Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g5s2b.ics
+[2026-01-28T18:00:01.308Z] info: ICS file for g5s2b downloaded successfully.
+[2026-01-28T18:00:01.308Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=85875&projectId=1&calType=ical&firstDate=2026-01-29&lastDate=2026-01-29 to src/calendars/tomorrow/g1s4a.ics
+[2026-01-28T18:00:01.379Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g1s4a.ics
+[2026-01-28T18:00:01.380Z] info: ICS file for g1s4a downloaded successfully.
+[2026-01-28T18:00:01.380Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=85876&projectId=1&calType=ical&firstDate=2026-01-29&lastDate=2026-01-29 to src/calendars/tomorrow/g1s4b.ics
+[2026-01-28T18:00:01.460Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g1s4b.ics
+[2026-01-28T18:00:01.461Z] info: ICS file for g1s4b downloaded successfully.
+[2026-01-28T18:00:01.461Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=85873&projectId=1&calType=ical&firstDate=2026-01-29&lastDate=2026-01-29 to src/calendars/tomorrow/g2s4a.ics
+[2026-01-28T18:00:01.546Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g2s4a.ics
+[2026-01-28T18:00:01.547Z] info: ICS file for g2s4a downloaded successfully.
+[2026-01-28T18:00:01.547Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=85874&projectId=1&calType=ical&firstDate=2026-01-29&lastDate=2026-01-29 to src/calendars/tomorrow/g2s4b.ics
+[2026-01-28T18:00:01.666Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g2s4b.ics
+[2026-01-28T18:00:01.666Z] info: ICS file for g2s4b downloaded successfully.
+[2026-01-28T18:00:01.666Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=35714&projectId=1&calType=ical&firstDate=2026-01-29&lastDate=2026-01-29 to src/calendars/tomorrow/g3a2.ics
+[2026-01-28T18:00:01.744Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g3a2.ics
+[2026-01-28T18:00:01.744Z] info: ICS file for g3a2 downloaded successfully.
+[2026-01-28T18:00:01.744Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=85877&projectId=1&calType=ical&firstDate=2026-01-29&lastDate=2026-01-29 to src/calendars/tomorrow/g4s4a.ics
+[2026-01-28T18:00:01.862Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g4s4a.ics
+[2026-01-28T18:00:01.862Z] info: ICS file for g4s4a downloaded successfully.
+[2026-01-28T18:00:01.863Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=85878&projectId=1&calType=ical&firstDate=2026-01-29&lastDate=2026-01-29 to src/calendars/tomorrow/g4s4b.ics
+[2026-01-28T18:00:01.984Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g4s4b.ics
+[2026-01-28T18:00:01.984Z] info: ICS file for g4s4b downloaded successfully.
+[2026-01-28T18:00:01.984Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6161&projectId=1&calType=ical&firstDate=2026-01-29&lastDate=2026-01-29 to src/calendars/tomorrow/but3ra1a.ics
+[2026-01-28T18:00:02.078Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3ra1a.ics
+[2026-01-28T18:00:02.079Z] info: ICS file for but3ra1a downloaded successfully.
+[2026-01-28T18:00:02.079Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6163&projectId=1&calType=ical&firstDate=2026-01-29&lastDate=2026-01-29 to src/calendars/tomorrow/but3ra1b.ics
+[2026-01-28T18:00:02.224Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3ra1b.ics
+[2026-01-28T18:00:02.225Z] info: ICS file for but3ra1b downloaded successfully.
+[2026-01-28T18:00:02.225Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6165&projectId=1&calType=ical&firstDate=2026-01-29&lastDate=2026-01-29 to src/calendars/tomorrow/but3ra2a.ics
+[2026-01-28T18:00:02.304Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3ra2a.ics
+[2026-01-28T18:00:02.305Z] info: ICS file for but3ra2a downloaded successfully.
+[2026-01-28T18:00:02.305Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6168&projectId=1&calType=ical&firstDate=2026-01-29&lastDate=2026-01-29 to src/calendars/tomorrow/but3ra2b.ics
+[2026-01-28T18:00:02.400Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3ra2b.ics
+[2026-01-28T18:00:02.400Z] info: ICS file for but3ra2b downloaded successfully.
+[2026-01-28T18:00:02.401Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=14059&projectId=1&calType=ical&firstDate=2026-01-29&lastDate=2026-01-29 to src/calendars/tomorrow/but3ra3a.ics
+[2026-01-28T18:00:02.498Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3ra3a.ics
+[2026-01-28T18:00:02.498Z] info: ICS file for but3ra3a downloaded successfully.
+[2026-01-28T18:00:02.498Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=14064&projectId=1&calType=ical&firstDate=2026-01-29&lastDate=2026-01-29 to src/calendars/tomorrow/but3ra3b.ics
+[2026-01-28T18:00:02.582Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3ra3b.ics
+[2026-01-28T18:00:02.582Z] info: ICS file for but3ra3b downloaded successfully.
+[2026-01-28T18:00:02.583Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6136&projectId=1&calType=ical&firstDate=2026-01-29&lastDate=2026-01-29 to src/calendars/tomorrow/but3dacs.ics
+[2026-01-28T18:00:02.664Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3dacs.ics
+[2026-01-28T18:00:02.664Z] info: ICS file for but3dacs downloaded successfully.
+[2026-01-28T18:00:02.664Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6048&projectId=1&calType=ical&firstDate=2026-01-29&lastDate=2026-01-29 to src/calendars/tomorrow/but3aged.ics
+[2026-01-28T18:00:02.760Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3aged.ics
+[2026-01-28T18:00:02.760Z] info: ICS file for but3aged downloaded successfully.
+[2026-01-28T18:00:02.760Z] info: Sending daily timetables
+[2026-01-28T18:00:02.777Z] info: Sending message to channel 1395371772550975558: 📅 **Emploi du temps pour le groupe aspea demain :**
+
+<t:1769670000:D> **S2.01 Développement efficace-TD ASPE** : KHEDDOUCI HAMAMACHE -> <t:1769670000:t> - <t:1769677200:t> en __S03__
+<t:1769677200:D> **11 S2.06 Programmation système-TD** : BUSSON ANTHONY -> <t:1769677200:t> - <t:1769684400:t> en __S24__
+
+[2026-01-28T18:00:02.778Z] info: Message sent to channel 1395371772550975558: 📅 **Emploi du temps pour le groupe aspea demain :**
+
+<t:1769670000:D> **S2.01 Développement efficace-TD ASPE** : KHEDDOUCI HAMAMACHE -> <t:1769670000:t> - <t:1769677200:t> en __S03__
+<t:1769677200:D> **11 S2.06 Programmation système-TD** : BUSSON ANTHONY -> <t:1769677200:t> - <t:1769684400:t> en __S24__
+
+[2026-01-28T18:00:02.784Z] info: Sending message to channel 1330181810289905847: 📅 **Emploi du temps pour le groupe g1s4a demain :**
+
+<t:1769670000:D> **11 R4.A.08 Virtualisation-TD** : BUSSON ANTHONY -> <t:1769670000:t> - <t:1769677200:t> en __S17__
+<t:1769677200:D> **11 R4.A.10 Vue JS TPA** : LEROUX STEPHANE -> <t:1769677200:t> - <t:1769684400:t> en __S03__
+<t:1769689800:D> **Saé G1 TD** : JOUBERT AUDE -> <t:1769689800:t> - <t:1769697000:t> en __S16__
+<t:1769697000:D> **21 R4.A.08 Virtualisation-TD** : BUSSON ANTHONY -> <t:1769697000:t> - <t:1769704200:t> en __S13__
+
+[2026-01-28T18:00:02.787Z] info: Message sent to channel 1330181810289905847: 📅 **Emploi du temps pour le groupe g1s4a demain :**
+
+<t:1769670000:D> **11 R4.A.08 Virtualisation-TD** : BUSSON ANTHONY -> <t:1769670000:t> - <t:1769677200:t> en __S17__
+<t:1769677200:D> **11 R4.A.10 Vue JS TPA** : LEROUX STEPHANE -> <t:1769677200:t> - <t:1769684400:t> en __S03__
+<t:1769689800:D> **Saé G1 TD** : JOUBERT AUDE -> <t:1769689800:t> - <t:1769697000:t> en __S16__
+<t:1769697000:D> **21 R4.A.08 Virtualisation-TD** : BUSSON ANTHONY -> <t:1769697000:t> - <t:1769704200:t> en __S13__
+
+[2026-01-28T18:00:02.789Z] info: Sending message to channel 1330181968075165769: 📅 **Emploi du temps pour le groupe g1s4b demain :**
+
+<t:1769670000:D> **11 R4.A.08 Virtualisation-TD** : BUSSON ANTHONY -> <t:1769670000:t> - <t:1769677200:t> en __S17__
+<t:1769677200:D> **11 R4.A.10 Vue JS TP B** : GONCALVES ISABELLE -> <t:1769677200:t> - <t:1769684400:t> en __S14__
+<t:1769689800:D> **Saé G1 TD** : JOUBERT AUDE -> <t:1769689800:t> - <t:1769697000:t> en __S16__
+<t:1769697000:D> **21 R4.A.08 Virtualisation-TD** : BUSSON ANTHONY -> <t:1769697000:t> - <t:1769704200:t> en __S13__
+
+[2026-01-28T18:00:02.789Z] info: Message sent to channel 1330181968075165769: 📅 **Emploi du temps pour le groupe g1s4b demain :**
+
+<t:1769670000:D> **11 R4.A.08 Virtualisation-TD** : BUSSON ANTHONY -> <t:1769670000:t> - <t:1769677200:t> en __S17__
+<t:1769677200:D> **11 R4.A.10 Vue JS TP B** : GONCALVES ISABELLE -> <t:1769677200:t> - <t:1769684400:t> en __S14__
+<t:1769689800:D> **Saé G1 TD** : JOUBERT AUDE -> <t:1769689800:t> - <t:1769697000:t> en __S16__
+<t:1769697000:D> **21 R4.A.08 Virtualisation-TD** : BUSSON ANTHONY -> <t:1769697000:t> - <t:1769704200:t> en __S13__
+
+[2026-01-28T18:00:02.791Z] info: Sending message to channel 1330181829667328071: 📅 **Emploi du temps pour le groupe g2s4a demain :**
+
+<t:1769677200:D> **R4.05 Anglais-TPA** : CANQUE FLORENCE -> <t:1769677200:t> - <t:1769684400:t> en __026-Langues__
+<t:1769689800:D> **Saé G2 TD** : JALOUX CHRISTOPHE -> <t:1769689800:t> - <t:1769697000:t> en __S17__
+
+[2026-01-28T18:00:02.791Z] info: Message sent to channel 1330181829667328071: 📅 **Emploi du temps pour le groupe g2s4a demain :**
+
+<t:1769677200:D> **R4.05 Anglais-TPA** : CANQUE FLORENCE -> <t:1769677200:t> - <t:1769684400:t> en __026-Langues__
+<t:1769689800:D> **Saé G2 TD** : JALOUX CHRISTOPHE -> <t:1769689800:t> - <t:1769697000:t> en __S17__
+
+[2026-01-28T18:00:02.792Z] info: Sending message to channel 1330181981320777738: 📅 **Emploi du temps pour le groupe g2s4b demain :**
+
+<t:1769677200:D> **R4.05 Anglais-TPB** : BESSAC MARIETTE -> <t:1769677200:t> - <t:1769684400:t> en __028__
+<t:1769689800:D> **Saé G2 TD** : JALOUX CHRISTOPHE -> <t:1769689800:t> - <t:1769697000:t> en __S17__
+
+[2026-01-28T18:00:02.792Z] info: Message sent to channel 1330181981320777738: 📅 **Emploi du temps pour le groupe g2s4b demain :**
+
+<t:1769677200:D> **R4.05 Anglais-TPB** : BESSAC MARIETTE -> <t:1769677200:t> - <t:1769684400:t> en __028__
+<t:1769689800:D> **Saé G2 TD** : JALOUX CHRISTOPHE -> <t:1769689800:t> - <t:1769697000:t> en __S17__
+
+[2026-01-28T18:00:02.795Z] info: Sending message to channel 1330181841524756501: 📅 **Emploi du temps pour le groupe g4s4a demain :**
+
+<t:1769670000:D> **R4.05 Anglais-TPA** : CANQUE FLORENCE -> <t:1769670000:t> - <t:1769677200:t> en __026-Langues__
+<t:1769677200:D> **21 R4.04 Méthodes d'optimisation-TD** : JALOUX CHRISTOPHE -> <t:1769677200:t> - <t:1769684400:t> en __S17__
+<t:1769689800:D> **Saé G4S4 TD** : PEYTAVIE ADRIEN -> <t:1769689800:t> - <t:1769697000:t> en __S14__
+
+[2026-01-28T18:00:02.795Z] info: Message sent to channel 1330181841524756501: 📅 **Emploi du temps pour le groupe g4s4a demain :**
+
+<t:1769670000:D> **R4.05 Anglais-TPA** : CANQUE FLORENCE -> <t:1769670000:t> - <t:1769677200:t> en __026-Langues__
+<t:1769677200:D> **21 R4.04 Méthodes d'optimisation-TD** : JALOUX CHRISTOPHE -> <t:1769677200:t> - <t:1769684400:t> en __S17__
+<t:1769689800:D> **Saé G4S4 TD** : PEYTAVIE ADRIEN -> <t:1769689800:t> - <t:1769697000:t> en __S14__
+
+[2026-01-28T18:00:02.797Z] info: Sending message to channel 1330181996743364679: 📅 **Emploi du temps pour le groupe g4s4b demain :**
+
+<t:1769670000:D> **R4.05 Anglais-TPB** : BESSAC MARIETTE -> <t:1769670000:t> - <t:1769677200:t> en __028__
+<t:1769677200:D> **21 R4.04 Méthodes d'optimisation-TD** : JALOUX CHRISTOPHE -> <t:1769677200:t> - <t:1769684400:t> en __S17__
+<t:1769689800:D> **Saé G4S4 TD** : PEYTAVIE ADRIEN -> <t:1769689800:t> - <t:1769697000:t> en __S14__
+
+[2026-01-28T18:00:02.798Z] info: Message sent to channel 1330181996743364679: 📅 **Emploi du temps pour le groupe g4s4b demain :**
+
+<t:1769670000:D> **R4.05 Anglais-TPB** : BESSAC MARIETTE -> <t:1769670000:t> - <t:1769677200:t> en __028__
+<t:1769677200:D> **21 R4.04 Méthodes d'optimisation-TD** : JALOUX CHRISTOPHE -> <t:1769677200:t> - <t:1769684400:t> en __S17__
+<t:1769689800:D> **Saé G4S4 TD** : PEYTAVIE ADRIEN -> <t:1769689800:t> - <t:1769697000:t> en __S14__
+
+[2026-01-28T18:00:02.799Z] info: Sending message to channel 1409494181839376455: 📅 **Emploi du temps pour le groupe but3ra1a demain :**
+
+<t:1769670000:D> **21 R5.A.11 Aide à la décision TD RA** : JALOUX CHRISTOPHE -> <t:1769670000:t> - <t:1769677200:t> en __S26__
+<t:1769677200:D> **S5.A.01 SAE Dev avancé A** : BUT3 RA1A -> <t:1769677200:t> - <t:1769684400:t> en __S16__
+<t:1769697000:D> **11R5.A.10 MongoDB avancé** : AIDEL OSMAN -> <t:1769697000:t> - <t:1769704200:t> en __S26__
+
+[2026-01-28T18:00:02.800Z] info: Message sent to channel 1409494181839376455: 📅 **Emploi du temps pour le groupe but3ra1a demain :**
+
+<t:1769670000:D> **21 R5.A.11 Aide à la décision TD RA** : JALOUX CHRISTOPHE -> <t:1769670000:t> - <t:1769677200:t> en __S26__
+<t:1769677200:D> **S5.A.01 SAE Dev avancé A** : BUT3 RA1A -> <t:1769677200:t> - <t:1769684400:t> en __S16__
+<t:1769697000:D> **11R5.A.10 MongoDB avancé** : AIDEL OSMAN -> <t:1769697000:t> - <t:1769704200:t> en __S26__
+
+[2026-01-28T18:00:02.801Z] info: Sending message to channel 1409494206942286006: 📅 **Emploi du temps pour le groupe but3ra1b demain :**
+
+<t:1769670000:D> **21 R5.A.11 Aide à la décision TD RA** : JALOUX CHRISTOPHE -> <t:1769670000:t> - <t:1769677200:t> en __S26__
+<t:1769677200:D> **21R5.A.06 Programmation multimédia TPB** : PEYTAVIE ADRIEN -> <t:1769677200:t> - <t:1769684400:t> en __S26__
+<t:1769689800:D> **R5.03 Communication TPB** : DEBOUTE JOCELYNE -> <t:1769689800:t> - <t:1769697000:t> en __S12__
+<t:1769697000:D> **11R5.A.10 MongoDB avancé** : AIDEL OSMAN -> <t:1769697000:t> - <t:1769704200:t> en __S26__
+
+[2026-01-28T18:00:02.804Z] info: Message sent to channel 1409494206942286006: 📅 **Emploi du temps pour le groupe but3ra1b demain :**
+
+<t:1769670000:D> **21 R5.A.11 Aide à la décision TD RA** : JALOUX CHRISTOPHE -> <t:1769670000:t> - <t:1769677200:t> en __S26__
+<t:1769677200:D> **21R5.A.06 Programmation multimédia TPB** : PEYTAVIE ADRIEN -> <t:1769677200:t> - <t:1769684400:t> en __S26__
+<t:1769689800:D> **R5.03 Communication TPB** : DEBOUTE JOCELYNE -> <t:1769689800:t> - <t:1769697000:t> en __S12__
+<t:1769697000:D> **11R5.A.10 MongoDB avancé** : AIDEL OSMAN -> <t:1769697000:t> - <t:1769704200:t> en __S26__
+
+[2026-01-28T18:00:02.806Z] info: Sending message to channel 1409495503292338257: 📅 **Emploi du temps pour le groupe but3ra3a demain :**
+
+<t:1769670000:D> **11 R5.A.11 Aide à la décision TD RA** : JOUBERT AUDE -> <t:1769670000:t> - <t:1769677200:t> en __S13__
+<t:1769677200:D> **21R5.A.10 Neo4J** : KHEDDOUCI HAMAMACHE -> <t:1769677200:t> - <t:1769684400:t> en __S13__
+<t:1769689800:D> **11R5.A.10 MongoDB avancé** : AIDEL OSMAN -> <t:1769689800:t> - <t:1769697000:t> en __S13__
+<t:1769697000:D> **S5.A.01 SAE Dev avancé A** : BUT3 RA3A -> <t:1769697000:t> - <t:1769704200:t> en __S17__
+
+[2026-01-28T18:00:02.807Z] info: Message sent to channel 1409495503292338257: 📅 **Emploi du temps pour le groupe but3ra3a demain :**
+
+<t:1769670000:D> **11 R5.A.11 Aide à la décision TD RA** : JOUBERT AUDE -> <t:1769670000:t> - <t:1769677200:t> en __S13__
+<t:1769677200:D> **21R5.A.10 Neo4J** : KHEDDOUCI HAMAMACHE -> <t:1769677200:t> - <t:1769684400:t> en __S13__
+<t:1769689800:D> **11R5.A.10 MongoDB avancé** : AIDEL OSMAN -> <t:1769689800:t> - <t:1769697000:t> en __S13__
+<t:1769697000:D> **S5.A.01 SAE Dev avancé A** : BUT3 RA3A -> <t:1769697000:t> - <t:1769704200:t> en __S17__
+
+[2026-01-28T18:00:02.809Z] info: Sending message to channel 1409495513891344426: 📅 **Emploi du temps pour le groupe but3ra3b demain :**
+
+<t:1769670000:D> **11 R5.A.11 Aide à la décision TD RA** : JOUBERT AUDE -> <t:1769670000:t> - <t:1769677200:t> en __S13__
+<t:1769677200:D> **21R5.A.10 Neo4J** : KHEDDOUCI HAMAMACHE -> <t:1769677200:t> - <t:1769684400:t> en __S13__
+<t:1769689800:D> **11R5.A.10 MongoDB avancé** : AIDEL OSMAN -> <t:1769689800:t> - <t:1769697000:t> en __S13__
+<t:1769697000:D> **R5.03 Communication TPB** : DEBOUTE JOCELYNE -> <t:1769697000:t> - <t:1769704200:t> en __S10__
+
+[2026-01-28T18:00:02.809Z] info: Message sent to channel 1409495513891344426: 📅 **Emploi du temps pour le groupe but3ra3b demain :**
+
+<t:1769670000:D> **11 R5.A.11 Aide à la décision TD RA** : JOUBERT AUDE -> <t:1769670000:t> - <t:1769677200:t> en __S13__
+<t:1769677200:D> **21R5.A.10 Neo4J** : KHEDDOUCI HAMAMACHE -> <t:1769677200:t> - <t:1769684400:t> en __S13__
+<t:1769689800:D> **11R5.A.10 MongoDB avancé** : AIDEL OSMAN -> <t:1769689800:t> - <t:1769697000:t> en __S13__
+<t:1769697000:D> **R5.03 Communication TPB** : DEBOUTE JOCELYNE -> <t:1769697000:t> - <t:1769704200:t> en __S10__
+
+[2026-01-28T18:00:02.811Z] info: Sending message to channel 1409495882436706366: 📅 **Emploi du temps pour le groupe but3dacs demain :**
+
+<t:1769670000:D> **R5.B.04 Bash-scripting** : TORTAY LOIC -> <t:1769670000:t> - <t:1769677200:t> en __S01__
+<t:1769677200:D> **Administration des BD** : BARON ARIANE -> <t:1769677200:t> - <t:1769684400:t> en __S22__
+<t:1769691600:D> **11 R5.B.09 Cybercecurite TD** : BALDE THIERNO -> <t:1769691600:t> - <t:1769698800:t> en __S01__
+<t:1769698800:D> **21 R5.B.09 Cybercecurite TD** : BALDE THIERNO -> <t:1769698800:t> - <t:1769706000:t> en __S01__
+
+[2026-01-28T18:00:02.812Z] info: Message sent to channel 1409495882436706366: 📅 **Emploi du temps pour le groupe but3dacs demain :**
+
+<t:1769670000:D> **R5.B.04 Bash-scripting** : TORTAY LOIC -> <t:1769670000:t> - <t:1769677200:t> en __S01__
+<t:1769677200:D> **Administration des BD** : BARON ARIANE -> <t:1769677200:t> - <t:1769684400:t> en __S22__
+<t:1769691600:D> **11 R5.B.09 Cybercecurite TD** : BALDE THIERNO -> <t:1769691600:t> - <t:1769698800:t> en __S01__
+<t:1769698800:D> **21 R5.B.09 Cybercecurite TD** : BALDE THIERNO -> <t:1769698800:t> - <t:1769706000:t> en __S01__
+
+[2026-01-28T18:00:02.813Z] info: Sending message to channel 1409496113396060181: 📅 **Emploi du temps pour le groupe but3aged demain :**
+
+<t:1769670000:D> **21R6.C.05 Admin BD P2** : BARON ARIANE -> <t:1769670000:t> - <t:1769677200:t> en __S22__
+<t:1769677200:D> **12 R5.C.09 Statistiques Inférentielles** : JOUBERT AUDE -> <t:1769677200:t> - <t:1769684400:t> en __S27__
+<t:1769688000:D> **11 R5.C.11-1 Visualisation des données** : BONNEFOY CELINE -> <t:1769688000:t> - <t:1769695200:t> en __S22__
+<t:1769695200:D> **12 R5.C.11-1 Visualisation des données** : BONNEFOY CELINE -> <t:1769695200:t> - <t:1769702400:t> en __S22__
+
+[2026-01-28T18:00:02.814Z] info: Message sent to channel 1409496113396060181: 📅 **Emploi du temps pour le groupe but3aged demain :**
+
+<t:1769670000:D> **21R6.C.05 Admin BD P2** : BARON ARIANE -> <t:1769670000:t> - <t:1769677200:t> en __S22__
+<t:1769677200:D> **12 R5.C.09 Statistiques Inférentielles** : JOUBERT AUDE -> <t:1769677200:t> - <t:1769684400:t> en __S27__
+<t:1769688000:D> **11 R5.C.11-1 Visualisation des données** : BONNEFOY CELINE -> <t:1769688000:t> - <t:1769695200:t> en __S22__
+<t:1769695200:D> **12 R5.C.11-1 Visualisation des données** : BONNEFOY CELINE -> <t:1769695200:t> - <t:1769702400:t> en __S22__
+
+[2026-01-28T18:00:02.814Z] info: Daily timetables sent
+[2026-01-29T14:43:33.427Z] info: Received command: group from user: 395511413663203328
+[2026-01-29T14:43:33.429Z] info: Received group command: group=g5, semester=s2, composedGroup=g5s2a
+[2026-01-29T14:53:18.748Z] info: Received command: group from user: 605111478567043091
+[2026-01-29T14:53:18.749Z] info: Received group command: group=g4, semester=, composedGroup=noGroup
+[2026-01-29T14:53:47.112Z] info: Received command: group from user: 710595981233750056
+[2026-01-29T14:53:47.113Z] info: Received group command: group=g5, semester=s2, composedGroup=g5s2a
+[2026-01-29T14:55:25.212Z] info: Received command: group from user: 531124625015570447
+[2026-01-29T14:55:25.213Z] info: Received group command: group=g5, semester=s2, composedGroup=g5s2a
+[2026-01-29T14:57:05.874Z] info: Received command: group from user: 651508882363121664
+[2026-01-29T14:57:05.874Z] info: Received group command: group=g4, semester=s2, composedGroup=g4s2a
+[2026-01-29T14:57:16.692Z] info: Received command: group from user: 648212752053305345
+[2026-01-29T14:57:16.692Z] info: Received group command: group=g3, semester=s2, composedGroup=g3s2a
+[2026-01-29T14:57:26.401Z] info: Received command: group from user: 624620025399214080
+[2026-01-29T14:57:26.402Z] info: Received group command: group=g3, semester=s2, composedGroup=g3s2a
+[2026-01-29T14:58:56.261Z] info: Received command: group from user: 1409488365471928532
+[2026-01-29T14:58:56.261Z] info: Received group command: group=g2, semester=s2, composedGroup=g2s2a
+[2026-01-29T15:00:03.026Z] info: Received command: group from user: 1059114873084198984
+[2026-01-29T15:00:03.028Z] info: Received group command: group=g4, semester=, composedGroup=noGroup
+[2026-01-29T15:00:17.874Z] info: Received command: group from user: 1059114873084198984
+[2026-01-29T15:00:17.874Z] info: Received group command: group=g4, semester=s2, composedGroup=g4s2a
+[2026-01-29T15:01:52.642Z] info: Received command: group from user: 970349108860682312
+[2026-01-29T15:01:52.643Z] info: Received group command: group=g1, semester=s2, composedGroup=g1s2a
+[2026-01-29T15:02:20.613Z] info: Received command: group from user: 963793564557525032
+[2026-01-29T15:02:20.614Z] info: Received group command: group=g4, semester=s2, composedGroup=g4s2a
+[2026-01-29T15:02:54.752Z] info: Received command: group from user: 638349712398745640
+[2026-01-29T15:02:54.753Z] info: Received group command: group=g1, semester=s2, composedGroup=g1s2a
+[2026-01-29T15:05:35.214Z] info: Received command: group from user: 405791415126196234
+[2026-01-29T15:05:35.214Z] info: Received group command: group=g1, semester=s2, composedGroup=g1s2a
+[2026-01-29T15:14:45.413Z] info: Received command: group from user: 561600185055313931
+[2026-01-29T15:14:45.413Z] info: Received group command: group=g1, semester=s2, composedGroup=g1s2a
+[2026-01-29T15:34:21.420Z] info: Received command: group from user: 564091881823404072
+[2026-01-29T15:34:21.420Z] info: Received group command: group=g5, semester=s2, composedGroup=g5s2a
+[2026-01-29T15:34:58.702Z] info: Received command: group from user: 1174058026051829900
+[2026-01-29T15:34:58.703Z] info: Received group command: group=g2, semester=s2, composedGroup=g2s2a
+[2026-01-29T15:38:26.497Z] info: Received command: group from user: 1112752789282627705
+[2026-01-29T15:38:26.497Z] info: Received group command: group=g3, semester=s2, composedGroup=g3s2a
+[2026-01-29T16:04:35.952Z] info: Received command: group from user: 1264302658932576307
+[2026-01-29T16:04:35.953Z] info: Received group command: group=g5, semester=s2, composedGroup=g5s2a
+[2026-01-29T16:58:22.450Z] info: Received command: group from user: 823983015897989180
+[2026-01-29T16:58:22.451Z] info: Received group command: group=g5, semester=s2, composedGroup=g5s2a
+[2026-01-29T16:59:32.900Z] info: Received command: group from user: 539539113439920141
+[2026-01-29T16:59:32.901Z] info: Received group command: group=g1, semester=s2, composedGroup=g1s2a
+[2026-01-29T18:00:00.686Z] info: Downloading ICS files for tomorrow for groups: aspea, aspeb, g1s2a, g1s2b, g2s2a, g2s2b, g3s2a, g3s2b, g4s2a, g4s2b, g5s2a, g5s2b, g1s4a, g1s4b, g2s4a, g2s4b, g3a2, g4s4a, g4s4b, but3ra1a, but3ra1b, but3ra2a, but3ra2b, but3ra3a, but3ra3b, but3dacs, but3aged
+[2026-01-29T18:00:00.686Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=9272&projectId=1&calType=ical&firstDate=2026-01-30&lastDate=2026-01-30 to src/calendars/tomorrow/aspea.ics
+[2026-01-29T18:00:01.068Z] info: ICS file downloaded successfully to src/calendars/tomorrow/aspea.ics
+[2026-01-29T18:00:01.068Z] info: ICS file for aspea downloaded successfully.
+[2026-01-29T18:00:01.068Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=18783&projectId=1&calType=ical&firstDate=2026-01-30&lastDate=2026-01-30 to src/calendars/tomorrow/aspeb.ics
+[2026-01-29T18:00:01.149Z] info: ICS file downloaded successfully to src/calendars/tomorrow/aspeb.ics
+[2026-01-29T18:00:01.149Z] info: ICS file for aspeb downloaded successfully.
+[2026-01-29T18:00:01.150Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=51542&projectId=1&calType=ical&firstDate=2026-01-30&lastDate=2026-01-30 to src/calendars/tomorrow/g1s2a.ics
+[2026-01-29T18:00:01.275Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g1s2a.ics
+[2026-01-29T18:00:01.275Z] info: ICS file for g1s2a downloaded successfully.
+[2026-01-29T18:00:01.275Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=51543&projectId=1&calType=ical&firstDate=2026-01-30&lastDate=2026-01-30 to src/calendars/tomorrow/g1s2b.ics
+[2026-01-29T18:00:01.367Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g1s2b.ics
+[2026-01-29T18:00:01.368Z] info: ICS file for g1s2b downloaded successfully.
+[2026-01-29T18:00:01.368Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=51545&projectId=1&calType=ical&firstDate=2026-01-30&lastDate=2026-01-30 to src/calendars/tomorrow/g2s2a.ics
+[2026-01-29T18:00:01.449Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g2s2a.ics
+[2026-01-29T18:00:01.449Z] info: ICS file for g2s2a downloaded successfully.
+[2026-01-29T18:00:01.449Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=51546&projectId=1&calType=ical&firstDate=2026-01-30&lastDate=2026-01-30 to src/calendars/tomorrow/g2s2b.ics
+[2026-01-29T18:00:01.516Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g2s2b.ics
+[2026-01-29T18:00:01.516Z] info: ICS file for g2s2b downloaded successfully.
+[2026-01-29T18:00:01.517Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=51548&projectId=1&calType=ical&firstDate=2026-01-30&lastDate=2026-01-30 to src/calendars/tomorrow/g3s2a.ics
+[2026-01-29T18:00:01.636Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g3s2a.ics
+[2026-01-29T18:00:01.637Z] info: ICS file for g3s2a downloaded successfully.
+[2026-01-29T18:00:01.637Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=51549&projectId=1&calType=ical&firstDate=2026-01-30&lastDate=2026-01-30 to src/calendars/tomorrow/g3s2b.ics
+[2026-01-29T18:00:01.735Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g3s2b.ics
+[2026-01-29T18:00:01.735Z] info: ICS file for g3s2b downloaded successfully.
+[2026-01-29T18:00:01.735Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=51551&projectId=1&calType=ical&firstDate=2026-01-30&lastDate=2026-01-30 to src/calendars/tomorrow/g4s2a.ics
+[2026-01-29T18:00:01.858Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g4s2a.ics
+[2026-01-29T18:00:01.858Z] info: ICS file for g4s2a downloaded successfully.
+[2026-01-29T18:00:01.858Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=51552&projectId=1&calType=ical&firstDate=2026-01-30&lastDate=2026-01-30 to src/calendars/tomorrow/g4s2b.ics
+[2026-01-29T18:00:01.975Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g4s2b.ics
+[2026-01-29T18:00:01.976Z] info: ICS file for g4s2b downloaded successfully.
+[2026-01-29T18:00:01.976Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=51554&projectId=1&calType=ical&firstDate=2026-01-30&lastDate=2026-01-30 to src/calendars/tomorrow/g5s2a.ics
+[2026-01-29T18:00:02.064Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g5s2a.ics
+[2026-01-29T18:00:02.064Z] info: ICS file for g5s2a downloaded successfully.
+[2026-01-29T18:00:02.065Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=51555&projectId=1&calType=ical&firstDate=2026-01-30&lastDate=2026-01-30 to src/calendars/tomorrow/g5s2b.ics
+[2026-01-29T18:00:02.180Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g5s2b.ics
+[2026-01-29T18:00:02.181Z] info: ICS file for g5s2b downloaded successfully.
+[2026-01-29T18:00:02.181Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=85875&projectId=1&calType=ical&firstDate=2026-01-30&lastDate=2026-01-30 to src/calendars/tomorrow/g1s4a.ics
+[2026-01-29T18:00:02.294Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g1s4a.ics
+[2026-01-29T18:00:02.294Z] info: ICS file for g1s4a downloaded successfully.
+[2026-01-29T18:00:02.295Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=85876&projectId=1&calType=ical&firstDate=2026-01-30&lastDate=2026-01-30 to src/calendars/tomorrow/g1s4b.ics
+[2026-01-29T18:00:02.446Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g1s4b.ics
+[2026-01-29T18:00:02.446Z] info: ICS file for g1s4b downloaded successfully.
+[2026-01-29T18:00:02.446Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=85873&projectId=1&calType=ical&firstDate=2026-01-30&lastDate=2026-01-30 to src/calendars/tomorrow/g2s4a.ics
+[2026-01-29T18:00:02.542Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g2s4a.ics
+[2026-01-29T18:00:02.543Z] info: ICS file for g2s4a downloaded successfully.
+[2026-01-29T18:00:02.543Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=85874&projectId=1&calType=ical&firstDate=2026-01-30&lastDate=2026-01-30 to src/calendars/tomorrow/g2s4b.ics
+[2026-01-29T18:00:02.668Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g2s4b.ics
+[2026-01-29T18:00:02.668Z] info: ICS file for g2s4b downloaded successfully.
+[2026-01-29T18:00:02.669Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=35714&projectId=1&calType=ical&firstDate=2026-01-30&lastDate=2026-01-30 to src/calendars/tomorrow/g3a2.ics
+[2026-01-29T18:00:02.783Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g3a2.ics
+[2026-01-29T18:00:02.784Z] info: ICS file for g3a2 downloaded successfully.
+[2026-01-29T18:00:02.784Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=85877&projectId=1&calType=ical&firstDate=2026-01-30&lastDate=2026-01-30 to src/calendars/tomorrow/g4s4a.ics
+[2026-01-29T18:00:02.953Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g4s4a.ics
+[2026-01-29T18:00:02.953Z] info: ICS file for g4s4a downloaded successfully.
+[2026-01-29T18:00:02.954Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=85878&projectId=1&calType=ical&firstDate=2026-01-30&lastDate=2026-01-30 to src/calendars/tomorrow/g4s4b.ics
+[2026-01-29T18:00:03.338Z] info: ICS file downloaded successfully to src/calendars/tomorrow/g4s4b.ics
+[2026-01-29T18:00:03.338Z] info: ICS file for g4s4b downloaded successfully.
+[2026-01-29T18:00:03.339Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6161&projectId=1&calType=ical&firstDate=2026-01-30&lastDate=2026-01-30 to src/calendars/tomorrow/but3ra1a.ics
+[2026-01-29T18:00:03.666Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3ra1a.ics
+[2026-01-29T18:00:03.667Z] info: ICS file for but3ra1a downloaded successfully.
+[2026-01-29T18:00:03.667Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6163&projectId=1&calType=ical&firstDate=2026-01-30&lastDate=2026-01-30 to src/calendars/tomorrow/but3ra1b.ics
+[2026-01-29T18:00:03.913Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3ra1b.ics
+[2026-01-29T18:00:03.914Z] info: ICS file for but3ra1b downloaded successfully.
+[2026-01-29T18:00:03.914Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6165&projectId=1&calType=ical&firstDate=2026-01-30&lastDate=2026-01-30 to src/calendars/tomorrow/but3ra2a.ics
+[2026-01-29T18:00:04.043Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3ra2a.ics
+[2026-01-29T18:00:04.043Z] info: ICS file for but3ra2a downloaded successfully.
+[2026-01-29T18:00:04.044Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6168&projectId=1&calType=ical&firstDate=2026-01-30&lastDate=2026-01-30 to src/calendars/tomorrow/but3ra2b.ics
+[2026-01-29T18:00:04.219Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3ra2b.ics
+[2026-01-29T18:00:04.220Z] info: ICS file for but3ra2b downloaded successfully.
+[2026-01-29T18:00:04.220Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=14059&projectId=1&calType=ical&firstDate=2026-01-30&lastDate=2026-01-30 to src/calendars/tomorrow/but3ra3a.ics
+[2026-01-29T18:00:04.311Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3ra3a.ics
+[2026-01-29T18:00:04.312Z] info: ICS file for but3ra3a downloaded successfully.
+[2026-01-29T18:00:04.312Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=14064&projectId=1&calType=ical&firstDate=2026-01-30&lastDate=2026-01-30 to src/calendars/tomorrow/but3ra3b.ics
+[2026-01-29T18:00:04.435Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3ra3b.ics
+[2026-01-29T18:00:04.436Z] info: ICS file for but3ra3b downloaded successfully.
+[2026-01-29T18:00:04.436Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6136&projectId=1&calType=ical&firstDate=2026-01-30&lastDate=2026-01-30 to src/calendars/tomorrow/but3dacs.ics
+[2026-01-29T18:00:04.536Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3dacs.ics
+[2026-01-29T18:00:04.537Z] info: ICS file for but3dacs downloaded successfully.
+[2026-01-29T18:00:04.537Z] info: Downloading ICS file from https://edt.univ-lyon1.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=6048&projectId=1&calType=ical&firstDate=2026-01-30&lastDate=2026-01-30 to src/calendars/tomorrow/but3aged.ics
+[2026-01-29T18:00:04.636Z] info: ICS file downloaded successfully to src/calendars/tomorrow/but3aged.ics
+[2026-01-29T18:00:04.636Z] info: ICS file for but3aged downloaded successfully.
+[2026-01-29T18:00:04.636Z] info: Sending daily timetables
+[2026-01-29T18:00:04.642Z] info: Sending message to channel 1395371772550975558: 📅 **Emploi du temps pour le groupe aspea demain :**
+
+<t:1769756400:D> **11 S2.06 Programmation système-TD** : BUSSON ANTHONY -> <t:1769756400:t> - <t:1769763600:t> en __S27__
+<t:1769763600:D> **S2.12 Qualité de développement ASPE** : PERNELLE PHILIPPE -> <t:1769763600:t> - <t:1769770800:t> en __S17__
+<t:1769776200:D> **S2.15 Probabilités ASPE** : JALOUX CHRISTOPHE -> <t:1769776200:t> - <t:1769783400:t> en __S10__
+
+[2026-01-29T18:00:04.643Z] info: Message sent to channel 1395371772550975558: 📅 **Emploi du temps pour le groupe aspea demain :**
+
+<t:1769756400:D> **11 S2.06 Programmation système-TD** : BUSSON ANTHONY -> <t:1769756400:t> - <t:1769763600:t> en __S27__
+<t:1769763600:D> **S2.12 Qualité de développement ASPE** : PERNELLE PHILIPPE -> <t:1769763600:t> - <t:1769770800:t> en __S17__
+<t:1769776200:D> **S2.15 Probabilités ASPE** : JALOUX CHRISTOPHE -> <t:1769776200:t> - <t:1769783400:t> en __S10__
+
+[2026-01-29T18:00:04.645Z] info: Sending message to channel 1330181810289905847: 📅 **Emploi du temps pour le groupe g1s4a demain :**
+
+<t:1769756400:D> **21 R4.04 Méthodes d'optimisation-TD** : JOUBERT AUDE -> <t:1769756400:t> - <t:1769763600:t> en __S16__
+<t:1769763600:D> **21 R4.A.10 Vue JS TPA** : LEROUX STEPHANE -> <t:1769763600:t> - <t:1769770800:t> en __S03__
+<t:1769776200:D> **11 R4.06 Communication interne-TD** : ALLAOUI ABDELBAKI -> <t:1769776200:t> - <t:1769783400:t> en __S12__
+<t:1769783400:D> **R4.07 PPP-TD** : DEBOUTE JOCELYNE -> <t:1769783400:t> - <t:1769790600:t> en __040__
+
+[2026-01-29T18:00:04.645Z] info: Message sent to channel 1330181810289905847: 📅 **Emploi du temps pour le groupe g1s4a demain :**
+
+<t:1769756400:D> **21 R4.04 Méthodes d'optimisation-TD** : JOUBERT AUDE -> <t:1769756400:t> - <t:1769763600:t> en __S16__
+<t:1769763600:D> **21 R4.A.10 Vue JS TPA** : LEROUX STEPHANE -> <t:1769763600:t> - <t:1769770800:t> en __S03__
+<t:1769776200:D> **11 R4.06 Communication interne-TD** : ALLAOUI ABDELBAKI -> <t:1769776200:t> - <t:1769783400:t> en __S12__
+<t:1769783400:D> **R4.07 PPP-TD** : DEBOUTE JOCELYNE -> <t:1769783400:t> - <t:1769790600:t> en __040__
+
+[2026-01-29T18:00:04.648Z] info: Sending message to channel 1330181968075165769: 📅 **Emploi du temps pour le groupe g1s4b demain :**
+
+<t:1769756400:D> **21 R4.04 Méthodes d'optimisation-TD** : JOUBERT AUDE -> <t:1769756400:t> - <t:1769763600:t> en __S16__
+<t:1769763600:D> **21 R4.A.10 Vue JS TPB** : GONCALVES ISABELLE -> <t:1769763600:t> - <t:1769770800:t> en __S14__
+<t:1769776200:D> **11 R4.06 Communication interne-TD** : ALLAOUI ABDELBAKI -> <t:1769776200:t> - <t:1769783400:t> en __S12__
+<t:1769783400:D> **R4.07 PPP-TD** : DEBOUTE JOCELYNE -> <t:1769783400:t> - <t:1769790600:t> en __040__
+
+[2026-01-29T18:00:04.648Z] info: Message sent to channel 1330181968075165769: 📅 **Emploi du temps pour le groupe g1s4b demain :**
+
+<t:1769756400:D> **21 R4.04 Méthodes d'optimisation-TD** : JOUBERT AUDE -> <t:1769756400:t> - <t:1769763600:t> en __S16__
+<t:1769763600:D> **21 R4.A.10 Vue JS TPB** : GONCALVES ISABELLE -> <t:1769763600:t> - <t:1769770800:t> en __S14__
+<t:1769776200:D> **11 R4.06 Communication interne-TD** : ALLAOUI ABDELBAKI -> <t:1769776200:t> - <t:1769783400:t> en __S12__
+<t:1769783400:D> **R4.07 PPP-TD** : DEBOUTE JOCELYNE -> <t:1769783400:t> - <t:1769790600:t> en __040__
+
+[2026-01-29T18:00:04.650Z] info: Sending message to channel 1330181829667328071: 📅 **Emploi du temps pour le groupe g2s4a demain :**
+
+<t:1769756400:D> **11 R4.A.10 Vue JS TPA** : LEROUX STEPHANE -> <t:1769756400:t> - <t:1769763600:t> en __S03__
+<t:1769763600:D> **21 R4.04 Méthodes d'optimisation-TD** : JOUBERT AUDE -> <t:1769763600:t> - <t:1769770800:t> en __S16__
+<t:1769776200:D> **21 R4.A.10 Vue JS TPA** : LEROUX STEPHANE -> <t:1769776200:t> - <t:1769783400:t> en __S16__
+<t:1769783400:D> **11 R4.A.08 Virtualisation-TD** : BUSSON ANTHONY -> <t:1769783400:t> - <t:1769790600:t> en __S17__
+
+[2026-01-29T18:00:04.650Z] info: Message sent to channel 1330181829667328071: 📅 **Emploi du temps pour le groupe g2s4a demain :**
+
+<t:1769756400:D> **11 R4.A.10 Vue JS TPA** : LEROUX STEPHANE -> <t:1769756400:t> - <t:1769763600:t> en __S03__
+<t:1769763600:D> **21 R4.04 Méthodes d'optimisation-TD** : JOUBERT AUDE -> <t:1769763600:t> - <t:1769770800:t> en __S16__
+<t:1769776200:D> **21 R4.A.10 Vue JS TPA** : LEROUX STEPHANE -> <t:1769776200:t> - <t:1769783400:t> en __S16__
+<t:1769783400:D> **11 R4.A.08 Virtualisation-TD** : BUSSON ANTHONY -> <t:1769783400:t> - <t:1769790600:t> en __S17__
+
+[2026-01-29T18:00:04.652Z] info: Sending message to channel 1330181981320777738: 📅 **Emploi du temps pour le groupe g2s4b demain :**
+
+<t:1769756400:D> **11 R4.A.10 Vue JS TP B** : GONCALVES ISABELLE -> <t:1769756400:t> - <t:1769763600:t> en __S24__
+<t:1769763600:D> **21 R4.04 Méthodes d'optimisation-TD** : JOUBERT AUDE -> <t:1769763600:t> - <t:1769770800:t> en __S16__
+<t:1769776200:D> **21 R4.A.10 Vue JS TPB** : GONCALVES ISABELLE -> <t:1769776200:t> - <t:1769783400:t> en __S17__
+<t:1769783400:D> **11 R4.A.08 Virtualisation-TD** : BUSSON ANTHONY -> <t:1769783400:t> - <t:1769790600:t> en __S17__
+
+[2026-01-29T18:00:04.653Z] info: Message sent to channel 1330181981320777738: 📅 **Emploi du temps pour le groupe g2s4b demain :**
+
+<t:1769756400:D> **11 R4.A.10 Vue JS TP B** : GONCALVES ISABELLE -> <t:1769756400:t> - <t:1769763600:t> en __S24__
+<t:1769763600:D> **21 R4.04 Méthodes d'optimisation-TD** : JOUBERT AUDE -> <t:1769763600:t> - <t:1769770800:t> en __S16__
+<t:1769776200:D> **21 R4.A.10 Vue JS TPB** : GONCALVES ISABELLE -> <t:1769776200:t> - <t:1769783400:t> en __S17__
+<t:1769783400:D> **11 R4.A.08 Virtualisation-TD** : BUSSON ANTHONY -> <t:1769783400:t> - <t:1769790600:t> en __S17__
+
+[2026-01-29T18:00:04.655Z] info: Sending message to channel 1330181841524756501: 📅 **Emploi du temps pour le groupe g4s4a demain :**
+
+<t:1769763600:D> **R4.07 PPP-TD** : DEBOUTE JOCELYNE -> <t:1769763600:t> - <t:1769770800:t> en __S15__
+<t:1769776200:D> **11 R4.01 Archi. logicielle : PHP Symfony + API-TD** : MONNET ALEXIS -> <t:1769776200:t> - <t:1769783400:t> en __S03__
+<t:1769783400:D> **21 R4.01 Archi. logicielle : PHP Symfony + API-TD** : MONNET ALEXIS -> <t:1769783400:t> - <t:1769790600:t> en __S03__
+
+[2026-01-29T18:00:04.655Z] info: Message sent to channel 1330181841524756501: 📅 **Emploi du temps pour le groupe g4s4a demain :**
+
+<t:1769763600:D> **R4.07 PPP-TD** : DEBOUTE JOCELYNE -> <t:1769763600:t> - <t:1769770800:t> en __S15__
+<t:1769776200:D> **11 R4.01 Archi. logicielle : PHP Symfony + API-TD** : MONNET ALEXIS -> <t:1769776200:t> - <t:1769783400:t> en __S03__
+<t:1769783400:D> **21 R4.01 Archi. logicielle : PHP Symfony + API-TD** : MONNET ALEXIS -> <t:1769783400:t> - <t:1769790600:t> en __S03__
+
+[2026-01-29T18:00:04.657Z] info: Sending message to channel 1330181996743364679: 📅 **Emploi du temps pour le groupe g4s4b demain :**
+
+<t:1769763600:D> **R4.07 PPP-TD** : DEBOUTE JOCELYNE -> <t:1769763600:t> - <t:1769770800:t> en __S15__
+<t:1769776200:D> **11 R4.01 Archi. logicielle : PHP Symfony + API-TD** : MONNET ALEXIS -> <t:1769776200:t> - <t:1769783400:t> en __S03__
+<t:1769783400:D> **21 R4.01 Archi. logicielle : PHP Symfony + API-TD** : MONNET ALEXIS -> <t:1769783400:t> - <t:1769790600:t> en __S03__
+
+[2026-01-29T18:00:04.657Z] info: Message sent to channel 1330181996743364679: 📅 **Emploi du temps pour le groupe g4s4b demain :**
+
+<t:1769763600:D> **R4.07 PPP-TD** : DEBOUTE JOCELYNE -> <t:1769763600:t> - <t:1769770800:t> en __S15__
+<t:1769776200:D> **11 R4.01 Archi. logicielle : PHP Symfony + API-TD** : MONNET ALEXIS -> <t:1769776200:t> - <t:1769783400:t> en __S03__
+<t:1769783400:D> **21 R4.01 Archi. logicielle : PHP Symfony + API-TD** : MONNET ALEXIS -> <t:1769783400:t> - <t:1769790600:t> en __S03__
+
+[2026-01-29T18:00:04.658Z] info: Sending message to channel 1409494181839376455: 📅 **Emploi du temps pour le groupe but3ra1a demain :**
+
+<t:1769756400:D> **11R5.A.10 MongoDB avancé** : AIDEL OSMAN -> <t:1769756400:t> - <t:1769763600:t> en __S26__
+<t:1769763600:D> **11 R5.A.11 Aide à la décision TD RA** : JALOUX CHRISTOPHE -> <t:1769763600:t> - <t:1769770800:t> en __S26__
+<t:1769776200:D> **R5.03 Communication TPA** : DEBOUTE JOCELYNE -> <t:1769776200:t> - <t:1769783400:t> en __S15__
+
+[2026-01-29T18:00:04.659Z] info: Message sent to channel 1409494181839376455: 📅 **Emploi du temps pour le groupe but3ra1a demain :**
+
+<t:1769756400:D> **11R5.A.10 MongoDB avancé** : AIDEL OSMAN -> <t:1769756400:t> - <t:1769763600:t> en __S26__
+<t:1769763600:D> **11 R5.A.11 Aide à la décision TD RA** : JALOUX CHRISTOPHE -> <t:1769763600:t> - <t:1769770800:t> en __S26__
+<t:1769776200:D> **R5.03 Communication TPA** : DEBOUTE JOCELYNE -> <t:1769776200:t> - <t:1769783400:t> en __S15__
+
+[2026-01-29T18:00:04.660Z] info: Sending message to channel 1409494206942286006: 📅 **Emploi du temps pour le groupe but3ra1b demain :**
+
+<t:1769756400:D> **11R5.A.10 MongoDB avancé** : AIDEL OSMAN -> <t:1769756400:t> - <t:1769763600:t> en __S26__
+<t:1769763600:D> **11 R5.A.11 Aide à la décision TD RA** : JALOUX CHRISTOPHE -> <t:1769763600:t> - <t:1769770800:t> en __S26__
+
+[2026-01-29T18:00:04.661Z] info: Message sent to channel 1409494206942286006: 📅 **Emploi du temps pour le groupe but3ra1b demain :**
+
+<t:1769756400:D> **11R5.A.10 MongoDB avancé** : AIDEL OSMAN -> <t:1769756400:t> - <t:1769763600:t> en __S26__
+<t:1769763600:D> **11 R5.A.11 Aide à la décision TD RA** : JALOUX CHRISTOPHE -> <t:1769763600:t> - <t:1769770800:t> en __S26__
+
+[2026-01-29T18:00:04.663Z] info: Sending message to channel 1409495503292338257: 📅 **Emploi du temps pour le groupe but3ra3a demain :**
+
+<t:1769756400:D> **21R5.A.04 Qualité algo** : PARREAU ALINE -> <t:1769756400:t> - <t:1769763600:t> en __S13__
+<t:1769763600:D> **11R5.A.10 MongoDB avancé** : AIDEL OSMAN -> <t:1769763600:t> - <t:1769770800:t> en __S13__
+<t:1769776200:D> **11R5.A.04 Qualité algo** : PARREAU ALINE -> <t:1769776200:t> - <t:1769783400:t> en __S13__
+
+[2026-01-29T18:00:04.664Z] info: Message sent to channel 1409495503292338257: 📅 **Emploi du temps pour le groupe but3ra3a demain :**
+
+<t:1769756400:D> **21R5.A.04 Qualité algo** : PARREAU ALINE -> <t:1769756400:t> - <t:1769763600:t> en __S13__
+<t:1769763600:D> **11R5.A.10 MongoDB avancé** : AIDEL OSMAN -> <t:1769763600:t> - <t:1769770800:t> en __S13__
+<t:1769776200:D> **11R5.A.04 Qualité algo** : PARREAU ALINE -> <t:1769776200:t> - <t:1769783400:t> en __S13__
+
+[2026-01-29T18:00:04.665Z] info: Sending message to channel 1409495513891344426: 📅 **Emploi du temps pour le groupe but3ra3b demain :**
+
+<t:1769756400:D> **21R5.A.04 Qualité algo** : PARREAU ALINE -> <t:1769756400:t> - <t:1769763600:t> en __S13__
+<t:1769763600:D> **11R5.A.10 MongoDB avancé** : AIDEL OSMAN -> <t:1769763600:t> - <t:1769770800:t> en __S13__
+<t:1769776200:D> **11R5.A.04 Qualité algo** : PARREAU ALINE -> <t:1769776200:t> - <t:1769783400:t> en __S13__
+
+[2026-01-29T18:00:04.666Z] info: Message sent to channel 1409495513891344426: 📅 **Emploi du temps pour le groupe but3ra3b demain :**
+
+<t:1769756400:D> **21R5.A.04 Qualité algo** : PARREAU ALINE -> <t:1769756400:t> - <t:1769763600:t> en __S13__
+<t:1769763600:D> **11R5.A.10 MongoDB avancé** : AIDEL OSMAN -> <t:1769763600:t> - <t:1769770800:t> en __S13__
+<t:1769776200:D> **11R5.A.04 Qualité algo** : PARREAU ALINE -> <t:1769776200:t> - <t:1769783400:t> en __S13__
+
+[2026-01-29T18:00:04.667Z] info: Sending message to channel 1409495882436706366: 📅 **Emploi du temps pour le groupe but3dacs demain :**
+
+<t:1769763600:D> **11 R5.B.05 Automatisation de la chaîne de production** : BUSSON ANTHONY -> <t:1769763600:t> - <t:1769770800:t> en __S01__
+
+[2026-01-29T18:00:04.667Z] info: Message sent to channel 1409495882436706366: 📅 **Emploi du temps pour le groupe but3dacs demain :**
+
+<t:1769763600:D> **11 R5.B.05 Automatisation de la chaîne de production** : BUSSON ANTHONY -> <t:1769763600:t> - <t:1769770800:t> en __S01__
+
+[2026-01-29T18:00:04.668Z] info: Sending message to channel 1409496113396060181: 📅 **Emploi du temps pour le groupe but3aged demain :**
+
+<t:1769756400:D> **11R6.C.05 Admin BD P2** : BARON ARIANE -> <t:1769756400:t> - <t:1769763600:t> en __S22__
+<t:1769763600:D> **R5.C.08 IA** : FOULON LUCAS -> <t:1769763600:t> - <t:1769770800:t> en __S22__
+<t:1769776200:D> **R5.C.05-1 Modélisation décisionnelle P2** : MARCHAND TIMOTHEE -> <t:1769776200:t> - <t:1769783400:t> en __S22__
+<t:1769783400:D> **R5.C.05-1 Modélisation décisionnelle P2** : MARCHAND TIMOTHEE -> <t:1769783400:t> - <t:1769790600:t> en __S22__
+
+[2026-01-29T18:00:04.669Z] info: Message sent to channel 1409496113396060181: 📅 **Emploi du temps pour le groupe but3aged demain :**
+
+<t:1769756400:D> **11R6.C.05 Admin BD P2** : BARON ARIANE -> <t:1769756400:t> - <t:1769763600:t> en __S22__
+<t:1769763600:D> **R5.C.08 IA** : FOULON LUCAS -> <t:1769763600:t> - <t:1769770800:t> en __S22__
+<t:1769776200:D> **R5.C.05-1 Modélisation décisionnelle P2** : MARCHAND TIMOTHEE -> <t:1769776200:t> - <t:1769783400:t> en __S22__
+<t:1769783400:D> **R5.C.05-1 Modélisation décisionnelle P2** : MARCHAND TIMOTHEE -> <t:1769783400:t> - <t:1769790600:t> en __S22__
+
+[2026-01-29T18:00:04.669Z] info: Daily timetables sent
+[2026-01-29T18:34:55.133Z] info: Received command: group from user: 838738448415588362
+[2026-01-29T18:34:55.134Z] info: Received group command: group=g1, semester=, composedGroup=noGroup
+[2026-01-29T18:35:08.941Z] info: Received command: group from user: 838738448415588362
+[2026-01-29T18:35:08.942Z] info: Received group command: group=g1, semester=s2, composedGroup=g1s2a
+[2026-01-29T19:21:18.467Z] info: Received command: group from user: 736263741594665081
+[2026-01-29T19:21:18.467Z] info: Received group command: group=g2, semester=s2, composedGroup=g2s2a
+[2026-01-29T20:18:18.567Z] info: Received command: group from user: 680087324708569194
+[2026-01-29T20:18:18.567Z] info: Received group command: group=g2, semester=s4, composedGroup=g2s4a
+[2026-01-29T20:40:44.768Z] info: Received command: group from user: 714463914116513848
+[2026-01-29T20:40:44.769Z] info: Received group command: group=g2, semester=s2, composedGroup=g2s2a
+[2026-01-29T21:24:25.387Z] info: Received command: group from user: 1409914987576561728
+[2026-01-29T21:24:25.388Z] info: Received group command: group=g5, semester=s2, composedGroup=g5s2a
+[2026-01-29T21:29:54.407Z] info: Received command: group from user: 1435602055539593327
+[2026-01-29T21:29:54.408Z] info: Received group command: group=g2, semester=s2, composedGroup=g2s2a
+[2026-01-29T22:00:36.509Z] info: Received command: group from user: 877196222119694406
+[2026-01-29T22:00:36.510Z] info: Received group command: group=g2, semester=s2, composedGroup=g2s2a
