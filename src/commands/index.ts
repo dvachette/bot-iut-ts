@@ -6,6 +6,7 @@ import * as group from "./group";
 import * as broadcast from "./broadcast";
 import * as permission from "./permission";
 import * as fix_roles from "./fix_roles";
+import * as select_group from "./groupButton";
 
 
 export const commands = {
@@ -13,6 +14,7 @@ export const commands = {
   repo,
   group,
   send_today,
+  select_group,
   send_week,
   broadcast,
   permission,
