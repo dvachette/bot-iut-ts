@@ -6,6 +6,8 @@ import { commands } from "./commands";
 
 const commandsData = Object.values(commands).map((command) => command.data);
 
+console.log("Preparing to deploy commands:", commandsData.map(cmd => cmd.name));
+
 const rest = new REST({ version: "10" }).setToken(config.DISCORD_TOKEN);
 
 type DeployCommandsProps = {
@@ -26,6 +28,7 @@ export async function deployCommands({ guildId }: DeployCommandsProps) {
     if (Array.isArray(currentCommands)) {
       await Promise.all(
         currentCommands.map((cmd) => {
+          console.log(`Unregistering command: ${cmd.name}`);
           rest.delete(
             Routes.applicationCommand(config.DISCORD_CLIENT_ID, cmd.id)
           )}
