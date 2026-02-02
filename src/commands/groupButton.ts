@@ -47,7 +47,8 @@ export async function execute(interraction: ChatInputCommandInteraction) {
     }
 
     const selectedGroup = collector.values[0];
-    await collector.update({ content: `Vous avez sélectionné le groupe : **${selectedGroup}**`, components: [] });
+    const selectedGroupDisplay = selectedGroup.endsWith("a") ? selectedGroup.slice(0, -1) : selectedGroup;
+    await collector.update({ content: `Vous avez sélectionné le groupe : **${selectedGroupDisplay}**`, components: [] });
 
     // get the command sender
     const member = interraction.member as GuildMember;
@@ -95,6 +96,7 @@ export async function execute(interraction: ChatInputCommandInteraction) {
     if (memberRoles.cache.has(noClassRoleID.valueOf())) {
         member.roles.remove(noClassRoleID);
     }
+    console.log(`Adding role ID ${targetRoleID} to user ID ${user.id} for group ${selectedGroup}`);
     member.roles.add(targetRoleID);
     
     return;
