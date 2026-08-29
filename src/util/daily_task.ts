@@ -80,7 +80,8 @@ function buildEmbedsForGroup(
 
     const isoDate = reference.toISOString().slice(0, 10);
     const rangeLabel = range === "day" ? `le ${isoDate}` : `la semaine du ${isoDate}`;
-    const fieldChunks = chunk(events.map(eventToField), 25);
+    const dayFields = groupEventsByDay(events);
+    const fieldChunks = chunk(dayFields, 25);
 
     return fieldChunks.map((fields, index) => {
         const suffix = fieldChunks.length > 1 ? ` (${index + 1}/${fieldChunks.length})` : "";
@@ -91,7 +92,29 @@ function buildEmbedsForGroup(
     });
 }
 
-function eventToField(event: ical.VEvent): { readonly name: string; readonly value: string } {
+function groupEventsByDay(
+    events: readonly ical.VEvent[],
+): { readonly name: string; readonly value: string }[] {
+    const byDay = new Map<string, ical.VEvent[]>();
+
+    for (const event of events) {
+        const dayKey = event.start.toISOString().slice(0, 10);
+        if (!byDay.has(dayKey)) {
+            byDay.set(dayKey, []);
+        }
+        byDay.get(dayKey)!.push(event);
+    }
+
+    return Array.from(byDay.values()).map((dayEvents) => {
+        const dayTs = Math.floor(dayEvents[0].start.getTime() / 1000);
+        return {
+            name: `<t:${dayTs}:D>`,
+            value: dayEvents.map(eventToLine).join("\n\n"),
+        };
+    });
+}
+
+function eventToLine(event: ical.VEvent): string {
     const startTs = Math.floor(event.start.getTime() / 1000);
     const endTs = Math.floor(event.end.getTime() / 1000);
 
@@ -105,10 +128,7 @@ function eventToField(event: ical.VEvent): { readonly name: string; readonly val
     const location = event.location ? event.location : "Lieu inconnu";
     const summary = event.summary ?? "Sans titre";
 
-    return {
-        name: `<t:${startTs}:D> ${summary}`,
-        value: `${description}\n<t:${startTs}:t> - <t:${endTs}:t> en __${location}__`,
-    };
+    return `**${summary}** : ${description}\n<t:${startTs}:t> - <t:${endTs}:t> en __${location}__`;
 }
 
 function chunk<T>(items: readonly T[], size: number): T[][] {
