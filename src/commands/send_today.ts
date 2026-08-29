@@ -1,18 +1,37 @@
-import { CommandInteraction, SlashCommandBuilder } from "discord.js";
-import { send_timetables_daily } from "../util/daily_task";   
-import { downloadTomorrowICS } from "../util/downloadIcs";
+import { ChatInputCommandInteraction, SlashCommandBuilder, type CacheType } from "discord.js";
+import { sendTimetables } from "../util/daily_task";
+import { parseIsoDate } from "../util/dateSet";
+
 export const data = new SlashCommandBuilder()
-    .setName("send_today")
-    .setDescription("send_today");
+    .setName("send_edt_day")
+    .setDescription("Envoie l'emploi du temps d'un jour donné (par défaut : demain)")
+    .addStringOption((opt) =>
+        opt
+            .setName("date")
+            .setDescription("Date au format YYYY-MM-DD (par défaut : demain)")
+            .setRequired(false),
+    );
 
-export async function execute(interaction: CommandInteraction) {
+export async function execute(interaction: ChatInputCommandInteraction<CacheType>) {
+    await interaction.deferReply();
 
+    const dateOption = interaction.options.getString("date");
+    let reference: Date;
 
-    await interaction.deferReply();  // Informe Discord que la réponse viendra plus tard
+    if (dateOption !== null) {
+        const parsed = parseIsoDate(dateOption);
+        if (parsed === null) {
+            await interaction.editReply("❌ Date invalide. Format attendu : YYYY-MM-DD.");
+            return;
+        }
+        reference = parsed;
+    } else {
+        reference = new Date();
+        reference.setDate(reference.getDate() + 1);
+    }
 
     try {
-        await downloadTomorrowICS();
-        send_timetables_daily();
+        await sendTimetables("day", reference);
         await interaction.editReply("✅ Terminé.");
     } catch (err) {
         await interaction.editReply("❌ Erreur.");

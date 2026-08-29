@@ -6,8 +6,7 @@ import { commands } from "./commands";
 import { deployCommands } from "./deploy-commands";
 import cron from "node-cron"
 import { canRunCommand } from "./util/perm";
-import { send_timetables_daily, send_timetables_week } from "./util/daily_task";
-import { downloadTomorrowICS, downloadWeekICS } from "./util/downloadIcs";
+import { sendTimetables } from "./util/daily_task";
 
 
 const client = new Client({
@@ -59,13 +58,13 @@ client.on("interactionCreate", async (interaction) => {
 client.login(config.DISCORD_TOKEN);
 
 cron.schedule('00 18 * * 0-4', async () => {
-    await downloadTomorrowICS();
-    send_timetables_daily();
+    await sendTimetables("day", new Date());
 });
 
 cron.schedule('50 17 * * 0', async () => {
-    await downloadWeekICS();
-    send_timetables_week();
+    const nextMonday = new Date();
+    nextMonday.setDate(nextMonday.getDate() + 1);
+    await sendTimetables("week", nextMonday);
 });
 
 

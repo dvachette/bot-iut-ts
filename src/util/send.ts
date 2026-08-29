@@ -1,8 +1,9 @@
-import { TextChannel} from "discord.js";
+import { TextChannel, EmbedBuilder } from "discord.js";
 import { client } from "../index";
 import { logger } from "../logger";
-export function send(channelID : String, message : String) {
-    const channel = client.channels.cache.get(channelID.toString()) as TextChannel;
+
+export function send(channelID: string, message: string): void {
+    const channel = client.channels.cache.get(channelID) as TextChannel;
     if (!channel) {
         logger.error(`Channel with ID ${channelID} not found.`);
         return;
@@ -11,9 +12,9 @@ export function send(channelID : String, message : String) {
         logger.error(`Message is empty, not sending to channel ${channelID}.`);
         return;
     }
+
     if (message.length >= 2000) {
-        // Split the message into chunks of 2000 characters
-        const chunks = message.match(/.{1,2000}/g);
+        const chunks = message.match(/[\s\S]{1,2000}/g);
         if (chunks) {
             for (const chunk of chunks) {
                 channel.send(chunk);
@@ -24,12 +25,18 @@ export function send(channelID : String, message : String) {
         }
         return;
     }
-    else {
-        logger.info(`Sending message to channel ${channelID}: ${message}`);
-        channel.send(message.toString());
-    }
-    
+
+    channel.send(message);
     logger.info(`Message sent to channel ${channelID}: ${message}`);
 }
 
+export function sendEmbed(channelID: string, embed: EmbedBuilder): void {
+    const channel = client.channels.cache.get(channelID) as TextChannel;
+    if (!channel) {
+        logger.error(`Channel with ID ${channelID} not found.`);
+        return;
+    }
 
+    channel.send({ embeds: [embed] });
+    logger.info(`Embed sent to channel ${channelID}.`);
+}

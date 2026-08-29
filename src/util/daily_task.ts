@@ -1,83 +1,120 @@
-import { send } from "./send";
+import { EmbedBuilder } from "discord.js";
+import { send, sendEmbed } from "./send";
 import { config } from "../config";
 import { getGroups } from "./getGroups";
-import fs from 'fs';
+import { downloadRangeICS, cleanupRangeDir } from "./downloadIcs";
+import type { TimetableRange } from "./dateSet";
+import fs from "fs";
 import * as ical from "node-ical";
 import { logger } from "../logger";
 
+export async function sendTimetables(range: TimetableRange, reference: Date): Promise<void> {
+    logger.info(`Sending timetables for range=${range}, reference=${reference.toISOString().slice(0, 10)}`);
 
-export function send_timetables_daily() {
-    logger.info("Sending daily timetables");
+    const dir = await downloadRangeICS(range, reference);
+
+    try {
+        sendAllGroups(dir, range, reference);
+    } finally {
+        cleanupRangeDir(dir);
+    }
+
+    logger.info(`Timetables sent for range=${range}, reference=${reference.toISOString().slice(0, 10)}`);
+}
+
+function sendAllGroups(dir: string, range: TimetableRange, reference: Date): void {
     const groups = getGroups(config.CONF_YAML_PATH);
+
     for (const group in groups) {
         const groupData = groups[group];
-        if (groupData.channel) {
-            let message = createMessageFromGroup(group, "tomorrow");
-            if (message !== "") {
-                message = `📅 **Emploi du temps pour le groupe ${group} demain :**\n\n` + message;
-                send(groupData.channel, message);
-            }
-        } else {
+
+        if (!groupData.channel) {
             logger.warn(`No channel found for group ${group}. Skipping.`);
+            continue;
+        }
+
+        try {
+            const embeds = buildEmbedsForGroup(dir, group, range, reference);
+
+            if (embeds === null) {
+                send(groupData.channel, `Aucun calendrier trouvé pour le groupe ${group}.`);
+                continue;
+            }
+            if (embeds.length === 0) {
+                send(groupData.channel, `Aucun événement trouvé pour le groupe ${group}.`);
+                continue;
+            }
+
+            for (const embed of embeds) {
+                sendEmbed(groupData.channel, embed);
+            }
+        } catch (error) {
+            logger.error(`Failed to process timetable for group ${group} (${dir}): ${error}`);
         }
     }
-    logger.info("Daily timetables sent");
 }
 
-export function send_timetables_week() {
-    logger.info("Sending weekly timetables");
-    const groups = getGroups(config.CONF_YAML_PATH);
-    for (const group in groups) {
-        const groupData = groups[group];
-        if (groupData.channel) {
-            let message = createMessageFromGroup(group, "nextweek");
-            if (message !== "") {
-                message = `📅 **Emploi du temps pour le groupe ${group} la semaine prochaine :**\n\n` + message;
-                send(groupData.channel, message);
-            }
-        } else {
-            logger.warn(`No channel found for group ${group}. Skipping.`);  
-        }
-    }
-    logger.info("Weekly timetables sent");
-}
+function buildEmbedsForGroup(
+    dir: string,
+    group: string,
+    range: TimetableRange,
+    reference: Date,
+): EmbedBuilder[] | null {
+    const filePath = `${dir}/${group}.ics`;
 
-function createMessageFromGroup(group : string, range : string) {
-
-    // parse the timetable to get the events
-    if (!fs.existsSync(`src/calendars/${range}/${group}.ics`)) {
-        return `Aucun calendrier trouvé pour le groupe ${group} pour ${range}.`;
-    }
-    // Read the calendar file
-    var calendarFile = fs.readFileSync(`src/calendars/${range}/${group}.ics`, 'utf8');
-    var data = ical.parseICS(calendarFile);
-    var message : String = "";
-    var events = [];
-    // sort the events by date
-    for (let e in data) {
-        if (data.hasOwnProperty(e)) {
-            let ev = data[e];
-            if (ev.type == 'VEVENT') {
-                events.push(ev);
-            }
-        }
+    if (!fs.existsSync(filePath)) {
+        return null;
     }
 
+    const calendarFile = fs.readFileSync(filePath, "utf8");
+    const data = ical.parseICS(calendarFile);
+
+    const events = Object.values(data).filter(
+        (entry): entry is ical.VEvent => entry.type === "VEVENT",
+    );
     events.sort((a, b) => a.start.getTime() - b.start.getTime());
-    // Create the message
-    for (let k in events) {
 
-        if (events.hasOwnProperty(k)) {
-            let ev = events[k];
-            if (ev.type == 'VEVENT') {
-                message += eventToString(ev);
-            }
-        }
+    if (events.length === 0) {
+        return [];
     }
-    return message;
-}   
 
-function eventToString(event : ical.VEvent) {
-    return `<t:${Math.floor(event.start.getTime() / 1000)}:D> **${event.summary}** : ${event.description.split("\n").map(s => s.trim()).filter(Boolean).reverse()[1]} -> <t:${Math.floor(event.start.getTime() / 1000)}:t> - <t:${Math.floor(event.end.getTime() / 1000)}:t> en __${event.location}__\n`;
+    const isoDate = reference.toISOString().slice(0, 10);
+    const rangeLabel = range === "day" ? `le ${isoDate}` : `la semaine du ${isoDate}`;
+    const fieldChunks = chunk(events.map(eventToField), 25);
+
+    return fieldChunks.map((fields, index) => {
+        const suffix = fieldChunks.length > 1 ? ` (${index + 1}/${fieldChunks.length})` : "";
+        return new EmbedBuilder()
+            .setTitle(`📅 Emploi du temps pour le groupe ${group} ${rangeLabel}${suffix}`)
+            .addFields(fields)
+            .setColor(0x2b6cb0);
+    });
 }
 
+function eventToField(event: ical.VEvent): { readonly name: string; readonly value: string } {
+    const startTs = Math.floor(event.start.getTime() / 1000);
+    const endTs = Math.floor(event.end.getTime() / 1000);
+
+    const descriptionLines = (event.description ?? "")
+        .split("\n")
+        .map((line) => line.trim())
+        .filter(Boolean)
+        .reverse();
+    const description = descriptionLines.length >= 2 ? descriptionLines[1] : "";
+
+    const location = event.location ? event.location : "Lieu inconnu";
+    const summary = event.summary ?? "Sans titre";
+
+    return {
+        name: `<t:${startTs}:D> ${summary}`,
+        value: `${description}\n<t:${startTs}:t> - <t:${endTs}:t> en __${location}__`,
+    };
+}
+
+function chunk<T>(items: readonly T[], size: number): T[][] {
+    const result: T[][] = [];
+    for (let i = 0; i < items.length; i += size) {
+        result.push(items.slice(i, i + size));
+    }
+    return result;
+}
