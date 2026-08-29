@@ -1,4 +1,4 @@
-import { 
+import {
     ButtonBuilder,
     ButtonStyle,
     SlashCommandBuilder,
@@ -13,11 +13,6 @@ import {
 import { getGroups, getRoleId, getRolesId } from "../util/getGroups";
 import { config } from "../config";
 import { logger } from "../logger";
-
-
-
-
-
 
 
 export const data = new SlashCommandBuilder()
@@ -35,10 +30,10 @@ export async function execute(interraction: ChatInputCommandInteraction) {
             groups.map(group => new StringSelectMenuOptionBuilder()
                 .setLabel(group.endsWith("a") ? group.slice(0, -1) : group)
                 .setValue(group)
-        )
-    );
+            )
+        );
     const row = new ActionRowBuilder().addComponents(groupSelectMenu) as ActionRowBuilder<StringSelectMenuBuilder>;
-    const response = await interraction.reply({ content: "Veuillez sélectionner votre groupe :", components: [row] , withResponse: true});
+    const response = await interraction.reply({ content: "Veuillez sélectionner votre groupe :", components: [row], withResponse: true });
     const collectorFilter = (i: any) => i.user.id === interraction.user.id;
     const collector = await response.resource?.message?.awaitMessageComponent({ filter: collectorFilter, time: 60_000 }) as StringSelectMenuInteraction; // 1 minute to select
     if (!collector) {
@@ -76,7 +71,7 @@ export async function execute(interraction: ChatInputCommandInteraction) {
     }
 
     const groupRoles = getRolesId(config.CONF_YAML_PATH);
-    
+
     const targetRoleID = getRoleId(selectedGroup, config.CONF_YAML_PATH);
     // Check that the target role ID was found on the guild
     if (!guild.roles.cache.has(targetRoleID)) {
@@ -98,9 +93,8 @@ export async function execute(interraction: ChatInputCommandInteraction) {
     }
     console.log(`Adding role ID ${targetRoleID} to user ID ${user.id} for group ${selectedGroup}`);
     member.roles.add(targetRoleID);
-    
+
     return;
-    
-    
+
+
 }
-    
