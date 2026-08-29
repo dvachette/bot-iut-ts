@@ -1,0 +1,11 @@
+services:
+  bot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./data/conf.yaml:/app/conf.yaml
+      - ./data/.env:/app/.env
+      - ./data/groups.json:/app/groups.json
+      - ./data/permissions.json:/app/permissions.json
+    restart: unless-stopped

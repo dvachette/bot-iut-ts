@@ -1,10 +1,9 @@
 node_modules/
 .env
 dist/
-conf.yaml
+*.yaml
+*.test.yaml
 *.log
-conf.yaml
 groups.json
 permissions.json
 *.ics
-conf.yaml
