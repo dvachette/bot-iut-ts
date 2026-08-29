@@ -1,7 +1,7 @@
 import * as repo from "./repo";
 import * as ping from "./ping";
-import * as send_today from "./send_today";
-import * as send_week from "./send_week";
+import * as send_edt_day from "./send_edt_day";
+import * as send_edt_week from "./send_edt_week";
 import * as group from "./group";
 import * as broadcast from "./broadcast";
 import * as permission from "./permission";
@@ -13,9 +13,9 @@ export const commands = {
   ping,
   repo,
   group,
-  send_today,
+  send_edt_day,
   select_group,
-  send_week,
+  send_edt_week,
   broadcast,
   permission,
   role
