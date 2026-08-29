@@ -1,6 +1,6 @@
 node_modules/
 .env
-dist/*
+dist/
 conf.yaml
 *.log
 conf.yaml
