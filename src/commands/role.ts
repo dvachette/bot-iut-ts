@@ -9,7 +9,7 @@ import { SelectorSyntaxError, parseSelector } from '../util/roleParser';
 import { UnknownRoleError, applyRoleSelector, type RoleAction } from '../util/roleManager';
 
 export const data = new SlashCommandBuilder()
-    .setName('roles')
+    .setName('role')
     .setDescription('Applique un rôle à un ensemble de membres défini par un sélecteur booléen')
     .setDefaultMemberPermissions(PermissionFlagsBits.ManageRoles)
     .addSubcommand((sub) =>
