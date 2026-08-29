@@ -7,7 +7,7 @@ import { deployCommands } from "./deploy-commands";
 import cron from "node-cron"
 import { canRunCommand } from "./util/perm";
 import { sendTimetables } from "./util/daily_task";
-
+import { handleGroupSelect } from "./util/groupSelect";
 
 const client = new Client({
     intents: [
@@ -29,6 +29,11 @@ client.on("guildCreate", async (guild) => {
 });
 
 client.on("interactionCreate", async (interaction) => {
+    if (interaction.isStringSelectMenu() && interaction.customId === "groupSelectMenu") {
+        await handleGroupSelect(interaction);
+        return;
+    }
+
     if (!interaction.isChatInputCommand()) {
         return
     };
