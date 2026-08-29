@@ -106,11 +106,19 @@ function groupEventsByDay(
     }
 
     return Array.from(byDay.values()).map((dayEvents) => {
-        const dayTs = Math.floor(dayEvents[0].start.getTime() / 1000);
+        const dayLabel = formatDayLabel(dayEvents[0].start);
         return {
-            name: `<t:${dayTs}:D>`,
+            name: `🗓️ **${dayLabel}**`,
             value: dayEvents.map(eventToLine).join("\n\n"),
         };
+    });
+}
+
+function formatDayLabel(date: Date): string {
+    return date.toLocaleDateString("fr-FR", {
+        weekday: "long",
+        day: "numeric",
+        month: "long",
     });
 }
 
