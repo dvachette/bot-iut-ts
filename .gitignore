@@ -7,3 +7,4 @@ dist/
 groups.json
 permissions.json
 *.ics
+data/
