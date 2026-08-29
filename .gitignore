@@ -2,7 +2,7 @@ node_modules/
 .env
 dist/*
 conf.yaml
-app.log
-conf-test.yaml
+*.log
+conf.yaml
 groups.json
 permissions.json
