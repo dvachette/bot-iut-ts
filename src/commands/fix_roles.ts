@@ -6,8 +6,8 @@ import { logger } from "../logger";
 
 export const data = new SlashCommandBuilder()
     .setName("fix_roles")
-    .setDescription("Fix the roles (remove) of users who have a group role and the 'Sans classe' role");
-    
+    .setDescription("Remove the \"sans classe\" rôle of the students with a class rôle");
+
 export async function execute(interaction: ChatInputCommandInteraction) {
     const guild = interaction.guild;
     if (guild === null) {
@@ -15,7 +15,7 @@ export async function execute(interaction: ChatInputCommandInteraction) {
         return;
     }
     await interaction.deferReply();
-        // get the role id list from the config file group -> group.role 
+    // get the role id list from the config file group -> group.role 
     const roles = getRolesId(config.CONF_YAML_PATH);
     const members = await guild.members.fetch();
     if (members === null) {
@@ -35,7 +35,7 @@ export async function execute(interaction: ChatInputCommandInteraction) {
                 const noClassRoleID = config.NO_CLASS_ROLE_ID;
                 if (memberRoles.cache.has(noClassRoleID.valueOf())) {
                     member.roles.remove(noClassRoleID);
-                }  
+                }
             }
         });
     }
