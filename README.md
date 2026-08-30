@@ -96,4 +96,4 @@ npm run start
 
 ## Licence
 
-MIT
+Apache 2.0
