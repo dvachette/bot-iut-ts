@@ -63,7 +63,10 @@ client.on("interactionCreate", async (interaction) => {
 client.login(config.DISCORD_TOKEN);
 
 cron.schedule('00 18 * * 0-4', async () => {
-    await sendTimetables("day", new Date());
+    const today = new Date();
+    const tomorrow = new Date(today);
+    tomorrow.setDate(today.getDate() + 1);
+    await sendTimetables("day", tomorrow);
 });
 
 cron.schedule('50 17 * * 0', async () => {
