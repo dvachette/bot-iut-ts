@@ -1,19 +1,19 @@
-import { CommandInteractionOptionResolver, SlashCommandBuilder, ChatInputCommandInteraction } from "discord.js";
+import { CommandInteractionOptionResolver, SlashCommandBuilder, ChatInputCommandInteraction, InteractionResponse } from "discord.js";
 import * as fs from "fs";
 import { logger } from "../logger";
-import { config } from "../config";
 import { send } from "../util/send";
+import { getGuildDataPath } from "../util/guildData";
 
 interface BroadcastGroup {
     [groupName: string]: string[];
 }
 
-function readGroups(): BroadcastGroup {
-    return JSON.parse(fs.readFileSync(config.GROUPS_FILE, "utf-8"));
+function readGroups(guildId: string): BroadcastGroup {
+    return JSON.parse(fs.readFileSync(getGuildDataPath(guildId, "groups"), "utf-8"));
 }
 
-function writeGroups(groups: BroadcastGroup): void {
-    fs.writeFileSync(config.GROUPS_FILE, JSON.stringify(groups, null, 4));
+function writeGroups(groups: BroadcastGroup, guildId: string): void {
+    fs.writeFileSync(getGuildDataPath(guildId, "groups"), JSON.stringify(groups, null, 4));
 }
 
 /*
@@ -36,13 +36,13 @@ export const data = new SlashCommandBuilder()
             .setDescription("L'action à réaliser")
             .setRequired(true)
             .addChoices(
-                { name : "send"  , value : "send"   },
-                { name : "create", value : "create" },
-                { name : "list"  , value : "list"   },
-                { name : "add"   , value : "add"    },
-                { name : "remove", value : "remove" },
-                { name : "delete", value : "delete" },
-                { name : "help"  , value : "help"   }
+                { name: "send", value: "send" },
+                { name: "create", value: "create" },
+                { name: "list", value: "list" },
+                { name: "add", value: "add" },
+                { name: "remove", value: "remove" },
+                { name: "delete", value: "delete" },
+                { name: "help", value: "help" }
             )
     )
     .addStringOption(option =>
@@ -63,22 +63,26 @@ export const data = new SlashCommandBuilder()
 
 
 export async function execute(interaction: ChatInputCommandInteraction) {
+    if (!interaction.guildId) {
+        return interaction.reply({ content: "Vous n'etes pas dans un serveur.", flags: ["Ephemeral"] })
+    }
+    const guildId = interaction.guildId;
     const options = interaction.options as CommandInteractionOptionResolver;
-    const action  = options.getString ("action" );
-    const group   = options.getString ("group"  );
-    const message = options.getString ("message");
+    const action = options.getString("action");
+    const group = options.getString("group");
+    const message = options.getString("message");
     const channel = options.getChannel("channel");
 
     logger.info(`Received broadcast command: action=${action}, group=${group}, message=${message}, channel=${channel ? channel.id : "none"}`);
 
-    if (!action) {  
+    if (!action) {
         return interaction.reply({ content: "Veuillez spécifier une action.", ephemeral: true });
     }
 
     let groups: BroadcastGroup;
-    
+
     try {
-        groups = readGroups();
+        groups = readGroups(guildId);
     } catch (error) {
         return interaction.reply("Erreur lors de la lecture des groupes. Veuillez réessayer plus tard.");
     }
@@ -109,7 +113,7 @@ export async function execute(interaction: ChatInputCommandInteraction) {
             }
             groups[group] = [];
             try {
-                writeGroups(groups);
+                writeGroups(groups, guildId);
             } catch (error) {
                 return interaction.reply("Erreur lors de la création du groupe. Veuillez réessayer plus tard.");
             }
@@ -135,7 +139,7 @@ export async function execute(interaction: ChatInputCommandInteraction) {
             }
             groups[group].push(channel.id);
             try {
-                writeGroups(groups);
+                writeGroups(groups, guildId);
             } catch (error) {
                 return interaction.reply("Erreur lors de l'ajout du channel. Veuillez réessayer plus tard.");
             }
@@ -153,7 +157,7 @@ export async function execute(interaction: ChatInputCommandInteraction) {
             }
             groups[group].splice(index, 1);
             try {
-                writeGroups(groups);
+                writeGroups(groups, guildId);
             } catch (error) {
                 return interaction.reply("Erreur lors de la suppression du channel. Veuillez réessayer plus tard.");
             }
@@ -167,7 +171,7 @@ export async function execute(interaction: ChatInputCommandInteraction) {
             }
             delete groups[group];
             try {
-                writeGroups(groups);
+                writeGroups(groups, guildId);
             } catch (error) {
                 return interaction.reply("Erreur lors de la suppression du groupe. Veuillez réessayer plus tard.");
             }

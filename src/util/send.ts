@@ -3,10 +3,14 @@ import { client } from "../index";
 import { logger } from "../logger";
 
 export function send(channelID: string, message: string): void {
-    const channel = client.channels.cache.get(channelID) as TextChannel;
+    const channel = client.channels.cache.get(channelID);
     if (!channel) {
         logger.error(`Channel with ID ${channelID} not found.`);
         return;
+    }
+    if (!(channel instanceof TextChannel)) {
+        logger.error(`Error while trying to send a message, channle ${channelID} is not a text channel`)
+        return
     }
     if (!message || message.length === 0) {
         logger.error(`Message is empty, not sending to channel ${channelID}.`);

@@ -15,6 +15,11 @@ export const data = new SlashCommandBuilder()
 export async function execute(interaction: ChatInputCommandInteraction<CacheType>) {
     await interaction.deferReply();
 
+    const guildId = interaction.guildId;
+    if (!guildId) {
+        await interaction.editReply("❌ Cette commande ne peut être utilisée que sur un serveur.");
+        return;
+    }
     const dateOption = interaction.options.getString("date");
     let reference: Date;
 
@@ -29,9 +34,8 @@ export async function execute(interaction: ChatInputCommandInteraction<CacheType
         reference = new Date();
         reference.setDate(reference.getDate() + 1);
     }
-
     try {
-        await sendTimetables("day", reference);
+        await sendTimetables("day", reference, guildId);
         await interaction.editReply("✅ Terminé.");
     } catch (err) {
         await interaction.editReply("❌ Erreur.");

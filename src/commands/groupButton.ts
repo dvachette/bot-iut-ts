@@ -5,7 +5,7 @@ import {
     ChatInputCommandInteraction,
     ActionRowBuilder,
 } from "discord.js";
-import { getGroups } from "../util/getGroups";
+import { getEdtGroups } from "../util/getGroups";
 import { config } from "../config";
 
 export const data = new SlashCommandBuilder()
@@ -13,7 +13,12 @@ export const data = new SlashCommandBuilder()
     .setDescription("Poste le sélecteur de groupe permanent dans ce salon");
 
 export async function execute(interaction: ChatInputCommandInteraction) {
-    const groups = Object.keys(getGroups(config.CONF_YAML_PATH)).filter(g => !g.endsWith("b"));
+    if (!interaction.guildId) {
+        return interaction.reply({ content: "Vous n'etes pas sur un serveur.", flags: ["Ephemeral"] })
+    }
+    const guildId = interaction.guildId;
+
+    const groups = Object.keys(getEdtGroups(guildId)).filter(g => !g.endsWith("b"));
 
     const groupSelectMenu = new StringSelectMenuBuilder()
         .setCustomId("groupSelectMenu")

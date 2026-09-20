@@ -1,35 +1,55 @@
 import { EmbedBuilder } from "discord.js";
 import { send, sendEmbed } from "./send";
 import { config } from "../config";
-import { getGroups } from "./getGroups";
-import { downloadRangeICS, cleanupRangeDir } from "./downloadIcs";
+import { getEdtGroups } from "./getGroups";
+import { downloadAllRangeIcs, cleanupRangeDir, downloadRangeICS } from "./downloadIcs";
 import type { TimetableRange } from "./dateSet";
 import fs from "fs";
 import * as ical from "node-ical";
 import { logger } from "../logger";
 
-export async function sendTimetables(range: TimetableRange, reference: Date): Promise<void> {
+export async function sendAllTimetables(range: TimetableRange, reference: Date): Promise<void> {
     logger.info(`Sending timetables for range=${range}, reference=${reference.toISOString().slice(0, 10)}`);
 
-    const dir = await downloadRangeICS(range, reference);
+    const results = await downloadAllRangeIcs(range, reference);
 
-    try {
-        sendAllGroups(dir, range, reference);
-    } finally {
-        cleanupRangeDir(dir);
+    for (const { guildId, dir } of results) {
+        try {
+            sendAllGroupsOfGuild(dir, range, reference, guildId);
+        } catch (error) {
+            logger.error(`Failed to send timetables for guild ${guildId}: ${error}`);
+        } finally {
+            cleanupRangeDir(dir);
+        }
     }
 
     logger.info(`Timetables sent for range=${range}, reference=${reference.toISOString().slice(0, 10)}`);
 }
 
-function sendAllGroups(dir: string, range: TimetableRange, reference: Date): void {
-    const groups = getGroups(config.CONF_YAML_PATH);
+export async function sendTimetables(range: TimetableRange, reference: Date, guildId: string): Promise<void> {
+    logger.info(`Sending timetables for guild=${guildId}, range=${range}, reference=${reference.toISOString().slice(0, 10)}`);
+
+    const dir = await downloadRangeICS(range, reference, guildId);
+
+    try {
+        sendAllGroupsOfGuild(dir, range, reference, guildId);
+    } catch (error) {
+        logger.error(`Failed to send timetables for guild ${guildId}: ${error}`);
+    } finally {
+        cleanupRangeDir(dir);
+    }
+
+    logger.info(`Timetables sent for guild=${guildId}, range=${range}, reference=${reference.toISOString().slice(0, 10)}`);
+}
+
+function sendAllGroupsOfGuild(dir: string, range: TimetableRange, reference: Date, guildId: string): void {
+    const groups = getEdtGroups(guildId);
 
     for (const group in groups) {
         const groupData = groups[group];
 
         if (!groupData.channel) {
-            logger.warn(`No channel found for group ${group}. Skipping.`);
+            logger.warn(`No channel found for group ${group} in guild ${guildId}. Skipping.`);
             continue;
         }
 
@@ -49,7 +69,7 @@ function sendAllGroups(dir: string, range: TimetableRange, reference: Date): voi
                 sendEmbed(groupData.channel, embed);
             }
         } catch (error) {
-            logger.error(`Failed to process timetable for group ${group} (${dir}): ${error}`);
+            logger.error(`Failed to process timetable for group ${group} (guild ${guildId}): ${error}`);
         }
     }
 }

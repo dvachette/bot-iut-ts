@@ -18,6 +18,12 @@ export async function execute(interaction: ChatInputCommandInteraction) {
     const dateOption = interaction.options.getString("date");
     let reference: Date;
 
+    const guildId = interaction.guildId;
+    if (!guildId) {
+        await interaction.editReply("❌ Cette commande ne peut être utilisée que sur un serveur.");
+        return;
+    }
+
     if (dateOption !== null) {
         const parsed = parseIsoDate(dateOption);
         if (parsed === null) {
@@ -30,7 +36,7 @@ export async function execute(interaction: ChatInputCommandInteraction) {
     }
 
     try {
-        await sendTimetables("week", reference);
+        await sendTimetables("week", reference, guildId);
         await interaction.editReply("✅ Terminé.");
     } catch (err) {
         await interaction.editReply("❌ Erreur.");

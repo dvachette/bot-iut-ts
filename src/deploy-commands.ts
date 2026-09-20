@@ -1,6 +1,6 @@
 
 import { logger } from "./logger";
-import { REST, Routes, Snowflake, RESTGetAPIApplicationCommandsResult } from "discord.js";
+import { REST, Routes, RESTGetAPIApplicationCommandsResult } from "discord.js";
 import { config } from "./config";
 import { commands } from "./commands";
 
@@ -23,7 +23,7 @@ export async function deployCommands({ guildId }: DeployCommandsProps) {
     const currentCommands = await rest.get(
       Routes.applicationCommands(config.DISCORD_CLIENT_ID)
     ) as RESTGetAPIApplicationCommandsResult;
-    
+
     // Remove each command individually
     if (Array.isArray(currentCommands)) {
       await Promise.all(
@@ -31,7 +31,8 @@ export async function deployCommands({ guildId }: DeployCommandsProps) {
           console.log(`Unregistering command: ${cmd.name}`);
           rest.delete(
             Routes.applicationCommand(config.DISCORD_CLIENT_ID, cmd.id)
-          )}
+          )
+        }
         )
       );
     }

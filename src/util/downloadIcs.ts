@@ -1,9 +1,11 @@
 import fs from 'fs';
 import https from 'https';
 import { config } from '../config';
-import { getGroups } from './getGroups';
+import { getEdtGroups } from './getGroups';
 import { getRangeStart, getRangeEnd, type TimetableRange } from './dateSet';
 import { logger } from '../logger';
+import { getGuildDataPath } from './guildData';
+import { client } from '..';
 
 export function downloadICS(url: string, destination: string): Promise<void> {
     return new Promise((resolve, reject) => {
@@ -40,16 +42,30 @@ export function downloadICS(url: string, destination: string): Promise<void> {
     });
 }
 
-export function directoryForRange(range: TimetableRange, reference: Date): string {
+export function directoryForRange(range: TimetableRange, reference: Date, guildId: string): string {
     const isoDate = reference.toISOString().slice(0, 10);
-    return `src/calendars/adhoc/${range}-${isoDate}`;
+    return `edt/adhoc/${guildId}/${range}-${isoDate}`;
 }
 
-export async function downloadRangeICS(range: TimetableRange, reference: Date): Promise<string> {
-    const groups = getGroups(config.CONF_YAML_PATH);
-    const dir = directoryForRange(range, reference);
 
-    logger.info(`Downloading ICS files for ${range} (${reference.toISOString().slice(0, 10)}) for groups: ${Object.keys(groups).join(', ')}`);
+// downloadIcs.ts
+export async function downloadAllRangeIcs(
+    range: TimetableRange,
+    reference: Date,
+): Promise<{ guildId: string; dir: string }[]> {
+    return await Promise.all(
+        client.guilds.cache.map(async (guild) => ({
+            guildId: guild.id,
+            dir: await downloadRangeICS(range, reference, guild.id),
+        })),
+    );
+}
+
+export async function downloadRangeICS(range: TimetableRange, reference: Date, guildId: string): Promise<string> {
+    const groups = getEdtGroups(guildId);
+    const dir = directoryForRange(range, reference, guildId);
+
+    logger.info(`Downloading ICS files for ${range} (${reference.toISOString().slice(0, 10)}) for guild ${guildId} for groups: ${Object.keys(groups).join(', ')}`);
 
     if (!fs.existsSync(dir)) {
         logger.info(`Creating directory ${dir}`);
