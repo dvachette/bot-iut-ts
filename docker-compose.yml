@@ -2,8 +2,27 @@ services:
   bot:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: bot/Dockerfile
     volumes:
       - ./data/:/app/var/
-      - ./.env:/app/.env    
+      - ./.env:/app/.env
     restart: unless-stopped
+    networks:
+      - internal
+
+  web:
+    build:
+      context: .
+      dockerfile: web/backend/Dockerfile
+    volumes:
+      - ./data/:/app/var/
+      - ./.env:/app/.env
+    ports:
+      - "8080:3100"
+    restart: unless-stopped
+    networks:
+      - internal
+
+networks:
+  internal:
+    driver: bridge
