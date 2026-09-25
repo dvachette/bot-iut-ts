@@ -1,30 +1,13 @@
 import { EmbedBuilder } from "discord.js";
 import { send, sendEmbed } from "./send";
-import { config } from "../config";
 import { getEdtGroups } from "./getGroups";
-import { downloadAllRangeIcs, cleanupRangeDir, downloadRangeICS } from "./downloadIcs";
+import { cleanupRangeDir, downloadRangeICS } from "./downloadIcs";
 import type { TimetableRange } from "./dateSet";
 import fs from "fs";
 import * as ical from "node-ical";
 import { logger } from "../logger";
 
-export async function sendAllTimetables(range: TimetableRange, reference: Date): Promise<void> {
-    logger.info(`Sending timetables for range=${range}, reference=${reference.toISOString().slice(0, 10)}`);
 
-    const results = await downloadAllRangeIcs(range, reference);
-
-    for (const { guildId, dir } of results) {
-        try {
-            sendAllGroupsOfGuild(dir, range, reference, guildId);
-        } catch (error) {
-            logger.error(`Failed to send timetables for guild ${guildId}: ${error}`);
-        } finally {
-            cleanupRangeDir(dir);
-        }
-    }
-
-    logger.info(`Timetables sent for range=${range}, reference=${reference.toISOString().slice(0, 10)}`);
-}
 
 export async function sendTimetables(range: TimetableRange, reference: Date, guildId: string): Promise<void> {
     logger.info(`Sending timetables for guild=${guildId}, range=${range}, reference=${reference.toISOString().slice(0, 10)}`);

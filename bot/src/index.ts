@@ -6,7 +6,7 @@ import { commands } from "./commands";
 import { deployCommands } from "./deploy-commands";
 import cron from "node-cron"
 import { canRunCommand } from "./util/perm";
-import { sendAllTimetables, sendTimetables } from "./util/daily_task";
+import { sendTimetables } from "./util/daily_task";
 import { handleGroupSelect } from "./util/groupSelect";
 import { generateDefaultGuildData } from "./util/guildData";
 
@@ -69,18 +69,32 @@ client.on("interactionCreate", async (interaction) => {
 
 client.login(config.DISCORD_TOKEN);
 
+// index.ts — cron blocks
 cron.schedule('00 18 * * 0-4', async () => {
     const today = new Date();
     const tomorrow = new Date(today);
     tomorrow.setDate(today.getDate() + 1);
-    await sendAllTimetables("day", tomorrow);
+
+    for (const guild of client.guilds.cache.values()) {
+        try {
+            await sendTimetables("day", tomorrow, guild.id);
+        } catch (error) {
+            logger.error(`Failed to send daily timetable for guild ${guild.id}: ${error}`);
+        }
+    }
 });
 
 cron.schedule('50 17 * * 0', async () => {
     const nextMonday = new Date();
     nextMonday.setDate(nextMonday.getDate() + 1);
-    await sendAllTimetables("week", nextMonday);
-});
 
+    for (const guild of client.guilds.cache.values()) {
+        try {
+            await sendTimetables("week", nextMonday, guild.id);
+        } catch (error) {
+            logger.error(`Failed to send weekly timetable for guild ${guild.id}: ${error}`);
+        }
+    }
+});
 
 export { client };

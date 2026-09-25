@@ -2,6 +2,7 @@ import { StringSelectMenuInteraction, GuildMember, MessageFlags, InteractionRepl
 import { getRoleId, getRolesId } from "./getGroups";
 import { config } from "../config";
 import { logger } from "../logger";
+import { getGuildConfig } from "./guildData";
 
 export async function handleGroupSelect(interaction: StringSelectMenuInteraction): Promise<void> {
     try {
@@ -20,7 +21,7 @@ export async function handleGroupSelect(interaction: StringSelectMenuInteraction
             return;
         }
 
-        const targetRoleID = getRoleId(selectedGroup, config.CONF_YAML_PATH);
+        const targetRoleID = getRoleId(selectedGroup, guild.id);
         if (!guild.roles.cache.has(targetRoleID)) {
             logger.error(`Role ID ${targetRoleID} for group ${selectedGroup} not found on guild ${guild.id}`);
             await interaction.reply({ content: "Le rôle associé à votre groupe est introuvable sur ce serveur. Contactez un développeur.", flags: MessageFlags.Ephemeral });
@@ -28,7 +29,7 @@ export async function handleGroupSelect(interaction: StringSelectMenuInteraction
         }
 
         const memberRoles = member.roles;
-        const groupRoles = getRolesId(config.CONF_YAML_PATH);
+        const groupRoles = getRolesId(guild.id);
 
         for (const role of groupRoles) {
             if (memberRoles.cache.has(role.valueOf())) {
@@ -36,7 +37,7 @@ export async function handleGroupSelect(interaction: StringSelectMenuInteraction
             }
         }
 
-        const noClassRoleID = config.NO_CLASS_ROLE_ID;
+        const noClassRoleID = getGuildConfig(guild.id).noClassRoleId
         if (memberRoles.cache.has(noClassRoleID.valueOf())) {
             await member.roles.remove(noClassRoleID);
         }
