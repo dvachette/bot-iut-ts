@@ -1,11 +1,8 @@
 import fs from 'fs';
 import https from 'https';
-import { config } from '../config';
 import { getEdtGroups } from './getGroups';
 import { getRangeStart, getRangeEnd, type TimetableRange } from './dateSet';
 import { logger } from '../logger';
-import { getGuildDataPath } from './guildData';
-import { client } from '..';
 
 export function downloadICS(url: string, destination: string): Promise<void> {
     return new Promise((resolve, reject) => {
@@ -48,18 +45,7 @@ export function directoryForRange(range: TimetableRange, reference: Date, guildI
 }
 
 
-// downloadIcs.ts
-export async function downloadAllRangeIcs(
-    range: TimetableRange,
-    reference: Date,
-): Promise<{ guildId: string; dir: string }[]> {
-    return await Promise.all(
-        client.guilds.cache.map(async (guild) => ({
-            guildId: guild.id,
-            dir: await downloadRangeICS(range, reference, guild.id),
-        })),
-    );
-}
+
 
 export async function downloadRangeICS(range: TimetableRange, reference: Date, guildId: string): Promise<string> {
     const groups = getEdtGroups(guildId);
