@@ -7,6 +7,7 @@ import * as permission from "./permission";
 import * as role from "./role";
 import * as select_group from "./groupButton";
 import * as edt_config from "./edtConfig"
+import * as config from "./configCommand"
 
 export const commands = {
   ping,
@@ -17,6 +18,7 @@ export const commands = {
   broadcast,
   permission,
   role,
-  edt_config
+  edt_config,
+  config
 };
 

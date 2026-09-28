@@ -5,6 +5,7 @@ import YAML from "yaml";
 import { getGuildDataPath } from "#/guildData";
 import { validateEdtConfig, type EdtConfig } from "#/edtConfig";
 import { fetchChannelOptions, fetchRoleOptions } from "@/services/discord";
+import { writeAtomic } from "@/services/guildFiles";
 
 export const edtRouter: Router = Router();
 
@@ -16,11 +17,6 @@ function readGroups(filePath: string): EdtConfig["groups"] {
     return parsed?.groups ?? {};
 }
 
-function writeAtomic(filePath: string, content: string): void {
-    const tmpPath = `${filePath}.tmp`;
-    fs.writeFileSync(tmpPath, content, "utf-8");
-    fs.renameSync(tmpPath, filePath);
-}
 
 edtRouter.get("/", async (_req, res) => {
     const guildId = res.locals.guildId as string;

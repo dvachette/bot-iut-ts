@@ -55,5 +55,3 @@ export async function deployCommands({ guildId }: DeployCommandsProps) {
     logger.error("Error while registering commands:", error);
   }
 }
-
-

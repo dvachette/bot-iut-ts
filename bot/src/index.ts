@@ -9,6 +9,7 @@ import { canRunCommand } from "./util/perm";
 import { sendTimetables } from "./util/daily_task";
 import { handleGroupSelect } from "./util/groupSelect";
 import { generateDefaultGuildData } from "./util/guildData";
+import { startInternalServer } from "./internalServer";
 
 const client = new Client({
     intents: [
@@ -68,7 +69,7 @@ client.on("interactionCreate", async (interaction) => {
 });
 
 client.login(config.DISCORD_TOKEN);
-
+startInternalServer();
 // index.ts — cron blocks
 cron.schedule('00 18 * * 0-4', async () => {
     const today = new Date();

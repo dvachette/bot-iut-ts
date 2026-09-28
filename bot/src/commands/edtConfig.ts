@@ -7,16 +7,13 @@ import YAML from "yaml";
 import { logger } from "../logger";
 import { getGuildDataPath } from "../util/guildData";
 import fs from "fs";
-
+import { validateEdtConfig, type EdtConfig } from "#/edtConfig";
 interface EdtGroupEntry {
     readonly role: string;
     readonly channel: string;
     readonly edturl: string;
 }
 
-interface EdtConfig {
-    readonly groups: Record<string, EdtGroupEntry>;
-}
 
 export const data = new SlashCommandBuilder()
     .setName("edt_config")
@@ -30,47 +27,6 @@ export const data = new SlashCommandBuilder()
             ),
     );
 
-function validateEdtConfig(raw: unknown, interaction: ChatInputCommandInteraction<CacheType>): string | null {
-    if (typeof raw !== "object" || raw === null || !("groups" in raw)) {
-        return "Le fichier doit contenir une clé racine `groups`.";
-    }
-
-    const groups = (raw as { groups: unknown }).groups;
-    if (typeof groups !== "object" || groups === null) {
-        return "`groups` doit être un objet.";
-    }
-
-    const guild = interaction.guild;
-    if (!guild) {
-        return "Commande utilisable uniquement sur un serveur.";
-    }
-
-    for (const [name, entry] of Object.entries(groups as Record<string, unknown>)) {
-        if (typeof entry !== "object" || entry === null) {
-            return `Le groupe "${name}" est invalide.`;
-        }
-        const { role, channel, edturl } = entry as Record<string, unknown>;
-
-        if (typeof role !== "string" || role.length === 0) {
-            return `Le groupe "${name}" : champ "role" manquant ou invalide.`;
-        }
-        if (typeof channel !== "string" || channel.length === 0) {
-            return `Le groupe "${name}" : champ "channel" manquant ou invalide.`;
-        }
-        if (typeof edturl !== "string" || edturl.length === 0) {
-            return `Le groupe "${name}" : champ "edturl" manquant ou invalide.`;
-        }
-
-        if (!guild.roles.cache.has(role)) {
-            return `Le groupe "${name}" référence un rôle introuvable sur ce serveur : ${role}.`;
-        }
-        if (!guild.channels.cache.has(channel)) {
-            return `Le groupe "${name}" référence un salon introuvable sur ce serveur : ${channel}.`;
-        }
-    }
-
-    return null;
-}
 
 export async function execute(interaction: ChatInputCommandInteraction<CacheType>) {
     const subcommand = interaction.options.getSubcommand(true);
@@ -110,7 +66,16 @@ export async function execute(interaction: ChatInputCommandInteraction<CacheType
         return;
     }
 
-    const validationError = validateEdtConfig(parsed, interaction);
+    const guild = interaction.guild;
+    if (!guild) {
+        await interaction.editReply("❌ Commande utilisable uniquement sur un serveur.");
+        return;
+    }
+    const validationError: string | null = validateEdtConfig(
+        parsed,
+        new Set(guild.roles.cache.keys()),
+        new Set(guild.channels.cache.keys()),
+    );
     if (validationError !== null) {
         await interaction.editReply(`❌ ${validationError}`);
         return;
