@@ -8,7 +8,7 @@ import { edtRouter } from "@/routes/edt";
 import { permissionsRouter } from "@/routes/permissions";
 import { broadcastsRouter } from "@/routes/broadcasts";
 import { settingsRouter } from "@/routes/settings";
-
+import path from "node:path"
 
 const app: express.Express = express();
 app.use(express.json());
@@ -22,6 +22,13 @@ app.use("/api/:token/edt", edtRouter);
 app.use("/api/:token/permissions", permissionsRouter);
 app.use("/api/:token/broadcasts", broadcastsRouter);
 app.use("/api/:token/settings", settingsRouter);
+
+const PUBLIC_DIR: string = path.resolve(process.cwd(), "public");
+
+app.use(express.static(PUBLIC_DIR));
+app.get("/:token", (_req: express.Request, res: express.Response): void => {
+    res.sendFile("index.html", { root: PUBLIC_DIR });
+});
 
 app.listen(config.SERVER_PORT, () => {
     console.log(`Backend listening on port ${config.SERVER_PORT}`);
