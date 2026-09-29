@@ -18,7 +18,7 @@ services:
       - ./data/:/app/var/
       - ./.env:/app/.env
     ports:
-      - "8080:3100"
+      - "3112:3100"
     restart: unless-stopped
     networks:
       - internal
