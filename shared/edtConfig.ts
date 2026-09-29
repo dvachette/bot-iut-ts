@@ -1,5 +1,6 @@
 // shared/edtConfig.ts
 const GROUP_NAME_PATTERN = /^[A-Za-z0-9_-]+$/;
+const URL_PATTERN = /^https\:\/\/edt\.univ\-lyon1\.fr\/jsp\/custom\/modules\/plannings\/anonymous_cal\.jsp\?resources=\d+&projectId=1&calType=ical&firstDate=START&lastDate=END$/;
 export interface EdtGroupEntry {
     readonly role: string;
     readonly channel: string;
@@ -40,6 +41,12 @@ export function validateEdtConfig(
         }
         if (typeof edturl !== "string" || edturl.length === 0) {
             return `Le groupe "${name}" : champ "edturl" manquant ou invalide.`;
+        }
+        if (!edturl.startsWith("https://")) {
+            return `Le groupe "${name}" : "edturl" doit commencer par https://.`;
+        }
+        if (!URL_PATTERN.test(edturl)) {
+            return `Le groupe "${name}" : "edturl" ne correspond pas au format attendu.`;
         }
         if (!roleIds.has(role)) {
             return `Le groupe "${name}" référence un rôle introuvable sur ce serveur : ${role}.`;
